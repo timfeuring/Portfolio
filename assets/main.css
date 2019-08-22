@@ -97,6 +97,10 @@ body {
         }
     }
 
+.project-nav {
+    /* position: fixed; */
+}
+
 
 .main-nav__inner {
     display: flex;
@@ -130,7 +134,7 @@ body {
 .main-nav__ul a {
     display: block;
     padding: 33px 0 33px 20px;
-    color: #8b8b8b;
+    color: var(--text-heavy);
     transition: all .5s;
     }
     @media only screen and (max-width: 400px) {
@@ -299,7 +303,7 @@ body {
 
 .work::after {
     content: "";
-    background: url(https://data.whicdn.com/images/142955036/original.gif);
+    /* background: url(https://data.whicdn.com/images/142955036/original.gif); */
     /* background-image: url(/img/optical-art-trippy6.gif); */
     opacity: 1;
     top: 0;
@@ -342,7 +346,7 @@ body {
     position: absolute;
     height: 100%;
     z-index: 0;
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    /* background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); */
     background-size: 1800% 1800%;
 
     -webkit-animation: rainbow 18s ease infinite;
@@ -626,6 +630,8 @@ body {
     padding: 25px 0 ;
     background-color: #000;
     /* border-top: 1px solid #b7b7b7; */
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .imprint a {
@@ -638,7 +644,7 @@ body {
 
 
 .prj-details {
-    padding-top: var(--nav-height);
+    /* padding-top: var(--nav-height); */
     padding-bottom: 84px;
     min-height: 100vh;
     }
@@ -664,6 +670,7 @@ body {
 .intro-img {
     float: left;
     /* border: 1px dashed #7b7b7b; */
+    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.2);
     margin: 20px 50px 25px 0;
     min-width: 400px;
     }
@@ -718,6 +725,7 @@ body {
 .additional-img span {
     padding: 10px 0 30px 0;
     color: #8b8b8b;
+    font-size: var(--font-basis);
 }
 
 .prj-details-bottomnav {
@@ -771,7 +779,7 @@ body {
 /* HEADLINE STYLES */
 
 h1, h2, h3, h4, h5 { 
-    /* color: var(--text-heavy); */
+    color: var(--text-heavy);
     margin: 0;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -779,7 +787,6 @@ h1, h2, h3, h4, h5 {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    color:magenta;
 }
 
 h1 { font-size: 5.4rem; }
@@ -816,5 +823,15 @@ a {
     }
 
 ul { list-style: none; }
+
+.inactive {
+    color: magenta;
+    opacity: .5;
+}
+
+.active {
+    color: #000;
+    opacity: 1;
+}
 
 .uppercase { text-transform: uppercase; }

@@ -1,0 +1,31 @@
+    <nav class="main-nav project-nav" id="nav">
+        <div class="container-wrapper main-nav__inner">
+            <a href="index.html" title="">
+                <div class="underline" id="nav-about">
+                    <img src="../assets/img/icons/arrow-left.svg" alt="back">
+                    <span>back</span>
+                </div>
+            </a>
+            <!-- Navigationspunkte -->
+            <ul class="main-nav__ul" id="main-nav__ul">
+                <li>
+                    {% if page.previous.url %}
+                    <a href="{{page.previous.url}}" title="previous">
+                        <div id="nav-about">
+                            <span class="underline">previous</span>
+                        </div>
+                    </a>
+                    {% endif %}
+                </li>
+                <li>
+                    {% if page.next.url %}
+                    <a href="{{page.next.url}}" title="next">
+                        <div id="nav-about">
+                            <span class="underline">next</span>
+                        </div>
+                    </a>
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+    </nav>

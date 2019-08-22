@@ -6,7 +6,6 @@
         <meta name="description" content=""/>
         <meta name="keywords" content="Design Buzzwords hier"/>
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Portfolio - Tim Feuring</title>
         <!-- TABBAR ICON -->
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
         <!-- CSS -->
@@ -17,20 +16,17 @@
 
 
     <body>
-        <!-- Remember to update in the end -->
-        {% include navigation.html %}
+        {% include project-navigation.html %}          
 
 <!-- /* ============================================================================ */ -->
 
+
         <section class="container-wrapper prj-details">
-                <!-- CHEVRON: &#8249 -->
-                <a class="underline" href="index.html#work"> back to work</a> 
-                <br><br><br>
                 <div class="prj-details-intro">
-                    <img class="intro-img" src="../assets/img/swipe-studio-logo2.svg" alt="Lightbox">
+                    <img class="intro-img" src="{{page.img-path}}" alt="{{page.img-alt}}">
                     <div class="intro-text">
-                        <h1 class="prj-desc-title ">Swipe Studio</h1>
-                        <p class="prj-desc-subline">Logoentwicklung</p>
+                        <h1 class="prj-desc-title "> {{page.title}} </h1>
+                        <p class="prj-desc-subline"> {{page.category}} </p>
                         <h2>Process</h2>
                         <p class="prj-desc-copy">
                               {{ content }}  
@@ -42,15 +38,15 @@
                 
                 <div class="prj-img-container">
                     <div class="additional-img">
-                        <img src="img/projects/swipe-studio-01.png" alt="swipe studio example">
+                        <img src="{{page.gallery-img-path-01}}" alt="swipe studio example">
+                        <span class="additional-img-desc"> {{page.gallery-img-subline-01}} </span>
+                    </div>
+                    <div class="additional-img">
+                        <img src="{{page.gallery-img-path-02}}" alt="swipe studio example">
                         <span class="additional-img-desc">Screen printed logomark</span>
                     </div>
                     <div class="additional-img">
-                        <img src="img/projects/swipe-studio-02.png" alt="swipe studio example">
-                        <span class="additional-img-desc">Screen printed logomark</span>
-                    </div>
-                    <div class="additional-img">
-                        <img src="img/projects/swipe-studio-03.png" alt="swipe studio example">
+                        <img src="{{page.gallery-img-path-03}}" alt="swipe studio example">
                         <span class="additional-img-desc">Screen printed logomark</span>
                     </div>
                 </div>
@@ -62,7 +58,7 @@
                 </div>
               </div>
 <!-- /* ============================================================================ */ -->
-        <section class="container-wrapper prj-details-bottomnav">
+        <!-- <section class="container-wrapper prj-details-bottomnav">
             <div>
                 <a href="index.html#work"> Back to work </a>
             </div>
@@ -73,7 +69,9 @@
                 <span class="divider"> | </span>
                 <a onclick="plusSlides(1)" class="next underline" href="">next</a>
             </div>
-        </section>
+        </section> -->
 
-        <script type="text/javascript" src="script.js"></script>
+        {% include project-navigation.html %}
+
+        <script type="text/javascript" src="../assets/script.js"></script>
     </body>
