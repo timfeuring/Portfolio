@@ -38,17 +38,21 @@
                 
                 <div class="prj-img-container">
                     <div class="additional-img">
-                        <img src="{{page.gallery-img-path-01}}" alt="swipe studio example">
+                        <img src="{{page.gallery-img-path-01}}" alt="{{page.gallery-img-alt-01}}">
                         <span class="additional-img-desc"> {{page.gallery-img-subline-01}} </span>
                     </div>
+                    {% if page.gallery-img-path-02 %}
                     <div class="additional-img">
-                        <img src="{{page.gallery-img-path-02}}" alt="swipe studio example">
-                        <span class="additional-img-desc">Screen printed logomark</span>
+                        <img src="{{page.gallery-img-path-02}}" alt="{{page.gallery-img-alt-02}}">
+                        <span class="additional-img-desc">{{page.gallery-img-subline-02}}</span>
                     </div>
+                    {% endif %}
+                    {% if page.gallery-img-path-03 %}
                     <div class="additional-img">
-                        <img src="{{page.gallery-img-path-03}}" alt="swipe studio example">
-                        <span class="additional-img-desc">Screen printed logomark</span>
+                        <img src="{{page.gallery-img-path-03}}" alt="{{page.gallery-img-alt-03}}">
+                        <span class="additional-img-desc">{{page.gallery-img-subline-03}}</span>
                     </div>
+                    {% endif %}
                 </div>
 
         </section>
