@@ -7,25 +7,25 @@
                 </div>
             </a>
             <!-- Navigationspunkte -->
-            <ul class="main-nav__ul" id="main-nav__ul">
+            <ul class="project-nav__ul" id="project-nav__ul">
+                {% if page.previous.url %}
                 <li>
-                    {% if page.previous.url %}
                     <a href="{{page.previous.url}}" title="previous">
                         <div id="nav-about">
                             <span class="underline">previous</span>
                         </div>
                     </a>
-                    {% endif %}
                 </li>
+                {% endif %}
+                {% if page.next.url %}
                 <li>
-                    {% if page.next.url %}
                     <a href="{{page.next.url}}" title="next">
                         <div id="nav-about">
                             <span class="underline">next</span>
                         </div>
                     </a>
-                    {% endif %}
                 </li>
+                {% endif %}
             </ul>
         </div>
     </nav>
