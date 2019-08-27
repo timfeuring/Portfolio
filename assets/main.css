@@ -58,6 +58,37 @@ body {
         transition: width 0.2s;
         border-bottom: 1px solid rgba(0, 0, 0, 1);
     }
+
+.underline-inverted {
+    position: relative;
+    }
+
+    .underline-inverted::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, .4);
+            bottom: -2px;
+            left: 0;
+            transition: width 0.2s;
+        }
+
+    .underline-inverted::after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        bottom: -2px;
+        left: 0;
+        transition: width 0.2s;
+    }
+
+    .underline-inverted:hover::after {
+        width: 100%;
+        transition: width 0.2s;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+    
     
 /* Container Styles go here */
 /* ============================================================================ */
@@ -97,11 +128,6 @@ body {
         }
     }
 
-.project-nav {
-    /* position: fixed; */
-}
-
-
 .main-nav__inner {
     display: flex;
     justify-content: space-between;
@@ -130,6 +156,22 @@ body {
             transition: all ease-in-out .2s;
         }
     }
+
+.project-nav__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+.project-nav__ul a {
+    display: block;
+    padding: 33px 0 33px 20px;
+    color: var(--text-heavy);
+    transition: all .5s;
+}
+
 
 .main-nav__ul a {
     display: block;
@@ -262,8 +304,15 @@ body {
         -1px -1px 1px black; */
     color: #000;
     }
-    @media only screen and (max-width: 800px){
-        .about-headline {
+
+    @media only screen and (max-width: 800px) {
+        .about-headline { 
+            font-size: 12vw;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .about-headline { 
             font-size: 6rem;
         }
     }
@@ -417,7 +466,8 @@ body {
     @media only screen and (max-width: 400px) {
         .prj-wrapper {
             width: 104%;
-            margin-left: -4%;
+            margin-left: -6%;
+            padding-top: var(--nav-height);
         }
     }
 
@@ -453,7 +503,7 @@ body {
     @media only screen and (max-width: 400px) {
         .prj-cont {
             width: 100%;
-            margin: 4% 0 0 4%;
+            margin: 6% 0 0 6%;
         }
     }
 
@@ -555,19 +605,42 @@ body {
 .prj-img--default-transform:hover { transform: scale(1) rotate(0deg); }
 
 #swipe-studio-logo { 
-    /* transform: scale(1.5) rotate(45deg); old */
     transform: scale(3.2) rotate(45deg);
 }
+    /* @media only screen and (max-width: 400px) {
+        #swipe-studio-logo  {
+            animation: swipe-anim 8s ease-in-out  infinite; 
+        }
+    }
+    @keyframes swipe-anim {
+        0% { transform: scale(3.2) rotate(45deg); }
+        30% { transform: scale(3.2) rotate(45deg) }
+        50% { transform: scale(2) rotate(0deg); }
+        80% { transform: scale(3.2) rotate(45deg); }
+        100% { transform: scale(3.2) rotate(45deg); }
+    } */
+
 #swipe-studio-logo:hover { 
     /* transform: scale(1) rotate(0deg);  */
     transform: scale(2) rotate(0deg);    
 }
 
 #sauerwein-logo {
-    /* transform: scale(2.1) translateX(-47px) translateY(68px);  */
-    /* transform: scale(4.1) translateX(0) translateY(0) rotate(45deg); */
     transform: scale(4.1) translateX(-25px) translateY(32px);
-}
+} 
+    /* @media only screen and (max-width: 400px) {
+        #sauerwein-logo  {
+            animation: sauerwein-anim 8s ease-in-out  infinite; 
+        }
+    }
+    @keyframes sauerwein-anim {
+        0% { transform: scale(4.1) translateX(-25px) translateY(32px); }
+        25% { transform: scale(2) translateX(0px) translateY(0px); }
+        75% { transform: scale(2) translateX(0px) translateY(0px); }
+        100% { transform: scale(4.1) translateX(-25px) translateY(32px); }
+    } */
+
+
 #sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
 
 #bird-illustration { transform: scale(4) translateX(44px) translateY(14px) rotate(11deg); }
@@ -635,8 +708,13 @@ body {
 }
 
 .imprint a {
-    color: #7b7b7b;
+    color: #fff;
 }
+
+.imprint a:hover {
+    color: #fff;
+}
+
 
 /* DETAILSEITE */
 /* ============================================================================ */
@@ -655,9 +733,12 @@ body {
             padding-bottom: 0;
         }
     }
-
-/* .prj-details-intro {
-    } */
+    
+    @media only screen and (max-width: 400px) {
+        .prj-details {
+            padding-top: 95px;
+        }
+    }
     
     @media only screen and (max-width: 600px) {
         .prj-details-intro {
@@ -670,15 +751,22 @@ body {
 .intro-img {
     float: left;
     /* border: 1px dashed #7b7b7b; */
-    box-shadow: 0px 0px 23px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.3);
     margin: 20px 50px 25px 0;
     min-width: 400px;
+    z-index: -1;
     }
 
     @media only screen and (max-width: 700px) {
         .intro-img {
             width: 100%;
             margin: 0 0 25px 0;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .intro-img {
+            min-width: 100%;
         }
     }
 
@@ -728,19 +816,6 @@ body {
     font-size: var(--font-basis);
 }
 
-.prj-details-bottomnav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: 1px solid #b8b8b8;
-}
-
-.prj-details-bottomnav a{
-    padding: 30px 0;
-    transition: all .5s;
-}
-
 .divider {
     color: #8b8b8b;
     padding: 0 15px;
@@ -761,7 +836,6 @@ body {
 
 
 /* // _FONTS */
-
 /* ========================================== */
 :root {
     --font-basis: 1.6rem;
@@ -835,3 +909,19 @@ ul { list-style: none; }
 }
 
 .uppercase { text-transform: uppercase; }
+
+
+/* 404 stuff */
+/* ========================================== */
+
+.error-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    text-align: center;
+}
