@@ -304,8 +304,15 @@ body {
         -1px -1px 1px black; */
     color: #000;
     }
-    @media only screen and (max-width: 800px){
-        .about-headline {
+
+    @media only screen and (max-width: 800px) {
+        .about-headline { 
+            font-size: 12vw;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .about-headline { 
             font-size: 6rem;
         }
     }
@@ -459,7 +466,8 @@ body {
     @media only screen and (max-width: 400px) {
         .prj-wrapper {
             width: 104%;
-            margin-left: -4%;
+            margin-left: -6%;
+            padding-top: var(--nav-height);
         }
     }
 
@@ -495,7 +503,7 @@ body {
     @media only screen and (max-width: 400px) {
         .prj-cont {
             width: 100%;
-            margin: 4% 0 0 4%;
+            margin: 6% 0 0 6%;
         }
     }
 
@@ -597,19 +605,42 @@ body {
 .prj-img--default-transform:hover { transform: scale(1) rotate(0deg); }
 
 #swipe-studio-logo { 
-    /* transform: scale(1.5) rotate(45deg); old */
     transform: scale(3.2) rotate(45deg);
 }
+    /* @media only screen and (max-width: 400px) {
+        #swipe-studio-logo  {
+            animation: swipe-anim 8s ease-in-out  infinite; 
+        }
+    }
+    @keyframes swipe-anim {
+        0% { transform: scale(3.2) rotate(45deg); }
+        30% { transform: scale(3.2) rotate(45deg) }
+        50% { transform: scale(2) rotate(0deg); }
+        80% { transform: scale(3.2) rotate(45deg); }
+        100% { transform: scale(3.2) rotate(45deg); }
+    } */
+
 #swipe-studio-logo:hover { 
     /* transform: scale(1) rotate(0deg);  */
     transform: scale(2) rotate(0deg);    
 }
 
 #sauerwein-logo {
-    /* transform: scale(2.1) translateX(-47px) translateY(68px);  */
-    /* transform: scale(4.1) translateX(0) translateY(0) rotate(45deg); */
     transform: scale(4.1) translateX(-25px) translateY(32px);
-}
+} 
+    /* @media only screen and (max-width: 400px) {
+        #sauerwein-logo  {
+            animation: sauerwein-anim 8s ease-in-out  infinite; 
+        }
+    }
+    @keyframes sauerwein-anim {
+        0% { transform: scale(4.1) translateX(-25px) translateY(32px); }
+        25% { transform: scale(2) translateX(0px) translateY(0px); }
+        75% { transform: scale(2) translateX(0px) translateY(0px); }
+        100% { transform: scale(4.1) translateX(-25px) translateY(32px); }
+    } */
+
+
 #sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
 
 #bird-illustration { transform: scale(4) translateX(44px) translateY(14px) rotate(11deg); }
@@ -805,7 +836,6 @@ body {
 
 
 /* // _FONTS */
-
 /* ========================================== */
 :root {
     --font-basis: 1.6rem;
@@ -879,3 +909,19 @@ ul { list-style: none; }
 }
 
 .uppercase { text-transform: uppercase; }
+
+
+/* 404 stuff */
+/* ========================================== */
+
+.error-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    text-align: center;
+}
