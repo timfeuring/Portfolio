@@ -708,7 +708,7 @@ body {
 }
 
 .imprint a {
-    color: #fff;
+    color: rgba(255, 255, 255, .4);;
 }
 
 .imprint a:hover {
