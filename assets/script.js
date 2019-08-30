@@ -14,16 +14,14 @@ function closeBurgerNav() {
     document.getElementById('main-nav__trigger').checked = false;
 }
 
-
-
 var i = 0;
 var txt =  ", I'm Tim. "
 var speed = 100;
 
-function typeWriter() {
+setTimeout(function typeWriter() {
   if (i < txt.length) {
     document.getElementById("about-headline").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
-}
+}, 1000)

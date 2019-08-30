@@ -4,10 +4,10 @@ title: Kohledampfer
 permalink: /kohledampfer
 category: Illustration, Packaging
 #Bildpfad aktualisieren!
-img-path: ../assets/img/posts/kohledampfer-post
+img-path: ../assets/img/posts/kohledampfer-post.svg
 img-alt: kohledampfer-beer
 
-gallery-img-path-01: ../assets/img/posts/gallery/iconset-01
+# gallery-img-path-01: ../assets/img/posts/gallery/
 # gallery-img-path-02: ../assets/img/posts/gallery/
 # gallery-img-path-03: ../assets/img/posts/gallery/
 

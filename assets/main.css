@@ -531,7 +531,7 @@ body {
     @media only screen and (max-width: 400px) {
         .prj-cont-wide {
             width: 100%;
-            margin: 4% 0 0 4%;
+            margin: 6% 0 0 6%;
         }
     }
 
@@ -547,7 +547,7 @@ body {
     }
     @media only screen and (max-width: 400px) {
         .prj-dummy-wide {
-            margin-top: 100%; /* 3:1 aspect ratio minus some margin*/
+            margin-top: 100%;
         }
     }
 
@@ -562,9 +562,39 @@ body {
     transition: all ease .5s; 
 }
 
+    @media only screen and (max-width: 800px) {
+        .prj-cont-twothirds  {
+            width: 100%;
+            margin: 3% 0 0 3%;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .prj-cont-twothirds {
+            width: 100%;
+            margin: 6% 0 0 6%;
+        }
+    }
+
+
 .prj-dummy-twothirds {
     margin-top: 48.55%;
 }
+
+    @media only screen and (max-width: 800px) {
+        .prj-dummy-twothirds {
+            margin-top: calc(50% - 2%);
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .prj-dummy-twothirds {
+            margin-top: 100%;
+        }
+    }
+
+
+
 
 .prj-preview {
     position: absolute;
@@ -667,6 +697,9 @@ body {
 #fraktur-calligraphy { transform: scale(8.6) translate(47px,6px); }
 #fraktur-calligraphy:hover { transform: scale(1.4) translate(4px,3px); }
 
+#kohledampfer-beer { transform: scale(3.5) rotate(-45deg) translate(-1px, 46px); }
+#kohledampfer-beer:hover { transform: scale(1.5) rotate(0deg) translate(0px, 0px); }
+
 
 /* CONTACT STYLES GO HERE */
 /* ============================================================================ */
@@ -700,11 +733,8 @@ body {
 .imprint {
     display: flex;
     justify-content: center;
-    padding: 25px 0 ;
+    padding: 25px 0 35px;
     background-color: #000;
-    /* border-top: 1px solid #b7b7b7; */
-    /* position: absolute;
-    bottom: 0; */
 }
 
 .imprint a {
@@ -896,16 +926,17 @@ a {
     a:hover { color: var(--text-heavy);
     }
 
-ul { list-style: none; }
 
-.inactive {
-    color: magenta;
-    opacity: .5;
-}
+
+ul { list-style: none; }
 
 .active {
     color: #000;
     opacity: 1;
+}
+
+.inactive {
+    opacity: .4
 }
 
 .uppercase { text-transform: uppercase; }
