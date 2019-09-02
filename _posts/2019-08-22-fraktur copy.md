@@ -3,12 +3,12 @@ layout: project-post
 title: Fraktur
 permalink: /fraktur
 category: Calligraphy
-img-path: ../assets/img/posts/fraktur-post.svg
+img-path: assets/img/posts/fraktur-post.svg
 img-alt: fraktur-calligraphy
 
-# gallery-img-path-01: ../assets/img/posts/gallery/
-# gallery-img-path-02: ../assets/img/posts/gallery/
-# gallery-img-path-03: ../assets/img/posts/gallery/
+# gallery-img-path-01: assets/img/posts/gallery/
+# gallery-img-path-02: assets/img/posts/gallery/
+# gallery-img-path-03: assets/img/posts/gallery/
 
 # gallery-img-subline-01: 
 # gallery-img-subline-02: 

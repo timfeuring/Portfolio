@@ -3,12 +3,12 @@ layout: project-post
 title: Sauerwein
 permalink: /sauerwein
 category: Logo creation
-img-path: ../assets/img/posts/sauerwein-post.svg
+img-path: assets/img/posts/sauerwein-post.svg
 img-alt: sauerwein-logo
 
-gallery-img-path-01: ../assets/img/posts/gallery/
-gallery-img-path-02: ../assets/img/posts/gallery/
-gallery-img-path-03: ../assets/img/posts/gallery/
+gallery-img-path-01: assets/img/posts/gallery/
+gallery-img-path-02: assets/img/posts/gallery/
+gallery-img-path-03: assets/img/posts/gallery/
 
 gallery-img-subline-01: 
 gallery-img-subline-02: 
