@@ -3,12 +3,12 @@ layout: project-post
 title: Swipe Studio
 permalink: /swipe-studio
 category: Logo creation
-img-path: ../assets/img/posts/swipe-studio-post.svg
+img-path: assets/img/posts/swipe-studio-post.svg
 img-alt: swipe-studio-logo
 
-gallery-img-path-01: ../assets/img/posts/gallery/swipe-studio-01.png
-gallery-img-path-02: ../assets/img/posts/gallery/swipe-studio-02.png
-gallery-img-path-03: ../assets/img/posts/gallery/swipe-studio-03.png
+gallery-img-path-01: assets/img/posts/gallery/swipe-studio-01.png
+gallery-img-path-02: assets/img/posts/gallery/swipe-studio-02.png
+gallery-img-path-03: assets/img/posts/gallery/swipe-studio-03.png
 
 gallery-img-subline-01:   Screen print on macbook-case
 page.gallery-img-alt-01:  Screen print on macbook-case
