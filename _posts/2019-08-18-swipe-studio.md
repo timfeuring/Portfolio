@@ -18,4 +18,8 @@ page.gallery-img-alt-02:  White screen print on T-Shirt
 # page.gallery-img-alt-03:      
 ---
 
-  This project evolved from a grizzly bear dancing in his underpants. The goal was to create a unique logomark for our design studio at SinnerSchrader Swipe. Starting with exploring different shape ideas, I started sketching out stuff. After a phase of sketching and exploring, the initial arrangement of letters was set and things went to digital. This project evolved from a grizzly bear dancing in his underpants. The goal was to create a unique logomark for our design studio at SinnerSchrader Swipe. Starting with exploring different shape ideas, I started sketching out stuff. After a phase of sketching and exploring, the initial arrangement of letters was set and things went to digital.
+Swipe is a Studio of SinnerSchrader, specialized on creating awesome mobile experiences. We are a small Team of approximately 30 people and regularly gather together in certain teamevents. This year, we decided to screen print our own custom clothing. For this case, the goal was to create a new custom logomark to represent our studio in a casual way.
+<!-- <br><br> -->
+After exploring different directions, it became clear that it had to be a typography-inspired approach with a rather bold look. I started sketching out several ideas on paper, and in the end came up with an arrangement of letters and shapes that end up fitting together in a perfect square. I transferred the analog design to digital and refined it furthermore. 
+<!-- <br><br> -->
+We ended up screen printing laptop-bags, shirts and hoodies in a variety of sizes and colors - some of which can be seen below.

@@ -809,6 +809,10 @@ body {
         }
     }
 
+.intro-img-alternative {
+    width: 100%;
+}
+
 .prj-desc-title, .prj-desc-copy { color: var(--text-heavy); }
 
 .prj-desc-title { 
