@@ -1,7 +1,4 @@
 /*
-// ---
-// ---
-
 // @import "minima";
 
 // @import url('_normalize.css');
@@ -117,7 +114,6 @@ body {
 /* ============================================================================ */
 
 .main-nav {
-    /* position: fixed; */
     z-index: 3;
     width: 100%;
     background-color: #fff;
@@ -254,8 +250,6 @@ body {
         }
     }
 
-
-/* Animation der Burger-Menü-Elemente */
     #main-nav__trigger:checked ~ .burger {
         opacity: 1;
         transform: rotate(45deg) translate(4px, -3px);
@@ -278,7 +272,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-top: var(--nav-height); */
     min-height: calc(100vh - 84px);
     transition: all ease .2s;
     }
@@ -290,18 +283,11 @@ body {
     
 
 .about-intro:hover {
-    /* transform: translate(150px, 0) rotate(-9deg); */
-    /* transform: skew(19deg, 11deg); */
     transition: all ease .2s;
 }
 
 .about-headline {
     font-size: 10rem; 
-    /* text-shadow: 
-        1px 1px 1px black, 
-        1px -1px 1px black, 
-        -1px 1px 1px black, 
-        -1px -1px 1px black; */
     color: #000;
     }
 
@@ -374,8 +360,8 @@ body {
     /* .work:hover::after {
         animation-name: bg-transition-blend;
         animation-duration: 6s;
-    }
-    @keyframes bg-transition-blend {
+    } */
+    /* @keyframes bg-transition-blend {
         from {
         opacity: 100; 
         }
@@ -700,8 +686,6 @@ body {
     #iconset2 { transform: scale(23.9) translate(-32px,68px) rotate(-30deg); }
     #iconset2:hover { transform: scale(3.6) translate(-62px, 24px) rotate(0deg); }
 }
-
-
 
 #fraktur-calligraphy { transform: scale(8.6) translate(47px,6px); }
 #fraktur-calligraphy:hover { transform: scale(1.4) translate(4px,3px); }
