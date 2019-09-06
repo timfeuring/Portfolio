@@ -1,12 +1,5 @@
-/*
-// @import "minima";
-
-// @import url('_normalize.css');
-// @import url('_theme.css');
-// @import '_fonts.css';
-*/
-/* General body styles go here */
-/* ====================================== */
+/* General styles */
+/* ============================================================================ */
 
 :root {
     --nav-height: 84px;
@@ -87,7 +80,7 @@ body {
     }
     
     
-/* Container Styles go here */
+/* Container Styles */
 /* ============================================================================ */
 
 .container-wrapper {
@@ -110,7 +103,7 @@ body {
         }
     }
 
-/* Nav styles go here */
+/* Nav styles */
 /* ============================================================================ */
 
 .main-nav {
@@ -200,7 +193,8 @@ body {
     color: var(--text-heavy);
 }
 
-/* Burger Navigation Styling */
+/* Burger styles */
+/* ============================================================================ */
 
 #main-nav__trigger {
     position: absolute;
@@ -265,7 +259,7 @@ body {
     }
 
 
-/* About styles go here */ 
+/* About styles */ 
 /* ============================================================================ */
 
 .about {
@@ -312,15 +306,12 @@ body {
 }
 
 
-/* Work styles go here */
+/* Work styles */
 /* ============================================================================ */
 
 .work {
     background-color: #000; 
     position: relative;
-    /* background-image: url(/img/optical-art-trippy6.gif); */
-    /* background-image: url(https://data.whicdn.com/images/142955036/original.gif); */
-    
     }
 
     @media only screen and (max-width: 800px) {
@@ -336,87 +327,6 @@ body {
         }
     }
 
-.work::after {
-    content: "";
-    /* background: url(https://data.whicdn.com/images/142955036/original.gif); */
-    /* background-image: url(/img/optical-art-trippy6.gif); */
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    height: 100%;
-    z-index: 0;
-
-    /* Dunkler BG, farbige strokes */
-    mix-blend-mode: multiply; 
-    /* BG als auch strokes ändern Farbe */
-    /* mix-blend-mode: exclusion;  */
-
-    
-}
-    
-    /* .work:hover::after {
-        animation-name: bg-transition-blend;
-        animation-duration: 6s;
-    } */
-    /* @keyframes bg-transition-blend {
-        from {
-        opacity: 100; 
-        }
-    
-        to {
-        opacity: 0;
-        }
-    } */
-
- .work::before {
-    content: "";
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    height: 100%;
-    z-index: 0;
-    /* background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3); */
-    background-size: 1800% 1800%;
-
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
-}
-
-    @-webkit-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-moz-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @-o-keyframes rainbow {
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-    @keyframes rainbow { 
-        0%{background-position:0% 82%}
-        50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
-    }
-  
-  .mein-selektor {
-    animation-name: meine-animation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; }
-    /* weitere animation-Eigenschaften
-  } */
 
 .inner-work {
     display: flex;
@@ -544,7 +454,6 @@ body {
     flex-direction: column;
     width: 64.6%;
     margin: 2% 0 0 2%;
-    /* border: 1px solid #8b8b8b; */
     transition: all ease .5s; 
 }
 
@@ -590,7 +499,6 @@ body {
     right: 0;
     width: 100%;
     overflow: hidden;
-    /* background-color: #fff; */
 }
 
 .white-bg {
@@ -602,20 +510,10 @@ body {
     transition: all ease .3s;
 }
 
-/* maybe obsolet */
-.prj-short-desc { 
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    color: var(--text-heavy);
-    display: none;
-}
 
-.prj-short a:hover {
-    color: #fff;
-}
 
-/* ============================= */
+/* img-transforms */
+/* ============================================================================ */
 
 .prj-img--default-transform { transform: scale(1.5) rotate(45deg); }
 .prj-img--default-transform:hover { transform: scale(1) rotate(0deg); }
@@ -623,39 +521,14 @@ body {
 #swipe-studio-logo { 
     transform: scale(3.2) rotate(45deg);
 }
-    /* @media only screen and (max-width: 400px) {
-        #swipe-studio-logo  {
-            animation: swipe-anim 8s ease-in-out  infinite; 
-        }
-    }
-    @keyframes swipe-anim {
-        0% { transform: scale(3.2) rotate(45deg); }
-        30% { transform: scale(3.2) rotate(45deg) }
-        50% { transform: scale(2) rotate(0deg); }
-        80% { transform: scale(3.2) rotate(45deg); }
-        100% { transform: scale(3.2) rotate(45deg); }
-    } */
 
 #swipe-studio-logo:hover { 
-    /* transform: scale(1) rotate(0deg);  */
     transform: scale(2) rotate(0deg);    
 }
 
 #sauerwein-logo {
     transform: scale(4.1) translateX(-25px) translateY(32px);
 } 
-    /* @media only screen and (max-width: 400px) {
-        #sauerwein-logo  {
-            animation: sauerwein-anim 8s ease-in-out  infinite; 
-        }
-    }
-    @keyframes sauerwein-anim {
-        0% { transform: scale(4.1) translateX(-25px) translateY(32px); }
-        25% { transform: scale(2) translateX(0px) translateY(0px); }
-        75% { transform: scale(2) translateX(0px) translateY(0px); }
-        100% { transform: scale(4.1) translateX(-25px) translateY(32px); }
-    } */
-
 
 #sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
 
@@ -694,34 +567,8 @@ body {
 #kohledampfer-beer:hover { transform: scale(1.5) rotate(0deg) translate(0px, 0px); }
 
 
-/* CONTACT STYLES GO HERE */
+/* Imprint */
 /* ============================================================================ */
-/* ============================================================================ */
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-}
-
-.contact p {
-    margin: 0 0 50px 0;
-    text-align: center;
-    line-height: 25px;
-}
-
-.contact ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin-top: 25px;
-}
-
-.contact li {
-    padding: 10px 0;
-}
 
 .imprint {
     display: flex;
@@ -739,13 +586,11 @@ body {
 }
 
 
-/* DETAILSEITE */
-/* ============================================================================ */
+/* Prj-page */
 /* ============================================================================ */
 
 
 .prj-details {
-    /* padding-top: var(--nav-height); */
     padding-bottom: 84px;
     min-height: 100vh;
     }
@@ -773,7 +618,6 @@ body {
 
 .intro-img {
     float: left;
-    /* border: 1px dashed #7b7b7b; */
     box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.3);
     margin: 20px 50px 25px 0;
     min-width: 400px;
@@ -801,7 +645,6 @@ body {
 
 .prj-desc-title { 
     font-size: 10rem; 
-    /* margin-top: -20px; */
     }
     
     @media only screen and (max-width: 1140px) {
@@ -849,22 +692,12 @@ body {
 }
 
 
-/* MEDIA QUERIES GO HERE */
+/* Theme / Font-stuff */
 /* ============================================================================ */
-/* ============================================================================ */
-
-
- /* _THEME */
 :root {
     --text-heavy: #000;
     /* --text-heavy: magenta; */
     --text-light: #8b8b8b;
-}
-
-
-/* // _FONTS */
-/* ========================================== */
-:root {
     --font-basis: 1.6rem;
 }
 
@@ -876,8 +709,6 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-
-/* HEADLINE STYLES */
 
 h1, h2, h3, h4, h5 { 
     color: var(--text-heavy);
@@ -903,19 +734,13 @@ h4 { font-size: 1.6rem; }
 
     }
 
-/* PARAGRAPH STYLES */
-
 p { 
     font-size: var(--font-basis);
     line-height: 150%;
 }
 
-
-/* TEXT LINK STYLES */
-
 a { 
     text-decoration: none; 
-    /* color: var(--text-light); */
     color: var(--text-heavy);
     font-size: var(--font-basis);
     }
@@ -939,8 +764,8 @@ ul { list-style: none; }
 .uppercase { text-transform: uppercase; }
 
 
-/* 404 stuff */
-/* ========================================== */
+/* 404 */
+/* ============================================================================ */
 
 .error-container {
     width: 100%;
