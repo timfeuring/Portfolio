@@ -14,8 +14,8 @@ gallery-img-subline-01:   Screen print on macbook-case
 page.gallery-img-alt-01:  Screen print on macbook-case
 gallery-img-subline-02:   White screen print on t-shirt
 page.gallery-img-alt-02:  White screen print on t-shirt
-# gallery-img-subline-03:   
-# page.gallery-img-alt-03:      
+gallery-img-subline-03:   Overlapping screen print
+page.gallery-img-alt-03:  Overlapping screen print
 ---
 
 Swipe is a Studio of SinnerSchrader, specialized on creating awesome mobile experiences. We are a small Team of approximately 30 people and regularly gather together in certain teamevents. This year, we decided to screen print our own custom clothing. For this case, the goal was to create a new custom logomark to represent our studio in a casual way.
