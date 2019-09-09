@@ -1,6 +1,6 @@
 ---
 layout: project-post
-title: Sauerwein
+title: Tim Feuring - Sauerwein
 permalink: /sauerwein
 category: Logo creation
 img-path: assets/img/posts/sauerwein-post.svg

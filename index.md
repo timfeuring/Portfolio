@@ -1,5 +1,5 @@
 ---
-title: Portfolio - Tim Feuring
+title: Portfolio
 layout: home
 ---
 

@@ -12,8 +12,8 @@ gallery-img-path-03: assets/img/posts/gallery/swipe-studio-03.png
 
 gallery-img-subline-01:   Screen print on macbook-case
 page.gallery-img-alt-01:  Screen print on macbook-case
-gallery-img-subline-02:   White screen print on T-Shirt
-page.gallery-img-alt-02:  White screen print on T-Shirt
+gallery-img-subline-02:   White screen print on t-shirt
+page.gallery-img-alt-02:  White screen print on t-shirt
 # gallery-img-subline-03:   
 # page.gallery-img-alt-03:      
 ---
