@@ -1,9 +1,9 @@
 ---
-layout: project-post
+layout: project-post-alternative
 title: Sauerwein
 permalink: /sauerwein
 category: Logo creation
-img-path: assets/img/posts/sauerwein-post.svg
+img-path: assets/img/posts/sauerwein-post-alternative.svg
 img-alt: sauerwein-logo
 
 # gallery-img-path-01:        assets/img/posts/gallery/
