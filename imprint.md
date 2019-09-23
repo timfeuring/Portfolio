@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Imprint - Privacy 
+title: Imprint
 permalink: /imprint
 ---
 
