@@ -1,10 +1,10 @@
 ---
-layout: project-post
+layout: project-post-alternative
 title: Kohledampfer
 permalink: /kohledampfer
 category: Illustration, Packaging
-#Bildpfad aktualisieren!
 img-path: assets/img/posts/kohledampfer-post.svg
+img-id: kohledampfer-post-img
 img-alt: kohledampfer-beer
 
 gallery-img-path-01: assets/img/posts/gallery/kohledampfer-02.jpg

@@ -1,9 +1,10 @@
 ---
-layout: project-post
+layout: project-post-alternative
 title: Swipe Studio
 permalink: /swipe-studio
 category: Logo creation
-img-path: assets/img/posts/swipe-studio-post.svg
+img-path: assets/img/posts/swipe-studio-post-alternative.svg
+img-id: swipe-studio-post-img
 img-alt: swipe-studio-logo
 
 gallery-img-path-01:        assets/img/posts/gallery/swipe-studio-01.png

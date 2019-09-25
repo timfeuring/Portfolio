@@ -1,9 +1,10 @@
 ---
-layout: project-post
+layout: project-post-alternative
 title: Shorebird
 permalink: /shorebird
 category: Illustration
 img-path: assets/img/posts/shorebird-post.jpg
+img-id: shorebird-post-img
 img-alt: shorebird-illustration
 
 # gallery-img-path-01:        assets/img/posts/gallery/
