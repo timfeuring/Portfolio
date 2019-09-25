@@ -19,4 +19,8 @@ img-alt: sauerwein-logo
 # gallery-img-alt-03:         
 ---
 
-The Sauerwein family of winemakers have a small winery business in Rheinland-Pfalz. As starting with exploring different shape ideas, I started sketching out stuff. After a phase of sketching and exploring, the initial arrangement of letters was set and things went to digital. This project evolved from a grizzly bear dancing in his underpants.
+The Sauerweins are a family of winemakers, owning a small winery business near to the Mosel in western Germany. Their roots go back to the 17th century and originally derive from southern Tyrol. Since 1924, they produce fine wines that are renowned well beyond their closer region. 
+
+The winery approached its brand with a rather classic, maybe a bit old-fashioned look and feel. My aim was to refresh the visual appearance with a new logo and label while maintaining and communicating their core values.
+
+Sauerwein is a real existing winery business. This project served the purpose of my personal exploration and does not reflect the actual brand of the Sauerwein family.
