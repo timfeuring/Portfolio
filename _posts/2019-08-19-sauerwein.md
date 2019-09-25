@@ -4,6 +4,7 @@ title: Sauerwein
 permalink: /sauerwein
 category: Logo creation
 img-path: assets/img/posts/sauerwein-post-alternative.svg
+img-id:
 img-alt: sauerwein-logo
 
 # gallery-img-path-01:        assets/img/posts/gallery/
