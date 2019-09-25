@@ -598,6 +598,14 @@ body {
     color: #fff;
 }
 
+.imprint-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - var(--nav-height));
+
+}
+
 
 /* Prj-page */
 /* ============================================================================ */
