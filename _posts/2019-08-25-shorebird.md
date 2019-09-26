@@ -1,5 +1,5 @@
 ---
-layout: project-post-alternative
+layout: project-post
 title: Shorebird
 permalink: /shorebird
 category: Illustration
@@ -20,4 +20,6 @@ img-alt: shorebird-illustration
 # gallery-img-alt-03:       
 ---
 
-Whatever text here, this calligraphy looks kinda cool! I started sketching out stuff. After a phase of sketching and exploring, the initial arrangement of letters was set and things went to digital. This project evolved from a grizzly bear dancing in his underpants.
+Inspired by wandering around the mud flats and watching birds on a vacation by the north sea, I drew this illustration of a shorebird. It is made by pen and ink and was directly scanned from my sketchbook. 
+
+I spend a lot of my free time with different art and design topics, including drawing and illustrating. I especially enjoy the vintage look and feel classic pen and ink illustrations evoke, as they distill to the necessary visual elements and techniques. 

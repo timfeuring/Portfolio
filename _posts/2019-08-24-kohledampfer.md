@@ -1,5 +1,5 @@
 ---
-layout: project-post-alternative
+layout: project-post
 title: Kohledampfer
 permalink: /kohledampfer
 category: Illustration, Packaging
