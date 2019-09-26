@@ -327,6 +327,10 @@ body {
         }
     }
 
+#work-headline {
+    display: none;
+}
+
 
 .inner-work {
     display: flex;
