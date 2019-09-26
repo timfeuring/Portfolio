@@ -11,17 +11,13 @@
                 {% if page.previous.url %}
                     <li>
                         <a href="{{page.previous.url}}" title="previous">
-                            <div id="nav-about">
                                 <span class="underline">previous</span>
-                            </div>
                         </a>
                     </li>
                 {% elsif page.previous.url  == null %}
                     <li>
                         <a class="inactive" title="previous">
-                            <div id="nav-about">
                                 <span class="underline">previous</span>
-                            </div>
                         </a>
                     </li>
                 {% endif %}
@@ -29,17 +25,13 @@
                 {% if page.next.url %}
                     <li>
                         <a href="{{page.next.url}}" title="next">
-                            <div id="nav-about">
                                 <span class="underline">next</span>
-                            </div>
                         </a>
                     </li>
                 {% elsif page.next.url  == null %}
                     <li>
                         <a class="inactive" title="next">
-                            <div id="nav-about">
                                 <span class="underline">next</span>
-                            </div>
                         </a>
                     </li>
                 {% endif %}
