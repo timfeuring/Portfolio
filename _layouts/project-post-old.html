@@ -4,14 +4,16 @@
     <body>
         {% include project-navigation.html %}          
         <section class="container-wrapper prj-details">
-                <div class="prj-details-intro">
-                    <h1 class="prj-desc-title "> {{page.title}} </h1>
-                    <p class="prj-desc-subline"> {{page.category}} </p>
-                    <img id="{{page.img-id}}" class="intro-img-alternative" src="{{page.img-path}}" alt="{{page.img-alt}}">
-                    
-                    <h2>Process</h2>
-                    <p class="prj-desc-copy">
-                            {{ content }}
+                <div>
+                    <img class="intro-img" src="{{page.img-path}}" alt="{{page.img-alt}}">
+                    <div>
+                        <h1 class="prj-desc-title "> {{page.title}} </h1>
+                        <p class="prj-desc-subline"> {{page.category}} </p>
+                        <h2>Process</h2>
+                        <p class="prj-desc-copy">
+                              {{ content }}  
+                        </p>
+                    </div>
                 </div>
 
                 <div class="prj-img-container">
