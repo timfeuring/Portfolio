@@ -529,6 +529,7 @@ body {
 #swipe-studio-post-img {    
     width: 100%;
     max-width: 600px;
+    margin-top: 0;
 }
 
 #sauerwein-logo {
@@ -596,6 +597,14 @@ body {
 
 .imprint a:hover {
     color: #fff;
+}
+
+.imprint-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - var(--nav-height));
+
 }
 
 

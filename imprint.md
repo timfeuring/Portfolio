@@ -1,10 +1,9 @@
 ---
-layout: about
+layout: imprint
 title: Imprint
 permalink: /imprint
 ---
 
-<br><br>
 <!-- Imprint -->
 <h1>Impressum</h1>
 
