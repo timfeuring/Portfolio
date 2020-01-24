@@ -3,7 +3,7 @@ layout: project-post
 title: Sauerwein
 permalink: /sauerwein
 category: Logo creation
-img-path: assets/img/posts/sauerwein-post.svg
+img-path: assets/img/posts/sauerwein-post-2.svg
 img-id:
 img-alt: sauerwein-logo
 
