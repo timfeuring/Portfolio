@@ -3,7 +3,7 @@ layout: project-post
 title: Swipe Studio
 permalink: /swipe-studio
 category: Logo creation
-img-path: assets/img/posts/swipe-studio-post.svg
+img-path: assets/img/posts/swipe-studio-angle.png
 img-id: swipe-studio-post-img
 img-alt: swipe-studio-logo
 
@@ -12,9 +12,9 @@ gallery-img-subline-01:     Screen print on macbook-case
 gallery-img-alt-01:         Screen print on macbook-case
 
 
-gallery-img-path-02:        assets/img/posts/gallery/swipe-studio-02.png
-gallery-img-subline-02:     White screen print on t-shirt
-gallery-img-alt-02:         White screen print on t-shirt
+gallery-img-path-02:        assets/img/posts/gallery/swipe-studio-04.png
+gallery-img-subline-02:     Scrubbing the color off the used screen
+gallery-img-alt-02:         Scrubbing the color off the used screen
 
 gallery-img-path-03:        assets/img/posts/gallery/swipe-studio-03.png
 gallery-img-subline-03:     Experimental screen print on t-shirt

@@ -530,11 +530,6 @@ body {
     transform: scale(2) rotate(0deg);    
 }
 
-#swipe-studio-post-img {    
-    width: 100%;
-    max-width: 600px;
-    margin-top: 0;
-}
 
 #sauerwein-logo {
     transform: scale(4.1) translateX(-25px) translateY(32px);
@@ -562,6 +557,21 @@ body {
         #minimum { transform: scale(4.2) translate(24px, -4px) rotate(-5deg); }
         #minimum:hover { transform: scale(1.6) translate(0px, 0px) rotate(0deg) }
     }
+
+
+#extra-butter { transform: scale(1.5) translate(0px, -273px) rotate(-5deg); }
+#extra-butter:hover { transform: scale(.8) translate(0px, -463px) rotate(0deg); }
+    /* @media only screen and (max-width: 1000px) {
+        #minimum { transform: scale(2.5) translate(-15px, -129px) rotate(-5deg); }
+    }
+    @media only screen and (max-width: 800px) {
+        #minimum { transform: scale(2.5) translate(-15px, -88px) rotate(-5deg); }
+        #minimum:hover { transform: rotate(0deg) scale(1.3) translate(0px, -160px); }
+    }
+    @media only screen and (max-width: 400px) {
+        #minimum { transform: scale(4.2) translate(24px, -4px) rotate(-5deg); }
+        #minimum:hover { transform: scale(1.6) translate(0px, 0px) rotate(0deg) }
+    } */
 
 #xenon { transform: scale(7.5) translate(51px,0px);}
 #xenon:hover {transform: scale(1.8);}
