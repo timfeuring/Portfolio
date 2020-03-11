@@ -3,7 +3,7 @@ layout: project-post
 title: Kohledampfer
 permalink: /kohledampfer
 category: Illustration, Packaging
-img-path: assets/img/posts/kohledampfer-post.svg
+img-path: assets/img/posts/kohledampfer-post-optimized.png
 img-id: kohledampfer-post-img
 img-alt: kohledampfer-beer
 
@@ -11,9 +11,9 @@ gallery-img-path-01: assets/img/posts/gallery/Kohledampfer-02.jpg
 gallery-img-subline-01: Kohledampfer label
 gallery-img-alt-01: Kohledampfer label
 
-gallery-img-path-02: assets/img/posts/gallery/kohledampfer-01.jpg
-gallery-img-subline-02: Kohledampfer bottles with the finished label
-gallery-img-alt-02: Kohledampfer bottles with the finished label
+# gallery-img-path-02: assets/img/posts/gallery/kohledampfer-01.jpg
+# gallery-img-subline-02: Kohledampfer bottles with the finished label
+# gallery-img-alt-02: Kohledampfer bottles with the finished label
 
 
 # gallery-img-path-03: assets/img/posts/gallery/
