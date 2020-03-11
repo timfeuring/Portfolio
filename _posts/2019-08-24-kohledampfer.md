@@ -4,7 +4,7 @@ title: Kohledampfer
 permalink: /kohledampfer
 category: Illustration, Packaging
 img-path: assets/img/posts/kohledampfer-post-optimized.png
-img-id: kohledampfer-post-img
+# img-id: 
 img-alt: kohledampfer-beer
 
 gallery-img-path-01: assets/img/posts/gallery/Kohledampfer-02.jpg
