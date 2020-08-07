@@ -559,8 +559,8 @@ body {
     }
 
 
-#extra-butter { transform: scale(1.5) translate(0px, -273px) rotate(-5deg); }
-#extra-butter:hover { transform: scale(.8) translate(0px, -463px) rotate(0deg); }
+#extra-butter { transform: scale(6) rotate(-17.5deg) translate(-9px, -14px); }
+#extra-butter:hover { transform:  scale(1.7) translate(5px,0px) rotate(0deg); }
     /* @media only screen and (max-width: 1000px) {
         #minimum { transform: scale(2.5) translate(-15px, -129px) rotate(-5deg); }
     }
@@ -573,8 +573,12 @@ body {
         #minimum:hover { transform: scale(1.6) translate(0px, 0px) rotate(0deg) }
     } */
 
-#xenon { transform: scale(7.5) translate(51px,0px);}
+#xenon {transform: scale(6.9) translate(93px,-2px);}
 #xenon:hover {transform: scale(1.8);}
+
+/* #gemeinschaftsgarten-vechta {transform: scale(4.5) translate(42px,0px);} */
+#gemeinschaftsgarten-vechta {transform: scale(8) translate(53px,16px);}
+#gemeinschaftsgarten-vechta:hover {transform: scale(1.8);}
 
 #iconset2 { transform: scale(5.5) translate(-103px,-24px) rotate(-12deg); }
 #iconset2:hover { transform: scale(1.4) translate(-0px,-69px) rotate(-0deg); }
