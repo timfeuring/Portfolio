@@ -1,6 +1,8 @@
 /* General styles */
 /* ============================================================================ */
 
+@import url(transforms.css);
+
 :root {
     --nav-height: 84px;
 }
@@ -295,6 +297,15 @@ body {
         .about-headline { 
             font-size: 6rem;
         }
+        .about-intro {
+            padding: 80px 0;
+        }
+    }
+
+    @media only screen and (max-width: 390px) {
+        .about-headline { 
+            font-size: 15vw;
+        }
     }
 
 .about p {
@@ -516,79 +527,7 @@ body {
 
 
 
-/* img-transforms */
-/* ============================================================================ */
-
-.prj-img--default-transform { transform: scale(1.5) rotate(45deg); }
-.prj-img--default-transform:hover { transform: scale(1) rotate(0deg); }
-
-#swipe-studio-logo { 
-    transform: scale(3.2) rotate(45deg);
-}
-
-#swipe-studio-logo:hover { 
-    transform: scale(2) rotate(0deg);    
-}
-
-
-#sauerwein-logo {
-    transform: scale(4.1) translateX(-25px) translateY(32px);
-} 
-
-#sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
-
-#bird-illustration { transform: scale(4) translateX(44px) translateY(14px) rotate(11deg); }
-#bird-illustration:hover { transform: scale(2.5) translateX(21px) translateY(4px) rotate(11deg);}
-#shorebird-post-img {
-    width: 100%;
-    max-width: 800px;
-}
-
-#minimum { transform: scale(2.5) translate(-15px, -160px) rotate(-5deg); }
-#minimum:hover { transform: rotate(0deg) scale(1.3) translate(0px, -298px); }
-    @media only screen and (max-width: 1000px) {
-        #minimum { transform: scale(2.5) translate(-15px, -129px) rotate(-5deg); }
-    }
-    @media only screen and (max-width: 800px) {
-        #minimum { transform: scale(2.5) translate(-15px, -88px) rotate(-5deg); }
-        #minimum:hover { transform: rotate(0deg) scale(1.3) translate(0px, -160px); }
-    }
-    @media only screen and (max-width: 400px) {
-        #minimum { transform: scale(4.2) translate(24px, -4px) rotate(-5deg); }
-        #minimum:hover { transform: scale(1.6) translate(0px, 0px) rotate(0deg) }
-    }
-
-
-#extra-butter { transform: scale(1.5) translate(0px, -273px) rotate(-5deg); }
-#extra-butter:hover { transform: scale(.8) translate(0px, -463px) rotate(0deg); }
-    /* @media only screen and (max-width: 1000px) {
-        #minimum { transform: scale(2.5) translate(-15px, -129px) rotate(-5deg); }
-    }
-    @media only screen and (max-width: 800px) {
-        #minimum { transform: scale(2.5) translate(-15px, -88px) rotate(-5deg); }
-        #minimum:hover { transform: rotate(0deg) scale(1.3) translate(0px, -160px); }
-    }
-    @media only screen and (max-width: 400px) {
-        #minimum { transform: scale(4.2) translate(24px, -4px) rotate(-5deg); }
-        #minimum:hover { transform: scale(1.6) translate(0px, 0px) rotate(0deg) }
-    } */
-
-#xenon { transform: scale(7.5) translate(51px,0px);}
-#xenon:hover {transform: scale(1.8);}
-
-#iconset2 { transform: scale(5.5) translate(-103px,-24px) rotate(-12deg); }
-#iconset2:hover { transform: scale(1.4) translate(-0px,-69px) rotate(-0deg); }
-
-@media only screen and (max-width: 400px) {
-    #iconset2 { transform: scale(23.9) translate(-32px,68px) rotate(-30deg); }
-    #iconset2:hover { transform: scale(3.6) translate(-62px, 24px) rotate(0deg); }
-}
-
-#fraktur-calligraphy { transform: scale(8.6) translate(47px,6px); }
-#fraktur-calligraphy:hover { transform: scale(1.4) translate(4px,3px); }
-
-#kohledampfer-beer { transform: scale(3.5) rotate(-45deg) translate(-1px, 46px); }
-#kohledampfer-beer:hover { transform: scale(1.5) rotate(0deg) translate(0px, 0px); }
+@import url(transforms.css);
 
 /* Imprint */
 /* ============================================================================ */
@@ -692,6 +631,8 @@ body {
     @media only screen and (max-width: 800px) {
         .prj-desc-title {
             font-size: 5.4rem;
+            word-break: break-word;
+            hyphens: auto;
         }
     }
 
