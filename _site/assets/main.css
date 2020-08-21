@@ -23,6 +23,7 @@ body {
 
 .underline {
     position: relative;
+    height: max-content;
     }
 
     .underline::before {
@@ -185,6 +186,15 @@ body {
 
 .main-nav__logo {
     height: 55px;
+}
+
+.prj-nav__logo {
+    height: 25px;
+    padding-left: 10px;    
+}
+
+.prj-nav-back {
+    display: flex;
 }
 
 #main-nav__logo-link {
@@ -547,6 +557,10 @@ body {
     color: #fff;
 }
 
+.imprint-content {
+    margin-top: 150px;
+}
+
 .imprint-page {
     display: flex;
     flex-direction: column;
@@ -588,6 +602,7 @@ body {
 
 .prj-details-intro p {
     max-width: 700px;
+    margin-top: 0;
 }
 
 .intro-img {
