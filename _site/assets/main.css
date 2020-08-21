@@ -287,6 +287,22 @@ body {
         }
     }
     
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 100px 0;
+}
+        @media only screen and (max-width: 915px) {
+            .about-container {
+                flex-direction: column;
+            }
+        }
+
+.about-intro {
+    width: 100%;
+}
 
 .about-intro:hover {
     transition: all ease .2s;
@@ -295,6 +311,12 @@ body {
 .about-headline {
     font-size: 10rem; 
     color: #000;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .about-intro {
+            padding: 0 0 50px 0;
+        }
     }
 
     @media only screen and (max-width: 800px) {
@@ -306,9 +328,6 @@ body {
     @media only screen and (max-width: 500px) {
         .about-headline { 
             font-size: 6rem;
-        }
-        .about-intro {
-            padding: 80px 0;
         }
     }
 
@@ -322,10 +341,56 @@ body {
     max-width: 650px;
 }
 
+        @media only screen and (max-width: 1100px) {
+            .about p { 
+                max-width: 600px;
+            }
+        }
+
+        @media only screen and (max-width: 1015px) {
+            .about p { 
+                max-width: 530px;
+            }
+        }
+        
+        @media only screen and (max-width: 930px) {
+            .about p { 
+                max-width: 460px;
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .about p { 
+                max-width: 650px;
+            }
+        }
+
+
 .about__contact-links {
     margin-right: 10px;
 }
 
+.about-img {
+    height: max-content;
+    width: 450px;
+    -webkit-filter: drop-shadow(3px 4px 4px rgba(0,0,0,0.4));
+    position: absolute;
+    right: -50px;
+    z-index: -1;
+}
+
+        @media only screen and (max-width: 900px) {
+            .about-img {
+                position: unset;
+            }
+        }
+
+        @media only screen and (max-width: 475px) {
+            .about-img {
+                position: unset;
+                width: 95vw;
+            }
+        }
 
 /* Work styles */
 /* ============================================================================ */
