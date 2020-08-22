@@ -5,7 +5,7 @@
             <img class="main-nav__logo" src="assets/img/tf-logo.svg" alt="tf-logo">
         </a>
         
-        <!-- Für Burgermenü-->
+        <!-- Burger -->
         <input id="main-nav__trigger" type="checkbox" />
         
         <span class="burger"></span>
@@ -15,20 +15,30 @@
         <!-- Navigationspunkte -->
         <ul class="main-nav__ul" id="main-nav__ul">
             <li>
-                <!-- Hier link ersetzen! -->
                 <a onclick="closeBurgerNav();" href="index.html#aboutme">
-                    <div class="active-page " id="nav-about">
+                    <div class="active " id="nav-aboutme">
                         <span class="underline">about</span>
                     </div>
                 </a>
             </li>
             <li>
                 <a onclick="closeBurgerNav();" href="index.html#work">
-                    <div id="nav-work">
+                    <div id="nav-projects">
                         <span class="underline">work</span>
                     </div>
                 </a>
             </li>
+            <li>
+                <a onclick="closeBurgerNav();" href="index.html#lettering">
+                    <div id="nav-lettering">
+                        <span class="underline">lettering</span>
+                    </div>
+                </a>
+            </li>
+
+            <a id="contact-button" onclick="closeBurgerNav();" href=""> contact me </a>
+
         </ul>
     </div>
 </nav>
+
