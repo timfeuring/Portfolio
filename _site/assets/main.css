@@ -82,6 +82,7 @@ body {
         transition: width 0.2s;
         border-bottom: 1px solid rgba(255, 255, 255, 1);
     }
+   
     
     
 /* Container Styles */
@@ -398,7 +399,7 @@ body {
 }
 
 .about-img {
-    height: max-content;
+    height: auto;
     width: 450px;
     -webkit-filter: drop-shadow(3px 4px 4px rgba(0,0,0,0.4));
     position: absolute;
@@ -466,7 +467,7 @@ body {
         }
     }
 
-#work {
+#projects {
     position: absolute;
     top: -84px;
 }
@@ -812,7 +813,7 @@ body {
 /* ============================================================================ */
 
 .lettering {
-    /* min-height: 100vh; */
+    min-height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -820,7 +821,7 @@ body {
 
 #lettering {
     position: absolute;
-    top: -84px;
+    top: -83px;
 }
 
 .lettering-content {
@@ -843,6 +844,58 @@ body {
     align-items: center;
 }
 
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
 .error-message {
     text-align: center;
+}
+
+.error-message p{
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.hide { display: none; }
+
+
+
+/* CONTACT */
+/* ============================================================================ */
+
+
+/* .contact-container {
+    padding: 100px 0 25px 0;
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+
+
+.contact p {
+    max-width: 650px;
+}
+
+.contact ul {
+    list-style: disc;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+#contact-page-button {
+    max-height: 44px;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 94px;
 }
