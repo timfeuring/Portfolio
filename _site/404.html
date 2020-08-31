@@ -29,6 +29,51 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/main.css">
 </head>
+<nav class="main-nav" id="nav">
+    <div class="container-wrapper main-nav__inner">
+        
+        <a id="main-nav__logo-link" href="index.html">
+            <img class="main-nav__logo" src="assets/img/tf-logo.svg" alt="tf-logo">
+        </a>
+        
+        <!-- Burger -->
+        <input id="main-nav__trigger" type="checkbox" />
+        
+        <span class="burger"></span>
+        <span class="burger"></span>
+        <span class="burger"></span>
+        
+        <!-- Navigationspunkte -->
+        <ul class="main-nav__ul" id="main-nav__ul">
+            <li>
+                <a onclick="closeBurgerNav();" href="index.html#aboutme">
+                    <div class="active " id="nav-aboutme">
+                        <span class="underline">about</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a onclick="closeBurgerNav();" href="index.html#projects">
+                    <div id="nav-projects">
+                        <span class="underline">projects</span>
+                    </div>
+                </a>
+            </li>
+            <!-- <li>
+                <a onclick="closeBurgerNav();" href="index.html#lettering">
+                    <div id="nav-lettering">
+                        <span class="underline">lettering</span>
+                    </div>
+                </a>
+            </li> -->
+
+            <a id="contact-button" onclick="closeBurgerNav();" href="contact.html" target="blank"> contact me </a>
+
+        </ul>
+    </div>
+</nav>
+
+
 
 <div class="error-container">
     <div class="error-message">
