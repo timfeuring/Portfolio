@@ -700,12 +700,13 @@ body {
 
 .prj-details {
     padding-bottom: 84px;
+    padding-top: 120px;
     min-height: 100vh;
     }
 
     @media only screen and (max-width: 800px) {
         .prj-details {
-            padding-top: 0;
+            padding-top: 120px;
             padding-bottom: 0;
         }
     }
