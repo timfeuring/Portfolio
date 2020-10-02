@@ -27,18 +27,6 @@
 #sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
 
 
-
-/* SHOREBIRD */
-/* =============================== */
-#bird-illustration { transform: scale(4) translateX(44px) translateY(14px) rotate(11deg); }
-#bird-illustration:hover { transform: scale(2.5) translateX(21px) translateY(4px) rotate(11deg);}
-#shorebird-post-img {
-    width: 100%;
-    max-width: 800px;
-}
-
-
-
 /* MINIMUM */
 /* =============================== */
 #minimum { transform: scale(2.5) translate(-15px, -160px) rotate(-5deg); }
@@ -118,7 +106,7 @@
 
 
 
-/* KOHLEMDAMPFER */
+/* KOHLEDAMPFER */
 /* =============================== */
 #kohledampfer-beer { transform: scale(3.5) rotate(-45deg) translate(-1px, 46px); }
 #kohledampfer-beer:hover { transform: scale(1.5) rotate(0deg) translate(0px, 0px); }
@@ -135,3 +123,28 @@
         transform: scale(1.5) rotate(0deg) translate(0px, 0px); 
     }
 } */
+
+
+
+
+/* TOAD */
+/* =============================== */
+#toad-illustration { transform: scale(2.7) translateX(-54px) translateY(15px) rotate(11deg);}
+#toad-illustration:hover { transform: scale(1.7) translateX(0) translateY(0) rotate(0deg); }
+
+
+
+/* CONE */
+/* =============================== */
+#cone-illustration {transform: scale(2.6) translateX(4px) translateY(28px) rotate(0deg); }
+#cone-illustration:hover { transform: scale(1.7) translateX(0) translateY(0) rotate(0deg);}
+
+
+
+/* SHOREBIRD */
+/* =============================== */
+#bird-illustration { transform: scale(4) translateX(44px) translateY(14px) rotate(11deg); }
+#bird-illustration:hover { transform: scale(2.5) translateX(21px) translateY(4px) rotate(11deg);}
+
+
+

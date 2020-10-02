@@ -702,6 +702,7 @@ body {
     padding-bottom: 84px;
     padding-top: 120px;
     min-height: 100vh;
+    padding-top: 120px;
     }
 
     @media only screen and (max-width: 800px) {
