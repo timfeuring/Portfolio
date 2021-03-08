@@ -693,6 +693,34 @@ body {
 
 }
 
+/* Linklist */
+/* ============================================================================ */
+
+.linklist-cluster {
+    margin: 40px 0;
+    width: max-content;
+}
+
+.linklist-item {
+    margin: 16px 0;
+}
+
+.linklist-item p {
+    display: inline-block;
+    margin: 0;
+}
+
+.linklist-item a {
+    display: flex;
+    align-items: center; 
+    margin: 0 10px 0 0;
+}
+
+.linklist-icon {
+    width: 30px;
+    margin-right: 16px;
+    overflow: hidden;
+}
 
 /* Prj-page */
 /* ============================================================================ */
