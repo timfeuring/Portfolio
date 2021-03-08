@@ -1,5 +1,5 @@
 ---
-layout: linklist
+layout: links
 title: Links
 permalink: /links
 ---
