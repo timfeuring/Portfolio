@@ -64,13 +64,34 @@
                     </div>
                 </a>
             </li>
-            <!-- <li>
+            <li>
                 <a onclick="closeBurgerNav();" href="index.html#lettering">
                     <div id="nav-lettering">
                         <span class="underline">lettering</span>
                     </div>
                 </a>
-            </li> -->
+            </li>
+            <li>
+                <a onclick="closeBurgerNav();" href="#paintings">
+                    <div class="active " id="nav-paintings">
+                        <span class="underline">painting</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a onclick="closeBurgerNav();" href="#drawings">
+                    <div class="active " id="nav-drawings">
+                        <span class="underline">drawing</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a onclick="closeBurgerNav();" href="#products">
+                    <div class="active " id="nav-products">
+                        <span class="underline">products</span>
+                    </div>
+                </a>
+            </li>
 
             <a id="contact-button" onclick="closeBurgerNav();" href="contact.html" target="blank"> contact me </a>
 
@@ -98,7 +119,7 @@
             <a class="about__contact-links underline" href="https://www.xing.com/profile/Tim_Feuring3/cv" target="_blank">xing</a>
             <a class="about__contact-links underline" href="https://www.linkedin.com/in/tim-feuring-580864164/" target="_blank">linkedin</a>
         </div>
-        <img class="about-img" src="assets/img/tim-cutout.png" alt="Tim Feuring">
+        <img class="about-img" src="assets/img/about/tim-cutout.png" alt="Tim Feuring">
     </div>
     <!-- <span class="more-about-me"> <img src="assets/img/icons/dropdown.svg" alt="dropdown arrow"> Learn more about me</span> -->
 </section>
@@ -106,135 +127,376 @@
                 
 <section class="work">
     <span id="projects"></span>
-    <div class="container-wrapper inner-work">
-        <div class="prj-wrapper">
-            <a href="swipe-studio.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="swipe-studio-logo" src="assets/img/swipe-studio-logo.svg" alt="swipe-studio-logo">
-                    </div>
-                </div>
-            </a>
+    <div class="container-wrapper section-content">
+        <h2 class="font-inverted">Projects</h2>
+        <div class="inner-work">
+            <div class="prj-wrapper">
 
-            <a href="sauerwein.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="sauerwein-logo" src="assets/img/sauerwein-logo.svg" alt="sauerwein-logo">
+                <!-- SWIPE STUDIO -->
+                <a href="swipe-studio.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Swipe Studio</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="swipe-studio-logo" src="assets/img/projects/swipe-studio-logo.svg" alt="swipe-studio-logo">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
 
-            <a href="gemeinschaftsgarten-vechta.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="gemeinschaftsgarten-vechta" src="assets/img/gemeinschaftsgarten-vechta.svg" alt="gemeinschaftsgarten-vechta-logo">
+                <!-- SAUERWEIN -->
+                <a href="sauerwein.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Familie Sauerwein</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="sauerwein-logo" src="assets/img/projects/sauerwein-mockup.png" alt="sauerwein-logo">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <a href="extra-butter.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="extra-butter" src="assets/img/extra-butter.svg" alt="extra-butter-lettering">
+                <!-- GEMEINSCHAFTSGARTEN VECHTA -->
+                <a href="gemeinschaftsgarten-vechta.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Gemeinschaftsgarten Vechta</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="gemeinschaftsgarten-vechta" src="assets/img/projects/gemeinschaftsgarten-vechta.svg" alt="gemeinschaftsgarten-vechta-logo">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <a href="xenon.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="xenon" src="assets/img/xenon.svg" alt="xenon-calligraphy">
+                <!-- EXTRA-BUTTER -->  
+                <a href="extra-butter.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Extra Butter</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="extra-butter" src="assets/img/projects/extra-butter.svg" alt="extra-butter-lettering">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <a href="minimum.html" class="prj-cont-wide">
-                <div class="prj-img">
-                    <div class="prj-dummy-wide"></div>
-                    <div class="prj-preview">
-                        <img id="minimum" src="assets/img/minimum.svg" alt="minimum">
+                <!-- XENON -->
+                <a href="xenon.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Xenon</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="xenon" src="assets/img/projects/xenon.svg" alt="xenon-calligraphy">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <!-- <a href="fraktur.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="fraktur-calligraphy" src="assets/img/Fraktur.svg" alt="fraktur-calligraphy">
+                <!-- MINIMUM -->
+                <a href="minimum.html" class="prj-cont-wide">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Minimum</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy-wide"></div>
+                        <div class="prj-preview">
+                            <img id="minimum" src="assets/img/projects/minimum.svg" alt="minimum">
+                        </div>
                     </div>
-                </div>
-            </a> -->
+                </a> 
 
-            <a href="iconset.html" class="prj-cont-twothirds">
-                <div class="prj-img">
-                    <div class="prj-dummy-twothirds"></div>
-                    <div class="prj-preview">
-                        <img id="iconset2" src="assets/img/iconset.svg" alt="iconset2">
+                <!-- ICONSET -->
+                <a href="iconset.html" class="prj-cont-twothirds">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Iconset</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy-twothirds"></div>
+                        <div class="prj-preview">
+                            <img id="iconset2" src="assets/img/projects/iconset.svg" alt="iconset2">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <a href="kohledampfer.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="kohledampfer-beer" src="assets/img/kohledampfer.svg" alt="kohledampfer-beer">
+                <!-- KOHLEDAMPFER -->
+                <a href="kohledampfer.html" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="overlay">
+                            <div class="prj-headline">
+                                <span>Kohledampfer</span>
+                            </div>
+                        </div>
+                        <div class="prj-dummy"></div>
+                        <div class="prj-preview">
+                            <img id="kohledampfer-beer" src="assets/img/projects/kohledampfer.svg" alt="kohledampfer-beer">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a> 
 
-            <a href="toad.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="toad-illustration" src="assets/img/toad-transparent.png" alt="toad-illustration">
-                    </div>
-                </div>
-            </a>
-
-            <a href="cone.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="cone-illustration" src="assets/img/cone-transparent.png" alt="cone-illustration">
-                    </div>
-                </div>
-            </a>
-
-            <a href="shorebird.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="bird-illustration" src="assets/img/shorebird-transparent.png" alt="bird-illustration">
-                    </div>
-                </div>
-            </a>
+            </div>
         </div>
     </div>
 </section>
-                <section class="container-wrapper lettering hide">
+                <section class="container-wrapper lettering section-content">
     <span id="lettering"></span>
     <div>
-        <div class="lettering-content">
-            <h1  class="about-headline" id="about-headline"> Lettering </h1>
-            <p>
+        <div class="lettering">
+            <h2> Lettering </h2>
+            <!-- <p>
                 Lettering has been a passion of mine since many years. I was always fascinated by the beauty of letters and about how typography can be used in so many ways to express diverse meanings and to communicate. Over the years, I've trained my skills and knowleadge to various aspects of typography by learning to create letters in the traditional way - by building them from scratch by hand. 
                 <br><br>
                 I love to work creatively with letters and never get tired of learning new sides and trades of the craft. Since a few years, I'm sharing my knowledge to introduce others into the art of writing beautiful letters by offering lettering courses for private and business events.
-                <!-- Read more on what I spend my time with
-                <a class="underline" href="about.html">here.</a> -->
-
                 <br>
                 <br>
             I'm constantly developing my lettering skills and I share my art and processes on Instagram. 
             <a class="about__contact-links underline" href="https://www.instagram.com/feuarrr/" target="_blank">Click here to get an impression of my art.</a>
-            </p>
+            </p> -->
+        </div>
+
+        <div class="gallery-wrapper lettering-gallery" >   
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="prj-dummy"></div>
+                    <div class="prj-preview">
+                        <img id="" class="prj-zoom" src="assets/img/lettering/smile.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="prj-dummy"></div>
+                    <div class="prj-preview">
+                        <img id="" class="prj-zoom" src="assets/img/lettering/favorite.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="prj-dummy"></div>
+                    <div class="prj-preview">
+                        <img id="" class="prj-zoom" src="assets/img/lettering/better.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="prj-dummy"></div>
+                    <div class="prj-preview">
+                        <img id="" class="prj-zoom" src="assets/img/lettering/smile-italic.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+                <section class="paintings">
+    <div class="container-wrapper section-content">
+        <span id="paintings"></span>
+        <div>
+            <div class="paintings-content">
+                <h2 class="font-inverted"> Painting </h2>
+            </div>
+
+            <div class="gallery-wrapper">   
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom"  src="assets/img/paintings/stillleben-sw-tf.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom"  src="assets/img/paintings/collage-painting-tf.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom" src="assets/img/paintings/stillleben-tf.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom"  src="assets/img/paintings/geometric-painting-tf.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                
+
+            </div>
+
+        </div>
+    </div>
+</section>
+                <section class="container-wrapper drawings section-content">
+    <span id="drawings"></span>
+    <div>
+        <div class="drawings-content">
+            <h2> Drawing </h2>
+        </div>
+
+
+
+        <!-- <div class="scroll-gallery-wrapper"> 
+            <a href="" class="gallery-cont">
+                        <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+            
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+            
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a>
+
+            <a href="" class="gallery-cont">
+                <img src="assets/img/drawings/rocket.jpg" alt="">
+            </a> 
+        </div> -->
+
+
+        <main id="carousel-container">
+            <ul class="carousel-ul" id="carousel">
+              <li class="slide" id="audi">
+                <img class="carousel-img" src="assets/img/drawings/rocket.jpg" alt="">
+              </li>
+              <li class="slide" id="ferrari">
+                <img class="carousel-img" src="assets/img/drawings/rocket.jpg" alt="">
+              </li>
+              <li class="slide" id="lamborghini">
+                <img class="carousel-img" src="assets/img/drawings/rocket.jpg" alt="">
+              </li>
+              <li class="slide" id="bmw">
+                <img class="carousel-img" src="assets/img/drawings/rocket.jpg" alt="">
+              </li>
+              <li class="slide" id="mercedes">
+                <img class="carousel-img" src="assets/img/drawings/rocket.jpg" alt="">
+              </li>
+            </ul>
+          </main>
+
+          <div class="overlay-div"></div>
+        
+        <!-- <div class="gallery-wrapper"> 
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="gallery-dummy"></div>
+                    <div class="prj-preview">
+                        <img class="prj-zoom"  src="assets/img/drawings/rocket.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="gallery-dummy"></div>
+                    <div class="prj-preview">
+                        <img class="prj-zoom"  src="assets/img/drawings/mushroom.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="gallery-dummy"></div>
+                    <div class="prj-preview">
+                        <img class="prj-zoom" src="assets/img/drawings/bison.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="prj-cont">
+                <div class="prj-img">
+                    <div class="gallery-dummy"></div>
+                    <div class="prj-preview">
+                        <img class="prj-zoom"  src="assets/img/drawings/shorebird.jpg" alt="">
+                    </div>
+                </div>
+            </a>
+            
+
+        </div> -->
+    </div>
+</section>
+                <section class="products">
+    <div class="container-wrapper section-content">
+        <span id="products"></span>
+        <div>
+            <div class="products-content">
+                <h2 class="font-inverted"> Products </h2>
+            </div>
+
+
+            <div class="gallery-wrapper">
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom"  src="assets/img/drawings/rocket.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+    
+                <a href="" class="prj-cont">
+                    <div class="prj-img">
+                        <div class="gallery-dummy"></div>
+                        <div class="prj-preview">
+                            <img class="prj-zoom"  src="assets/img/drawings/mushroom.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+    
+            </div>
         </div>
     </div>
 </section>

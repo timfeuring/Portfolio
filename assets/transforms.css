@@ -21,7 +21,7 @@
 /* SAUERWEIN */
 /* =============================== */
 #sauerwein-logo {
-    transform: scale(4.1) translateX(-25px) translateY(32px);
+    transform: scale(1.5);
 } 
 
 #sauerwein-logo:hover { transform: scale(2) translateX(0px) translateY(0px); }
@@ -148,3 +148,10 @@
 
 
 
+
+
+
+/* PRJ-ZOOM */
+
+.prj-zoom {transform: scale(1); }
+.prj-zoom:hover {transform: scale(1.01); }
