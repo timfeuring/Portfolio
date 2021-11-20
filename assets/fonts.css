@@ -21,8 +21,8 @@ body {
 h1, h2, h3, h4, h5 { 
     color: var(--text-heavy);
     margin: 0;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1; */
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
@@ -53,8 +53,8 @@ a {
     font-size: var(--font-basis);
     }
 
-    a:hover { color: var(--text-heavy);
-    }
+    /* a:hover { color: var(--text-heavy);
+    } */
 
 
 
