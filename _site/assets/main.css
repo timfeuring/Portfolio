@@ -991,3 +991,45 @@ body {
     font-weight: bold;
     width: 94px;
 }
+
+
+
+
+
+/* OVERLAY FOR PROJECT */
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+    padding: 20px 0 0px 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.overlay:hover {
+    padding: 0px 0 5px 0;
+    opacity: 1;
+}
+
+.prj-headline {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prj-headline span {
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
