@@ -3,7 +3,7 @@ layout: project-post
 title: Swipe Studio
 permalink: /swipe-studio
 category: Logo creation
-img-path: assets/img/posts/swipe-studio-angle.png
+img-path: assets/img/posts/swipe-studio-stage.png
 img-id: swipe-studio-post-img
 img-alt: swipe-studio-logo
 
