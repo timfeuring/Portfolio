@@ -1,7 +1,7 @@
 ---
 layout: project-post
-title: Crêpes et Galettes
-permalink: /crêpes-et-galettes
+title: Tommys & Jerrys
+permalink: /tommys-and-jerrys
 category: Signmaking
 img-path: assets/img/posts/crepes-et-galettes-stage.png
 img-id: 
