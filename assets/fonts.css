@@ -70,3 +70,75 @@ ul { list-style: none; }
 }
 
 .uppercase { text-transform: uppercase; }
+
+
+.centered {text-align: center;}
+
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    position: relative;
+    height: max-content;
+    max-width: fit-content;
+    }
+
+    .underline::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid rgba(0, 0, 0, .2);
+            bottom: -2px;
+            left: 0;
+            transition: width 0.2s;
+        }
+
+    .underline::after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        bottom: -2px;
+        left: 0;
+        transition: width 0.2s;
+    }
+
+    .underline:hover::after {
+        width: 100%;
+        transition: width 0.2s;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+    }
+
+.underline-inverted {
+    position: relative;
+    }
+
+    .underline-inverted::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, .4);
+            bottom: -2px;
+            left: 0;
+            transition: width 0.2s;
+        }
+
+    .underline-inverted::after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        bottom: -2px;
+        left: 0;
+        transition: width 0.2s;
+    }
+
+    .underline-inverted:hover::after {
+        width: 100%;
+        transition: width 0.2s;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+    }
+   
