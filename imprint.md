@@ -21,7 +21,7 @@ E-Mail: feuring.tim@gmail.com</p>
 <br>
 
 
-<h3>Umsatzsteuer:</h3>
+<h3>Umsatzsteuer</h3>
 <p> Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: <br>
 DE330773093
 </p>
