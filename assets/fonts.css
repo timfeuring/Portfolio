@@ -142,7 +142,7 @@ ul {
 .underline {
     position: relative;
     height: max-content;
-    max-width: fit-content;
+    width: fit-content;
 }
 
 .underline::before {
