@@ -20,7 +20,7 @@ img-alt: christian-und-vassil
 # gallery-img-subline-03:     
 # gallery-img-alt-03:        
 ---
-
+<h3>Process</h3>
 Marrying the person you love is amongst the most beautiful experiences one can possibly have. For your special day, everything should feel perfect – and that includes the way you announce your wedding to your friends and family.
 
 For this project, I developed a warm and happy visual style by combining typography and illustration to form a unique appearance.

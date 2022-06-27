@@ -19,7 +19,7 @@ img-alt: sauerwein-label
 # gallery-img-subline-03:     
 # gallery-img-alt-03:         
 ---
-
+<h3>Process</h3>
 The Sauerweins are a family of winemakers, owning a small winery business near to the Mosel in western Germany. Their roots go back to the 17th century and originally derive from southern Tyrol. Since 1924, they produce fine wines that are renowned well beyond their closer region. 
 
 The winery approached its brand with a rather classic, maybe a bit old-fashioned look and feel. My aim was to refresh the visual appearance with a new logo and label while maintaining and communicating their core values.

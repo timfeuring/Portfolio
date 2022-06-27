@@ -19,6 +19,7 @@ img-alt: crêpes-et-galettes
 # gallery-img-subline-03:     
 # gallery-img-alt-03:         
 ---
+<h3>Process</h3>
 
 What tastes better than a sweet crêpe or a hearty galette on a walk through the christmas market?
 

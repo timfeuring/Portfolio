@@ -19,5 +19,5 @@ img-alt: CVJM verbindet
 # gallery-img-subline-03:     
 # gallery-img-alt-03:         
 ---
-
+<h3>Process</h3>
 CVJM verbindet! For the anniversary of a local youth club, I designed a fresh and clean logo to be used for merchandise.

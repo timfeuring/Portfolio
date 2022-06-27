@@ -19,7 +19,7 @@ img-alt: extra-butter-lettering
 # gallery-img-subline-03:     
 # gallery-img-alt-03:       
 ---
-
+<h3>Process</h3>
 Adding a little bit of Extra Butter on top.
 
 Extra Butter is a custom, hand-designed logotype project of mine. 
