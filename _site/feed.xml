@@ -1,221 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-04T12:22:33+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio - Tim Feuring</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Screen Memories</title><link href="http://localhost:4000/screen-memories" rel="alternate" type="text/html" title="Screen Memories" /><published>2019-09-01T00:00:00+02:00</published><updated>2019-09-01T00:00:00+02:00</updated><id>http://localhost:4000/screen-memories</id><content type="html" xml:base="http://localhost:4000/screen-memories">&lt;div class=&quot;screen-memories-container&quot;&gt;
-    
-
-    &lt;br /&gt;&lt;br /&gt;
-    &lt;h3&gt;A component-based variable font experiment&lt;/h3&gt;
-    &lt;br /&gt;
-    &lt;p&gt; Variable fonts open up a great range of new possibilities for typography in digital applications. 
-        &lt;br /&gt;
-        ((implementation in type design, component-based approach, ...))
-        &lt;br /&gt;&lt;br /&gt;
-        This page shows the  outcomes of my experiments with creating a component-based font thats aligned to a specific grid.
-        &lt;br /&gt;&lt;br /&gt;
-    &lt;/p&gt;
-        &lt;h4&gt; Introducing variable axes&lt;/h4&gt;
-        
-    &lt;p&gt;There are four axes in this variable font that can each be manipulated seperately. See below how the axes affect the base component of the letters:&lt;/p&gt;
-
-
-    &lt;div class=&quot;component-explanation&quot;&gt;
-        &lt;div class=&quot;component-example&quot;&gt;
-            &lt;div&gt;
-                &lt;span class=&quot;screenmemories-base wght-loop&quot;&gt;°&lt;/span&gt;
-                &lt;span class=&quot;component-example-subline&quot;&gt; Weight &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;component-example&quot;&gt;
-            &lt;div&gt;
-                &lt;span class=&quot;screenmemories-base form-loop&quot;&gt;°&lt;/span&gt;
-                &lt;span class=&quot;component-example-subline&quot;&gt; Form &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;component-example&quot;&gt;
-            &lt;div&gt;
-                &lt;span class=&quot;screenmemories-base slnt-loop&quot;&gt;°&lt;/span&gt;
-                &lt;span class=&quot;component-example-subline&quot;&gt; Slant &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;component-example&quot;&gt;
-            &lt;div&gt;
-                &lt;span class=&quot;screenmemories-base angl-loop&quot;&gt;°&lt;/span&gt;
-                &lt;span class=&quot;component-example-subline&quot;&gt; Angle &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-    &lt;p&gt;Now how does the adjustment of the base component affect the look and feel of the letters? Hover over the boxes to see how the properties of the letters change.&lt;/p&gt;
-
-    &lt;div class=&quot;axis-explanation&quot;&gt;
-        &lt;div class=&quot;axis-box&quot;&gt;
-            &lt;h5&gt;Weight&lt;/h5&gt;
-            &lt;span class=&quot;screenmemories-base axis-example wght&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-        
-        &lt;div class=&quot;axis-box&quot;&gt;
-            &lt;h5&gt;Form&lt;/h5&gt;
-            &lt;span class=&quot;screenmemories-base axis-example form&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;axis-box&quot;&gt;
-            &lt;h5&gt;Slant&lt;/h5&gt;
-            &lt;span class=&quot;screenmemories-base axis-example slnt&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;axis-box&quot;&gt;
-            &lt;h5&gt;Component Angle&lt;/h5&gt;
-            &lt;span class=&quot;screenmemories-base axis-example angl&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div&gt;
-        &lt;h4&gt;Weight&lt;/h4&gt;    
-        &lt;br /&gt;
-        &lt;div class=&quot;text-stage-axes&quot;&gt;
-            &lt;span class=&quot;stage-text screenmemories-base weight-example&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Weight&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div&gt;
-        &lt;h4&gt;Form&lt;/h4&gt;    
-        &lt;br /&gt;
-        &lt;div class=&quot;text-stage-axes&quot;&gt;
-            &lt;span class=&quot;stage-text screenmemories-base form-example&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Form&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div&gt;
-        &lt;h4&gt;Slant&lt;/h4&gt;    
-        &lt;br /&gt;
-        &lt;div class=&quot;text-stage-axes&quot;&gt;
-            &lt;span class=&quot;stage-text screenmemories-base slant-example&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Slant&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div&gt;
-        &lt;h4&gt;Component Angle&lt;/h4&gt;    
-        &lt;br /&gt;
-        &lt;div class=&quot;text-stage-axes&quot;&gt;
-            &lt;span class=&quot;stage-text screenmemories-base angle-example&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Angle&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div&gt;
-        &lt;h4&gt;All variable axes together&lt;/h4&gt;    
-        &lt;br /&gt;
-        &lt;div class=&quot;text-stage-axes&quot;&gt;
-            &lt;span class=&quot;stage-text screenmemories-base all-axes-example&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;All axes&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-
-    &lt;p&gt; But what happens when our base component changes its form completely? &lt;br /&gt;
-        Try it out and switch the base component by clicking one the one you'd like to see.
-    &lt;/p&gt;
-
-
-    &lt;div&gt;
-        &lt;div class=&quot;component-change&quot;&gt;
-            &lt;div id=&quot;variant-a&quot; class=&quot;component-changer active-changer&quot;&gt;
-                &lt;span&gt; ° &lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div id=&quot;variant-b&quot; class=&quot;component-changer inactive-changer&quot;&gt;
-                &lt;span&gt; ° &lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div id=&quot;variant-c&quot; class=&quot;component-changer inactive-changer&quot;&gt;
-                &lt;span&gt; ° &lt;/span&gt;
-            &lt;/div&gt;
-            &lt;div id=&quot;variant-d&quot; class=&quot;component-changer inactive-changer&quot;&gt;
-                &lt;span&gt; ° &lt;/span&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;text-stage&quot;&gt;
-            &lt;span id=&quot;stagetext&quot; class=&quot;stage-text screenmemories-base&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Hello&amp;nbsp;&lt;/span&gt;
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-
-    &lt;div class=&quot;charset&quot;&gt;
-        &lt;h4&gt;Character Set&lt;/h4&gt;
-        &lt;span class=&quot;screenmemories-base&quot;&gt; 
-            ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ
-            &lt;br /&gt;
-            abcdefghijklmnopqrstuvwxyzäöü
-            &lt;br /&gt;
-            0123456789
-            &lt;br /&gt;
-            .,:;!?-–()
-        &lt;/span&gt;
-    &lt;/div&gt;
-
-    &lt;p&gt; 
-        &lt;!-- Thanks for reading and checking out my variable font experiments! --&gt;
-        &lt;br /&gt;&lt;br /&gt;
-        This font was designed in the type design course &quot;Screen Memories&quot; under the guidance of Prof. Pierre-Pane-Farré, summer semester 2022, HAW Hamburg.
-    &lt;/p&gt;
-
-
-&lt;script&gt;    
-    document.getElementById(&quot;variant-a&quot;).addEventListener(&quot;click&quot;, fontVariantA);
-    function fontVariantA() {
-        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-a&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
-
-        document.getElementById(&quot;variant-a&quot;).classList.remove(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
-        
-    }
-
-
-    document.getElementById(&quot;variant-b&quot;).addEventListener(&quot;click&quot;, fontVariantB);
-    function fontVariantB() {
-        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-b&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
-
-        document.getElementById(&quot;variant-b&quot;).classList.remove(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
-    }
-
-    document.getElementById(&quot;variant-c&quot;).addEventListener(&quot;click&quot;, fontVariantC);
-    function fontVariantC() {
-        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-c&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
-
-        document.getElementById(&quot;variant-c&quot;).classList.remove(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
-    }
-
-    document.getElementById(&quot;variant-d&quot;).addEventListener(&quot;click&quot;, fontVariantD);
-    function fontVariantD() {
-        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-d&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
-        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
-
-        document.getElementById(&quot;variant-d&quot;).classList.remove(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
-        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
-    }
-
-&lt;/script&gt;
-
-
-&lt;/div&gt;</content><author><name></name></author><category term="Type Design" /><summary type="html">A component-based variable font experiment Variable fonts open up a great range of new possibilities for typography in digital applications. ((implementation in type design, component-based approach, ...)) This page shows the outcomes of my experiments with creating a component-based font thats aligned to a specific grid. Introducing variable axes There are four axes in this variable font that can each be manipulated seperately. See below how the axes affect the base component of the letters: ° Weight ° Form ° Slant ° Angle Now how does the adjustment of the base component affect the look and feel of the letters? Hover over the boxes to see how the properties of the letters change. Weight ^ A&amp;nbsp; Form ^ A&amp;nbsp; Slant ^ A&amp;nbsp; Component Angle ^ A&amp;nbsp; Weight &amp;nbsp;Weight&amp;nbsp; Form &amp;nbsp;Form&amp;nbsp; Slant &amp;nbsp;Slant&amp;nbsp; Component Angle &amp;nbsp;Angle&amp;nbsp; All variable axes together &amp;nbsp;All axes&amp;nbsp; But what happens when our base component changes its form completely? Try it out and switch the base component by clicking one the one you'd like to see. ° ° ° ° &amp;nbsp;Hello&amp;nbsp; Character Set ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ abcdefghijklmnopqrstuvwxyzäöü 0123456789 .,:;!?-–() This font was designed in the type design course &quot;Screen Memories&quot; under the guidance of Prof. Pierre-Pane-Farré, summer semester 2022, HAW Hamburg.</summary></entry><entry><title type="html">CVJM verbindet</title><link href="http://localhost:4000/cvjm-verbindet" rel="alternate" type="text/html" title="CVJM verbindet" /><published>2019-08-30T00:00:00+02:00</published><updated>2019-08-30T00:00:00+02:00</updated><id>http://localhost:4000/cvjm-verbindet</id><content type="html" xml:base="http://localhost:4000/cvjm-verbindet">&lt;h3&gt;Process&lt;/h3&gt;
-&lt;p&gt;CVJM verbindet! For the anniversary of a local youth club, I designed a fresh and clean logo to be used for merchandise.&lt;/p&gt;</content><author><name></name></author><category term="Logo creation" /><summary type="html">Process CVJM verbindet! For the anniversary of a local youth club, I designed a fresh and clean logo to be used for merchandise.</summary></entry><entry><title type="html">Tommys &amp;amp; Jerrys</title><link href="http://localhost:4000/tommys-and-jerrys" rel="alternate" type="text/html" title="Tommys &amp; Jerrys" /><published>2019-08-28T00:00:00+02:00</published><updated>2019-08-28T00:00:00+02:00</updated><id>http://localhost:4000/crepes-et-galettes</id><content type="html" xml:base="http://localhost:4000/tommys-and-jerrys">&lt;h3&gt;Process&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-04T21:04:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio - Tim Feuring</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Tommys &amp;amp; Jerrys</title><link href="http://localhost:4000/tommys-and-jerrys" rel="alternate" type="text/html" title="Tommys &amp; Jerrys" /><published>2019-08-28T00:00:00+02:00</published><updated>2019-08-28T00:00:00+02:00</updated><id>http://localhost:4000/crepes-et-galettes</id><content type="html" xml:base="http://localhost:4000/tommys-and-jerrys">&lt;h3&gt;Process&lt;/h3&gt;
 
 &lt;p&gt;What tastes better than a sweet crêpe or a hearty galette on a walk through the christmas market?&lt;/p&gt;
 
@@ -248,7 +31,153 @@ From initial lettering as a pencil-sketch to refined vector artwork, it evolved 
 
 &lt;p&gt;It’s about time we pour less energy in fighting about different gender concepts, but focus on what truly unites us all – we are all human beings with dignity and deserve to be accepted from one another whereever we go. The simple task of making public toilets accessible for everyone is a small step into that direction.&lt;/p&gt;
 
-&lt;p&gt;With that being said, I am very happy that I could contribute a tiny bit to the cause by creating this sign-concept for a local restaurant. The letters were drawn by hand, lasercut from oak wood and then put up on the bathroom doors, where they now make a beautiful and warm impression to welcome anyone.&lt;/p&gt;</content><author><name></name></author><category term="Signmaking / Lettering" /><summary type="html">Process The debate about unisex or genderless bathrooms in public spaces has been going on for years. No matter which point of view you might have on the topic or if it is relevant in your daily life, one thing is clear: the binary approach affects people and often makes the simple task of going to the toilet more complicated than necessary, whether the problem appears in the form of longer queues and waiting times for women at basically any social events, or the way non-binary-identifying people often feel mistreated and unaccepted through such a classification.</summary></entry><entry><title type="html">Swipe Studio</title><link href="http://localhost:4000/swipe-studio" rel="alternate" type="text/html" title="Swipe Studio" /><published>2019-08-09T00:00:00+02:00</published><updated>2019-08-09T00:00:00+02:00</updated><id>http://localhost:4000/swipe-studio</id><content type="html" xml:base="http://localhost:4000/swipe-studio">&lt;h3&gt;Process&lt;/h3&gt;
-&lt;p&gt;SinnerSchrader Swipe is a Studio specialized in creating awesome mobile experiences. We are a small Team of approximately 30 people in Hamburg and regularly gather together in certain teamevents. This year, we decided to screen print our own custom clothing. For this case, the goal was to create a new custom logomark to represent our studio in a casual way.&lt;/p&gt;
+&lt;p&gt;With that being said, I am very happy that I could contribute a tiny bit to the cause by creating this sign-concept for a local restaurant. The letters were drawn by hand, lasercut from oak wood and then put up on the bathroom doors, where they now make a beautiful and warm impression to welcome anyone.&lt;/p&gt;</content><author><name></name></author><category term="Signmaking / Lettering" /><summary type="html">Process The debate about unisex or genderless bathrooms in public spaces has been going on for years. No matter which point of view you might have on the topic or if it is relevant in your daily life, one thing is clear: the binary approach affects people and often makes the simple task of going to the toilet more complicated than necessary, whether the problem appears in the form of longer queues and waiting times for women at basically any social events, or the way non-binary-identifying people often feel mistreated and unaccepted through such a classification.</summary></entry><entry><title type="html">Dreamy Donuts</title><link href="http://localhost:4000/dreamy-donuts" rel="alternate" type="text/html" title="Dreamy Donuts" /><published>2019-08-10T00:00:00+02:00</published><updated>2019-08-10T00:00:00+02:00</updated><id>http://localhost:4000/dreamy-donuts</id><content type="html" xml:base="http://localhost:4000/dreamy-donuts">&lt;h3 class=&quot;article-headline&quot;&gt;It’s a sign&lt;/h3&gt;
 
-&lt;p&gt;After exploring different directions, it became clear that it had to be a typography-inspired approach with a rather bold look. I started sketching out several ideas on paper, and in the end came up with an arrangement of letters and shapes that end up fitting together in a perfect square. I transferred the analog design to digital and refined it furthermore. We ended up screen printing laptop-bags, shirts and hoodies in a variety of sizes and colors - some of which can be seen below.&lt;/p&gt;</content><author><name></name></author><category term="Logo creation" /><summary type="html">Process SinnerSchrader Swipe is a Studio specialized in creating awesome mobile experiences. We are a small Team of approximately 30 people in Hamburg and regularly gather together in certain teamevents. This year, we decided to screen print our own custom clothing. For this case, the goal was to create a new custom logomark to represent our studio in a casual way.</summary></entry></feed>
+&lt;p&gt;Sweet donuts, delicious cakes, perfect coffee with latte-art on it and everything else you could wish for in a café. You just feel when a restaurant or cafe has that kind of soul to it, when everything is made with love and passion, when people put their hearts in and create beautiful sourroundings – to heartily welcome their customers to embrace the sweet things in life. And what underlines handmade, personal, delicious food made with love even more? Exactly, handmade signs made with the same personality and passion. For the grand opening of the cafe, I had the pleasure to design a concept and to hand-paint the signs for the store. 
+&lt;br /&gt;&lt;br /&gt;
+At the beginning of a (signpainting) project, there are always a bunch of open questions. What is the purpose of the sign? Is it a main information source or is it more decorational? Which information exactly should it transport, what are possible ways to produce and what fits best to the customer? What do the commodities allow?
+&lt;br /&gt;&lt;br /&gt;
+In this case, possibilities were pretty much open in any direction. The main goal was to create well-functioning signs that give customers a good orientation and fit to the brand and the style of the location. The overall look and feel should be high-quality, trustworthy, and transport love to the details. Looking for a way to convey these attributes, the idea of hand-painting the signs was close. Handpainted signs have personality. Each sign is unique, each letter individually written for an exact purpose and and exact place. It enrichens the overall look and feel of a location, and beyond plain information, it transports the craftsmenship and love for detail with it.&lt;br /&gt;
+&lt;br /&gt;
+With these questions in mind, the first job the be done before picking up a brush and paint was to sort out information and create a visual concept.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-01.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Starting with the basics: sorting information
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For the cafe, the menu was rather broad. There were loads of beverages and different kinds of food. In addition, the owner wanted to stay flexible to test out different dishes and see what works out best, especially regarding the donuts and bagels. To solve this problem and narrow it down for the signs, splitting the menu into two categories made sense: one fixed part for the beverages that do not change often, and another part that could be easily adjusted for the food. This way, the beverages would make out the major part of the handpainted signs.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-02.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Sketching out ideas for placement and form of the signs
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;After clustering the menu and deciding which information should go on the signs, the planning of size and position starts. The location of the café had high ceilings and a broad free space, which allowed for a wide sign of ~5 metres.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-03.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Preparing the wooden boards with chalkboard paint
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this case, the chalkboards are all custom tailored. The base is made of wooden board, then chalkboard paint is applied. You can ususally get all that is needed for preparing chalk boards from your local hardware store or order the materials online.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-04.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Measuring and lining down the baselines for the sign. An improvised ruler (left) can help to easen the process
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Time to prepare for the letters! When transferring the sketches and positions to the board correctly, it is helpful to calculate the amount of rows and columns. Additionally, I like to make myself a kind of ruler with the correct measurements, this saves some time when drawing the baselines.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-05.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Rough sketches to determine the size of the letters (left) and testing out the sizes on a draft paper before painting on the board (right)
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now all the baselines are ready to go and the board is marked. Previously I tested how the size of letters would work out optically. Also, I painted an example row with the final brushes on draft paper to determine the final look and style of letters.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-06.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    The critical phase: painting the menu on the board 
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Everything set and prepared, lets go! Row by row, I now paint the menu items on the board. At hand is the list to get everything in right order and a wet towel to erase baselines or errors.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-07.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Detail shot of the coffee menu
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Adding some final details – and it’s finished!&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-08.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    The boards hanging in their final place on the wall
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/dreamy-donuts/dreamy-donuts-article-09.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;
+    Final coffee and tea signs seperated
+    &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This signpainting job was particularly fun and challenging. I’m very happy with the end result and I’m looking forward to more similar work.
+&lt;br /&gt;&lt;br /&gt;
+Thank you for reading! 😊&lt;/p&gt;</content><author><name></name></author><category term="Signmaking" /><summary type="html">It’s a sign</summary></entry><entry><title type="html">Swipe Studio</title><link href="http://localhost:4000/swipe-studio" rel="alternate" type="text/html" title="Swipe Studio" /><published>2019-08-09T00:00:00+02:00</published><updated>2019-08-09T00:00:00+02:00</updated><id>http://localhost:4000/swipe-studio</id><content type="html" xml:base="http://localhost:4000/swipe-studio">&lt;h3 class=&quot;article-headline&quot;&gt;A mazing design studio&lt;/h3&gt;
+
+&lt;p&gt;Swipe is SinnerSchraders mobile studio, specialized in creating awesome mobile experiences – and it is the studio I had the luck to absolve my three year graphic design apprenticeship in. 
+&lt;br /&gt;&lt;br /&gt;
+Founded in 2010, it has expanded over time and is now located in the cities of Hamburg, Berlin and Zürich. On a regular basis, we organize activities for teambuilding or just hanging out and having a good time together. In 2019, the suggestion of printing and branding our own clothing by hand and came up. The idea for the screen printing workshop was born and with it, the challenge to design appealing graphics that people would want to wear. 
+&lt;br /&gt;&lt;br /&gt;
+Being especially interested in everything connected to typography and lettering, my wish was to create a bold and interesting logomark. While gathering inspiration from calligraphers, lettering artists and designers, I found grid-based, geometric type to have especially interesting bold aesthetics with rich contrasts. The idea was set, so let’s start the work! 
+&lt;br /&gt;&lt;br /&gt;
+It all starts with pen and paper. For me personally, sketching is the very best way to get thoughts out of your head, visualize ideas, to test concepts and to see what works and what does not. In my opinion, sketches do not need to be works of art or look especially great. For designing, they are more of a helpful tool for the process.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-01.png&quot; alt=&quot;first sketches on paper&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;I.) Letters filling former logo shape &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; II.) Combination of letters and outline of the logo shape&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The first approach was to letter Swipe Studio to fit the geometric form of the former Swipe logo, which in the end did not end up working the way I imagined it to be.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-02.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;I.) First draft with longer wording &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; II.) Roughly determining the letter shapes &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; III.) Refining positions of the letters &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Instead, sketching the letters in the form of a grid seemed to be a much more promising approach. The interconnection and wrapping of the letters created an interesting aesthetic even in the quick sketches that needed to be explored further. After a few iterations the basic arrangement of the letters started to work out fine.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-03.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt; Process of refining the sketch and turning it into digital&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Having set the basis, the next step was to arrange the letters in a geometric grid and to rebuild them as vectors.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-04.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;Finished logomark &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now the logo only needed some more tweaks to get the contrast and whitespace just right. Fortunately, the constructed form of the letters and the way it was built using stroke vectors allows for quick adjustments of thickness. Et voilà, the logomark is finished!
+&lt;br /&gt;&lt;br /&gt;
+Below, you can find some impressions from the screen printing workshop and the print results. We printed the logo on tote bags, shirts and even laptop cases.&lt;/p&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-05.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;Applying the color on the screen (left) and cleaning the screen after the printing process (right) &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-06.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;Some of the printed fabrics – laptop cases, shirts and tote bags &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;additional-img&quot;&gt;
+    &lt;img src=&quot;assets/img/posts/swipe-studio/swipe-article-07.png&quot; alt=&quot;&quot; /&gt;
+    &lt;span class=&quot;additional-img-desc&quot;&gt;The Swipe Studio logo painted on the studio wall in Hamburg &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Initally, the logomark was designed and intended for having a fun screen printing workshop. But from this point, it started to live it’s own life. Over time, it was used more and more throughout the studio and eventually became the official Swipe logo that is now being used over several channels and painted over the walls in Hamburg, Berlin and Zurich.
+&lt;br /&gt;&lt;br /&gt;
+Learn more about Swipe on 
+&lt;a class=&quot;underline&quot; href=&quot;https://www.linkedin.com/company/sinnerschrader-swipe-gmbh/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;
+or
+&lt;a class=&quot;underline&quot; href=&quot;https://www.instagram.com/swipestudio/&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Logo creation" /><summary type="html">A mazing design studio</summary></entry></feed>

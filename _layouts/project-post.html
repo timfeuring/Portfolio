@@ -2,36 +2,15 @@
 <html lang="de">
     {% include head.html%}
     <body>
-        {% include project-navigation.html %}          
+        {% include project-navigation.html %}
         <section class="container-wrapper prj-details">
                 <div class="prj-details-intro">
-                    <h2> {{page.title}} </h2>
-                    <p class="prj-desc-subline"> {{page.category}} </p>
-                    <img id="{{page.img-id}}" class="intro-img-alternative" src="{{page.img-path}}" alt="{{page.img-alt}}">
+                    <h2 class="project-title"> {{page.title}} </h2>
+                    <p class="project-category"> {{page.category}} </p>
+                    <img id="{{page.img-id}}" class="stage-img" src="{{page.img-path}}" alt="{{page.img-alt}}">
                     
-                    <p class="prj-desc-copy">
-                            {{ content }}
-                </div>
-
-                <div class="prj-img-container">
-                    {% if page.gallery-img-path-01 %}
-                    <div class="additional-img">
-                        <img src="{{page.gallery-img-path-01}}" alt="{{page.gallery-img-alt-01}}">
-                        <span class="additional-img-desc"> {{page.gallery-img-subline-01}} </span>
-                    </div>
-                    {% endif %}
-                    {% if page.gallery-img-path-02 %}
-                    <div class="additional-img">
-                        <img src="{{page.gallery-img-path-02}}" alt="{{page.gallery-img-alt-02}}">
-                        <span class="additional-img-desc">{{page.gallery-img-subline-02}}</span>
-                    </div>
-                    {% endif %}
-                    {% if page.gallery-img-path-03 %}
-                    <div class="additional-img">
-                        <img src="{{page.gallery-img-path-03}}" alt="{{page.gallery-img-alt-03}}">
-                        <span class="additional-img-desc">{{page.gallery-img-subline-03}}</span>
-                    </div>
-                    {% endif %}
+                        {{ content }}
                 </div>
         </section>
+        {% include footer-light.html %}
     </body>
