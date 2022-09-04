@@ -566,23 +566,51 @@ body {
 }
 
 
-/* Imprint */
+/* Footer */
 /* ============================================================================ */
-
-.imprint {
+.footer-light {
     display: flex;
     justify-content: center;
     padding: 30px 0 30px;
     background-color: #fff;
-}
-
-.imprint a {
     color: rgba(0, 0, 0, .5);
 }
 
-.imprint a:hover {
+.footer-light a {
+    color: rgba(0, 0, 0, .5);
+}
+
+.footer-light a:hover {
     color: rgba(0, 0, 0, 1);
 }
+
+.footer-dark {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px;
+    background-color: #000;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-dark a {
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-dark a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    footer span, footer a {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+/* Imprint */
+/* ============================================================================ */
 
 .imprint-content {
     margin-top: 150px;
@@ -685,9 +713,9 @@ body {
             }
         }
 
-.intro-img-alternative {
+.stage-img {
     width: 100%;
-    margin: 0 0 10px 0;
+    /* margin: 0 0 10px 0; */
 }
 
 .prj-desc-title, .prj-desc-copy {
@@ -712,7 +740,7 @@ body {
             }
         }
 
-.prj-desc-subline {
+.project-category {
     color: var(--text-light);
     margin: 0px 0 20px 0;
 }
@@ -727,14 +755,38 @@ body {
 .additional-img {
     display: flex;
     flex-direction: column;
+    margin: 60px 0 40px 0;
 }
+
+    @media only screen and (max-width: 800px) {
+        .additional-img {
+            flex-direction: column;
+            margin: 50px 0 30px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .additional-img {
+            flex-direction: column;
+            margin: 40px 0 25px 0
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .additional-img {
+            flex-direction: column;
+            margin: 30px 0 20px 0
+        }
+    }
+
+
 
 .additional-img img {
     width: 100%;
 }
 
 .additional-img span {
-    padding: 10px 0 30px 0;
+    padding: 10px 0 0 0;
     color: #8b8b8b;
     font-size: var(--font-basis);
 }
@@ -854,7 +906,7 @@ body {
 
 .error-container {
     width: 100%;
-    height: 100%;
+    min-height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -890,7 +942,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 120px 0;
+    min-height: calc(100vh - 80px);
 }
 
 .contact p {
