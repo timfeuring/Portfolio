@@ -274,3 +274,430 @@ ul {
                 max-width: 650px;
             }
         }
+
+
+
+/* SCREEN MEMORIES VARIABLE FONT */
+
+@font-face {
+    font-family: "screenmemories";
+    src: url("fonts/variable-project.ttf");
+}
+
+@font-face {
+    font-family: "screenmemories-thick";
+    src: url("fonts/variant-thick.ttf");
+}
+
+@font-face {
+    font-family: "screenmemories-points";
+    src: url("fonts/variant-points.ttf");
+}
+
+@font-face {
+    font-family: "screenmemories-keil";
+    src: url("fonts/variant-keil.ttf");
+}
+
+
+.screen-memories-container {
+    max-width: unset;
+}
+
+.screenmemories-base {
+    font-family: screenmemories;
+    font-size: 200px;
+    font-weight: 200;
+    line-break: anywhere;
+    line-height: 60%;
+    transition: .2s ease-in-out;
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0; 
+    /* text-transform: uppercase; */
+}
+
+.screenmemories-base:hover {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0; 
+    transition: .2s ease-in-out;
+}
+
+
+.component-explanation {
+    display: flex;
+    padding: 60px 0;
+}
+
+.component-example {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    /* height: 350px; */
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    padding: 75px 0 50px 0;
+}
+
+.component-example .screenmemories-base{
+    font-size: 450px;
+    line-height: 30%;
+    padding-top: 25px;
+}
+
+.component-example-subline {
+    padding: 20px 0;
+}
+
+
+.wght-loop { 
+    animation: weight 2s infinite;
+}
+
+.form-loop { 
+    animation: form 1.5s infinite ;
+}
+
+.slnt-loop { 
+    animation: slant 2s infinite ;
+}
+
+.angl-loop { 
+    animation: angle 2.5s infinite ;
+}
+
+
+@keyframes weight {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 700, 'FORM' 0 , 'slnt' 0, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes form {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 800, 'slnt' 0, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes slant {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 800, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes angle {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 800;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+
+.axis-explanation {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.axis-box {
+    padding: 0 40px 10px 0;
+}
+
+.axis-example {
+    font-size: 495px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    line-height: 45%;
+    cursor: pointer;
+}
+
+
+
+
+/* ===== WEIGHT ===== */
+
+.wght { 
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+    transition: .5s;
+}
+
+.wght:hover { 
+    font-variation-settings: 'wght' 700, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+    transition: .5s;
+}
+
+/* ===== FORM ===== */
+
+.form {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+.form:hover {
+    font-variation-settings: 'wght' 0, 'FORM' 800, 'slnt' 0, 'ANGL' 0;
+}
+
+
+/* ===== SLANT ===== */
+
+.slnt {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+.slnt:hover {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 800, 'ANGL' 0;
+}
+
+
+/* ===== ANGLE ===== */
+
+.angl {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+    transition: 1s;
+}
+
+.angl:hover {
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 800;
+    transition: 1s;
+}
+  
+
+.charset {
+    padding-bottom: 50px;
+}
+.charset span{
+    font-size: 110px;
+}
+
+
+
+.enter-own-text {
+    padding-bottom: 50px;
+}
+
+.user-text-area { 
+    width: 100%; 
+    font-size: 280px;
+}
+
+.user-text-area:focus { 
+    border: none;
+    outline: none;
+}
+
+input[type=text], select {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid magenta;
+    box-sizing: border-box;
+  }
+
+input[type=text]:focus {
+    border: none;
+    outline: none;
+}
+  
+
+
+
+.component-change {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.component-icon {
+    width: 100px;
+    padding: 0 20px;
+    opacity: 0.5;
+}
+
+.component-icon:hover {
+    cursor: pointer;
+    opacity: 1.0;
+
+}
+
+.text-stage {
+    width: 100%;
+    min-height: 500px;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.text-stage-axes {
+    width: 100%;
+    min-height: 500px;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.stage-text {
+    border: none;
+    outline: none;
+    padding: 40px;
+}
+
+.text-stage .screenmemories-base {
+    font-size: 400px;
+}
+
+.text-stage-axes .screenmemories-base {
+    font-size: 400px;
+}
+
+
+@keyframes weight-and-form {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 600, 'FORM' 800 , 'slnt' 0, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+
+@keyframes all-axes {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 700, 'FORM' 800 , 'slnt' 800, 'ANGL' 600;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes weight-example {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 650, 'FORM' 0 , 'slnt' 0, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes form-example {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 800 , 'slnt' 0, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes slant-example {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 0 , 'slnt' 800, 'ANGL' 0;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+@keyframes angle-example {
+    0% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+    50% {font-variation-settings: 'wght' 0, 'FORM' 0 , 'slnt' 0, 'ANGL' 650;}
+    100% {font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;}
+}
+
+
+.weight-and-form-example {
+    font-size: 200px;
+    animation: weight-and-form 2s infinite;
+}
+
+.all-axes-example {
+    animation: all-axes 2s infinite;
+    font-size: 200px;
+}
+
+.weight-example {
+    animation: weight-example 2s infinite;
+    font-size: 200px;
+}
+
+.form-example {
+    animation: form-example 2s infinite;
+    font-size: 200px;
+}
+
+.slant-example {
+    animation: slant-example 2s infinite;
+    font-size: 200px;
+}
+
+.angle-example {
+    animation: angle-example 2s infinite;
+    font-size: 200px;
+}
+
+
+
+
+
+.component-changer {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.component-changer span {
+    font-size: 350px;
+    line-height: 10%;
+}
+
+.active-changer {
+    opacity: 1.0;
+}
+
+.inactive-changer {
+    opacity: 0.4;
+}
+
+.inactive-changer:hover {
+    opacity: 1.0;
+}
+
+
+/* Hier font-varianten für changer zuweisen */
+
+#variant-a {
+    font-family: screenmemories;
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+#variant-b {
+    font-family: screenmemories-thick;
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+#variant-c {
+    font-family: screenmemories-keil;
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+#variant-d {
+    font-family: screenmemories-points;
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;
+}
+
+
+/* varianten für Beispieltext */
+
+.font-variant-a {
+    font-family: screenmemories;
+}
+
+.font-variant-b {
+    font-family: screenmemories-thick;
+}
+
+.font-variant-c {
+    font-family: screenmemories-keil;
+}
+
+.font-variant-d {
+    font-family: screenmemories-points;
+}
+
+
+
+
+.hello {
+    font-size: 200px;
+}
+

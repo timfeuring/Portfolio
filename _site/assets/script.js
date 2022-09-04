@@ -26,8 +26,3 @@ setTimeout(function typeWriter() {
   }
 }, 1000)
 
-
-// img transform on hover of overlay TESTS
-
-const prjOverlay= document.getElementsByClassName('overlay');
-const prjImage = document.getElementsByClassName('project-preview-img');

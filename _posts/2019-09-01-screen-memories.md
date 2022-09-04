@@ -20,4 +20,6 @@ img-alt:
 # gallery-img-alt-03:         
 ---
 
-<h3>A component-based variable font</h3>
+
+
+{% include screen-memories.html %}
