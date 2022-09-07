@@ -3,7 +3,7 @@ layout: project-post
 title: Dreamy Donuts
 permalink: /dreamy-donuts
 category: Signmaking
-img-path: assets/img/posts/dreamy-donuts/dreamy-donuts-stage.png
+img-path: assets/img/posts/dreamy-donuts/dreamy-donuts-article-08.png
 img-id:
 img-alt: dreamy donuts signage
 
@@ -82,12 +82,12 @@ Everything set and prepared, lets go! Row by row, I now paint the menu items on 
 
 Adding some final details – and it’s finished! 
 
-<div class="additional-img">
+<!-- <div class="additional-img">
     <img src="assets/img/posts/dreamy-donuts/dreamy-donuts-article-08.png" alt="">
     <span class="additional-img-desc">
     The boards hanging in their final place on the wall
     </span>
-</div>
+</div> -->
 
 <div class="additional-img">
     <img src="assets/img/posts/dreamy-donuts/dreamy-donuts-article-09.png" alt="">
@@ -98,4 +98,4 @@ Adding some final details – and it’s finished!
 
 This signpainting job was particularly fun and challenging. I’m very happy with the end result and I’m looking forward to more similar work.
 <br><br>
-Thank you for reading! 😊 
+Thanks for reading! 😊

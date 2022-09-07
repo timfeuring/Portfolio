@@ -70,3 +70,5 @@ Learn more about Swipe on
 <a class="underline" href="https://www.linkedin.com/company/sinnerschrader-swipe-gmbh/" target="_blank">LinkedIn</a>
 or
 <a class="underline" href="https://www.instagram.com/swipestudio/" target="_blank">Instagram</a>.
+<br><br>
+Thanks for reading! 😊
