@@ -5,9 +5,9 @@ permalink: /imprint
 ---
 
 <!-- Imprint -->
-<h1>Impressum</h1>
+<h2>Impressum</h2>
 <br>
-<h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
+<h4>Angaben gem&auml;&szlig; &sect; 5 TMG</h4>
 <p>Tim Feuring<br>
 Tim Feuring Grafik- und Webdesign<br>
 Deelwisch 54<br>
@@ -15,20 +15,20 @@ Deelwisch 54<br>
 <br>
 
 
-<h3>Kontakt</h3>
+<h4>Kontakt</h4>
 <p>Telefon: +49 15155526691<br>
 E-Mail: feuring.tim@gmail.com</p>
 <br>
 
 
-<h3>Umsatzsteuer</h3>
+<h4>Umsatzsteuer</h4>
 <p> Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: <br>
 DE330773093
 </p>
 <br>
 
 
-<h3>Haftung für Inhalte</h3>
+<h4>Haftung für Inhalte</h4>
 <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
 
 Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
@@ -44,7 +44,7 @@ Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unt
 Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
 <br>
  
-<h3>Datenschutz</h3>
+<h4>Datenschutz</h4>
 <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.

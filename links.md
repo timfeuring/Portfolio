@@ -10,7 +10,7 @@ permalink: /links
 
 <!-- Homepage -->
 <div class="linklist-cluster"> 
-    <h3>Portfolio</h3>
+    <h4>Portfolio</h4>
     <div class="linklist-item"> 
         <a href="index.html">
             <img class="linklist-icon" src="assets/img/tf-logo.svg" alt="tf-logo">
@@ -21,7 +21,7 @@ permalink: /links
 
 <!-- Products -->
 <div class="linklist-cluster"> 
-<h3>Products</h3>
+<h4>Products</h4>
     <div class="linklist-item"> 
         <a href="https://kunstaufstoff.de/artist/TimFeuring/" target="_blank">
             <img class="linklist-icon" src="assets/img/icons/kunstaufstoff-icon.svg" alt="kunstaufstoff-icon">
@@ -32,7 +32,7 @@ permalink: /links
 
 <!-- Social -->
 <div class="linklist-cluster"> 
-<h3>Social</h3>
+<h4>Social</h4>
     <div class="linklist-item"> 
         <a href="https://www.instagram.com/feuarrr/" target="_blank">
             <img class="linklist-icon" src="assets/img/icons/instagram-icon.svg" alt="instagram-icon">
