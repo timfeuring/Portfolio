@@ -3,7 +3,7 @@ layout: project-post
 title: Extra Butter
 permalink: /extra-butter
 category: Logo creation
-img-path: assets/img/posts/extra-butter.gif
+img-path: assets/img/posts/extra-butter/extra-butter-stage.png
 img-id: extra-butter-post-img
 img-alt: extra-butter-lettering
 
@@ -12,7 +12,7 @@ img-alt: extra-butter-lettering
 <h3 class="article-headline">A bit of extra butter on top</h3>
 
 The idea to Extra Butter came up in the process of a fun screen printing workshop, when the 
-<a class="underline" href="timfeuring.de/swipe-studio" target="_blank">Swipe Studio Logo</a>
+<a class="underline" href="https://timfeuring.de/swipe-studio" target="_blank">Swipe Studio Logo</a>
  was printed on all kind of fabrics. For a similar event, the plan was to create another visually appealing and bold lettering – which finally led to the creation of the Extra Butter logomark.
 <br><br>
 From initial lettering as a pencil-sketch to refined vector artwork, it evolved to its final, playful look. It was later on used for screen-printing and now embellishes diverse clothes and fabrics from shirts to shopping bags.
@@ -61,5 +61,13 @@ When the sketches are ready, the letterforms are rebuilt as vectors. In this sta
 </div>
 
 The logomark is now vectorized in its final form and basically ready to print. To make it even more interesting, I added a 3D-effect to it to give the illusion of dimension. Now, the logomark can be used for all kinds of purposes.
-<br><br>
+
+<div class="additional-img">
+    <img src="assets/img/posts/extra-butter/extra-butter-article-06.gif" alt="">
+    <span class="additional-img-desc">Animated GIF of the Lettering</span>
+</div>
+
+For the use in digital applications, the graphic could also be animated to create an interesting effect and add attention to it.
+
+<br>
 Thanks for reading! 😊

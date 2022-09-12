@@ -79,5 +79,5 @@ Now it’s time to place the sign! Using the stencil, the position can be adjust
 </div>
 
 Et voilà – everything is finished and installed. Now we have a beautiful, unique sign to welcome everyone to the restrooms. When there’s so much love to the detail even for the toilet signs, imagine how good the food will taste! 
-
+<br><br>
 Thanks for reading! 😊 
