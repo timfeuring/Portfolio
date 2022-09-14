@@ -14,7 +14,7 @@ Equality starts somewhere in our day to day life – and sometimes, it can be sm
 <br><br>
 With that being said, I was very happy to create this sign-concept for the café <i>Dreamy Donuts</i> in Hamburg. The goal was to find a matching approach to the look of the interiors, stand out visually, and just be joyful to see – a perfect call for a unique, handmade sign. 
 <br><br>
-The first things to sort out were possible materials and techniques that would help to transport the desired look and feel and to match the interiors of the café. The surroundings create a welcoming athmosphere with stable, wooden furniture and warm lighting, plants let the rooms come alive, and everything is flooded with daylight. The signs should blend into that athmosphere and be lively and characteristic on their own. So instead of having common plastic letters, the sign should have nice haptics and stand out – literally. 
+The first things to sort out were possible materials and techniques that would help to transport the desired look and feel and to match the interiors of the café. The surroundings create a welcoming atmosphere with stable, wooden furniture and warm lighting, plants let the rooms come alive, and everything is flooded with daylight. The signs should blend into that atmosphere and be lively and characteristic on their own. So instead of having common plastic letters, the sign should have nice haptics and stand out – literally. 
 <br><br>
 My approach to achieve that look was to use wood as the basic material. This idea came up naturally, as it fits the wooden interior just right. And fortunately, there’s a good way to produce very precise cutouts from wood – by using a lasercutter!
 <br><br>
@@ -25,7 +25,7 @@ But before cutting, the visual concepts needs to be worked out. So after researc
     <span class="additional-img-desc">First style exploration with playful, ornamental letterforms</span>
 </div>
 
-The first exploration led to a playful, kind of ornamentel shape form of letters. While the shapes fit well together and build a harmonic unit, they seemed a bit too complex. The small details would possibly have caused trouble in the production and the thin strokes would be very fragile. Also, the style of letters might have been too classic, an attribute that would not have fit the modern character of the café so well.
+The first exploration led to a playful, kind of ornamental shape form of letters. While the shapes fit well together and build a harmonic unit, they seemed a bit too complex. The small details would possibly have caused trouble in the production and the thin strokes would be very fragile. Also, the style of letters might have been too classic, an attribute that would not have fit the modern character of the café so well.
 <br><br>
 So for the next approach, I chose to go for bolder, clearer shapes. Also, the interconnections of letters should be stronger and more resistant in case the signs would be touched or moved.
 
@@ -50,7 +50,7 @@ Now that the basic concept for the sign is fitting and works fine, it’s time t
     <span class="additional-img-desc">Vectorizing the lettering and making adjustments in the process </span>
 </div>
 
-In the vectorization process, the design is tweaked until it fits just right. In this example, you can see how the spacing and the details of the individual letterforms are adjusted. Also, the size and spacings for the matching sticker need to be defined.
+In the vectorization process, the design is tweaked until it fits just right. In this example, you can see how the spacing and the details of the individual letterforms are adjusted. Also, the size and spacing for the matching sticker need to be defined.
 
 <div class="additional-img">
     <img src="assets/img/posts/wc-for-humans/humans-article-05.png" alt="">
@@ -61,10 +61,10 @@ Now that the design is finished, it’s time for production. The letters are cut
 
 <div class="additional-img">
     <img src="assets/img/posts/wc-for-humans/humans-article-06.png" alt="">
-    <span class="additional-img-desc">Lasercut wooden letters with tape on the backside</span>
+    <span class="additional-img-desc">Lasercut wooden letters with tape on the back side</span>
 </div>
 
-The cut wooden letters have a nice texture that make the sign even more haptic and interesting to look at. On the backside you see the tape to stick the letters to the door.
+The cut wooden letters have a nice texture that make the sign even more haptic and interesting to look at. On the back side, you see the tape to stick the letters to the door.
 
 <div class="additional-img">
     <img src="assets/img/posts/wc-for-humans/humans-article-07.png" alt="">
