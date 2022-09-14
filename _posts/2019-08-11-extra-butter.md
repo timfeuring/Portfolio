@@ -13,7 +13,7 @@ img-alt: extra-butter-lettering
 
 The idea to Extra Butter came up in the process of a fun screen printing workshop, when the 
 <a class="underline" href="https://timfeuring.de/swipe-studio" target="_blank">Swipe Studio Logo</a>
- was printed on all kind of fabrics. For a similar event, the plan was to create another visually appealing and bold lettering – which finally led to the creation of the Extra Butter logomark.
+ was printed on all kind of fabrics. For a similar event, the plan was to create another visually appealing and bold lettering – which finally led to the creation of the Extra Butter logo mark.
 <br><br>
 From initial lettering as a pencil-sketch to refined vector artwork, it evolved to its final, playful look. It was later on used for screen-printing and now embellishes diverse clothes and fabrics from shirts to shopping bags.
 
@@ -43,7 +43,7 @@ When feeling confident with my ideas and after having chosen a vague direction, 
     <span class="additional-img-desc">First digital sketches to figure out contrasts in the letters and to refine the arrangement </span>
 </div>
 
-The next step is to refine the sketches, determine shapes, to figure out how letters  intertwine into each other. In this case, I chose to work digitally with a graphic tablet. The arrangement of letters gets tighter, details get clearer and clearer, and the forms start to grow together to form a unit. A grid in the Background helps with spacings. This is one of the most crucial steps to get the design just right.
+The next step is to refine the sketches, determine shapes, to figure out how letters  intertwine into each other. In this case, I chose to work digitally with a graphic tablet. The arrangement of letters gets tighter, details get clearer and clearer, and the forms start to grow together to form a unit. A grid in the Background helps with spacing. This is one of the most crucial steps to get the design just right.
 
 <!--  -->
 <div class="additional-img">
@@ -51,7 +51,7 @@ The next step is to refine the sketches, determine shapes, to figure out how let
     <span class="additional-img-desc">Stages of the vectorization show the adjustments made in certain areas</span>
 </div>
 
-When the sketches are ready, the letterforms are rebuilt as vectors. In this stage, the arrangement and letterforms are set, but smaller adjustments can still be made in the process. Notice how the bowel of the B was changed to be more open and the horizontal lines of the T were made thinner to match the contast of the other letters.
+When the sketches are ready, the letterforms are rebuilt as vectors. In this stage, the arrangement and letterforms are set, but smaller adjustments can still be made in the process. Notice how the bowel of the B was changed to be more open and the horizontal lines of the T were made thinner to match the contrast of the other letters.
 
 <!--  -->
 
@@ -60,11 +60,11 @@ When the sketches are ready, the letterforms are rebuilt as vectors. In this sta
     <span class="additional-img-desc"> The refined lettering in vector view </span>
 </div>
 
-The logomark is now vectorized in its final form and basically ready to print. To make it even more interesting, I added a 3D-effect to it to give the illusion of dimension. Now, the logomark can be used for all kinds of purposes.
+The logo mark is now vectorized in its final form and basically ready to print. To make it even more interesting, I added a 3D-effect to it to give the illusion of dimension. Now, the logo mark can be used for all kinds of purposes.
 
 <div class="additional-img">
     <img src="assets/img/posts/extra-butter/extra-butter-article-06.gif" alt="">
-    <span class="additional-img-desc">Animated GIF of the Lettering</span>
+    <span class="additional-img-desc">Animated GIF of the lettering</span>
 </div>
 
 For the use in digital applications, the graphic could also be animated to create an interesting effect and add attention to it.
