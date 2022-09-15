@@ -861,7 +861,7 @@ body {
     background-color: #000;
     border-radius: 6px;
     font-weight: bold;
-    max-width: fit-content;
+    /* max-width: fit-content; */
 }
 
 .button:hover {
