@@ -711,3 +711,9 @@ input[type=text]:focus {
     padding: 0;
     margin: 16px 0 24px 0;
 }
+
+/* 
+.article-interactive-container {
+    background-color: #f5f5f5;
+    background-image: url(img/posts/screen-memories/screen-memories-article-04.png);
+} */
