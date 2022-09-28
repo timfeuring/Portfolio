@@ -28,17 +28,17 @@
 
     <h4>The idea: combining the old and the new</h4>
     <p>
-        While studying the possibilities of variable fonts and the history of early digital fonts, the idea of combining aspects of both formed: the flexibility of variable fonts in interplay with the restrictions of early pixel fonts.
-        This page illustrates the outcome of my experiments about creating a digital font that combines a restricted grid together with flexible, variable units (components).
-    </p>
-
+        While studying the possibilities of variable fonts and the history of early digital fonts, the idea of combining aspects of both of them formed: the flexibility of variable fonts in interplay with the restrictions of early pixel fonts.
+        This article illustrates the outcome of my experiments about creating a digital font that combines a restricted grid together with flexible, variable units (components).
     <br><br>
-
-    <h4>Setting the basis</h4>
-    <p>
-        Before going into the experiments, let me shortly introduce the thoughts behind the construction of the letters. The letters are constructed in a grid of rows and oriented around a sans-serif style. A special feature of the font is the extreme high x-height, the low space for ascenders and the completely missing space for descenders (meaning the descenders are fit inside of the x-height space. This underlines the restriction of fitting letters in a very small space and at the same times allows for the font to be used with a very narrow line height.
+    Before going into the experiments, let me shortly introduce the thoughts behind the construction of the letters. The letters are constructed in a grid of rows. The basic style is a regular sans serif. A special feature of the font is the extreme high x-height, the low space for ascenders and the completely missing space for descenders (meaning the descenders are fit inside of the x-height space. This underlines the restriction of fitting letters in a very small space and at the same times allows for the font to be used with a very narrow line height.
     </p>
         
+    <div class="additional-img">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-02.5.png" alt="">
+        <span class="additional-img-desc">Weight variations of the letter A. You can see how the components align to the grid</span>
+    </div>
+
     <div class="additional-img">
         <img src="assets/img/posts/screen-memories/screen-memories-article-03.png" alt="">
         <span class="additional-img-desc">The extreme x-height and the absence of ascenders allows the font to be set with very low line-heights</span>
@@ -50,36 +50,36 @@
     </p>
 
 
-
-    <div class="article-interactive-container additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-04.png" alt="">
-        <div class="component-explanation">
-            <div class="component-example">
-                <div>
-                    <span class="screenmemories-base wght-loop">°</span>
-                    <span class="component-example-subline"> Weight </span>
+    <div class="interactive-container-wrapper">
+        <div class="article-interactive-container">
+            <div class="component-explanation">
+                <div class="component-example">
+                    <div class="component-example-glyph">
+                        <span class="screenmemories-base wght-loop">°</span>
+                        <span class="component-example-subline"> Weight </span>
+                    </div>
                 </div>
-            </div>
-            <div class="component-example">
-                <div>
-                    <span class="screenmemories-base form-loop">°</span>
-                    <span class="component-example-subline"> Form </span>
+                <div class="component-example">
+                    <div class="component-example-glyph">
+                        <span class="screenmemories-base form-loop">°</span>
+                        <span class="component-example-subline"> Form </span>
+                    </div>
                 </div>
-            </div>
-            <div class="component-example">
-                <div>
-                    <span class="screenmemories-base slnt-loop">°</span>
-                    <span class="component-example-subline"> Slant </span>
+                <div class="component-example">
+                    <div class="component-example-glyph">
+                        <span class="screenmemories-base slnt-loop">°</span>
+                        <span class="component-example-subline"> Slant </span>
+                    </div>
                 </div>
-            </div>
-            <div class="component-example">
-                <div>
-                    <span class="screenmemories-base angl-loop">°</span>
-                    <span class="component-example-subline"> Angle </span>
+                <div class="component-example">
+                    <div class="component-example-glyph">
+                        <span class="screenmemories-base angl-loop">°</span>
+                        <span class="component-example-subline"> Angle </span>
+                    </div>
                 </div>
             </div>
         </div>
-        <span class="additional-img-desc">The four variable axes in the base component: <i>Thickness, Form, Slant and Angle</i></span>
+        <span class=" interactive-container-subline">The four variable axes in the base component: <i>Thickness, Form, Slant and Angle</i></span>
     </div>
 
 
@@ -176,19 +176,94 @@
         Use the editor below to adjust the axes of the font. You can also enter your own text!
     </p>
 
-    <!-- PLACEHOLDER FOR FUNTIONAL MODAL -->
+    <!-- PLACEHOLDER FOR FUNTIONAL MODAL
     <div class="additional-img">
         <img src="assets/img/posts/screen-memories/screen-memories-article-08.png" alt="">
-    </div>
+    </div> -->
+
 
     <!-- PLACEHOLDER FOR FUNTIONAL MODAL -->
 
-    <div class="additional-img">
+
+      <!-- SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST 
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST -->
+
+    <!-- <div class="additional-img">
         <img src="assets/img/posts/screen-memories/screen-memories-article-09.png" alt="">
+    </div> -->
+
+    <div>
+        <main class="interactive-slider-container">
+            <div>
+                <h1 class="demo-text" role="textbox" contenteditable> Hello </h1>
+                <!-- <div class="text-stage-axes">
+                    <h1 id="" class="stage-text demo-text screenmemories-base all-axes-example" role="textbox" contenteditable>&nbsp;All axes&nbsp;</h1>
+                </div> -->
+    
+            </div>
+            <div class="controls">
+                <!-- Weight Controls -->
+                <div class="slider-container">
+                    <div class="slider-controls">
+                        <label for="text-weight" class="slider-label">
+                            Weight: <span class="output" data-index="0"></span>   
+                        </label>
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-weight" name="text-weight" data-index="0">
+                        <a class="slider-button underline" data-index="0">
+                            Reset
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Width Controls -->
+                <div class="slider-container">
+                    <div class="slider-controls">
+                        <label for="text-width" class="slider-label">
+                            Form: <span class="output" data-index="1"></span>  
+                        </label>
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-width" name="text-width" data-index="1">
+                        <a class="slider-button underline" data-index="1">
+                            Reset
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slant Controls -->
+                <div class="slider-container">
+                    
+                    <div class="slider-controls">
+                        <label for="text-slant" class="slider-label">
+                            Slant: <span class="output" data-index="2"></span>  
+                        </label>
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-slant" name="text-slant" data-index="2">
+                        <a class="slider-button underline" data-index="2">
+                            Reset
+                        </a>
+                    </div>
+                </div>
+
+                   <!-- Angle Control -->
+                <div class="slider-container">
+                    <div class="slider-controls">
+                        <label for="text-angle" class="slider-label">
+                            Angle: <span class="output" data-index="3"></span>  
+                        </label>
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-angle" name="text-angle" data-index="3">
+                        <a class="slider-button underline" data-index="3">
+                            Reset
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+          </main>
     </div>
 
-    <h4 style="color: cornflowerblue"> ((Slider)) ((Slider)) ((Slider)) ((Slider))</h4>
-    <br><br><br>
+
+      <!-- SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST 
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST -->
 
 
     <h4>Interchanging the base component</h4>
@@ -361,6 +436,49 @@
         document.getElementById("variant-b").classList.add("inactive-changer");
         document.getElementById("variant-c").classList.add("inactive-changer");
     }
+
+
+// VARIABLE SLIDER TESTS
+// ================================================================================================
+
+const container = document.querySelector(".interactive-slider-container");
+const sliders = document.querySelectorAll(".slider");
+const sliderValues = document.querySelectorAll(".output");
+const buttons = document.querySelectorAll(".slider-button");
+
+// Display property values
+for (let i = 0; i < sliders.length; i++) {
+  sliderValues[i].innerHTML = sliders[i].value;
+}
+
+// Update text property and displayed property value for each slider
+sliders.forEach(slider => {
+    const sliderIndex = slider.getAttribute("data-index");
+    const output = document.querySelector(`.output[data-index="${sliderIndex}"]`);
+    slider.oninput = function() {
+      container.style.setProperty(`--${this.id}`, this.value);
+      output.innerHTML = this.value;
+    };
+  });
+
+// Reset text property and update display property value for each slider
+buttons.forEach(button => {
+  const buttonIndex = button.getAttribute("data-index");
+  const resetOutput = document.querySelector(
+    `.output[data-index="${buttonIndex}"]`
+  );
+  const resetSlider = document.querySelector(
+    `.slider[data-index="${buttonIndex}"]`
+  );
+  button.onclick = function() {
+    container.style.removeProperty(`--${resetSlider.id}`);
+    resetOutput.innerHTML = resetSlider.defaultValue;
+    resetSlider.value = resetSlider.defaultValue;
+    console.log(resetSlider.defaultValue);
+  };
+});
+
+
 
 </script>
 
