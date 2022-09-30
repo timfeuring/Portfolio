@@ -317,7 +317,7 @@ ul {
     line-break: anywhere;
     line-height: 60%;
     transition: .2s ease-in-out;
-    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0; 
+    font-variation-settings: 'wght' 0, 'FORM' 0, 'slnt' 0, 'ANGL' 0;  
     /* text-transform: uppercase; */
 }
 
@@ -327,28 +327,6 @@ ul {
 }
 
 
-.component-explanation {
-    display: flex;
-    padding: 60px 0;
-}
-
-.component-example {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid black;
-    /* height: 350px; */
-    width: 200px;
-    justify-content: center;
-    text-align: center;
-    padding: 75px 0 50px 0;
-}
-
-.component-example .screenmemories-base{
-    font-size: 450px;
-    line-height: 30%;
-    padding-top: 25px;
-}
 
 .component-example-subline {
     padding: 20px 0;
@@ -540,6 +518,7 @@ input[type=text]:focus {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    border: 1px dashed black;
 }
 
 .stage-text {
@@ -711,3 +690,179 @@ input[type=text]:focus {
     padding: 0;
     margin: 16px 0 24px 0;
 }
+ 
+
+
+
+/* VARIABLE SLIDER TESTS 
+================================================*/
+  
+  :root {
+    --text-weight: 0;
+    --text-width: 0;
+    --text-slant: 0;
+    --text-angle: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .interactive-slider-container {
+    margin: 40px 0 60px 0;
+    /* max-width: 60rem; */
+    /* padding: 3rem; */
+    text-align: center;
+  }
+  
+  .demo-text {
+    font-size: 400px;
+    font-family: screenmemories;
+    font-stretch: var(--text-width);
+    font-style: oblique var(--text-slant);
+    font-weight: var(--text-weight);
+    font-variation-settings: "wght" var(--text-weight), "FORM" var(--text-width), "slnt" var(--text-slant), "ANGL" var(--text-angle);
+    margin: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px dashed black;
+    line-height: 40%;
+    padding: 150px 50px;
+    line-break: anywhere;
+  }
+
+
+  /* FORM ANGL */
+  
+  .controls {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+  .slider-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 0;
+  }
+
+  /* .slider-container:not(:first-child) {
+    margin-top: 3rem;
+  }  */
+  
+  /* .slider-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  } */
+  
+  .slider-label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-variation-settings: "slnt" var(--text-slant);
+    font-weight: 650;
+  }
+  
+  .output {
+    font-style: normal;
+    font-variation-settings: "slnt" var(--text-slant);
+    font-weight: 400;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 30%;
+    height: 1rem;
+    background: #dddddd;
+    outline: none;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: #456bd9;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: #456bd9;
+    cursor: pointer;
+  }
+  
+  .slider::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing;
+  }
+  
+  .slider::-moz-range-thumb:active {
+    cursor: -moz-grabbing;
+  }
+  
+  /* .button {
+    background: #fff;
+    border: 3px solid #dee7ec;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 1;
+    padding: .25rem .75rem;
+    transition: background ease-in .2s;
+  }
+   */
+
+
+
+
+
+  /* SLIDER STUFF  */
+
+
+
+  
+/* ============== */
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background: black;
+    cursor: pointer;
+    margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  }
+  
+  /* All the same stuff for Firefox */
+  input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background: black;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for IE */
+  input[type=range]::-ms-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background: black;
+    cursor: pointer;
+  }

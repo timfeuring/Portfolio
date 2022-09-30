@@ -2,7 +2,7 @@
 layout: project-post
 title: Screen Memories
 permalink: /screen-memories
-category: Type Design
+category: Typedesign
 img-path: assets/img/posts/screen-memories/screen-memories-stage.png
 img-id: 
 img-alt: 
@@ -23,3 +23,4 @@ img-alt:
 
 
 {% include screen-memories.html %}
+

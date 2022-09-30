@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-15T17:53:04+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio - Tim Feuring</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Tommys &amp;amp; Jerrys</title><link href="http://localhost:4000/tommys-and-jerrys" rel="alternate" type="text/html" title="Tommys &amp; Jerrys" /><published>2019-08-28T00:00:00+02:00</published><updated>2019-08-28T00:00:00+02:00</updated><id>http://localhost:4000/crepes-et-galettes</id><content type="html" xml:base="http://localhost:4000/tommys-and-jerrys">&lt;h3&gt;Process&lt;/h3&gt;
-
-&lt;p&gt;What tastes better than a sweet crêpe or a hearty galette on a walk through the christmas market?&lt;/p&gt;
-
-&lt;p&gt;I painted these signs by hand for a local food truck, so they can stand out with their handwritten signs – and delicious crepes and galettes, of course.&lt;/p&gt;</content><author><name></name></author><category term="Signmaking" /><summary type="html">Process</summary></entry><entry><title type="html">Happy to have you</title><link href="http://localhost:4000/happy-to-have-you" rel="alternate" type="text/html" title="Happy to have you" /><published>2019-08-26T00:00:00+02:00</published><updated>2019-08-26T00:00:00+02:00</updated><id>http://localhost:4000/happy-to-have-you</id><content type="html" xml:base="http://localhost:4000/happy-to-have-you">&lt;h3&gt;Process&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-30T13:46:55+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio - Tim Feuring</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Happy to have you</title><link href="http://localhost:4000/happy-to-have-you" rel="alternate" type="text/html" title="Happy to have you" /><published>2019-08-26T00:00:00+02:00</published><updated>2019-08-26T00:00:00+02:00</updated><id>http://localhost:4000/happy-to-have-you</id><content type="html" xml:base="http://localhost:4000/happy-to-have-you">&lt;h3&gt;Process&lt;/h3&gt;
 &lt;p&gt;&lt;i&gt;“I’m so happy to have you in my life!”&lt;/i&gt;&lt;/p&gt;
 
 &lt;p&gt;That’s a thing we should tell our loved ones way more often. For that purpose, I created this little card with a custom lettering. When did you last tell someone that they are important to you? Call them right now and bring a smile on their face.&lt;/p&gt;
@@ -22,7 +18,492 @@
 
 &lt;p&gt;The winery approached its brand with a rather classic, maybe a bit old-fashioned look and feel. My aim was to refresh the visual appearance with a new logo and label while maintaining and communicating their core values.&lt;/p&gt;
 
-&lt;p&gt;Sauerwein is a real existing winery business. This project served the purpose of my personal exploration and does not reflect the actual brand of the Sauerwein family.&lt;/p&gt;</content><author><name></name></author><category term="Logo creation" /><summary type="html">Process The Sauerweins are a family of winemakers, owning a small winery business near to the Mosel in western Germany. Their roots go back to the 17th century and originally derive from southern Tyrol. Since 1924, they produce fine wines that are renowned well beyond their closer region.</summary></entry><entry><title type="html">WC for Humans</title><link href="http://localhost:4000/wc-for-humans" rel="alternate" type="text/html" title="WC for Humans" /><published>2019-08-12T00:00:00+02:00</published><updated>2019-08-12T00:00:00+02:00</updated><id>http://localhost:4000/wc-for-humans</id><content type="html" xml:base="http://localhost:4000/wc-for-humans">&lt;h3 class=&quot;article-headline&quot;&gt;Time to be more equal&lt;/h3&gt;
+&lt;p&gt;Sauerwein is a real existing winery business. This project served the purpose of my personal exploration and does not reflect the actual brand of the Sauerwein family.&lt;/p&gt;</content><author><name></name></author><category term="Logo creation" /><summary type="html">Process The Sauerweins are a family of winemakers, owning a small winery business near to the Mosel in western Germany. Their roots go back to the 17th century and originally derive from southern Tyrol. Since 1924, they produce fine wines that are renowned well beyond their closer region.</summary></entry><entry><title type="html">Screen Memories</title><link href="http://localhost:4000/screen-memories" rel="alternate" type="text/html" title="Screen Memories" /><published>2019-08-14T00:00:00+02:00</published><updated>2019-08-14T00:00:00+02:00</updated><id>http://localhost:4000/screen-memories</id><content type="html" xml:base="http://localhost:4000/screen-memories">&lt;div class=&quot;screen-memories-container&quot;&gt;
+    
+    &lt;h3 class=&quot;article-headline&quot;&gt;A component-based variable font experiment&lt;/h3&gt;
+    
+    &lt;p&gt;
+        At the base of most design systems, there is a grid. A grid can help to organize a design, structure it’s contents and give guidance by establishing a visual hirarchy – but it can also be a restriction. Especially in the early days of digitalization, low screen resolutions created clear technical boundaries on how graphics could be displayed. At the very latest with the distribution of the first personal computers using visual interfaces, a formerly niche area in design became more and more important: digital interface design. Due to rather low resolutions in early displays, designers then had to deal with the challenge of transferring formerly unrestricted design rules and patterns into very tight corset of units, the pixels, in the best way possible. 
+        &lt;br /&gt;&lt;br /&gt;
+        This led to a whole new aesthetic of shapes, especially for fonts – curves and other letterform details needed to be pressed in a tight, rectangular pixel grid. Thanks to the technical development of display resolutions in the last decades, designers now have more possibilities than ever to produce fine-detailed forms and display them in every way possible. But the aesthetics of pixelated fonts are still in our minds today and remind us of the early days of digital applications.
+    &lt;/p&gt;
+    
+
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-01.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;Lowercase letter N in high resolution with fine details (left) and approximations using different grids (font: Open Sans)&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;
+        Designing graphics under tight restrictions like these is also interesting in the way that it forces us to &lt;i&gt;reduce forms to their necessary essence,&lt;/i&gt; so that we can still recognise them. So in a way, early digital fonts were also unavoidably minimalistic. 
+        &lt;br /&gt;&lt;br /&gt;
+        Another development in the technology of digital fonts in the last years is the concept of variable fonts. Variable means that forms can be gradually  transformed from one variant to another –  and every possible step in between can be displayed as well. 
+        With this feature, variable fonts open up a great range of possibilities in design.
+    &lt;/p&gt;
+
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-02.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;Principle of variable fonts: the complete range between two designed states of a form (A and B) can be computed&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;h4&gt;The idea: combining the old and the new&lt;/h4&gt;
+    &lt;p&gt;
+        While studying the possibilities of variable fonts and the history of early digital fonts, the idea of combining aspects of both of them formed: the flexibility of variable fonts in interplay with the restrictions of early pixel fonts.
+        This article illustrates the outcome of my experiments about creating a digital font that combines a restricted grid together with flexible, variable units (components).
+    &lt;br /&gt;&lt;br /&gt;
+    Before going into the experiments, let me shortly introduce the thoughts behind the construction of the letters. The letters are constructed in a grid of rows. The basic style is a regular sans serif. A special feature of the font is the extreme high x-height, the low space for ascenders and the completely missing space for descenders (meaning the descenders are fit inside of the x-height space. This underlines the restriction of fitting letters in a very small space and at the same times allows for the font to be used with a very narrow line height.
+    &lt;/p&gt;
+        
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-02.5.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;Weight variations of the letter A. You can see how the components align to the grid&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-03.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;The extreme x-height and the absence of ascenders allows the font to be set with very low line-heights&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;h4&gt;Introducing variable components&lt;/h4&gt;
+    &lt;p&gt;
+        There are four axes in this variable font that can each be manipulated seperately. Every axis affects the base component of the letters differently, as demonstrated below: 
+    &lt;/p&gt;
+
+
+    &lt;div class=&quot;interactive-container-wrapper&quot;&gt;
+        &lt;div class=&quot;article-interactive-container&quot;&gt;
+            &lt;div class=&quot;component-explanation&quot;&gt;
+                &lt;div class=&quot;component-example&quot;&gt;
+                    &lt;div class=&quot;component-example-glyph&quot;&gt;
+                        &lt;span class=&quot;screenmemories-base wght-loop&quot;&gt;°&lt;/span&gt;
+                        &lt;span class=&quot;component-example-subline&quot;&gt; Weight &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;component-example&quot;&gt;
+                    &lt;div class=&quot;component-example-glyph&quot;&gt;
+                        &lt;span class=&quot;screenmemories-base form-loop&quot;&gt;°&lt;/span&gt;
+                        &lt;span class=&quot;component-example-subline&quot;&gt; Form &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;component-example&quot;&gt;
+                    &lt;div class=&quot;component-example-glyph&quot;&gt;
+                        &lt;span class=&quot;screenmemories-base slnt-loop&quot;&gt;°&lt;/span&gt;
+                        &lt;span class=&quot;component-example-subline&quot;&gt; Slant &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;component-example&quot;&gt;
+                    &lt;div class=&quot;component-example-glyph&quot;&gt;
+                        &lt;span class=&quot;screenmemories-base angl-loop&quot;&gt;°&lt;/span&gt;
+                        &lt;span class=&quot;component-example-subline&quot;&gt; Angle &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot; interactive-container-subline&quot;&gt;The four variable axes in the base component: &lt;i&gt;Thickness, Form, Slant and Angle&lt;/i&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+
+    &lt;p&gt;The adjustment of the basic component in different axes allows for the letters to change its properties and appearance completely. We can not only change one axis and one property at a time, but iterate between different axes and let the application calculate all possible versions in between, which leads to some interesting results. &lt;/p&gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;h4&gt;Letterform construction&lt;/h4&gt;
+    &lt;p&gt;The letterforms themselves are entirely constructed of the base components shown above. A change in the base components leads to a change of the whole letter. Aditionally to the change in the base component itself, the arrangement that makes up the letter can be adjusted, in this case for creating an italic version with the Slant Axis.&lt;/p&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    &lt;p&gt;Hover over the letters to see how each axis affects the look of the letter.&lt;/p&gt;
+
+    &lt;div class=&quot;axis-explanation&quot;&gt;
+        &lt;div class=&quot;axis-box&quot;&gt;
+            &lt;h5&gt;Weight&lt;/h5&gt;
+            &lt;span class=&quot;screenmemories-base axis-example wght&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;axis-box&quot;&gt;
+            &lt;h5&gt;Form&lt;/h5&gt;
+            &lt;span class=&quot;screenmemories-base axis-example form&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;axis-box&quot;&gt;
+            &lt;h5&gt;Slant&lt;/h5&gt;
+            &lt;span class=&quot;screenmemories-base axis-example slnt&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;axis-box&quot;&gt;
+            &lt;h5&gt;Component Angle&lt;/h5&gt;
+            &lt;span class=&quot;screenmemories-base axis-example angl&quot;&gt;^ A&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- 
+    &lt;div&gt;
+        &lt;h4&gt;Weight&lt;/h4&gt;    
+        &lt;br&gt;
+        &lt;div class=&quot;text-stage-axes&quot;&gt;
+            &lt;span id=&quot;&quot; class=&quot;stage-text screenmemories-base weight-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;Weight&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;h4&gt;Form&lt;/h4&gt;    
+        &lt;br&gt;
+        &lt;div class=&quot;text-stage-axes&quot;&gt;
+            &lt;span id=&quot;&quot; class=&quot;stage-text screenmemories-base form-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;Form&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;h4&gt;Slant&lt;/h4&gt;    
+        &lt;br&gt;
+        &lt;div class=&quot;text-stage-axes&quot;&gt;
+            &lt;span id=&quot;&quot; class=&quot;stage-text screenmemories-base slant-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;Slant&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;h4&gt;Component Angle&lt;/h4&gt;    
+        &lt;br&gt;
+        &lt;div class=&quot;text-stage-axes&quot;&gt;
+            &lt;span id=&quot;&quot; class=&quot;stage-text screenmemories-base angle-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;Angle&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;h4&gt;All variable axes together&lt;/h4&gt;    
+        &lt;br&gt;
+        &lt;div class=&quot;text-stage-axes&quot;&gt;
+            &lt;span id=&quot;&quot; class=&quot;stage-text screenmemories-base all-axes-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;All axes&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt; --&gt;
+
+    &lt;h4&gt;Character Set&lt;/h4&gt;
+    &lt;p&gt;The font includes all uppercase and lowercase letters, the numbers and basic interpunctuation.&lt;/p&gt;
+
+
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-06.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;Upper- and lowercase alphabet&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-07.png&quot; alt=&quot;&quot; /&gt;
+        &lt;span class=&quot;additional-img-desc&quot;&gt;Numbers and basic punctuation&lt;/span&gt;
+    &lt;/div&gt;
+
+
+    &lt;h4&gt;Manipulating the axes&lt;/h4&gt;
+    &lt;p&gt;
+        The basic principle is clear – a manipulation of the base component changes the apperance of the letter. Now, we can change the properties of the font and mix between the axes to our liking. 
+        &lt;br /&gt;&lt;br /&gt;
+        Use the editor below to adjust the axes of the font. You can also enter your own text!
+    &lt;/p&gt;
+
+    &lt;!-- PLACEHOLDER FOR FUNTIONAL MODAL
+    &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-08.png&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt; --&gt;
+
+
+    &lt;!-- PLACEHOLDER FOR FUNTIONAL MODAL --&gt;
+
+
+      &lt;!-- SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST 
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST --&gt;
+
+    &lt;!-- &lt;div class=&quot;additional-img&quot;&gt;
+        &lt;img src=&quot;assets/img/posts/screen-memories/screen-memories-article-09.png&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt; --&gt;
+
+    &lt;div&gt;
+        &lt;main class=&quot;interactive-slider-container&quot;&gt;
+            &lt;div&gt;
+                &lt;h1 class=&quot;demo-text&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt; Hello &lt;/h1&gt;
+                &lt;!-- &lt;div class=&quot;text-stage-axes&quot;&gt;
+                    &lt;h1 id=&quot;&quot; class=&quot;stage-text demo-text screenmemories-base all-axes-example&quot; role=&quot;textbox&quot; contenteditable&gt;&amp;nbsp;All axes&amp;nbsp;&lt;/h1&gt;
+                &lt;/div&gt; --&gt;
+    
+            &lt;/div&gt;
+            &lt;div class=&quot;controls&quot;&gt;
+                &lt;!-- Weight Controls --&gt;
+                &lt;div class=&quot;slider-container&quot;&gt;
+                    &lt;div class=&quot;slider-controls&quot;&gt;
+                        &lt;label for=&quot;text-weight&quot; class=&quot;slider-label&quot;&gt;
+                            Weight: &lt;span class=&quot;output&quot; data-index=&quot;0&quot;&gt;&lt;/span&gt;   
+                        &lt;/label&gt;
+                        &lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;800&quot; value=&quot;0&quot; class=&quot;slider&quot; id=&quot;text-weight&quot; name=&quot;text-weight&quot; data-index=&quot;0&quot; /&gt;
+                        &lt;a class=&quot;slider-button underline&quot; data-index=&quot;0&quot;&gt;
+                            Reset
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;!-- Width Controls --&gt;
+                &lt;div class=&quot;slider-container&quot;&gt;
+                    &lt;div class=&quot;slider-controls&quot;&gt;
+                        &lt;label for=&quot;text-width&quot; class=&quot;slider-label&quot;&gt;
+                            Form: &lt;span class=&quot;output&quot; data-index=&quot;1&quot;&gt;&lt;/span&gt;  
+                        &lt;/label&gt;
+                        &lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;800&quot; value=&quot;0&quot; class=&quot;slider&quot; id=&quot;text-width&quot; name=&quot;text-width&quot; data-index=&quot;1&quot; /&gt;
+                        &lt;a class=&quot;slider-button underline&quot; data-index=&quot;1&quot;&gt;
+                            Reset
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;!-- Slant Controls --&gt;
+                &lt;div class=&quot;slider-container&quot;&gt;
+                    
+                    &lt;div class=&quot;slider-controls&quot;&gt;
+                        &lt;label for=&quot;text-slant&quot; class=&quot;slider-label&quot;&gt;
+                            Slant: &lt;span class=&quot;output&quot; data-index=&quot;2&quot;&gt;&lt;/span&gt;  
+                        &lt;/label&gt;
+                        &lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;800&quot; value=&quot;0&quot; class=&quot;slider&quot; id=&quot;text-slant&quot; name=&quot;text-slant&quot; data-index=&quot;2&quot; /&gt;
+                        &lt;a class=&quot;slider-button underline&quot; data-index=&quot;2&quot;&gt;
+                            Reset
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                   &lt;!-- Angle Control --&gt;
+                &lt;div class=&quot;slider-container&quot;&gt;
+                    &lt;div class=&quot;slider-controls&quot;&gt;
+                        &lt;label for=&quot;text-angle&quot; class=&quot;slider-label&quot;&gt;
+                            Angle: &lt;span class=&quot;output&quot; data-index=&quot;3&quot;&gt;&lt;/span&gt;  
+                        &lt;/label&gt;
+                        &lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;800&quot; value=&quot;0&quot; class=&quot;slider&quot; id=&quot;text-angle&quot; name=&quot;text-angle&quot; data-index=&quot;3&quot; /&gt;
+                        &lt;a class=&quot;slider-button underline&quot; data-index=&quot;3&quot;&gt;
+                            Reset
+                        &lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+    
+            &lt;/div&gt;
+          &lt;/main&gt;
+    &lt;/div&gt;
+
+
+      &lt;!-- SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST 
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST
+        SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST SLIDER TEST --&gt;
+
+
+    &lt;h4&gt;Interchanging the base component&lt;/h4&gt;
+    &lt;p&gt;
+        We’ve seen now how smaller adjustments of the base component change the appearance of letters. But we can even go beyond smaller adjustments in the form and interchange the base component more radically. Choose a form below to see how it alters the letterforms and what interesting coincidences appear through that.
+    &lt;/p&gt;
+
+
+    &lt;div&gt;
+        &lt;div class=&quot;component-change&quot;&gt;
+            &lt;div id=&quot;variant-a&quot; class=&quot;component-changer active-changer&quot;&gt;
+                &lt;span&gt; ° &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;variant-b&quot; class=&quot;component-changer inactive-changer&quot;&gt;
+                &lt;span&gt; ° &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;variant-c&quot; class=&quot;component-changer inactive-changer&quot;&gt;
+                &lt;span&gt; ° &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div id=&quot;variant-d&quot; class=&quot;component-changer inactive-changer&quot;&gt;
+                &lt;span&gt; ° &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;text-stage&quot;&gt;
+            &lt;span id=&quot;stagetext&quot; class=&quot;stage-text screenmemories-base&quot; role=&quot;textbox&quot; contenteditable=&quot;&quot;&gt;&amp;nbsp;Hello&amp;nbsp;&lt;/span&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+    &lt;p&gt;All in all, it’s very interesting to see how much is possible within a restricted grid and frame and to how many interesting results an exploration like this can lead. Below, you can find more screenshots of the design process and component alternatives as well as coincidences that happened along the way.&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+    &lt;div class=&quot;lettering-gallery-wrapper&quot;&gt;
+                
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-01.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-02.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-03.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-04.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-05.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-06.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-07.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;lettering-gallery-cont&quot;&gt;
+            &lt;div class=&quot;lettering-gallery-img&quot;&gt;
+                &lt;div class=&quot;preview-dummy&quot;&gt;&lt;/div&gt;
+                &lt;div class=&quot;lettering-gallery-preview&quot;&gt;
+                    &lt;img class=&quot;lettering-gallery-preview preview-transform&quot; src=&quot;assets/img/posts/screen-memories/screen-memories-gallery-08.png&quot; alt=&quot;lettering-gallery-img&quot; /&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+
+    &lt;p&gt; 
+        I hope you enjoyed this exploration. I designed this font as a part of the type design course &quot;Screen Memories&quot; under the guidance of Prof. Pierre-Pane-Farré, summer semester 2022, HAW Hamburg. 
+        &lt;br /&gt;&lt;br /&gt;
+        Thanks for reading! 😊 
+    &lt;/p&gt;
+
+
+&lt;script&gt;    
+    document.getElementById(&quot;variant-a&quot;).addEventListener(&quot;click&quot;, fontVariantA);
+    function fontVariantA() {
+        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-a&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
+
+        document.getElementById(&quot;variant-a&quot;).classList.remove(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
+        
+    }
+
+
+    document.getElementById(&quot;variant-b&quot;).addEventListener(&quot;click&quot;, fontVariantB);
+    function fontVariantB() {
+        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-b&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
+
+        document.getElementById(&quot;variant-b&quot;).classList.remove(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
+    }
+
+    document.getElementById(&quot;variant-c&quot;).addEventListener(&quot;click&quot;, fontVariantC);
+    function fontVariantC() {
+        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-c&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-d&quot;);
+
+        document.getElementById(&quot;variant-c&quot;).classList.remove(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-d&quot;).classList.add(&quot;inactive-changer&quot;);
+    }
+
+    document.getElementById(&quot;variant-d&quot;).addEventListener(&quot;click&quot;, fontVariantD);
+    function fontVariantD() {
+        document.getElementById(&quot;stagetext&quot;).classList.add(&quot;font-variant-d&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-a&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-b&quot;);
+        document.getElementById(&quot;stagetext&quot;).classList.remove(&quot;font-variant-c&quot;);
+
+        document.getElementById(&quot;variant-d&quot;).classList.remove(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-a&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-b&quot;).classList.add(&quot;inactive-changer&quot;);
+        document.getElementById(&quot;variant-c&quot;).classList.add(&quot;inactive-changer&quot;);
+    }
+
+
+// VARIABLE SLIDER TESTS
+// ================================================================================================
+
+const container = document.querySelector(&quot;.interactive-slider-container&quot;);
+const sliders = document.querySelectorAll(&quot;.slider&quot;);
+const sliderValues = document.querySelectorAll(&quot;.output&quot;);
+const buttons = document.querySelectorAll(&quot;.slider-button&quot;);
+
+// Display property values
+for (let i = 0; i &lt; sliders.length; i++) {
+  sliderValues[i].innerHTML = sliders[i].value;
+}
+
+// Update text property and displayed property value for each slider
+sliders.forEach(slider =&gt; {
+    const sliderIndex = slider.getAttribute(&quot;data-index&quot;);
+    const output = document.querySelector(`.output[data-index=&quot;${sliderIndex}&quot;]`);
+    slider.oninput = function() {
+      container.style.setProperty(`--${this.id}`, this.value);
+      output.innerHTML = this.value;
+    };
+  });
+
+// Reset text property and update display property value for each slider
+buttons.forEach(button =&gt; {
+  const buttonIndex = button.getAttribute(&quot;data-index&quot;);
+  const resetOutput = document.querySelector(
+    `.output[data-index=&quot;${buttonIndex}&quot;]`
+  );
+  const resetSlider = document.querySelector(
+    `.slider[data-index=&quot;${buttonIndex}&quot;]`
+  );
+  button.onclick = function() {
+    container.style.removeProperty(`--${resetSlider.id}`);
+    resetOutput.innerHTML = resetSlider.defaultValue;
+    resetSlider.value = resetSlider.defaultValue;
+    console.log(resetSlider.defaultValue);
+  };
+});
+
+
+
+&lt;/script&gt;
+
+
+&lt;/div&gt;</content><author><name></name></author><category term="Typedesign" /><summary type="html">A component-based variable font experiment At the base of most design systems, there is a grid. A grid can help to organize a design, structure it’s contents and give guidance by establishing a visual hirarchy – but it can also be a restriction. Especially in the early days of digitalization, low screen resolutions created clear technical boundaries on how graphics could be displayed. At the very latest with the distribution of the first personal computers using visual interfaces, a formerly niche area in design became more and more important: digital interface design. Due to rather low resolutions in early displays, designers then had to deal with the challenge of transferring formerly unrestricted design rules and patterns into very tight corset of units, the pixels, in the best way possible. This led to a whole new aesthetic of shapes, especially for fonts – curves and other letterform details needed to be pressed in a tight, rectangular pixel grid. Thanks to the technical development of display resolutions in the last decades, designers now have more possibilities than ever to produce fine-detailed forms and display them in every way possible. But the aesthetics of pixelated fonts are still in our minds today and remind us of the early days of digital applications. Lowercase letter N in high resolution with fine details (left) and approximations using different grids (font: Open Sans) Designing graphics under tight restrictions like these is also interesting in the way that it forces us to reduce forms to their necessary essence, so that we can still recognise them. So in a way, early digital fonts were also unavoidably minimalistic. Another development in the technology of digital fonts in the last years is the concept of variable fonts. Variable means that forms can be gradually transformed from one variant to another –  and every possible step in between can be displayed as well. With this feature, variable fonts open up a great range of possibilities in design. Principle of variable fonts: the complete range between two designed states of a form (A and B) can be computed The idea: combining the old and the new While studying the possibilities of variable fonts and the history of early digital fonts, the idea of combining aspects of both of them formed: the flexibility of variable fonts in interplay with the restrictions of early pixel fonts. This article illustrates the outcome of my experiments about creating a digital font that combines a restricted grid together with flexible, variable units (components). Before going into the experiments, let me shortly introduce the thoughts behind the construction of the letters. The letters are constructed in a grid of rows. The basic style is a regular sans serif. A special feature of the font is the extreme high x-height, the low space for ascenders and the completely missing space for descenders (meaning the descenders are fit inside of the x-height space. This underlines the restriction of fitting letters in a very small space and at the same times allows for the font to be used with a very narrow line height. Weight variations of the letter A. You can see how the components align to the grid The extreme x-height and the absence of ascenders allows the font to be set with very low line-heights Introducing variable components There are four axes in this variable font that can each be manipulated seperately. Every axis affects the base component of the letters differently, as demonstrated below: ° Weight ° Form ° Slant ° Angle The four variable axes in the base component: Thickness, Form, Slant and Angle The adjustment of the basic component in different axes allows for the letters to change its properties and appearance completely. We can not only change one axis and one property at a time, but iterate between different axes and let the application calculate all possible versions in between, which leads to some interesting results. Letterform construction The letterforms themselves are entirely constructed of the base components shown above. A change in the base components leads to a change of the whole letter. Aditionally to the change in the base component itself, the arrangement that makes up the letter can be adjusted, in this case for creating an italic version with the Slant Axis. Hover over the letters to see how each axis affects the look of the letter. Weight ^ A&amp;nbsp; Form ^ A&amp;nbsp; Slant ^ A&amp;nbsp; Component Angle ^ A&amp;nbsp; Character Set The font includes all uppercase and lowercase letters, the numbers and basic interpunctuation. Upper- and lowercase alphabet Numbers and basic punctuation Manipulating the axes The basic principle is clear – a manipulation of the base component changes the apperance of the letter. Now, we can change the properties of the font and mix between the axes to our liking. Use the editor below to adjust the axes of the font. You can also enter your own text! Hello Weight: Reset Form: Reset Slant: Reset Angle: Reset Interchanging the base component We’ve seen now how smaller adjustments of the base component change the appearance of letters. But we can even go beyond smaller adjustments in the form and interchange the base component more radically. Choose a form below to see how it alters the letterforms and what interesting coincidences appear through that. ° ° ° ° &amp;nbsp;Hello&amp;nbsp; All in all, it’s very interesting to see how much is possible within a restricted grid and frame and to how many interesting results an exploration like this can lead. Below, you can find more screenshots of the design process and component alternatives as well as coincidences that happened along the way. I hope you enjoyed this exploration. I designed this font as a part of the type design course &quot;Screen Memories&quot; under the guidance of Prof. Pierre-Pane-Farré, summer semester 2022, HAW Hamburg. Thanks for reading! 😊</summary></entry><entry><title type="html">WC for Humans</title><link href="http://localhost:4000/wc-for-humans" rel="alternate" type="text/html" title="WC for Humans" /><published>2019-08-12T00:00:00+02:00</published><updated>2019-08-12T00:00:00+02:00</updated><id>http://localhost:4000/wc-for-humans</id><content type="html" xml:base="http://localhost:4000/wc-for-humans">&lt;h3 class=&quot;article-headline&quot;&gt;Time to be more equal&lt;/h3&gt;
 
 &lt;p&gt;Equality starts somewhere in our day to day life – and sometimes, it can be small things that make life a tiny bit easier and better for everyone. Finding a restroom in a public place is often more complicated than necessary. Everyone knows how annoying long waiting times at social events are, and often, the surroundings are very beneficial to mens needs. And as if that alone would’t be enough trouble already, the common men / women approach to labeling restrooms can leave non-binary people feel unseen and mistreated. So maybe, instead of labeling too much, a good approach could be to focus on what truly unites us all –  we are human beings with dignity and deserve to have equal possibilities. Even if it’s just the fact that we could all go to the toilet in peace. I think making public toilets accessible for everyone might be a small step into the right direction.
 &lt;br /&gt;&lt;br /&gt;

@@ -1,28 +1,100 @@
-<div class="screen-memories-container">
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm a digital and analog designer based in Hamburg."/>
+    <meta name="keywords" content="
+        design, 
+        designer, 
+        gestaltung, 
+        gestalter,
+        portfolio,
+        tim feuring,
+        feuring,
+        tim,
+        webdesign,
+        lettering, 
+        calligraphy,
+        kalligrafie, 
+        handlettering,
+        graphic design,
+        graphicdesign,
+        grafikdesign, 
+        illustration,
+        iconography, 
+        typography, 
+        typografie
+        "/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Tim Feuring - Screen Memories </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+    <body>
+            <nav class="main-nav project-nav" id="nav">
+        <div class="container-wrapper main-nav__inner">
+            <a href="index.html" title="">
+                <div class="prj-nav-back">
+                    <div class="underline" id="nav-about">
+                        <img src="assets/img/icons/arrow-left.svg" alt="back">
+                        <span>back</span>
+                    </div>
+                    <img class="prj-nav__logo" src="assets/img/tf-logo.svg" alt="tf-logo">
+                </div>
+            </a>
+            <!-- Navigationspunkte -->
+            <ul class="project-nav__ul" id="project-nav__ul">
+                
+                    <li>
+                        <a href="/wc-for-humans" title="previous">
+                                <span class="underline">previous</span>
+                        </a>
+                    </li>
+                
+
+                
+                    <li>
+                        <a href="/sauerwein" title="next">
+                                <span class="underline">next</span>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+        <section class="container-wrapper prj-details">
+                <div class="prj-details-intro">
+                    <h2 class="project-title"> Screen Memories </h2>
+                    <p class="project-category"> Typedesign </p>
+                    <img id="" class="stage-img" src="assets/img/posts/screen-memories/screen-memories-stage.png" alt="">
+                    
+                        <div class="screen-memories-container">
     
     <h3 class="article-headline">A component-based variable font experiment</h3>
     
     <p>
         At the base of most design systems, there is a grid. A grid can help to organize a design, structure it’s contents and give guidance by establishing a visual hirarchy – but it can also be a restriction. Especially in the early days of digitalization, low screen resolutions created clear technical boundaries on how graphics could be displayed. At the very latest with the distribution of the first personal computers using visual interfaces, a formerly niche area in design became more and more important: digital interface design. Due to rather low resolutions in early displays, designers then had to deal with the challenge of transferring formerly unrestricted design rules and patterns into very tight corset of units, the pixels, in the best way possible. 
-        <br><br>
+        <br /><br />
         This led to a whole new aesthetic of shapes, especially for fonts – curves and other letterform details needed to be pressed in a tight, rectangular pixel grid. Thanks to the technical development of display resolutions in the last decades, designers now have more possibilities than ever to produce fine-detailed forms and display them in every way possible. But the aesthetics of pixelated fonts are still in our minds today and remind us of the early days of digital applications.
     </p>
     
 
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-01.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-01.png" alt="" />
         <span class="additional-img-desc">Lowercase letter N in high resolution with fine details (left) and approximations using different grids (font: Open Sans)</span>
     </div>
 
     <p>
         Designing graphics under tight restrictions like these is also interesting in the way that it forces us to <i>reduce forms to their necessary essence,</i> so that we can still recognise them. So in a way, early digital fonts were also unavoidably minimalistic. 
-        <br><br>
+        <br /><br />
         Another development in the technology of digital fonts in the last years is the concept of variable fonts. Variable means that forms can be gradually  transformed from one variant to another –  and every possible step in between can be displayed as well. 
         With this feature, variable fonts open up a great range of possibilities in design.
     </p>
 
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-02.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-02.png" alt="" />
         <span class="additional-img-desc">Principle of variable fonts: the complete range between two designed states of a form (A and B) can be computed</span>
     </div>
 
@@ -30,17 +102,17 @@
     <p>
         While studying the possibilities of variable fonts and the history of early digital fonts, the idea of combining aspects of both of them formed: the flexibility of variable fonts in interplay with the restrictions of early pixel fonts.
         This article illustrates the outcome of my experiments about creating a digital font that combines a restricted grid together with flexible, variable units (components).
-    <br><br>
+    <br /><br />
     Before going into the experiments, let me shortly introduce the thoughts behind the construction of the letters. The letters are constructed in a grid of rows. The basic style is a regular sans serif. A special feature of the font is the extreme high x-height, the low space for ascenders and the completely missing space for descenders (meaning the descenders are fit inside of the x-height space. This underlines the restriction of fitting letters in a very small space and at the same times allows for the font to be used with a very narrow line height.
     </p>
         
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-02.5.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-02.5.png" alt="" />
         <span class="additional-img-desc">Weight variations of the letter A. You can see how the components align to the grid</span>
     </div>
 
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-03.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-03.png" alt="" />
         <span class="additional-img-desc">The extreme x-height and the absence of ascenders allows the font to be set with very low line-heights</span>
     </div>
 
@@ -84,11 +156,11 @@
 
 
     <p>The adjustment of the basic component in different axes allows for the letters to change its properties and appearance completely. We can not only change one axis and one property at a time, but iterate between different axes and let the application calculate all possible versions in between, which leads to some interesting results. </p>
-    <br><br>
+    <br /><br />
 
     <h4>Letterform construction</h4>
     <p>The letterforms themselves are entirely constructed of the base components shown above. A change in the base components leads to a change of the whole letter. Aditionally to the change in the base component itself, the arrangement that makes up the letter can be adjusted, in this case for creating an italic version with the Slant Axis.</p>
-    <br><br>
+    <br /><br />
     <p>Hover over the letters to see how each axis affects the look of the letter.</p>
 
     <div class="axis-explanation">
@@ -159,12 +231,12 @@
 
 
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-06.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-06.png" alt="" />
         <span class="additional-img-desc">Upper- and lowercase alphabet</span>
     </div>
 
     <div class="additional-img">
-        <img src="assets/img/posts/screen-memories/screen-memories-article-07.png" alt="">
+        <img src="assets/img/posts/screen-memories/screen-memories-article-07.png" alt="" />
         <span class="additional-img-desc">Numbers and basic punctuation</span>
     </div>
 
@@ -172,7 +244,7 @@
     <h4>Manipulating the axes</h4>
     <p>
         The basic principle is clear – a manipulation of the base component changes the apperance of the letter. Now, we can change the properties of the font and mix between the axes to our liking. 
-        <br><br>
+        <br /><br />
         Use the editor below to adjust the axes of the font. You can also enter your own text!
     </p>
 
@@ -196,7 +268,7 @@
     <div>
         <main class="interactive-slider-container">
             <div>
-                <h1 class="demo-text" role="textbox" contenteditable> Hello </h1>
+                <h1 class="demo-text" role="textbox" contenteditable=""> Hello </h1>
                 <!-- <div class="text-stage-axes">
                     <h1 id="" class="stage-text demo-text screenmemories-base all-axes-example" role="textbox" contenteditable>&nbsp;All axes&nbsp;</h1>
                 </div> -->
@@ -209,7 +281,7 @@
                         <label for="text-weight" class="slider-label">
                             Weight: <span class="output" data-index="0"></span>   
                         </label>
-                        <input type="range" min="0" max="800" value="0" class="slider" id="text-weight" name="text-weight" data-index="0">
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-weight" name="text-weight" data-index="0" />
                         <a class="slider-button underline" data-index="0">
                             Reset
                         </a>
@@ -222,7 +294,7 @@
                         <label for="text-width" class="slider-label">
                             Form: <span class="output" data-index="1"></span>  
                         </label>
-                        <input type="range" min="0" max="800" value="0" class="slider" id="text-width" name="text-width" data-index="1">
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-width" name="text-width" data-index="1" />
                         <a class="slider-button underline" data-index="1">
                             Reset
                         </a>
@@ -236,7 +308,7 @@
                         <label for="text-slant" class="slider-label">
                             Slant: <span class="output" data-index="2"></span>  
                         </label>
-                        <input type="range" min="0" max="800" value="0" class="slider" id="text-slant" name="text-slant" data-index="2">
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-slant" name="text-slant" data-index="2" />
                         <a class="slider-button underline" data-index="2">
                             Reset
                         </a>
@@ -249,7 +321,7 @@
                         <label for="text-angle" class="slider-label">
                             Angle: <span class="output" data-index="3"></span>  
                         </label>
-                        <input type="range" min="0" max="800" value="0" class="slider" id="text-angle" name="text-angle" data-index="3">
+                        <input type="range" min="0" max="800" value="0" class="slider" id="text-angle" name="text-angle" data-index="3" />
                         <a class="slider-button underline" data-index="3">
                             Reset
                         </a>
@@ -275,27 +347,27 @@
     <div>
         <div class="component-change">
             <div id="variant-a" class="component-changer active-changer">
-                <span  > ° </span>
+                <span> ° </span>
             </div>
             <div id="variant-b" class="component-changer inactive-changer">
-                <span  > ° </span>
+                <span> ° </span>
             </div>
             <div id="variant-c" class="component-changer inactive-changer">
-                <span  > ° </span>
+                <span> ° </span>
             </div>
             <div id="variant-d" class="component-changer inactive-changer">
-                <span  > ° </span>
+                <span> ° </span>
             </div>
         </div>
         <div class="text-stage">
-            <span id="stagetext" class="stage-text screenmemories-base" role="textbox" contenteditable>&nbsp;Hello&nbsp;</span>
+            <span id="stagetext" class="stage-text screenmemories-base" role="textbox" contenteditable="">&nbsp;Hello&nbsp;</span>
         </div>
 
     </div>
 
 
     <p>All in all, it’s very interesting to see how much is possible within a restricted grid and frame and to how many interesting results an exploration like this can lead. Below, you can find more screenshots of the design process and component alternatives as well as coincidences that happened along the way.</p>
-<br><br><br>
+<br /><br /><br />
 
     <div class="lettering-gallery-wrapper">
                 
@@ -303,7 +375,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-01.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-01.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -312,7 +384,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-02.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-02.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -321,7 +393,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-03.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-03.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -330,7 +402,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-04.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-04.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -339,7 +411,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-05.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-05.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -348,7 +420,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-06.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-06.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -357,7 +429,7 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-07.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-07.png" alt="lettering-gallery-img" />
                 </div>
             </div>
         </div>
@@ -366,18 +438,18 @@
             <div class="lettering-gallery-img">
                 <div class="preview-dummy"></div>
                 <div class="lettering-gallery-preview">
-                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-08.png" alt="lettering-gallery-img">
+                    <img class="lettering-gallery-preview preview-transform" src="assets/img/posts/screen-memories/screen-memories-gallery-08.png" alt="lettering-gallery-img" />
                 </div>
             </div>
 
         </div>
     </div>
 
-    <br><br><br>
+    <br /><br /><br />
 
     <p> 
         I hope you enjoyed this exploration. I designed this font as a part of the type design course "Screen Memories" under the guidance of Prof. Pierre-Pane-Farré, summer semester 2022, HAW Hamburg. 
-        <br><br>
+        <br /><br />
         Thanks for reading! 😊 
     </p>
 
@@ -484,3 +556,20 @@ buttons.forEach(button => {
 
 
 </div>
+
+
+                </div>
+        </section>
+        <footer class="footer-light">
+    <div class="container-wrapper">
+        <div class="footer-text">
+            <span>© 2022 Tim Feuring
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a class="underline" href="imprint.html" target="_blank">Imprint</a>
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+    </body>
