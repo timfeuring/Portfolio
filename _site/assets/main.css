@@ -833,6 +833,7 @@ body {
 .component-example-glyph {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .component-example .screenmemories-base{
