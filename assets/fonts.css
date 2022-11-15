@@ -783,6 +783,7 @@ input[type=text]:focus {
   
   .slider {
     -webkit-appearance: none;
+    appearance: none;
     width: 30%;
     height: 1rem;
     background: #dddddd;
@@ -841,6 +842,7 @@ input[type=text]:focus {
 
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
+    appearance: none;
     height: 20px;
     width: 20px;
     border-radius: 100px;
@@ -865,4 +867,14 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 100px;
     background: black;
     cursor: pointer;
+  }
+
+
+
+
+.index-list li {
+    font-size: var(--font-basis);
+    list-style: disc;
+    /* margin: 20px 0; */
+    line-height: 190%;
   }
