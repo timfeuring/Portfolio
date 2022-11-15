@@ -1124,3 +1124,14 @@ body {
     flex-direction: column;
     padding: 40px 0;
 }
+
+
+
+/* Anchors for Zersetzer */
+
+.anchor-container {position: relative;}
+
+.scroll-anchor {
+    position: absolute;
+    top: -120px;
+  }
