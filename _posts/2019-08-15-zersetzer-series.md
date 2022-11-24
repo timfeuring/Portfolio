@@ -9,7 +9,7 @@ img-alt: zersetzer-stage
 
 ---
 
-<h3 class="article-headline"> Reviving an old print technique – swedish style </h3>
+<h3 class="article-headline"> Reviving an old printing technique – Swedish style </h3>
 
 Rumbling heavy stones around. Grinding and rasping them for hours with sands and stone work tools. Rinsing them with water every few minutes and drying them with manual fans. Repeating that same process for hours. Applying thick oily pastes and gum to the stone. Speckling them with chemicals, acid and lamp oil repeatedly. 
 <br>
@@ -17,7 +17,7 @@ Rumbling heavy stones around. Grinding and rasping them for hours with sands and
 Sounds like hard work? It is! But why do all of this anyway? We are doing it to learn a printing technique that has been an industry-wide standard for centuries - the technique of lithography. 
 <br>
 <br>
-Lithography (roughly translates to "stone printing") is a flat printing technique. This means that you print an image with a flat surface. In this case, with a flat stone. It’s a chemical printing process: the basic principle behind it is that oil repels water. Most likely, you once tried mixing both - doesn't work so well. In Lithography, only certain areas of the stone that were specifically prepared take up the oily ink. Metaphorically spoken, the stone has a "memory" on where the ink touched it.
+Lithography (roughly translates to "stone printing") is a flat printing technique. This means that you print an image with a flat surface. In this case, with a flat stone. It’s a chemical printing process: the basic principle behind it is that oil repels water. Most likely, you once tried mixing both - doesn't work so well. In Lithography, only certain areas of the stone that were specifically prepared take up the oily ink. Metaphorically spoken, the stone has a "memory" of where the ink touched it.
 <br>
 <br>
 In the following, I’ll take you with me on the process of printing a lithography from sketch to finished print. 
@@ -55,7 +55,7 @@ In the following, I’ll take you with me on the process of printing a lithograp
 Some like it more to paint into the blue – being a bit more of a planner, I took a bit of time to work out a concept for my series. 
 <br>
 <br>
-The series focusses around the interconnection of humans and nature. We are part of nature, part of the natural cycles and the ecosystem, no matter how far we try to seperate us from it. All different kinds of organisms live in strong interconnection and interdependence – plants, animals, fungi, even the smallest microbes, they all play an important role in our ecosystem. In each of the three motifs of the series, I pick out one group of organisms and set it in relation with human hands to underline our dependency with nature.
+The series focuses around the interconnection of humans and nature. We are part of nature, part of the natural cycles and the ecosystem, no matter how far we try to separate us from it. All different kinds of organisms live in strong interconnection and interdependence – plants, animals, fungi, even the smallest microbes, they all play an important role in our ecosystem. In each of the three motifs of the series, I pick out one group of organisms and set it in relation with human hands to underline our dependency with nature.
 
 <br>
 <br>
@@ -66,18 +66,18 @@ The series focusses around the interconnection of humans and nature. We are part
     Step 02 – Preparing the stones
     <div class="scroll-anchor" id="step02"></div>    
 </h4>
-Creating a lithography from scratch takes a lot of time and physical effort. The first step before you can transfer a motif onto a stone, is to plan the size of the print and to find matching stones. The stones for lithography come in different forms and sizes, from postcard-size to huge plates that one person can not carry alone.
+Creating a lithography from scratch takes a lot of time and physical effort. The first step, before you can transfer a motif onto a stone, is to plan the size of the print and to find matching stones. The stones for lithography come in different forms and sizes, from postcard-size to huge plates that one person can not carry alone.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-01.png" alt="">
     <span class="additional-img-desc">
-        Choosing stones for printing (left) and grinding them (right). The motif on the stone will be erased forever (artist of the previous motif unkown)
+        Choosing stones for printing (left) and grinding them (right). The motif on the stone will be erased forever (artist of the previous motif unknown)
     </span>
 </div>
 
-When having found two matching stones, the physical work starts. You carry the stones to a workbench and start to grind off the layers of the previous motif by moving one stone over another in circular motion. A stone will usually be used for printing as long as possible, until it is literally gone. With each new motif, a small layer of the stone gets erased. 
+When having found two matching stones, the physical work starts. You carry the stones to a workbench and start to grind off the layers of the previous motif by moving one stone over another in a circular motion. A stone will usually be used for printing as long as possible, until it is literally gone. With each new motif, a small layer of the stone gets erased. 
 <br><br>
-This is one reasons lithographs are so precious – a motif can only be printed for a certain period of time. When the printing process ends, the stone finds it way back into the shelf and the motif gets erased to make room for a new one. It can then never be reprinted again – lithographies are usually a very limited edition.
+This is one reasons lithographs are so precious – a motif can only be printed for a certain period of time. When the printing process ends, the stone finds it way back into the shelf and the motif gets erased to make room for a new one. It can then never be reprinted again – lithographs are usually a very limited edition.
 
 
 <div class="additional-img">
@@ -96,7 +96,7 @@ While grinding, the mixture of sand, water and more and more stone fragments wil
     </span>
 </div>
 
-In the process, you have to check on the stone several times to see how you are proceeding. In the example above, you can see a half-grinded stone. The motif is erased near the borders, but still visible in the middle. After some more effort, in the end, you get a smooth stone with a clean surface that is ready to be drawn on.
+In the process, you have to check on the stone several times to see how you are proceeding. In the example above, you can see a partly grinded stone. The motif is erased near the borders, but still visible in the middle. After some more effort, in the end, you get a smooth stone with a clean surface that is ready to be drawn on.
 
 <br>
 <br>
@@ -105,7 +105,7 @@ In the process, you have to check on the stone several times to see how you are 
     <div class="scroll-anchor" id="step03"></div>    
 </h4>
 
-Everything mooth and clean? Excellent. Now it’s time to get the art on the stone. 
+Everything smooth and clean? Excellent. Now it’s time to get the art on the stone. 
 The most crucial part of the long process is, of course, bringing your motif onto the stone without messing it up. I started with drawing small thumbnail sketches until the composition felt just right for me. Then I worked out the detailed sketch, matching to the actual size and proportion of the stone. 
 
 <div class="additional-img">
@@ -115,7 +115,7 @@ The most crucial part of the long process is, of course, bringing your motif ont
     </span>
 </div>
 
-As you can see above, the thumbnail sketch is already close to the final version. This doesn’t have to be the case and things can still be changed and explored in the process. For example, I first planned the letters to be in the bottom corner and changed the position again afterwards.
+As you can see above, the thumbnail sketch is already close to the final version. This doesn’t have to be the case, and things can still be changed and explored in the process. For example, I first planned the letters to be in the bottom corner and changed the position again afterwards.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-05.png" alt="">
@@ -124,9 +124,9 @@ As you can see above, the thumbnail sketch is already close to the final version
     </span>
 </div>
 
-In the series, the letters are equally as important as drawing the rest of the motif. Each letter is individually drawn. Here, you can see the final sketch of the letters that is transferred onto the stone.
+In the series, the letters are equally important as drawing the rest of the motif. Each letter is individually drawn. Here, you can see the final sketch of the letters that is transferred onto the stone.
 <br><br>
-Now to the tricky part – we directly print on the paper with our stone. Therefore, the whole motif has to be mirrored, assuming we don’t want to read the wrong way around. A trick to make this easier is a light table. With it’s help, we can rearrange the whole composition and turn the letters around. 
+Now to the tricky part – we directly print on the paper with our stone. Therefore, the whole motif has to be mirrored, assuming we don’t want to read the wrong way around. A trick to make this easier is a light table. With its help, we can rearrange the whole composition and turn the letters around. 
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-06.png" alt="">
@@ -172,7 +172,7 @@ That’s it – the motif is completed on the stone. Painting the letters with 
     <div class="scroll-anchor" id="step04"></div>    
 </h4>
 
-In order to reproduce the artwork, the stone now has to be prepared with several chemical powders and tinctures. Different lithographers have slightly varying approaches to this process, but they all serve the same purpose – making the stone open to take up the ink where it should be, and repel the ink where it should not. In the process, chemicals get applied in a specific order: colophonium and talkum powder, acid, gummi arabicum, lamp oil, and more. The process will not be explained in detail here, it should just give an impression on how the stone is worked with.
+In order to reproduce the artwork, the stone now has to be prepared with several chemical powders and tinctures. Different lithographers have slightly varying approaches to this process, but they all serve the same purpose – making the stone open to take up the ink where it should be, and repel the ink where it should not. In the process, chemicals get applied in a specific order: colophony and tackum powder, acid, gum arabic, lamp oil, and more. The process will not be explained in detail here, it should just give an impression on how the stone is worked with.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-10.png" alt="">
@@ -251,7 +251,7 @@ Now, we need pressure to transfer the ink onto the paper. For that, we place a c
     </span>
 </div>
 
-Ususally, the prints will air-dry for a few days. The oil-based ink takes longer to dry than regular, water-based inks.
+Usually, the prints will be air-dried for a few days. The oil-based ink takes longer to dry than regular, water-based inks.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-17.png" alt="">
@@ -260,7 +260,7 @@ Ususally, the prints will air-dry for a few days. The oil-based ink takes longer
     </span>
 </div>
 
-After the printing sessions, the walls of the workshops are hanging full of prints. The smell of ink and machine grease fills the air. All in all, the workshops of Tidaholm are a very special sourrounding to work in and feel like a time travel back into the old days, where lithography was a printing standard.
+After the printing sessions, the walls of the workshops are hanging full of prints. The smell of ink and machine grease fills the air. All in all, the workshops of Tidaholm are a very special surrounding to work in and feel like time travel back into the old days, where lithography was a printing standard.
 <br><br>
 Now, the only thing left is the finishing touch: numbering and signing the editions.
 
@@ -272,7 +272,7 @@ Now, the only thing left is the finishing touch: numbering and signing the editi
     <div class="scroll-anchor" id="step06"></div>    
 </h4>
 
-While working in the swedish workshops, I’ve printed a series of three motifs. The edition is limited to 15 prints each, every print numbered and signed.
+While working in the Swedish workshops, I’ve printed a series of three motifs. The edition is limited to 15 prints each, every print numbered and signed.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-18.png" alt="">
@@ -300,7 +300,7 @@ Living together in harmony and benefitting from each other – that’s one of 
 Spiders, bugs, caterpillars, snails – often unfairly underestimated and overlooked because they look strange and disgust us. But they as well play a vital role for our lives – and be it by snatching mosquitos out of the air for us so we can enjoy our summer nights in peace.
 <br><br><br><br>
 
-In addition to the great workshops, I was lucky to get my series featured in a swedish newspaper article together with some of my fellow students.
+In addition to the great workshops, I was lucky to get my series featured in a Swedish newspaper article together with some of my fellow students.
 
 <div class="additional-img">
     <img src="assets/img/posts/zersetzer/zersetzer-article-21.png" alt="">
