@@ -10,8 +10,8 @@ permalink: /imprint
 <h4>Angaben gem&auml;&szlig; &sect; 5 TMG</h4>
 <p>Tim Feuring<br>
 Tim Feuring Grafik- und Webdesign<br>
-Deelwisch 54<br>
-22529 Hamburg</p>
+Ehrenbergstraße 69<br>
+22767 Hamburg</p>
 <br>
 
 
