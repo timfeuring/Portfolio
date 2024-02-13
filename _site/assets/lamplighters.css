@@ -1,0 +1,405 @@
+/* General styles */
+/* ========================================================================== */
+
+@import url(fonts.css);
+@import url(transforms.css);
+
+h1, h2, h3, h4, h5, p {
+    font-family: 'Inria Serif', serif;
+}
+
+p {
+    font-size: 24px;
+    line-height: 130%;
+    max-width: 100%;
+}
+
+.intro-text-centered {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.container-wrapper-lamplighters {
+    max-width: 1600px;
+    padding: 0 4%;
+    margin: 0 auto;
+}
+
+
+/* HEADER  */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.lamplighters-logo {
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+/* FULL WIDTH HEADER */
+/* ========================================================================== */
+
+.full-width-header {
+    height: 100vh;
+    background: url('img/posts/lamplighters/full-width-header-img-03.png') center/cover; /* Replace 'path/to/your/background-image.jpg' with the actual image path */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.flex-container {
+    max-width: 650px;
+}
+
+
+/* Define the keyframes for the animation */
+@keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.025);
+      /* transform: rotate(3deg); */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/* Define the keyframes for the extended flickering effect */
+/* Define the keyframes for the extended flickering effect with randomized color variation */
+@keyframes flickerAnimation {
+    0% {
+      filter: drop-shadow(0 0 5px rgba(255, 165, 0, 0.5));
+    }
+  
+    /* Randomized increments within each range */
+    7% {
+      filter: drop-shadow(0 0 15px rgba(255, 140, 0, 0.8));
+    }
+  
+    18% {
+      filter: drop-shadow(0 0 15px rgba(255, 140, 0, 0.8));
+    }
+  
+    24% {
+      filter: drop-shadow(0 0 8px rgba(255, 152, 0, 0.75));
+    }
+  
+    30% {
+      filter: drop-shadow(0 0 12px rgba(255, 127, 0, 0.9));
+    }
+  
+
+    38% {
+      filter: drop-shadow(0 0 7px rgba(255, 145, 51, 0.7));
+    }
+
+  
+    52% {
+      filter: drop-shadow(0 0 10px rgba(255, 130, 0, 0.8));
+    }
+  
+
+    65% {
+      filter: drop-shadow(0 0 6px rgba(255, 153, 0, 0.75));
+    }
+
+    70% {
+      filter: drop-shadow(0 0 14px rgba(255, 140, 0, 0.85));
+    }
+  
+
+    84% {
+      filter: drop-shadow(0 0 9px rgba(255, 136, 0, 0.8));
+    }
+  
+
+  
+    97% {
+      filter: drop-shadow(0 0 5px rgba(255, 165, 0, 0.5));
+    }
+  
+   100% {
+      filter: drop-shadow(0 0 5px rgba(255, 165, 0, 0.5));
+    }
+
+
+  }
+  
+
+  
+  
+  
+.centered-logo {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 0 2rem rgba(0,0,0, 0.8));
+    animation: scaleAnimation 8s ease-in-out infinite, flickerAnimation 10s ease-in-out infinite alternate;
+    mix-blend-mode: screen;
+}
+
+
+/* GRID CONTAINER */
+/* ========================================================================== */
+
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    margin-bottom: 150px;
+}
+
+/* IMAGE CONTAINER */
+/* ========================================================================== */
+
+.image-container {
+    position: relative;
+    /* overflow: hidden; */
+    height: auto;
+    filter: drop-shadow(0 0 2rem rgba(0,0,0, 0.2));
+    transition: .5s ease all;
+    cursor: pointer;
+    transform: scale(1.00);
+    
+}
+
+.image-container:hover {
+    transition: .5s ease all;
+    transform: scale(1.02);
+}
+
+
+
+.before-image {
+    position: relative;
+}
+
+.before-image img {
+    width: 100%;
+    opacity: 1.0;
+    transition: 0.5s ease all;
+}
+
+.before-image:hover img {
+    opacity: 0.0;
+    transition: 1s ease all;
+    filter: drop-shadow(0 0 0.75rem #000);
+}
+
+.before-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 25, 25, 1.0);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease;
+}
+
+.before-image.overlay-visible::before {
+    opacity: 1; /* Show the overlay when the class is present */
+}
+
+.after-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+/* TEXT CONTAINER */
+/* ========================================================================== */
+
+.text-container {
+    display: grid;
+    grid-column: 9 / span 4;
+}
+
+.text-container h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Add this to your existing CSS */
+
+
+
+
+/* OPENER SECTION  */
+/* ========================================================================== */
+
+.opener-section .image-container {
+    display: grid;
+    grid-column: 1 / span 7;
+}
+
+.opener-section .text-container {
+    display: grid;
+    grid-column: 9 / span 4; 
+}
+
+
+
+
+
+/* PORTRAIT SECTION */
+/* ========================================================================== */
+
+.portrait-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.portrait-section .text-container {
+    grid-column: 3 / span 5; /* Spanning from column 3 to 7 */
+}
+
+.portrait-section .image-container {
+    grid-column: 9 / span 4; /* Spanning from column 9 to 12 */
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+
+/* LAMP SECTION */
+/* ========================================================================== */
+
+
+.lamp-section .image-container {
+    grid-column: 1 / span 5; /* Spanning from column 1 to 5 */
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%; /* Adjust to fit the container */
+}
+
+.image-container img:hover {
+    opacity: 0;
+    transition: 1.5s ease all;
+}
+
+.text-container {
+    grid-row: 1;
+    grid-column: 7 / span 4; /* Spanning from column 7 to 10 */
+}
+
+
+
+.alternative-text {
+    color: white;
+}
+
+/* Add this to your existing CSS */
+
+.grid-section .text-container {
+    position: relative;
+}
+
+.grid-section .text-container .default-text,
+.grid-section .text-container .alternative-text {
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transitions for opacity and transform */
+}
+
+.grid-section .text-container .default-text {
+    opacity: 1;
+}
+
+.grid-section .text-container .alternative-text {
+    opacity: 0.0;
+    position: absolute;
+    top: 120px; /* Initially position it below the container */
+}
+
+.grid-section .image-container:hover + .text-container .default-text {
+    opacity: 0.0; /* Reduce opacity when hovering over the image container */
+    transform: translateY(-120px); /* Move the default text up */
+}
+
+.grid-section .image-container:hover + .text-container .alternative-text {
+    opacity: 1.0; /* Make alternative text visible when hovering over the image container */
+    transform: translateY(-120px); /* Move the default text up */
+}
+
+
+/* DARK BACKGROUND ON HOVER */
+/* Add this to your existing CSS */
+.dark-background {
+    background-color: black; /* Set your desired background color */
+    transition: background-color 0.5s ease; /* Add the transition effect */
+}
+
+
+body {
+    background-color: white; /* Set your default background color */
+    transition: background-color 0.5s ease; /* Add the transition effect */
+}
+
+
+.before-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 25, 25, 1.0);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease;
+}
+
+.before-image.overlay-visible::before {
+    opacity: 1; /* Show the overlay when the class is present */
+}
+
+
+
+
+
+/* Add this to your existing CSS */
+
+/* Overlay for smaller screen sizes 
+.overlay-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 300px) {
+    .overlay-message {
+        display: flex;
+    }
+
+    .container-wrapper-lamplighters {
+        display: none;
+    }
+}
+*/
