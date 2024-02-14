@@ -14,11 +14,17 @@ p {
     max-width: 100%;
 }
 
+.p-small {font-size: 20px;}
+
 .intro-text-centered {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 150px;
+}
+
+.intro-text-centered h4, p {
+    max-width: 900px;
 }
 
 .container-wrapper-lamplighters {
@@ -50,7 +56,7 @@ p {
 
 .full-width-header {
     height: 100vh;
-    background: url('img/posts/lamplighters/full-width-header-img-03.png') center/cover; /* Replace 'path/to/your/background-image.jpg' with the actual image path */
+    background: url('img/posts/lamplighters/full-width-header-XL.png') center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,32 +380,102 @@ body {
 
 
 
-/* Add this to your existing CSS */
-
-/* Overlay for smaller screen sizes 
-.overlay-message {
+/* Overlay for smaller screen sizes */
+.overlay-mobile {
     display: none;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 24px;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1000;
 }
 
-@media only screen and (max-width: 300px) {
-    .overlay-message {
-        display: flex;
-    }
+.overlay-message {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 6.0rem;
+    line-height: 110%;
+    max-width: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    
+}
 
+
+.overlay-message {
+    font-size: 6.0rem;
+    line-height: 110%;
+}
+
+
+/* MEDIA QUERIES */
+
+/* HEADER BACKGROUND IMAGE SWITCH */
+
+@media only screen and (max-width: 1200px) {
+    
+    .full-width-header {
+        background: url('img/posts/lamplighters/full-width-header-L.png') center/cover;
+    }
+}
+
+
+/* OVERLAY SMALLER SCREEN SIZES */
+@media only screen and (max-width: 1000px) {
+    .overlay-mobile {
+        display: flex;
+        position: fixed;
+    }
+    
     .container-wrapper-lamplighters {
         display: none;
     }
+
+    .full-width-header {
+        margin-bottom: 0;
+    }
+
+    .footer-light {
+        display: none;
+    }
+
+    .centered-logo {
+        display: none;
+    }
+
+    .overlay-logo {
+        max-width: 650px;
+        margin-bottom: 50px;
+        filter: drop-shadow(0 0 2rem rgba(0,0,0, 0.8));
+        animation: scaleAnimation 8s ease-in-out infinite, flickerAnimation 10s ease-in-out infinite alternate;
+        mix-blend-mode: screen;
+    }
 }
-*/
+
+    @media only screen and (max-width: 800px) {
+        .overlay-message  {
+            font-size: calc(6.0rem * 0.7);
+        }
+    }
+
+
+    @media only screen and (max-width: 650px) {
+
+        .overlay-logo {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .overlay-message  {
+            font-size: calc(6.0rem * 0.6);
+        }
+    }
+
+
