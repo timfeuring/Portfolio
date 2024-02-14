@@ -1,7 +1,7 @@
 ---
 layout: lamplighters-ai
 title: Lamplighters-AI
-permalink: /lamplighters-AI
+permalink: /lamplighters-ai
 category: 
 img-path: 
 # img-id: 
