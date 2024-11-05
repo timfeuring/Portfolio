@@ -1,0 +1,138 @@
+
+
+/* Google Font Import Placeholder */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* Root custom properties */
+:root {
+  --base-font-size: 1em; /* Adjust this value to scale the font sizes */
+  --heading-scale: 1.5;  /* Adjust to change heading scaling */
+  --font-family: 'Inter', sans-serif; /* Change to match imported font */
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  /* --line-height: 1.5; /* Base line-height for readability in percentage*/
+  --line-height: 2.2em; /* Base line-height in em (equals 150% in em) */
+}
+
+/* Global font settings */
+body {
+  font-size: var(--base-font-size);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height);
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 2);
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.75);
+  font-weight: var(--font-weight-bold);
+}
+
+h3 {
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.5);
+  font-weight: var(--font-weight-bold);
+}
+
+h4 {
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.25);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Paragraphs */
+p {
+  font-size: var(--base-font-size);
+  margin-bottom: 1em;
+}
+
+/* Strong and Emphasis */
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+em {
+  font-style: italic;
+}
+
+/* Lists */
+ul,
+ol {
+  font-size: var(--base-font-size);
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+  font-size: var(--base-font-size);
+  color: blue; /* Adjust color as needed */
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  font-size: var(--base-font-size);
+  font-weight: var(--font-weight-normal);
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+/* Form Elements */
+label,
+input,
+select,
+textarea {
+  font-size: var(--base-font-size);
+}
+
+/* Table */
+table {
+  width: 100%;
+  font-size: var(--base-font-size);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+}
+
+th {
+  font-weight: var(--font-weight-bold);
+}
+
+caption {
+  font-size: calc(var(--base-font-size) * 0.9);
+  text-align: left;
+}
+
+/* Image Captions */
+figcaption {
+  font-size: calc(var(--base-font-size) * 0.9);
+  font-style: italic;
+  text-align: center;
+}
+
+/* Interactive Elements */
+details {
+  font-size: var(--base-font-size);
+  margin-bottom: 1em;
+}
+
+summary {
+  font-weight: var(--font-weight-bold);
+}
