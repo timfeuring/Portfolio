@@ -1,0 +1,71 @@
+
+/* THEMES================================ */
+/* Light Theme */
+:root {
+
+  /* COLOR TOKENS */
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5E6D3;
+  --color-surface-light: #FDF4ED;
+  --color-surface-emphasis: var(--color-primary);
+
+  --color-text-on-surface: #292929;
+  --color-text-on-surface-alt: var(--color-primary);
+  --color-text-on-emphasis: #FFFFFF;
+
+  --color-primary: #481D00;
+  --color-on-primary: #FFFFFF;
+
+  --color-button-primary: #481D00;
+  --color-button-secondary: #FFFFFF;
+  --color-button-on-emphasis: #FF6500;
+
+  --color-seperator: #B6A599;
+
+  --color-accent: #FF6500;
+  --color-highlight: #FF0586;
+  --color-error: #FF0000;
+
+  /* TEXT TOKENS */
+  --base-font-size: 1em;
+  --font-family: 'Inter', sans-serif;
+  --font-family-alt:  'Lora', serif;
+  --font-family-dyslexic: 'Roboto Slab', serif;
+  --heading-scale: 1.5;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height: 2.2em;
+}
+
+/* Dark Theme */
+.acsplorer-demonstrator[data-theme="dark"] {
+  --color-background: #121212;
+  --color-background-alt: #1e1e1e;
+  --color-surface: #2e2e2e;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #b0b0b0;
+  --color-text-inverse: #121212;
+  --color-primary: #8ab4f8;
+  --color-secondary: #57bb8a;
+  --color-border: #3c4043;
+  --color-divider: #5f6368;
+  --color-success: #57bb8a;
+  --color-error: #cf6679;
+  --color-warning: #ffbd45;
+  --color-info: #8ab4f8;
+  --color-hover: #7ba1e3;
+  --color-focus: #8ab4f8;
+  --color-disabled: #5f6368;
+  --base-font-size: 1.15em;
+}
+
+
+.acsplorer-demonstrator[data-font="default"] {
+  --font-family-headline: 'Inter', sans-serif;
+  --font-family-alt:  'Lora', serif;
+}
+
+.acsplorer-demonstrator[data-font="dyslexia"] {
+  font-family: 'OpenDyslexic', sans-serif;
+  line-height: initial;
+}

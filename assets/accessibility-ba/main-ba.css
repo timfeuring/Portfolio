@@ -1,53 +1,185 @@
-
-/* IMPORT STYLING SETS */
+/* CSS IMPORT ========================================================================= */
 @import url(tokens.css);
+@import url(demonstrator.css);
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 
+/* GLOBAL SETTINGS ========================================================================= */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-  }
-  
-  .acsplorer-page {
+}
+
+:root {
+  --acsplorer-surface: grey;
+  --acsplorer-text-primary: #000000;
+  --acsplorer-primary: #006AD4;
+  --acsplorer-secondary: #FFFFFF;
+  --acsplorer-primary-hover: #0059B3;
+  --acsplorer-font: "Funnel Display", serif;
+}
+
+/* ACSPLORER MAIN ========================================================================= */
+
+
+.acsplorer-page {
     display: flex;
     height: 100vh;
-  }
-  
-  .settings-panel {
-    width: 25vw;
-    background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .setting-button {
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    border: none;
-    background-color: #ddd;
-    cursor: pointer;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .example-section {
-    flex: 1;
-    padding: 40px;
-    background-color: #eaeaea;
-    overflow: scroll;
+}
+
+
+/* SETTINGS PANEL */
+.settings-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--spacing-L);  
+
+  min-width: 280px;
+  width:20vw;
     
-  }
-  
+  background-color: var(--color-background-alt);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
+  font-family: 'Inter', sans-serif;
+}
+
+.settings-panel h1, .settings-panel h2 {
+  font-family: var(--acsplorer-font);
+}
+
+.settings-panel h1 {margin: 0;}
+
+.settings-panel-header {
+  /* width: 100%; */
+  font-optical-sizing: auto;
+}
+
+.annotations-selection {
+  width: 100%;
+}
+
+.wcag-standard-selection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wcag-selection-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wcag-selection-form fieldset{
+  display: flex;
+  flex-direction: column;
+  /* Border & Padding Fieldset */
+  border: none;
+  padding: 0;
+}
+
+.wcag-selection-form label{
+  background-color: var(--acsplorer-primary);
+  color: var(--acsplorer-secondary);
+  padding: var(--spacing-L);
+  margin: var(--spacing-S) 0;
+  border-radius: 8px;
+}
+
+.wcag-selection-form label:hover {
+  background-color: var(--acsplorer-primary-hover);
+  cursor: pointer;
+}
+
+.settings-panel h2{
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1);
+}
 
 
-.acsplorer-demonstrator {
-    display: flex;
-    flex-direction: column;
-    background-color: beige;
+/* EXAMPLE SECTION  */
+
+.example-section {
+    flex: 1;
+    padding: 40px; /* Padding UM den Demonstrator herum */
+    background-color: var(--color-surface);
+    overflow: scroll;
+    background-color: #f1f1f1;
+}
+
+.setting-button {
+  background-color: var(--acsplorer-primary);
+  color: var(--acsplorer-secondary);
+}
+
+
+.demonstrator {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust based on desired height */
+  overflow: hidden; /* Prevent scrollbars around the iframe */
+  border-radius: 0.4em;
+}
+
+.demonstrator iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the parent */
+  height: 100%; /* Full height of the parent */
+  border: none; /* Remove default iframe border */
+}
+
+
+
+
+/* DUMMY 404  ========================================================================= */
+
+
+.dummy-404-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  text-align: center;
+  font-family: var(--font-family);
+  background-color: var(--color-surface-light); /* Light background */
+  color: var(--color-text-primary); /* Primary text color */
+}
+
+.dummy-404-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  font-family: inherit;
+  transform: scale(1.2);
+}
+
+.dummy-404-container h1 {
+  font-family: var(--acsplorer-font);
+  margin: 0;
+}
+
+
+.marker-container::after {
+  content: "";
+  display: var(--marker-display, none);
+  width: 16px;
+  height: 16px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+  cursor: pointer;
 }

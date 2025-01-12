@@ -1,0 +1,56 @@
+---
+title: Error 404
+---
+
+<!-- BA Page Head Element -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm a digital and analog designer based in Hamburg."/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Acsplorer </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/accessibility-ba/img/favicon.ico">
+    <link rel="stylesheet" href="assets/accessibility-ba/demonstrator.css">
+    <link rel="stylesheet" href="assets/accessibility-ba/main-ba.css">
+</head>
+
+<body>
+    <div class="dummy-404-container">
+      <div class="dummy-404-content">
+        <h1>It's not a real page. 🤓</h1>
+        
+        <!-- Does not work atm -->
+        <p id="search-query"></p>
+
+        <p>
+          This is a demonstrator, not real content.
+          Please head back by clicking the link below.
+        </p>
+
+        <a href="acsplorer-demonstrator.html">
+          <button class="button-primary" id="search-button"> 
+            <svg class="button-primary-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L13.41 5.41L7.83 11L20 11L20 13L7.83 13L13.42 18.58L12 20L4 12L12 4Z"/>
+            </svg>
+            Back to Demonstrator
+          </button>
+        </a>
+    </div>
+  </div>
+
+  <script>
+    // Extract the query parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+
+    // Display the query on the page
+    if (query) {
+      document.getElementById('search-query').textContent = `You searched for: "${query}"`;
+    }
+  </script>
+
+
+</body>
+
+</html>

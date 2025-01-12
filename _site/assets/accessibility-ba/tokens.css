@@ -1,138 +1,83 @@
+/* BASE TOKENS ========================================================================= */
 
-
-/* Google Font Import Placeholder */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
-/* Root custom properties */
 :root {
-  --base-font-size: 1em; /* Adjust this value to scale the font sizes */
-  --heading-scale: 1.5;  /* Adjust to change heading scaling */
-  --font-family: 'Inter', sans-serif; /* Change to match imported font */
+  /* COLOR TOKENS */
 
+  /* HEX  */
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5E6D3;
+  --color-surface-light: #FDF4ED;
+  --color-surface-emphasis: #481D00;
+
+  --color-text-primary: #292929;
+  --color-text-secondary: #481D00;
+  --color-text-on-emphasis: #FFFFFF;
+
+  --color-primary: #481D00;
+  --color-on-primary: #FFFFFF;
+
+  --color-button-primary: #481D00;
+  --color-button-primary-hover: #321400;
+  --color-button-secondary: #FFFFFF;
+  --color-button-secondary-hover: #F2F2F2;
+  --color-button-on-emphasis: #FF6500;
+  --color-button-on-emphasis-hover: #E55B00;
+
+  --color-seperator: #B6A599;
+
+  --color-accent: #FF6500;
+  --color-highlight: #FF0586;
+  --color-error: #FF0000;
+
+  /* RGB */
+  /* --color-surface: rgb(255, 255, 255);
+  --color-surface-alt: rgb(245, 230, 211);
+  --color-surface-light: rgb(253, 244, 237);
+  --color-surface-emphasis: rgb(72, 29, 0);
+  
+  --color-text-primary: rgb(41, 41, 41);
+  --color-text-secondary: rgb(72, 29, 0);
+  --color-text-on-emphasis: rgb(255, 255, 255);
+  
+  --color-primary: rgb(72, 29, 0);
+  --color-on-primary: rgb(255, 255, 255);
+  
+  --color-button-primary: rgb(72, 29, 0);
+  --color-button-secondary: rgb(255, 255, 255);
+  --color-button-on-emphasis: rgb(255, 101, 0);
+  
+  --color-seperator: rgb(182, 165, 153);
+  
+  --color-accent: rgb(255, 101, 0);
+  --color-highlight: rgb(255, 5, 134);
+  --color-error: rgb(255, 0, 0);
+   */
+
+  /* TEXT TOKENS */
+  --base-font-size: 1em;
+  --font-family: 'Inter', sans-serif;
+  --font-family-heading:  'Playfair Display', serif;
+  --font-family-dyslexic: 'Roboto Slab', serif;
+  --heading-scale: 1.5;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
+  --line-height: 2.2em;
 
-  /* --line-height: 1.5; /* Base line-height for readability in percentage*/
-  --line-height: 2.2em; /* Base line-height in em (equals 150% in em) */
-}
+  /* SPACING TOKENS */
+  --spacing-XS: 0.25em;    /* 4px */
+  --spacing-S: 0.5em;      /* 8px */
+  --spacing-M: 0.75em;     /* 12px */
+  --spacing-L: 1em;        /* 16px */
+  --spacing-XL: 1.5em;     /* 24px */
+  --spacing-XXL: 2em;      /* 32px */
+  --spacing-XXXL: 3em;     /* 48px */
 
-/* Global font settings */
-body {
-  font-size: var(--base-font-size);
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-normal);
-  line-height: var(--line-height);
-  margin: 0;
-  padding: 0;
-}
+  /* TRANSITION */
+  --transition-duration: .5s;
 
-/* Headings */
-h1 {
-  font-size: calc(var(--base-font-size) * var(--heading-scale) * 2);
-  font-weight: var(--font-weight-bold);
-}
+  /* TRANSPARENCIES */
+  --transparency-80: 0.8;
 
-h2 {
-  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.75);
-  font-weight: var(--font-weight-bold);
-}
-
-h3 {
-  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.5);
-  font-weight: var(--font-weight-bold);
-}
-
-h4 {
-  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1.25);
-  font-weight: var(--font-weight-bold);
-}
-
-/* Paragraphs */
-p {
-  font-size: var(--base-font-size);
-  margin-bottom: 1em;
-}
-
-/* Strong and Emphasis */
-strong {
-  font-weight: var(--font-weight-bold);
-}
-
-em {
-  font-style: italic;
-}
-
-/* Lists */
-ul,
-ol {
-  font-size: var(--base-font-size);
-  margin-bottom: 1em;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
-/* Links */
-a {
-  font-size: var(--base-font-size);
-  color: blue; /* Adjust color as needed */
-  text-decoration: underline;
-}
-
-/* Buttons */
-button {
-  font-size: var(--base-font-size);
-  font-weight: var(--font-weight-normal);
-  padding: 0.5em 1em;
-  cursor: pointer;
-}
-
-/* Form Elements */
-label,
-input,
-select,
-textarea {
-  font-size: var(--base-font-size);
-}
-
-/* Table */
-table {
-  width: 100%;
-  font-size: var(--base-font-size);
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid #ccc;
-  padding: 0.5em;
-}
-
-th {
-  font-weight: var(--font-weight-bold);
-}
-
-caption {
-  font-size: calc(var(--base-font-size) * 0.9);
-  text-align: left;
-}
-
-/* Image Captions */
-figcaption {
-  font-size: calc(var(--base-font-size) * 0.9);
-  font-style: italic;
-  text-align: center;
-}
-
-/* Interactive Elements */
-details {
-  font-size: var(--base-font-size);
-  margin-bottom: 1em;
-}
-
-summary {
-  font-weight: var(--font-weight-bold);
+  /* CORNER RADIUS */
+  --border-rounded: 2em;
 }

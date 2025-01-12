@@ -15,34 +15,355 @@
 
     <body>
 
-      <!DOCTYPE html>
-<html lang="de">
-    <head>
-        <link rel="stylesheet" href="assets/main-ba.css">
-        <script defer src="assets/main-ba.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <script defer src="assets/lamplighters.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <!-- google font import -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    </head>
+      
     
+    <section class="acsplorer-demonstrator" data-theme="light">
     
-    
-    <section class="acsplorer-demonstrator">
-            <!-- Headings -->
-            <h1>Main Heading (H1)</h1>
+        <!-- Accessibility Toolbar -->
+        <div class="accessibility-toolbar" aria-label="Accessibility Toolbar">
+            <!-- Pause Animations -->
+            <button class="button-accessibility-toolbar" id="pause-animations" aria-pressed="false">
+              Pause Animations
+            </button>
+          
+            <!-- Text / Background Options -->
+            <div class="toolbar-dropdown">
+              <button class="button-accessibility-toolbar" id="text-bg-options" aria-expanded="false">
+                Text / BG Options
+              </button>
+              <div class="dropdown-menu" aria-labelledby="text-bg-options" hidden>
+                <label>
+                  <input type="radio" name="text-bg" value="high-contrast" />
+                  High Contrast
+                </label>
+                <label>
+                  <input type="radio" name="text-bg" value="dark-mode" />
+                  Dark Mode
+                </label>
+                <label>
+                  <input type="radio" name="text-bg" value="light-mode" checked />
+                  Light Mode
+                </label>
+              </div>
+            </div>
+          
+            <!-- Pause Timing -->
+            <button class="button-accessibility-toolbar" id="pause-timing" aria-pressed="false">
+              Pause Timing
+            </button>
+          </div>
+          
+      <!-- Main Navigation -->
+      <nav class="main-navigation">
+        <div class="container-logo-list">
+          <!-- Logo -->
+          <a class="nav-logo-container" href="acsplorer-demonstrator.html">
+            <img
+              class="nav-logo"
+              src="assets/accessibility-ba/img/vegcraft-logo.svg"
+              alt="the logo of vegcraft in a delicate letter combination"
+            />
+          </a>
+      
+          <!-- Burger Menu Button -->
+          <button class="burger-menu" aria-label="Toggle navigation">
+            <svg class="button-secondary-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z"/>
+            </svg>
+            <p>Menu</p>
+          </button>
+      
+          <!-- Navigation Links -->
+          <ul class="navbar-list" hidden>
+            <!-- Home -->
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+      
+            <!-- Recipes Dropdown -->
+            <li class="navbar-item dropdown">
+              <a href="#" class="navbar-link dropdown-toggle" aria-expanded="false">
+                Recipes
+                <span class="dropdown-icon">▼</span>
+              </a>
+              <ul class="dropdown-menu" hidden>
+                <li><a href="#" class="dropdown-link">Recipe 1</a></li>
+                <li><a href="#" class="dropdown-link">Recipe 2</a></li>
+                <li><a href="#" class="dropdown-link">Recipe 3</a></li>
+              </ul>
+            </li>
+      
+            <!-- Seasonal Picks Dropdown -->
+            <li class="navbar-item dropdown">
+              <a href="#" class="navbar-link dropdown-toggle" aria-expanded="false">
+                Seasonal Picks
+                <span class="dropdown-icon">▼</span>
+              </a>
+              <ul class="dropdown-menu" hidden>
+                <li><a href="#" class="dropdown-link">Pick 1</a></li>
+                <li><a href="#" class="dropdown-link">Pick 2</a></li>
+                <li><a href="#" class="dropdown-link">Pick 3</a></li>
+              </ul>
+            </li>
+      
+            <!-- About -->
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">About</a>
+            </li>
+      
+            <!-- Contact -->
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search-container">
+
+          <form class="searchbar" action="/search" method="get" role="search" id="search-form">
+            <label for="search-input" class="hidden">Search</label>
+            <input
+              type="search"
+              id="search-input"
+              name="q"
+              placeholder="Search..."
+              aria-label="Search"
+              required
+              class="search-input"
+            />
+          </form>
+
+          <button class="button-primary" id="search-button" type="submit"> 
+            <svg class="button-primary-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11L4 11L4 13L16.17 13L10.58 18.58L12 20L20 12L12 4Z"/>
+            </svg> 
+            Search
+          </button>
+          </div>
+
+
+      </nav>
+
+      <!-- Main Content Container -->
+<div class="content-container">
+
+  <!-- Breadcrumb -->
+  <nav aria-label="Breadcrumb" class="breadcrumb-navigation">
+    <span id="breadcrumb-marker" class="marker" data-tooltip="A breadcrumb Navigation gives users additional orientation on the site."></span>
+    <ol class="breadcrumb-list">
+      <li class="breadcrumb-item">
+        <a href="home.html" class="breadcrumb-link">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="recipes.html" class="breadcrumb-link">Recipes</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="vegetarian.html" class="breadcrumb-link">Vegetarian</a>
+      </li>
+      <li class="breadcrumb-item" aria-current="page">
+        Caramelized Root Pasta
+      </li>
+    </ol>
+  </nav>
+
+            <h1>Caramellized Root Pasta With Wild Mushrooms</h1>
+            
+      <!-- Ratings and Reviews =====================================================-->
+      <div class="recipe-meta">
+        <p class="submitted-info">Submitted by <a href="#author">Jan</a> | Updated on August 14, 2024</p>
+        <div class="rating">
+            <span>⭐⭐⭐⭐⭐</span>
+            <a href="#reviews" class="rating-score">4.7 (1,102)</a>
+            <span>|</span>
+            <a href="#reviews" class="review-count">752 Reviews</a>
+        </div>
+          <div class="dietary-tags">
+            <a class="tag" href="">Gluten-Free</a>
+            <a class="tag" href="">Vegetarian</a>
+            <a class="tag" href="">Dairy-Free</a>
+        </div>
+      </div>
+
+      <!-- GALLERY =====================================================-->
+      <div class="gallery-container">
+        <div class="recipe-image-placeholder">
+          <button class="gallery-btn prev-btn" aria-label="Previous image">❮</button>
+          <img id="gallery-image" src="assets/accessibility-ba/img/gallery/gallery-img-01.png" alt="Recipe image 1">
+          <button class="gallery-btn next-btn" aria-label="Next image">❯</button>
+        </div>
+        <p class="image-indicator">Image <span id="current-image">1</span>/5</p>
+      </div>
+
+
+      <!-- ARTICLE BUTTONS =====================================================-->
+      <div class="button-container">
+        <!-- Primary Button: Jump to Recipe -->
+        <button class="button button-primary" type="button" id="jump-to-recipe">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 12L18.59 10.59L13 16.17V4H11V16.17L5.42 10.58L4 12L12 20L20 12Z" fill="#481D00"/>
+            </svg>
+            
+          Jump to Recipe
+        </button>
+      
+        <!-- Secondary Button: To Video Guide -->
+        <button class="button button-secondary" type="button" id="to-video-guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+            </svg>
+            
+          To Video Guide
+        </button>
+      </div>
+
+      <!-- ABOUT RECIPE =====================================================-->
+
+      <h2> About this recipe </h2>
+      <p>
+        It’s no secret we love cornbread and have shared recipes for it before.). And we wouldn’t be posting another version if it wasn’t worth it. So trust us…it’s worth it! This FLUFFY, moist gluten-free cornbread is naturally sweetened with honey, SO flavorful, and seriously EASY to make. It’s no secret we love cornbread and have shared recipes for it before. ). And we wouldn’t be posting another version if it wasn’t worth it. So trust us…it’s worth it! This FLUFFY, moist gluten-free cornbread is naturally sweetened with honey, SO flavorful, and seriously EASY to make.
+        This is a link to <a href="">(descriptive link text with a clear purpose)</a> that will lead the user to a page.
+      </p>
+      <p>
+      Heat oil and butter in a large heavy pot or Dutch oven over medium until butter is melted. Add onions and garlic and cook, stirring  occasionally, until very tender and deeply golden brown, about 30  minutes. (Stop before the onions become dry and shriveled.) Add red  pepper flakes (if using) and 1 1/2 tsp. salt. Remove pot from heat. For cooking, I personally prefer a (descriptive link text with a clear purpose) – it never disappoints and pasta is always al dente. Something more about the history of the recipe blabla and bla.
+    </p>  
+      
+      <!-- ACTION BUTTONS =====================================================-->
+      <div class="button-container">
+        <!-- Secondary Button: To Video Guide -->
+        <button class="button button-secondary" type="button" id="to-video-guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+          </svg>
+          Save Recipe
+        </button>
+        <button class="button button-secondary" type="button" id="to-video-guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+          </svg>
+          Print Recipe
+        </button>
+        <button class="button button-secondary" type="button" id="to-video-guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+          </svg>
+          Share Recipe
+        </button>
+        <button class="button button-secondary" type="button" id="to-video-guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+          </svg>
+          Rate Recipe
+        </button>
+      </div>
+      
+      <!-- RECIPE INFO =====================================================-->
+      
+      <div class="recipe-info-container">
+        <h3 class="recipe-info-title">Recipe Information</h3>
+        <div class="recipe-info-items">
+          <!-- Prep Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Prep Time</b>
+            <p>15 minutes</p>
+          </div>
+          <!-- Cook Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Cook Time</b>
+            <p>15 minutes</p>
+          </div>
+          <!-- Total Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Total Time</b>
+            <p>15 minutes</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Ingredients =====================================================-->
+            
+      <section class="ingredients-section">
+        <h2>Ingredients</h2>
+      
+        <div class="serving-size-selector">
+          <label for="servings">Select Serving Size</label>
+          <div class="serving-controls-container">
+            <div class="serving-controls">
+              <input type="number" id="servings" value="1" min="1" />
+              <button class="button button-stepper" id="increase-servings" type="button" aria-label="Increase servings">+</button>
+              <button class="button button-stepper" id="decrease-servings" type="button" aria-label="Decrease servings">−</button>
+            </div>
+          <button id="update-list" class="button-primary">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V1L8 5L12 9V6C15.31 6 18 8.69 18 12C18 13.01 17.75 13.97 17.3 14.8L18.76 16.26C19.54 15.03 20 13.57 20 12C20 7.58 16.42 4 12 4ZM12 18C8.69 18 6 15.31 6 12C6 10.99 6.25 10.03 6.7 9.2L5.24 7.74C4.46 8.97 4 10.43 4 12C4 16.42 7.58 20 12 20V23L16 19L12 15V18Z" fill="#481D00"/>
+            </svg>
+            Update list
+          </button>
+        </div>
+          
+        </div>
+      
+        <div class="ingredient-list">
+          <p>For <span id="serving-quantity">1</span> Serving</p>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">100g</span>
+                <span class="name">beetroot pasta</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">olive oil</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">100g</span>
+                <span class="name">garlic, minced</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">80g</span>
+                <span class="name">wild mushrooms</span>
+                <span class="info-icon" title="e.g., chanterelles, oyster, or porcini">i</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">unsalted butter</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+
+
+
+
+
+
+
+
             <h2>Subheading (H2)</h2>
             <h3>Section Title (H3)</h3>
             <h4>Smaller Heading (H4)</h4>
-          
-            <!-- Paragraphs -->
+
             <p>This is a sample paragraph of text used to demonstrate body content. It contains various lengths and styles to show how text appears in an interface.</p>
             <p><strong>Bold text</strong> and <em>italic text</em> are shown here for emphasis.</p>
           
-            <!-- Lists -->
             <ul>
               <li>Unordered list item 1</li>
               <li>Unordered list item 2</li>
@@ -54,14 +375,12 @@
               <li>Ordered list item 3</li>
             </ol>
           
-            <!-- Links -->
             <a href="#" class="sample-link">This is a sample link</a>
-          
-            <!-- Buttons -->
+
             <button type="button" class="sample-button">Primary Button</button>
             <button type="button" class="sample-button secondary">Secondary Button</button>
           
-            <!-- Forms -->
+
             <form>
               <label for="text-input">Text Input:</label>
               <input type="text" id="text-input" placeholder="Enter text here">
@@ -91,7 +410,7 @@
               <button type="submit" class="sample-button submit">Submit</button>
             </form>
           
-            <!-- Table -->
+
             <table border="1">
               <thead>
                 <tr>
@@ -114,13 +433,13 @@
               </tbody>
             </table>
           
-            <!-- Image -->
+            
             <div>
-              <img src="example.jpg" alt="Example image" class="sample-image">
+              <img src="" alt="Example image" class="sample-image">
               <figcaption>Image caption for better context.</figcaption>
             </div>
           
-            <!-- Interactive Elements -->
+            
             <details>
               <summary>Expandable Details Section</summary>
               <p>Content revealed when the section is expanded.</p>
@@ -138,10 +457,294 @@
           
               <button class="cta-button">Call to Action</button>
             </div>
-          
 
+
+  <!-- Breadcrumb Navigation -->
+  <nav class="breadcrumb">
+      <a href="#recipes">Recipes</a> › 
+      <a href="#side-dish">Side Dish</a> › 
+      <a href="#casseroles">Casseroles</a> › 
+      <a href="#green-bean-casserole">Green Bean Casserole Recipes</a>
+  </nav>
+
+  <!-- Recipe Header Section -->
+  <section class="recipe-header">
+      <!-- Recipe Title -->
+      <h1 class="recipe-title">Best Green Bean Casserole</h1>
+
+      <!-- Ratings and Reviews -->
+      <div class="recipe-meta">
+          <div class="rating">
+              <span>⭐⭐⭐⭐⭐</span>
+              <a href="#reviews" class="rating-score">4.7 (1,102)</a>
+              <a href="#reviews" class="review-count">752 Reviews</a>
+              <a href="#photos" class="photo-count">222 Photos</a>
+          </div>
+          <p class="submitted-info">Submitted by <a href="#author">Jan</a> | Updated on August 14, 2024</p>
+      </div>
+
+      <!-- Dietary Tags -->
+      <div class="dietary-tags">
+          <span class="tag">GF Gluten-Free</span>
+          <span class="tag">V Vegetarian</span>
+          <span class="tag">DF Dairy-Free</span>
+      </div>
+
+      <!-- Jump to Recipe Button -->
+      <button class="jump-button">⬇ Jump to Recipe</button>
+  </section>
+
+  <!-- Recipe Image Placeholder -->
+  <div class="recipe-image-placeholder">
+      <!-- Placeholder for image or video content -->
+  </div>
+
+</div>
+
+<div class="content-container">
+
+    <!-- Time and Servings Section -->
+    <section class="time-servings">
+        <div class="time-item">
+            <h3>PREP TIME</h3>
+            <p>20 minutes</p>
+        </div>
+        <div class="time-item">
+            <h3>COOK TIME</h3>
+            <p>30 minutes</p>
+        </div>
+        <div class="time-item">
+            <h3>TOTAL TIME</h3>
+            <p>50 minutes</p>
+        </div>
+        <div class="time-item">
+            <h3>SERVINGS</h3>
+            <p>6</p>
+        </div>
     </section>
 
-</html>
+    <!-- Interaction Buttons -->
+    <section class="interaction-buttons">
+        <button>Save</button>
+        <button>Rate</button>
+        <button>Print</button>
+        <button>Share</button>
+    </section>
+
+    <!-- Audio Player Section -->
+    <section class="audio-player">
+        <p>Listen to Recipe</p>
+        <audio controls>
+            <source src="" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Description -->
+    <p class="recipe-description">
+        It’s no secret we love cornbread and have shared recipes for it before...and seriously EASY to make.
+    </p>
+
+    <!-- Ingredients Section -->
+    <section class="ingredients">
+        <h2>Ingredients</h2>
+        
+        <!-- Scaling Options -->
+        <div class="scaling-options">
+            <button class="scale-option active">1X</button>
+            <button class="scale-option">2X</button>
+            <button class="scale-option">4X</button>
+        </div>
+        
+        <p class="yield-info">Original recipe (1X) yields 6 servings</p>
+        
+        <!-- Ingredients List -->
+        <ul class="ingredient-list">
+            <li>2 (14.5 ounce) cans green beans, drained</li>
+            <li>1 (10.5 ounce) can condensed cream of mushroom soup</li>
+            <li>1 cup shredded Cheddar cheese, divided</li>
+            <li>1 (2.8 ounce) can French-fried onions</li>
+        </ul>
+    </section>
+</div>
+
+<!-- Instructions Section -->
+<div class="content-container">
+  <section class="instructions">
+      <h2>Instructions</h2>
+      <p>Preheat the oven to 350 degrees F (175 degrees C).</p>
+      <p>Mix green beans and condensed soup together in a large microwave-safe bowl until well combined. Microwave on high until warm, 3 to 5 minutes.</p>
+      <p>Stir 1/2 cup Cheddar cheese into the green bean mixture. Microwave on high for 2 to 3 minutes.</p>
+      <p>Transfer mixture to a casserole dish and spread evenly over the bottom. Sprinkle remaining Cheddar over top, then sprinkle with the French-fried onions. Bake in the preheated oven until cheese is melted and the onions are just turning brown, about 10 minutes.</p>
+  </section>
+</div>
+
+<!-- Recipe Tip Section -->
+<div class="content-container">
+  <section class="recipe-tip">
+      <img src="" alt="Recipe Tip Icon" />
+      <h3 class="recipe-tip-title">Recipe Tip</h3>
+      <p class="recipe-tip-text">To reheat: Remove the casserole from the fridge and let it come to room temperature for about 30 minutes. Top with French-fried onions and reheat in an oven preheated to 350 degrees F until the onions are golden brown and the casserole is heated through.</p>
+  </section>
+</div>
+
+<!-- Interaction Buttons -->
+<div class="content-container">
+  <div class="interaction-buttons">
+      <button>I Made It</button>
+      <button>Print <i class="fa fa-print"></i></button>
+  </div>
+  <p class="interaction-info">4,063 home cooks made it!</p>
+</div>
+
+<!-- Nutrition Facts Section -->
+<div class="content-container">
+  <section class="nutrition-facts">
+      <h3>Nutrition Facts</h3>
+      <p>(per serving)</p>
+      <div class="nutrition-values">
+          <div>
+              <span class="value">322</span>
+              <p>Calories</p>
+          </div>
+          <div>
+              <span class="value">23g</span>
+              <p>Fat</p>
+          </div>
+          <div>
+              <span class="value">20g</span>
+              <p>Carbs</p>
+          </div>
+          <div>
+              <span class="value">7g</span>
+              <p>Protein</p>
+          </div>
+      </div>
+      <a href="#" class="show-nutrition-label">Show Full Nutrition Label</a>
+  </section>
+</div>
+
+<div class="content-container">
+    <!-- Reviews Header -->
+    <section class="reviews-header">
+        <h2>Reviews (752)</h2>
+        <p>Check out our <a href="#">community guidelines about reviews</a></p>
+    </section>
+
+    <!-- Review Form -->
+    <div class="review-form">
+        <h3>Best Green Bean Casserole</h3>
+        <label for="rating">My Rating <span class="required">(required)</span></label>
+        <div class="stars" id="rating">
+            ★★★★★
+        </div>
+        <label for="review">My Review</label>
+        <textarea id="review" placeholder="Write your review..."></textarea>
+        <div class="review-actions">
+            <button class="cancel-button">Cancel</button>
+            <button class="submit-button">Submit</button>
+        </div>
+    </div>
+
+    <!-- Rating Summary -->
+    <div class="rating-summary">
+        <div class="overall-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-value">4.7 out of 5</span>
+            <p>1102 Ratings</p>
+        </div>
+        <div class="rating-bars">
+            <div><span>5 star</span> <div class="bar"><span style="width: 75%;"></span></div> 829</div>
+            <div><span>4 star</span> <div class="bar"><span style="width: 20%;"></span></div> 221</div>
+            <div><span>3 star</span> <div class="bar"><span style="width: 10%;"></span></div> 43</div>
+            <div><span>2 star</span> <div class="bar"><span style="width: 5%;"></span></div> 7</div>
+            <div><span>1 star</span> <div class="bar"><span style="width: 1%;"></span></div> 2</div>
+        </div>
+        <p class="home-cooks">4,063 home cooks made it!</p>
+    </div>
+
+    <!-- User Review -->
+    <div class="user-review">
+        <h4>Most helpful positive review</h4>
+        <div class="reviewer">
+            <img src="" alt="Reviewer Avatar" class="avatar">
+            <strong>MEMPHISBELLE</strong>
+            <span class="review-date">12/02/2006</span>
+        </div>
+        <div class="review-text">
+            <p>This is basically our standard green bean casserole recipe with some minor modifications...</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="review-helpful">
+            👍 Helpful (1,815)
+        </div>
+    </div>
+</div>
+
+
+<div class="content-container">
+  <!-- Newsletter Signup -->
+  <section class="newsletter-signup">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get delicious recipes and latest updates delivered straight to your inbox.</p>
+      <form class="signup-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name">
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email Address">
+          
+          <button type="submit" class="subscribe-button">Subscribe</button>
+      </form>
+  </section>
+</div>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="social-media">
+            <p>Find Us</p>
+            <div class="social-icons">
+                <!-- Add icons here as needed -->
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-logo">
+          <div class="logo-circle">MB</div>
+        </div>
+        
+        <div class="footer-text">
+            <p>Simple Recipes That Make You Feel Good</p>
+        </div>
+    </div>
+    
+    <hr class="footer-divider">
+    
+    <div class="footer-bottom">
+        <div class="footer-links">
+            <a href="#">Recipes</a>
+            <a href="#">Cookbook</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+        </div>
+        
+        <div class="footer-legal">
+            <a href="#">@MinimalistBaker.com</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+        </div>
+    </div>
+</footer>
+          
+<script type="text/javascript" src="assets/accessibility-ba/demonstrator.js"></script>
+
+</section>
+
+    </body>
 
 </html>
