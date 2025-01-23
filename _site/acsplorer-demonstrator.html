@@ -15,11 +15,44 @@
 
     <body>
 
-      
-    
-    <section class="acsplorer-demonstrator" data-theme="light">
-    
-        <!-- Accessibility Toolbar -->
+      <!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I'm a digital and analog designer based in Hamburg."/>
+  <meta name="keywords" content=""/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Acsplorer </title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/accessibility-ba/img/favicon.ico">
+  <!-- <link rel="stylesheet" href="assets/accessibility-ba/main-ba.css"> -->
+  <link rel="stylesheet" href="assets/accessibility-ba/demonstrator.css">
+    <link rel="stylesheet" href="assets/accessibility-ba/tokens.css">
+</head>
+
+<body data-wcag="none">
+  
+
+<section class="acsplorer-demonstrator" data-theme="light">
+
+  <div class="wcag-selector">
+    <label>
+      <input type="radio" name="wcag-level" value="none" checked> None
+    </label>
+    <label>
+      <input type="radio" name="wcag-level" value="A"> A
+    </label>
+    <label>
+      <input type="radio" name="wcag-level" value="AA"> AA
+    </label>
+    <label>
+      <input type="radio" name="wcag-level" value="AAA"> AAA
+    </label>
+  </div>
+
+  
+  
+  
+       <!-- Accessibility Toolbar -->
         <div class="accessibility-toolbar" aria-label="Accessibility Toolbar">
             <!-- Pause Animations -->
             <button class="button-accessibility-toolbar" id="pause-animations" aria-pressed="false">
@@ -51,6 +84,15 @@
             <button class="button-accessibility-toolbar" id="pause-timing" aria-pressed="false">
               Pause Timing
             </button>
+
+            <label for="annotations-toggle" class="toggle-label hidden">
+              <input type="checkbox" id="annotations-toggle" class="toggle-input" />
+              <span class="toggle-slider"></span>
+              <span class="toggle-text">Show Annotations</span>
+            </label>
+
+
+
           </div>
           
       <!-- Main Navigation -->
@@ -148,14 +190,14 @@
 <div class="content-container">
 
   <!-- Breadcrumb -->
-  <nav aria-label="Breadcrumb" class="breadcrumb-navigation">
-    <span id="breadcrumb-marker" class="marker" data-tooltip="A breadcrumb Navigation gives users additional orientation on the site."></span>
+  <nav aria-label="Breadcrumb" id="pseudo2" class="breadcrumb-navigation  marker-container">
+    <span id="2" class="marker" data-tooltip="A breadcrumb Navigation gives users additional orientation on the site."></span>
     <ol class="breadcrumb-list">
       <li class="breadcrumb-item">
         <a href="home.html" class="breadcrumb-link">Home</a>
       </li>
       <li class="breadcrumb-item">
-        <a href="recipes.html" class="breadcrumb-link">Recipes</a>
+        <a href="recipes.html" class="breadcrumb-link marker-container">Recipes</a>
       </li>
       <li class="breadcrumb-item">
         <a href="vegetarian.html" class="breadcrumb-link">Vegetarian</a>
@@ -166,12 +208,12 @@
     </ol>
   </nav>
 
-            <h1>Caramellized Root Pasta With Wild Mushrooms</h1>
+            <h1 class="marker-container" id="pseudo1">Caramellized Root Pasta With Wild Mushrooms</h1>
             
       <!-- Ratings and Reviews =====================================================-->
       <div class="recipe-meta">
         <p class="submitted-info">Submitted by <a href="#author">Jan</a> | Updated on August 14, 2024</p>
-        <div class="rating">
+        <div class="rating marker-container" id=""> 
             <span>⭐⭐⭐⭐⭐</span>
             <a href="#reviews" class="rating-score">4.7 (1,102)</a>
             <span>|</span>
@@ -353,9 +395,13 @@
 
 
 
+<!-- TRASH FROM HERE =====================================================-->
+<!-- TRASH FROM HERE =====================================================-->
+<!-- TRASH FROM HERE =====================================================-->
+<!-- TRASH FROM HERE =====================================================-->
+<!-- TRASH FROM HERE =====================================================-->
 
-
-
+<!-- 
 
             <h2>Subheading (H2)</h2>
             <h3>Section Title (H3)</h3>
@@ -459,7 +505,7 @@
             </div>
 
 
-  <!-- Breadcrumb Navigation -->
+
   <nav class="breadcrumb">
       <a href="#recipes">Recipes</a> › 
       <a href="#side-dish">Side Dish</a> › 
@@ -467,12 +513,12 @@
       <a href="#green-bean-casserole">Green Bean Casserole Recipes</a>
   </nav>
 
-  <!-- Recipe Header Section -->
+
   <section class="recipe-header">
-      <!-- Recipe Title -->
+
       <h1 class="recipe-title">Best Green Bean Casserole</h1>
 
-      <!-- Ratings and Reviews -->
+
       <div class="recipe-meta">
           <div class="rating">
               <span>⭐⭐⭐⭐⭐</span>
@@ -483,27 +529,27 @@
           <p class="submitted-info">Submitted by <a href="#author">Jan</a> | Updated on August 14, 2024</p>
       </div>
 
-      <!-- Dietary Tags -->
+
       <div class="dietary-tags">
           <span class="tag">GF Gluten-Free</span>
           <span class="tag">V Vegetarian</span>
           <span class="tag">DF Dairy-Free</span>
       </div>
 
-      <!-- Jump to Recipe Button -->
+
       <button class="jump-button">⬇ Jump to Recipe</button>
   </section>
 
-  <!-- Recipe Image Placeholder -->
+
   <div class="recipe-image-placeholder">
-      <!-- Placeholder for image or video content -->
+
   </div>
 
 </div>
 
 <div class="content-container">
 
-    <!-- Time and Servings Section -->
+
     <section class="time-servings">
         <div class="time-item">
             <h3>PREP TIME</h3>
@@ -523,7 +569,7 @@
         </div>
     </section>
 
-    <!-- Interaction Buttons -->
+
     <section class="interaction-buttons">
         <button>Save</button>
         <button>Rate</button>
@@ -531,7 +577,7 @@
         <button>Share</button>
     </section>
 
-    <!-- Audio Player Section -->
+
     <section class="audio-player">
         <p>Listen to Recipe</p>
         <audio controls>
@@ -540,16 +586,16 @@
         </audio>
     </section>
 
-    <!-- Description -->
+
     <p class="recipe-description">
         It’s no secret we love cornbread and have shared recipes for it before...and seriously EASY to make.
     </p>
 
-    <!-- Ingredients Section -->
+    
     <section class="ingredients">
         <h2>Ingredients</h2>
         
-        <!-- Scaling Options -->
+
         <div class="scaling-options">
             <button class="scale-option active">1X</button>
             <button class="scale-option">2X</button>
@@ -558,7 +604,7 @@
         
         <p class="yield-info">Original recipe (1X) yields 6 servings</p>
         
-        <!-- Ingredients List -->
+
         <ul class="ingredient-list">
             <li>2 (14.5 ounce) cans green beans, drained</li>
             <li>1 (10.5 ounce) can condensed cream of mushroom soup</li>
@@ -568,7 +614,7 @@
     </section>
 </div>
 
-<!-- Instructions Section -->
+
 <div class="content-container">
   <section class="instructions">
       <h2>Instructions</h2>
@@ -579,7 +625,7 @@
   </section>
 </div>
 
-<!-- Recipe Tip Section -->
+
 <div class="content-container">
   <section class="recipe-tip">
       <img src="" alt="Recipe Tip Icon" />
@@ -588,7 +634,7 @@
   </section>
 </div>
 
-<!-- Interaction Buttons -->
+
 <div class="content-container">
   <div class="interaction-buttons">
       <button>I Made It</button>
@@ -597,7 +643,7 @@
   <p class="interaction-info">4,063 home cooks made it!</p>
 </div>
 
-<!-- Nutrition Facts Section -->
+
 <div class="content-container">
   <section class="nutrition-facts">
       <h3>Nutrition Facts</h3>
@@ -625,13 +671,13 @@
 </div>
 
 <div class="content-container">
-    <!-- Reviews Header -->
+
     <section class="reviews-header">
         <h2>Reviews (752)</h2>
         <p>Check out our <a href="#">community guidelines about reviews</a></p>
     </section>
 
-    <!-- Review Form -->
+
     <div class="review-form">
         <h3>Best Green Bean Casserole</h3>
         <label for="rating">My Rating <span class="required">(required)</span></label>
@@ -646,7 +692,6 @@
         </div>
     </div>
 
-    <!-- Rating Summary -->
     <div class="rating-summary">
         <div class="overall-rating">
             <span class="stars">★★★★☆</span>
@@ -663,7 +708,6 @@
         <p class="home-cooks">4,063 home cooks made it!</p>
     </div>
 
-    <!-- User Review -->
     <div class="user-review">
         <h4>Most helpful positive review</h4>
         <div class="reviewer">
@@ -683,7 +727,6 @@
 
 
 <div class="content-container">
-  <!-- Newsletter Signup -->
   <section class="newsletter-signup">
       <h2>Subscribe to Our Newsletter</h2>
       <p>Get delicious recipes and latest updates delivered straight to your inbox.</p>
@@ -700,13 +743,11 @@
 </div>
 
 
-<!-- Footer -->
 <footer class="footer">
     <div class="footer-top">
         <div class="social-media">
             <p>Find Us</p>
             <div class="social-icons">
-                <!-- Add icons here as needed -->
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-pinterest"></i></a>
@@ -739,11 +780,16 @@
             <a href="#">Terms</a>
         </div>
     </div>
-</footer>
-          
-<script type="text/javascript" src="assets/accessibility-ba/demonstrator.js"></script>
+</footer> -->
+
 
 </section>
+  <div class= "overlay-dark"></div>
+ 
+  <!-- <script type="text/javascript" defer src="assets/accessibility-ba/main-ba.js"></script> -->
+  <script type="text/javascript" src="assets/accessibility-ba/demonstrator.js" defer></script>
+  <script type="text/javascript" src="assets/accessibility-ba/marker.js" defer></script>
+</body>
 
     </body>
 

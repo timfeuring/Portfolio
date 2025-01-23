@@ -1,0 +1,26 @@
+{
+  "pseudo1": {
+    "title": "1.3.03 Sensory Characteristics (A)",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "A describing text has been added to the recipe category tag (Vegetarian)."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Purely visual elements (like colors or shapes) should not be the only way of informing users. They should be accompanied with another indicator that transports the meaning."
+    }
+  },
+  "pseudo2": {
+    "title": "2.4.06 Headings and Labels (AA)",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+}

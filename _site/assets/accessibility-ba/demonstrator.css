@@ -32,6 +32,10 @@
   outline: 6px solid hsla(220, 100%, 50%, 80%);
 }
 
+.relative{
+  position: relative;
+}
+
 /* Content Container */
 /* ======================================================= */
 
@@ -507,10 +511,19 @@ input[type="search"]{
 
 /* Breadcrumb Navigation */
 /* ======================================================= */
-.breadcrumb-navigation {
+[data-wcag="none"] .breadcrumb-navigation {
   margin: var(--spacing-L) 0;
   position: relative;
+  opacity: .3;
+  /* transition: opacity 0.2s ease all; */
 }
+
+[data-wcag="A"] .breadcrumb-navigation { 
+  margin: var(--spacing-L) 0;
+  opacity: 1.0;
+  /* transition: opacity 0.2s ease all; */
+}
+
 
 .breadcrumb-list {
   list-style: none;
@@ -574,9 +587,9 @@ input[type="search"]{
   gap: var(--spacing-S);
 }
 
-.recipe-meta a {
-  /* color: var(--color-primary); */
-}
+/* .recipe-meta a {
+  color: var(--color-primary);
+} */
 
 .submitted-info {
   color: var(--color-text-secondary);
@@ -1300,7 +1313,7 @@ color: var(--color-text-secondary);
 
 
 
-/* TOOLTIPS */
+/* MARKER */
 /* ============================================================================================================== */
 
 
@@ -1309,7 +1322,6 @@ color: var(--color-text-secondary);
   height: 102%;
   cursor: pointer;
   position: absolute;
-  background-color: blue;
   background: radial-gradient(#e66465, #9198e5);
   border: 1px solid blue;
   border-radius: 8px;
@@ -1339,28 +1351,140 @@ color: var(--color-text-secondary);
    opacity: 1;
 }
 
+.marker-container{
+  position: relative; /* Required for ::after positioning */
+  display: inline-block;
+  padding: 10px;
+}
+
+.marker-container::after {
+  content: "";
+  display: block; /* Always rendered to allow animations */
+  width: 102%; 
+  height: 102%;
+  cursor: pointer;
+  position: absolute;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 255, 255, 0.4), rgba(0, 128, 255, 0.6));
+  border: 1px solid blue;
+  border: 1px solid blue;
+  border-radius: 8px;
+  opacity: 0; /* Start with 0 opacity */
+  mix-blend-mode: multiply;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  transition: opacity 0.2s ease-in-out;/* Combine all transitions */
+}
+
+.marker-container.show-marker::after {
+  opacity: 0.7; /* Final opacity when marker is active */
+  animation: pulseWave 1.5s infinite ease-in-out;
+}
+
+.marker-container:not(.show-marker)::after {
+  opacity: 0; /* Fade out */
+}
+
+
+/* @keyframes pulseWave {
+  0% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 255, 255, 0.4), rgba(0, 128, 255, 0.6));
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), rgba(0, 255, 255, 0.6), rgba(0, 128, 255, 0.8));
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), rgba(0, 255, 255, 0.4), rgba(0, 128, 255, 0.6));
+    transform: translate(-50%, -50%) scale(1);
+  }
+} */
+
+
+
+/* TOOLTIPS */
+/* ============================================================================================================== */
+
 .tooltip {
   position: absolute;
-  background-color: var(--color-seperator);
-  padding: 8px;
+  background-color: #ffffff;
+  color: var(--color-text-primary);
+  padding: var(--spacing-M);
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 10;
+  z-index: 20;
   transition: opacity 0.2s, transform 0.2s;
   font-family: var(--font-family);
   display: flex;
   flex-direction: column;
   /* width: 100%; */
+  top: 100%;
+  right: 0;
+  left: 0;
+  transform: translateY(12px);
+  font-size: 16px;
+  font-weight: normal;
+  gap: var(--spacing-L);
+}
+
+.tooltip-criterion {
+  background-color: #E8E8E8;
+  color: inherit;
+  padding: var(--spacing-S);
+  border-radius: 8px;
+  font-family: var(--acsplorer-font);
+  font-weight: bold;
+  width: fit-content;
+}
+
+/* .tooltip-changes-heading{
+
+} */
+
+.tooltip-changes-text{
+font-family: var(--acsplorer-font);
+}
+
+/* .tooltip-reason-heading{
+
+} */
+
+.tooltip-reason-text{
+  font-family: var(--acsplorer-font);
+}
+
+
+.tooltip-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #666;
+}
+
+.tooltip-close-btn:hover {
+  color: #333;
+}
+
+
+
+
+/* Overlay when opening tooltip */
+/* ============================================================================================================== */
+
+.overlay-dark{
+  display: none;
+  background-color: rgba(0,0,0, .5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
   bottom: 0;
 }
-
-
-
-.tooltip p, .tooltip h3{
-  color: var(--color-text-secondary);
-}
-
-.tooltip img{
-  width: 40%;
-}
-

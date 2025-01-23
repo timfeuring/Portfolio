@@ -11,6 +11,8 @@
     <title> Acsplorer </title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/accessibility-ba/img/favicon.ico">
     <link rel="stylesheet" href="assets/accessibility-ba/main-ba.css">
+    <link rel="stylesheet" href="assets/accessibility-ba/tokens.css">
+    
 </head>
 
     <body>
@@ -23,19 +25,17 @@
                 </div>
                 
                 <div class="annotations-selection">
-                    <h2>Annotations</h2>
+                  <h2>Annotations</h2>
                     
-                <label for="annotations-toggle" class="toggle-label">
-                  <input type="checkbox" id="annotations-toggle" class="toggle-input" />
-                  <span class="toggle-slider"></span>
-                  <span class="toggle-text">Show Annotations</span>
-                </label>
+                  <!-- <label for="annotations-toggle" class="toggle-label">
+                    <input type="checkbox" id="annotations-toggle" class="toggle-input" />
+                    <span class="toggle-slider"></span>
+                    <span class="toggle-text">Show Annotations</span>
+                  </label> -->
+
                 
-                <div class="content-item" style="position: relative;">
-                  <p>Test Element for Annotation Overlay</p>
-                  <!-- <span id="test-marker" class="marker" data-tooltip="This is a test marker tooltip!"></span> -->
-                  <span id="1" class="marker" data-tooltip="Tooltip for Marker 1"></span>
-                </div>
+                
+                
                 </div>
                 
                 <div class="wcag-standard-selection">
@@ -46,6 +46,13 @@
                     <button class="setting-button">A</button>
                     <button class="setting-button">AA</button>
                     <button class="setting-button">AAA</button> -->
+
+                    <label for="iframe-annotations-toggle" class="toggle-label">
+                      <input type="checkbox" id="iframe-annotations-toggle" class="toggle-input" />
+                      <span class="toggle-slider"></span>
+                      <span class="toggle-text">Show Annotations (Iframe)</span>
+                    </label>
+                    
 
 
                     <!-- Form solution (Radio Buttons) -->
@@ -76,22 +83,15 @@
                       </form>
 
 
-                      <button id="test-button">JS TEST</button>
+                      <!-- <button id="test-button">JS TEST</button>
 
                       <div class="marker-test-container">
                         <p>Hello</p>
                         
-                      </div>
-<!-- <span id="2" class="marker" data-tooltip="Tooltip for Marker 2">Hello</span>
-<span id="3" class="marker" data-tooltip="Tooltip for Marker 3">Hello</span>
-<span id="4" class="marker" data-tooltip="Tooltip for Marker 4">Hello</span>
-<span id="5" class="marker" data-tooltip="Tooltip for Marker 5">Hello</span> -->
-</p>
+                      </div> -->
+
 
                 </div>
-                
-
-
                 
 
                 <!-- <div class="settings-panel-controls">
@@ -120,8 +120,14 @@
             </div>
           </div>
 
-          <script type="text/javascript" src="assets/accessibility-ba/main-ba.js"></script>
+          <script type="text/javascript" src="assets/accessibility-ba/main-ba.js" defer></script>
+          <!-- <script type="text/javascript" src="assets/accessibility-ba/demonstrator.js"></script> -->
+          <!-- <script type="text/javascript" defer src="assets/accessibility-ba/marker.js" defer></script> -->
 
     </body>
 
 </html>
+
+
+
+

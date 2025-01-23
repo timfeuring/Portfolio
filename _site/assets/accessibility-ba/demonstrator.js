@@ -98,3 +98,25 @@ document.addEventListener("DOMContentLoaded", function () {
     alert(`Ingredient list updated for ${servingsInput.value} servings.`);
   });
 });
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const wcagSelector = document.querySelector(".wcag-selector");
+  const pageContainer = document.body; // or your main container element
+
+  wcagSelector.addEventListener("change", (event) => {
+    const selectedLevel = event.target.value;
+    pageContainer.setAttribute("data-wcag", selectedLevel);
+
+    console.log(`WCAG Level switched to: ${selectedLevel}`);
+  });
+});
+
+
+
+
+
+
+
