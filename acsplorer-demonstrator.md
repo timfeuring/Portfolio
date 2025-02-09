@@ -1,5 +1,5 @@
 ---
 title: Acsplorer Demonstrator
-layout: acsplorer-demonstrator-layout
+layout: acsplorer-demonstrator
 ---
 

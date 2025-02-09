@@ -29,30 +29,6 @@
   --color-highlight: #FF0586;
   --color-error: #FF0000;
 
-  /* RGB */
-  /* --color-surface: rgb(255, 255, 255);
-  --color-surface-alt: rgb(245, 230, 211);
-  --color-surface-light: rgb(253, 244, 237);
-  --color-surface-emphasis: rgb(72, 29, 0);
-  
-  --color-text-primary: rgb(41, 41, 41);
-  --color-text-secondary: rgb(72, 29, 0);
-  --color-text-on-emphasis: rgb(255, 255, 255);
-  
-  --color-primary: rgb(72, 29, 0);
-  --color-on-primary: rgb(255, 255, 255);
-  
-  --color-button-primary: rgb(72, 29, 0);
-  --color-button-secondary: rgb(255, 255, 255);
-  --color-button-on-emphasis: rgb(255, 101, 0);
-  
-  --color-seperator: rgb(182, 165, 153);
-  
-  --color-accent: rgb(255, 101, 0);
-  --color-highlight: rgb(255, 5, 134);
-  --color-error: rgb(255, 0, 0);
-   */
-
   /* TEXT TOKENS */
   --base-font-size: 1em;
   --font-family: 'Inter', sans-serif;
@@ -61,7 +37,7 @@
   --heading-scale: 1.5;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
-  --line-height: 2.2em;
+  --line-height: 140%;
 
   /* SPACING TOKENS */
   --spacing-XS: 0.25em;    /* 4px */
@@ -73,11 +49,37 @@
   --spacing-XXXL: 3em;     /* 48px */
 
   /* TRANSITION */
-  --transition-duration: .5s;
+  --transition-duration: .2s;
+  --easing-standard: ease-in-out; /* General easing function */
+
+  /* MAX-HEIGHT TRANSITIONS */
+  --max-height-collapsed: 0px; /* Consistent collapsed state */
+  --max-height-expanded: 1000px; /* Set a large enough value */
+  --transition-max-height: max-height var(--transition-duration) ease-in-out;
+
+
+  
+  /* MAX-WIDTH STATES */
+  --max-width-collapsed: 0px; /* Collapsed state */
+  --max-width-expanded: 1000px; /* Adjust this value as needed */
+  --transition-max-width: max-width var(--transition-duration) var(--easing-standard);
+  
+
+  
+
+
 
   /* TRANSPARENCIES */
   --transparency-80: 0.8;
 
   /* CORNER RADIUS */
-  --border-rounded: 2em;
+  --radius-full: 2em;
+  --radius-16: 0.8em;
+  --radius-8: 0.4em;
+
+
+  /* Border Style */
+
+  --border: 1px solid var(--color-primary);
+
 }

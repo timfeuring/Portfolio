@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Acsplorer Interface </title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/accessibility-ba/img/favicon.ico">
+    <link rel="stylesheet" href="assets/accessibility-ba/acsplorer-interface.css">
+    <link rel="stylesheet" href="assets/accessibility-ba/tokens.css">
+    
+</head>
+
+    <body>
+        <div class="acsplorer-page">
+            <!-- Left side: Settings panel -->
+            <div class="settings-panel">
+              <button class="resize-clickarea" id="resize">
+                <svg class="icon-40" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#ffffff"/>
+                  </svg>
+              </button>
+                
+                
+                <div class="selections">
+                    
+                  <a class="acsplorer-logo" href="acsplorer">
+                    <img src="assets/accessibility-ba/img/acsplorer-logo.svg" alt="Acsplorer Logo">
+                </a>
+                  <div>
+                    <div class="info-button-container">
+                      <h2>WCAG Level</h2>
+                      <button class="info-button" id="info-wcag-level" aria-label="More information">
+                        <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11 7H13V9H11V7ZM11 11H13V17H11V11ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#ffffff"/>
+                        </svg>
+                      </button>
+                    </div>
+
+                    <!-- WCAG LEVEL (Radio Buttons) -->
+                    <form class="wcag-selection-form">
+                        <fieldset>
+                          <!-- <legend>Select WCAG Standard:</legend> -->
+                          <label class="wcag-selection-selected" id="label-none" tabindex="0" onclick="updateSelection('none')" onkeydown="handleKeydown(event, 'none')">
+                            <span class="icon icon-filled"></span>
+                            <input type="checkbox" id="none" data-state="selected" checked />
+                            None
+                          </label>
+                          <label class="wcag-selection-unselected" id="label-a" tabindex="0" onclick="updateSelection('a')" onkeydown="handleKeydown(event, 'a')">
+                            <span class="icon icon-empty"></span>
+                            <input type="checkbox" id="a" data-state="unselected" />
+                            A
+                          </label>
+                          <label class="wcag-selection-unselected" id="label-aa" tabindex="0" onclick="updateSelection('aa')" onkeydown="handleKeydown(event, 'aa')">
+                            <span class="icon icon-empty"></span>
+                            <input type="checkbox" id="aa" data-state="unselected" />
+                            AA
+                          </label>
+                          <label class="wcag-selection-label" id="label-aaa" tabindex="0" onclick="updateSelection('aaa')" onkeydown="handleKeydown(event, 'aaa')">
+                            <span class="icon icon-empty"></span>
+                            <input type="checkbox" id="aaa" data-state="unselected" />
+                            AAA
+                          </label>
+
+                        </fieldset>
+
+                        <div class="info-button-container">
+                          <p id="criteria-info">0 criteria applied</p>
+                          <button class="info-button" id="info-wcag-level" aria-label="More information">
+                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11 7H13V9H11V7ZM11 11H13V17H11V11ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="#ffffff"/>
+                            </svg>
+                          </button>
+                        </div>
+                      </form>
+
+                    </div>
+
+                      <!-- Toggle -->
+                      <label class="annotations-toggle" for="iframe-annotations-toggle" >
+                        <span class="toggle-label">Annotations</span>
+                        <div class="toggle-button">
+                          <span class="toggle-status-text">OFF</span>
+                          <input type="checkbox" id="iframe-annotations-toggle" class="toggle-input" />
+                          <span class="toggle-slider"></span>
+                        </div>
+                      </label>
+                      
+                </div>
+
+                <!-- <div class="settings-panel-controls">
+                    <h4>User Prefence</h4>
+                    <button class="setting-button" id="theme-toggle">Dark Mode</button>
+                    <button class="setting-button" id="font-toggle">Dyslexia Friendly Font</button>
+                    <button class="setting-button" id="font-toggle">Higher Contrast</button>
+                    <button class="setting-button" id="font-toggle">Lower Contrast</button>
+                </div> -->
+
+
+                <div class="link-section">
+                  <a class="" href="acsplorer-disclaimer">Disclaimer</a>
+                  <a class="" href="acsplorer-disclaimer">See all criteria</a>
+                </div>
+            </div>
+          
+            <!-- Right side: Example section -->
+            <div class="example-section" data-theme="light" data-font="default">
+                
+                
+                <!-- Einbindung über Inlude -->
+                <!-- Hier wäre das: include... acsplorer-demonstrator.html -->
+
+                <!-- Einbindung über iFrame-->
+                <div class="demonstrator">
+                  <div class="global-tooltip-container">
+                    <div class="global-tooltip" id="global-tooltip-a" data-wcag="a"></div>
+                    <div class="global-tooltip" id="global-tooltip-aa" data-wcag="aa"></div>
+                    <div class="global-tooltip" id="global-tooltip-aaa" data-wcag="aaa"></div>
+                  </div>
+                  <iframe id="demonstrator-frame" src="acsplorer-demonstrator.html" title="Demonstrator Content"></iframe>
+                </div>
+                
+
+            </div>
+          </div>
+
+          <script type="text/javascript" src="assets/accessibility-ba/acsplorer-interface.js" defer></script>
+          <!-- <script type="text/javascript" src="assets/accessibility-ba/demonstrator.js"></script> -->
+          <!-- <script type="text/javascript" defer src="assets/accessibility-ba/marker.js" defer></script> -->
+
+    </body>
+
+</html>
+
+
+
+

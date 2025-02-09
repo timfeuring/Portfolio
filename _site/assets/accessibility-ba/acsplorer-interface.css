@@ -1,0 +1,494 @@
+/* CSS IMPORT ========================================================================= */
+/* @import url(tokens.css); */
+/* @import url(demonstrator.css); */
+
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+
+/* GLOBAL SETTINGS ========================================================================= */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+  --acsplorer-surface: #001D54;
+  --acsplorer-text-onsurface: #ffffff;
+  --acsplorer-text-onprimary: #000000;
+  --acsplorer-primary: #FF7318;
+  --acsplorer-primary-hover: #E55B00;
+  --acsplorer-secondary: #FFFFFF;
+  --acsplorer-font: "Funnel Display", serif;
+}
+
+/* ACSPLORER MAIN ========================================================================= */
+
+
+.acsplorer-page {
+    display: flex;
+    height: 100vh;
+}
+
+/* SIDE PANEL ========================================================================= */
+
+/* SETTINGS PANEL */
+.settings-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-L);  
+
+  min-width: 280px;
+  width:20vw;
+    
+  background-color: var(--acsplorer-surface);
+  padding: 24px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
+  font-family: 'Inter', sans-serif;
+  color: var(--acsplorer-secondary);
+
+  border-right: 1px dashed #ffffff;
+}
+
+.settings-panel h1, .settings-panel h2 {
+  font-family: var(--acsplorer-font);
+}
+
+@media (max-width: 730px) {
+
+.settings-panel h2 {
+  margin: var(--spacing-S) 0;
+}
+
+}
+
+.settings-panel h1 {margin: 0;}
+
+
+.resize-clickarea {
+  display: none;
+  width: 100%;
+  height: auto;
+  padding: var(--spacing-S) 0 0 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  position: relative;
+}
+
+.resize-clickarea::before {
+  content: "";
+  display: none;
+  width: 30%;
+  height: 4px;
+  background-color: var(--acsplorer-primary);
+  position: absolute;
+  top: 8px;
+  border-radius: var(--radius-full);
+}
+
+.icon-40{
+  width: 40px;
+  height: 40px;
+}
+
+.rotate-180{
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.acsplorer-logo {
+  /* width: 100%; */
+  padding: var(--spacing-L) 0 var(--spacing-S) 0;
+}
+
+
+.settings-panel a{
+  color: var(--acsplorer-text-onsurface);
+}
+
+.selections{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--spacing-XXL);
+
+}
+
+.link-section{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  gap: 16px;
+  align-content: flex-start;
+}
+
+button{
+  background-color: unset;
+  border: none;
+}
+
+.info-button {
+  padding: 12px;
+}
+
+.info-button:hover{
+  cursor: pointer;
+} 
+
+.info-button-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* ANNOTATIONS SECTION ========================================================================= */
+.annotations-selection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* WCAG SELECTION ========================================================================= */
+
+
+.wcag-standard-selection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.wcag-selection-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wcag-selection-form fieldset{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+}
+
+.wcag-selection-form label{
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: var(--radius-full);
+}
+
+.wcag-selection-form input{
+  display: none;
+}
+
+/* Base styles for the label */
+.wcag-selection-unselected, .wcag-selection-selected {
+  display: block;
+  border: 2px solid var(--acsplorer-primary);
+  padding: var(--spacing-M);
+  margin: var(--spacing-S) 0;
+  border-radius: var(--radius-full);
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wcag-selection-unselected {
+  background-color: var(--acsplorer-surface);
+  color: var(--acsplorer-text-onsurface);
+}
+
+.wcag-selection-selected {
+  background-color: var(--acsplorer-primary);
+  color: var(--acsplorer-text-onprimary);
+}
+
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Empty radio button */
+.icon-empty {
+  background-image: url('img/icons/wcag-radio-unselected.svg');
+}
+
+/* Filled radio button */
+.icon-filled {
+  background-image: url('img/icons/wcag-radio-selected.svg');
+}
+
+/* Checked radio button */
+.icon-checked {
+  background-image: url('img/icons/wcag-radio-check.svg');
+}
+
+
+
+/* Hover effect for all labels */
+/* .wcag-selection-label:hover {
+  background-color: #001741;
+}
+
+.wcag-selection-label-checked:hover {
+  background-color: var(--acsplorer-primary);
+  color: var(--acsplorer-text-onprimary);
+}
+ */
+
+
+
+
+
+
+
+
+/* .wcag-selection-form label:hover {
+  background-color: var(--acsplorer-primary-hover);
+  cursor: pointer;
+} */
+
+.settings-panel h2{
+  font-size: calc(var(--base-font-size) * var(--heading-scale) * 1);
+}
+
+
+/* ANNOTATIONS SECTION ========================================================================= */
+
+.example-section {
+    flex: 1;
+    background-color: var(--color-surface);
+    overflow: scroll;
+    background-color: #434343;
+}
+
+.setting-button {
+  background-color: var(--acsplorer-primary);
+  color: var(--acsplorer-secondary);
+}
+
+/* Radio Button Styling */
+
+/* coming soon */
+
+.demonstrator {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust based on desired height */
+  /* overflow: hidden; Prevent scrollbars around the iframe */
+  border-radius: var(--radius-8);
+}
+
+.demonstrator iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the parent */
+  height: 100%; /* Full height of the parent */
+  border: none; /* Remove default iframe border */
+}
+
+
+
+
+/* DUMMY 404  ========================================================================= */
+
+
+.dummy-404-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  text-align: center;
+  font-family: var(--font-family);
+  background-color: var(--color-surface-light); /* Light background */
+  color: var(--color-text-primary); /* Primary text color */
+}
+
+.dummy-404-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  font-family: inherit;
+  transform: scale(1.2);
+}
+
+.dummy-404-container h1 {
+  font-family: var(--acsplorer-font);
+  margin: 0;
+}
+
+
+
+/* Default State */
+.annotations-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Disabled State (Lower Opacity & No Clicks) */
+.annotations-toggle.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+
+
+/* General styles */
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-label{
+  font-weight: bold;
+} 
+
+.toggle-button{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 60px;
+  height: 36px;
+  background-color: #ccc;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-input:checked + .toggle-slider {
+  background-color: #4caf50; /* Color for the active state */
+}
+
+.toggle-input:checked + .toggle-slider::before {
+  transform: translate(24px, -50%); /* Move the circle to the right */
+}
+
+
+
+
+
+@media (max-width: 730px) {
+  .acsplorer-page {
+    flex-direction: column-reverse;
+  }
+
+  .settings-panel{
+    border: none;
+    border-radius: var(--radius-16) var(--radius-16) 0 0;
+    position: absolute;
+    z-index: 1;
+    width: -moz-available;
+    align-items: center;
+    bottom: -90px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 0 0 var(--spacing-L) 0;
+    transition: bottom 0.3s ease-in-out;
+    gap: 0;
+    overflow: hidden;
+  }
+
+  .position-minimized{
+    bottom: calc((-40%) + 24px);
+    transition: bottom 0.3s ease-in-out;
+  }
+
+  .resize-clickarea {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .resize-clickarea::before {
+    display: block;
+  }
+
+  .position-minimized{
+    bottom: -240px;
+  }
+
+  .acsplorer-logo {
+    display: none;
+  }
+
+  .selections {
+    width: inherit;
+    margin: 0 var(--spacing-M);
+    gap: var(--spacing-M);
+  }
+
+  .wcag-selection-form fieldset{
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .wcag-selection-form label{
+    flex: 1 1 0px;
+    margin: 0;
+    min-width: 100px;
+  }
+
+  .link-section{
+    align-content: center;
+    align-items: center;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+  .wcag-selection-form label{
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wcag-selection-form label{
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .wcag-selection-form label{
+    min-width: 90px;
+  }
+}
