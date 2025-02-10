@@ -178,6 +178,7 @@ function showTooltip(marker, content) {
   const viewportWidth = window.innerWidth;
   const viewportHeight = window.innerHeight;
 
+  
   // Center horizontally
   let left = Math.max(10, (viewportWidth - tooltipRect.width) / 2);
 

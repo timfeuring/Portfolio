@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 
+
+
 /* GLOBAL SETTINGS ========================================================================= */
 body, html {
     margin: 0;
@@ -54,6 +56,10 @@ body, html {
   color: var(--acsplorer-secondary);
 
   border-right: 1px dashed #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: var(--acsplorer-font);
 }
 
 .settings-panel h1, .settings-panel h2 {
@@ -138,13 +144,15 @@ button{
 }
 
 .info-button:hover{
-  cursor: pointer;
+  cursor: help;
 } 
 
 .info-button-container{
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: var(--spacing-S);
+
 }
 
 
@@ -491,4 +499,74 @@ button{
   .wcag-selection-form label{
     min-width: 90px;
   }
+}
+
+
+
+/* Base Tooltip Styles */
+.settings-tooltip {
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 32px 12px 12px 12px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+  width: 280px;
+  z-index: 1000;
+  border: 1px solid rgb(204, 204, 204);
+  font-size: 16px;
+  display: none;
+}
+
+.settings-tooltip.visible {
+  display: block;
+}
+
+.settings-tooltip-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: rgb(199, 199, 199);
+  border: medium;
+  width: 44px;
+  height: 44px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: var(--spacing-M);
+  border-radius: var(--radius-8);
+  font-family: var(--acsplorer-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-tooltip-content {
+  padding-top: 8px;
+}
+
+/* Tooltip content styles */
+.settings-tooltip strong {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Tooltip Buttons */
+.settings-tooltip-button {
+  position: relative;
+  background: none;
+  border: medium;
+  cursor: help;
+  font-size: 1rem;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-tooltip-button:focus {
+  outline: 2px solid #007aff;
+  border-radius: 50%;
 }

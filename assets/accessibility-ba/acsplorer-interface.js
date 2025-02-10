@@ -270,3 +270,101 @@ window.addEventListener("message", (event) => {
     }
   }
 });
+
+
+
+
+
+
+
+
+// TOOLTIPS SETTINGS PANEL
+document.addEventListener("DOMContentLoaded", () => {
+  function createTooltip(buttonId, tooltipId, content) {
+    const button = document.getElementById(buttonId);
+    const tooltip = document.createElement("div");
+
+    tooltip.id = tooltipId;
+    tooltip.classList.add("settings-tooltip");
+    tooltip.setAttribute("role", "tooltip");
+
+    // Create close button inside tooltip with SVG icon
+    const closeButton = document.createElement("button");
+    closeButton.classList.add("settings-tooltip-close");
+    closeButton.setAttribute("aria-label", "Close tooltip");
+    closeButton.innerHTML = `
+      <svg class="tooltip-close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z" fill="black"/>
+      </svg>
+    `;
+
+    // Tooltip content
+    const contentDiv = document.createElement("div");
+    contentDiv.classList.add("settings-tooltip-content");
+    contentDiv.innerHTML = content;
+
+    tooltip.appendChild(closeButton);
+    tooltip.appendChild(contentDiv);
+    button.insertAdjacentElement("afterend", tooltip);
+
+    function toggleTooltip(event) {
+      event.stopPropagation(); // Prevents immediate closing after clicking the button
+      if (tooltip.classList.contains("visible")) {
+        tooltip.classList.remove("visible");
+      } else {
+        closeAllTooltips(); // Close other tooltips
+        tooltip.classList.add("visible");
+        positionTooltip(button, tooltip);
+      }
+    }
+
+    function closeAllTooltips() {
+      document.querySelectorAll(".settings-tooltip").forEach(t => t.classList.remove("visible"));
+    }
+
+    function positionTooltip(button, tooltip) {
+      const buttonRect = button.getBoundingClientRect();
+      const tooltipRect = tooltip.getBoundingClientRect();
+      const spaceAbove = buttonRect.top;
+      const spaceBelow = window.innerHeight - buttonRect.bottom;
+
+      if (spaceBelow >= tooltipRect.height + 10) {
+        tooltip.style.top = `${buttonRect.bottom + 8}px`; // Below button
+      } else {
+        tooltip.style.top = `${buttonRect.top - tooltipRect.height - 8}px`; // Above button
+      }
+      tooltip.style.left = `${buttonRect.left + buttonRect.width / 2 - tooltipRect.width / 2}px`;
+    }
+
+    button.addEventListener("click", toggleTooltip);
+
+    closeButton.addEventListener("click", () => {
+      tooltip.classList.remove("visible");
+    });
+
+    // Close tooltip when clicking outside
+    document.addEventListener("click", (event) => {
+      if (!button.contains(event.target) && !tooltip.contains(event.target)) {
+        tooltip.classList.remove("visible");
+      }
+    });
+  }
+
+  createTooltip(
+    "info-wcag-level",
+    "settings-tooltip-wcag-level",
+    `<strong>The WCAG Level</strong> indicates the accessibility standard of the page. The higher the standard, the more accessibility criteria are met.<br><br>
+    <strong>A:</strong> Essential accessibility<br>
+    <strong>AA:</strong> Advanced accessibility with ideal support<br>
+    <strong>AAA:</strong> Highest accessibility with specialized support`
+  );
+
+  createTooltip(
+    "info-wcag-criteria",
+    "settings-tooltip-wcag-criteria",
+    `<strong>WCAG criteria</strong> apply to specific contexts and content. Not every criterion can be applied to every project. This site implements as many use cases as possible in a meaningful way.<br><br>
+    <strong>A:</strong> Showing 27/30 criteria in total<br>
+    <strong>AA:</strong> Showing 45/50 criteria in total<br>
+    <strong>AAA:</strong> Showing 69/78 criteria in total`
+  );
+});

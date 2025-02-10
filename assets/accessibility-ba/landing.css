@@ -1,0 +1,490 @@
+/* FONT IMPORT ========================================================================= */
+
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+
+
+:root {
+  --acsplorer-surface: #001D54;
+  --acsplorer-text-onsurface: #ffffff;
+  --acsplorer-text-onprimary: #000000;
+  --acsplorer-primary: #FF7318;
+  --acsplorer-primary-hover: #E55B00;
+  --acsplorer-secondary: #FFFFFF;
+  --acsplorer-font: "Funnel Display", serif;
+}
+
+/* BASIC SETTINGS ========================================================================= */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #002574;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* Container */
+
+
+
+
+/* Header Container */
+.landing-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  pointer-events: none;
+  margin: 0 16px;
+}
+
+/* Column Guides */
+.grid::before {
+  content: "";
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-left: 1px dashed white;
+  pointer-events: none;
+}
+
+
+
+/* Background SVG */
+.background-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-svg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Centering the Logo Container */
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 16px;
+}
+
+
+.logo-container img{
+  width: 60vw;
+  max-width: 750px;
+}
+
+/* Styling for the subline */
+.subline {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #002574;
+  border: 1px dashed white;
+  border-radius: 100px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  letter-spacing: 10%;
+  font-family: var(--font-family);
+  font-weight: 300;
+}
+
+/* Horizontal Dividers */
+.horizontal-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-top: 1px dashed white;
+  opacity: 0.6;
+}
+
+.horizontal-line.top {
+  top: 14%;
+}
+
+.horizontal-line.bottom {
+  bottom: 52%;
+}
+
+/* Gradient Overlay */
+.gradient-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, rgba(0, 37, 116, 0) 0%, #002574 100%);
+  pointer-events: none;
+}
+
+
+
+.grid-container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+.column {
+  border-right: 1px dashed white;
+}
+
+
+.content-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-L);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.background-svg {
+  background: url("img/background-path.svg") no-repeat center/cover;
+}
+
+
+
+
+/* General Section Styling */
+.wcag-intro {
+  background-color: #002574;
+  color: white;
+  padding: 60px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wcag-intro h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 0 #002574, -3px 3px 0 #002574, -3px -3px 0 #002574, 3px -3px 0 #002574;
+}
+
+.wcag-intro h2 {
+  font-size: 1.8rem;
+  font-weight: 480;
+  margin-top: 40px;
+}
+
+
+
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: .8;
+  font-family: var(--font-family);
+  font-weight: 210;
+}
+
+/* Styling for highlights */
+.highlight {
+  color: #ff6600;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+  height: 8px;
+  background-color: #ff6600;
+  border-radius: 100px;
+  z-index: 4;
+  mix-blend-mode: screen;
+}
+
+/* Accessibility Levels Container */
+.accessibility-levels {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Individual Level Item */
+.level {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+/* Accessibility Level Badge (A, AA, AAA) */
+.level-badge {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff6600;
+  min-width: 50px;
+  font-family: var(--acsplorer-font);
+  width: 40px !important;
+}
+
+/* Level Title & Description */
+.level h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+
+
+/* Full-Width Flex Container */
+.full-width-container {
+  width: 100%;
+  height: 400px;
+  background-color: #E0ECF8; /* Light blue background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 10px solid #002574; /* Dark blue border */
+  transition: 0.2s all ease-in-out;
+}
+
+.full-width-container:hover {
+  transform: scale(1.01);
+  transition: 0.2s all ease-in-out;
+}
+
+/* Inner Content */
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+/* Highlighted Text */
+.highlight {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #002574;
+  position: relative;
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #FF6600;
+  border-radius: 3px;
+}
+
+/* External Link Icon */
+.external-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #002574;
+}
+
+
+
+
+
+
+
+/* Section Layout */
+.insights-section {
+  padding: 16px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 60px;
+}
+
+/* Insights container */
+.insights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Individual insight items */
+.insight-item {
+  border: 2px solid #FF6600; /* Orange border */
+  border-radius: 8px;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+/* Dropdown summary */
+.insight-item summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.insight-item summary:hover {
+  background-color: #001b54;
+}
+
+/* Number + Title */
+.insight-number {
+  color: #FF6600;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: var(--acsplorer-font);
+}
+
+.insight-title {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  font-family: var(--acsplorer-font);
+  font-weight: 480;
+}
+
+/* Dropdown icon */
+.dropdown-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate icon when open */
+.insight-item[open] .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+/* Paragraph content */
+.insight-item p {
+  padding: 15px;
+  line-height: 1.5;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Navigation Links */
+.insights-links {
+  margin: 80px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--acsplorer-font);
+  font-weight: 480;
+  font-size: 18px;
+}
+
+.insights-links a {
+  color: #ffffff;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.insights-links a:hover {
+  border-bottom: 2px solid #FF6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Grid Adjustment */
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid::before {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+
+.logo-container img{
+  width: 90vw;
+  max-width: 750px;
+}
+
+
+}
+
+@media (max-width: 500px) {
+  .subline {
+    font-size: 0.9rem;
+  }
+
+  .grid-container {
+    height: 60vh;
+  }
+  
+}
+
+h1, h2, h3 {
+  font-family: var(--acsplorer-font);
+  font-weight: 480;
+}

@@ -799,13 +799,12 @@ textarea:invalid {
 /* Blinking Background */
 
 /* Activate later */
-/* @keyframes blink-bg {
-  0% { background-color: red; }
-  25% { background-color: yellow; }
-  50% { background-color: lime; }
-  75% { background-color: magenta; }
-  100% { background-color: cyan; }
-} */
+@keyframes blink-bg {
+  0% { background-color: #FF0586; }
+  33% { background-color: #6600ff; }
+  66% { background-color: #FF0586 }
+  100% { background-color: #6600ff; }
+}
    
 
 @keyframes scroll-slogan {
@@ -820,7 +819,7 @@ textarea:invalid {
   padding: var(--spacing-XS) var(--spacing-XS) 4px 0;
   font-weight: bold;
   position: relative;
-  background-color: magenta;
+  background-color: #FF0586;
   color: #ffffff;
   flex-direction: row;
   z-index: 0;
@@ -831,6 +830,15 @@ textarea:invalid {
 }
 
 [data-wcag="a"] .raffle-banner, [data-wcag="a"] .timer {
+  animation: blink-bg 1.5s infinite;
+}
+
+
+[data-wcag="aaa"] .raffle-banner, [data-wcag="aaa"] .timer {
+  animation: none;
+}
+
+[data-wcag="aa"] .timer {
   animation: none;
 }
 
@@ -866,7 +874,7 @@ textarea:invalid {
   right: 0;
   top: 0;
   z-index: 1;
-  background: linear-gradient(to right, rgba(255, 0, 191, 0), rgb(255, 0, 191, 1));
+  background: linear-gradient(to right, rgba(255, 5, 147, 0), rgb(255, 5, 147, 1));
   width: 200px;
   height: 100%;
 }
@@ -880,12 +888,13 @@ textarea:invalid {
   right: 0;
   top: 0;
   z-index: 2;
-  background-color: fuchsia;
+  background-color: #FF0586;
   padding-right: var(--spacing-L);
   font-family: var(--font-family);
   display: flex;
   align-items: center;
   font-size: calc(var(--base-font-size)*1.3);
+  animation: blink-bg 0.2s infinite;
 }
 
 :is([data-wcag="aaa"]) [id="wcag-a-2-3-1"] {
@@ -1589,6 +1598,21 @@ audio {
 /* Video Tutorial Section */
 /* ============================================================================================================== */
 
+.video-context {
+  display: none;
+}
+
+:is([data-wcag="aa"], [data-wcag="aaa"]) .video-context{
+  display: flex;
+  flex-direction: column;
+}
+
+.video-marker{
+    width: 100%;
+    height: 44px;
+}
+
+
 .video-container {
   max-width: 100%;
   margin: 20px 0;
@@ -1645,6 +1669,9 @@ video {
   border-top: 1px solid var(--color-seperator);
   transition: var(--transition-max-height);
   border-radius: 0 0 var(--radius-8) var(--radius-8);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 /* Improve Readability for Audio Description & Voiceover */
@@ -1696,6 +1723,44 @@ video {
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+/* LEVEL MARKER HANDLING  VISIBILITY  */
+
+
+.video-marker-container{
+  display: none;
+  flex-direction: row;
+  margin: 0;
+  gap: 32px;
+  }
+  
+
+
+:is([data-wcag="a"]) .video-marker-a {
+  display: flex;
+}
+
+:is([data-wcag="aa"]) .video-marker-aa {
+  display: flex;
+}
+
+:is([data-wcag="aa"]) .video-marker-container, :is([data-wcag="aaa"]) .video-marker-container {
+  margin: 24px 0;
+}
+
+:is([data-wcag="aaa"]) .video-marker-aaa {
+  display: flex;
+}
+
+
+
+
+
+
+
 
 /* INSTRUCTIONS */
 /* ============================================================================================================== */
@@ -1904,7 +1969,7 @@ video {
 }
 
 .comment-form-section * {
-  width: fit-content;
+  width: auto;
 }
 
 
@@ -2439,8 +2504,8 @@ input[type="search"]:focus {
 }
 
 .site-demonstrator [data-marker]::after{
-  width: 103%;
-  height: 103%;
+  width: 105%;
+  height: 105%;
 }
 
 
@@ -2490,7 +2555,7 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   top: 100%;
-  width: 100%;
+  width: 60%;
   transform: translateY(12px);
   font-size: 16px;
   font-weight: normal;
@@ -2838,14 +2903,13 @@ font-family: var(--acsplorer-font);
 /* MARKER POSITION TEST */
 
 .special-a-1-1-1{
-  width: 32px;
+  width: 42px;
   height: 32px;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 10px;
+  top: 24px;
   transform: translate(-50%, -50%);
   z-index: 2;
-
 }
 
 .special-a-1-1-1::after{
@@ -2893,3 +2957,19 @@ font-family: var(--acsplorer-font);
   letter-spacing: 0.12em !important;
   word-spacing: 0.16em !important;
 }
+
+
+
+
+.site-demonstrator {
+  pointer-events: auto;
+}
+
+.site-demonstrator.marker-active {
+  pointer-events: none; /* Disable interaction when markers are active */
+}
+
+.site-demonstrator [data-marker]::after {
+  pointer-events: auto; /* Ensure markers remain interactive */
+}
+
