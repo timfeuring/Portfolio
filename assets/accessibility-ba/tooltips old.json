@@ -1,0 +1,346 @@
+{
+  "wcag-a-01": {
+    "title":          "1.1.1 Non-Text Content (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.1 – Text Alternatives",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-02": {
+    "title":          "1.2.1 Audio-only and Video-only (Prerecorded) (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.2 – Time-based Media",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-03": {
+    "title":          "1.2.2 Captions (Prerecorded) (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.2 – Time-based Media",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-04": {
+    "title":          "1.2.3 Audio Description or Media Alternative (Prerecorded) (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.2 – Time-based Media",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-05": {
+    "title":          "1.3.1 Info and Relationships (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.3 – Adaptable",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-06": {
+    "title":          "1.3.2 Meaningful Sequence (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/meaningful-sequence.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.3 – Adaptable",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-07": {
+    "title":          "1.3.3 Sensory Characteristics (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.3 – Adaptable",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-08": {
+    "title":          "1.4.1 Use of Color (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.4 – Distinguishable",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    }
+  },
+  "wcag-a-09": {
+    "title":          "1.4.2 Audio Control (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "1 – Perceivable",
+    "guideline":      "1.4 – Distinguishable",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "wcag-a-10": {
+    "title":          "2.1.1 Keyboard (A)",
+    "link":           "https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html",
+    "changes": {
+      "heading":      "What has changed?",
+      "text":         ""
+    },
+    "reason": {
+      "heading":      "Why?",
+      "text":         ""
+    },
+    "principle":      "2 – Operable",
+    "guideline":      "2.1 – Keyboard Accessible",
+    "level":          "A",
+    "targeting": {
+      "heading":      "Targeting",
+      "target1":      "",
+      "target2":      "",
+      "target3":      ""
+    },
+    "implementation": "",
+    "technique":      ""
+  },
+  "bananen": {
+    "title": "2.4.06 Headings and Labels (AA)",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  },
+  "pseudo3": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo4": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo5": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo6": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo7": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo8": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo9": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+  ,
+  "pseudo10": {
+    "title": "Der Giulmensch ist super toll",
+    "link": "https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html",
+    "changes": {
+      "heading": "What has changed?",
+      "text": "Headings were added to separate sections of the recipe page."
+    },
+    "reason": {
+      "heading": "Why?",
+      "text": "Proper headings help users navigate the page structure more efficiently, especially for assistive technologies."
+    }
+  }
+
+}

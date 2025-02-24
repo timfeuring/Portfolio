@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I'm a digital and analog designer based in Hamburg."/>
+  <meta name="keywords" content=""/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Acsplorer Demonstrator</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/accessibility-ba/img/favicon.ico">
+  <link rel="stylesheet" href="assets/accessibility-ba/acsplorer-interface.css">
+  <link rel="stylesheet" href="assets/accessibility-ba/demonstrator.css">
+    <link rel="stylesheet" href="assets/accessibility-ba/tokens.css">
+</head>
+
+<body data-wcag="none">
+<div class= "overlay-dark"></div>
+
+<div class="acsplorer-demonstrator" data-theme="light">
+
+
+
+  
+  <div class="hidden">
+    <label>
+      <input id="demonstrator-label-none" type="radio" name="wcag-level" value="none" checked> None
+    </label>
+    <label>
+      <input id="demonstrator-label-a" type="radio" name="wcag-level" value="A"> A
+    </label>
+    <label>
+      <input id="demonstrator-label-aa" type="radio" name="wcag-level" value="AA"> AA
+    </label>
+    <label>
+      <input id="demonstrator-label-aaa" type="radio" name="wcag-level" value="AAA"> AAA
+    </label>
+  </div>
+  
+
+  <div class="global-tooltip-container">
+  
+    <!-- ====================== LEVEL A ======================   -->
+    
+    <!-- LEVEL A – META  -->
+    <div class="global-tooltip global-tooltip-a" id="" data-wcag="a">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.5006 12C19.5006 11.77 19.4906 11.55 19.4706 11.32L21.3306 9.91C21.7306 9.61 21.8406 9.05 21.5906 8.61L19.7206 5.38C19.4706 4.94 18.9306 4.76 18.4706 4.96L16.3206 5.87C15.9506 5.61 15.5606 5.38 15.1506 5.19L14.8606 2.88C14.8006 2.38 14.3706 2 13.8706 2H10.1406C9.63064 2 9.20064 2.38 9.14064 2.88L8.85064 5.19C8.44064 5.38 8.05064 5.61 7.68064 5.87L5.53064 4.96C5.07064 4.76 4.53064 4.94 4.28064 5.38L2.41064 8.62C2.16064 9.06 2.27064 9.61 2.67064 9.92L4.53064 11.33C4.51064 11.55 4.50064 11.77 4.50064 12C4.50064 12.23 4.51064 12.45 4.53064 12.68L2.67064 14.09C2.27064 14.39 2.16064 14.95 2.41064 15.39L4.28064 18.62C4.53064 19.06 5.07064 19.24 5.53064 19.04L7.68064 18.13C8.05064 18.39 8.44064 18.62 8.85064 18.81L9.14064 21.12C9.20064 21.62 9.63064 22 10.1306 22H13.8606C14.3606 22 14.7906 21.62 14.8506 21.12L15.1406 18.81C15.5506 18.62 15.9406 18.39 16.3106 18.13L18.4606 19.04C18.9206 19.24 19.4606 19.06 19.7106 18.62L21.5806 15.39C21.8306 14.95 21.7206 14.4 21.3206 14.09L19.4606 12.68C19.4906 12.45 19.5006 12.23 19.5006 12ZM12.0406 15.5C10.1106 15.5 8.54064 13.93 8.54064 12C8.54064 10.07 10.1106 8.5 12.0406 8.5C13.9706 8.5 15.5406 10.07 15.5406 12C15.5406 13.93 13.9706 15.5 12.0406 15.5Z" fill="#000"/>
+          </svg>
+          <h2 class="tooltip-title"> Solved in code</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p>Criteria that are solved in the code for the whole website, affecting the interaction, presentation and functionality of the interface.</p>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-4-2" data-wcag="a">2.4.2 Page Titled (A)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-3-1-1" data-wcag="a"> 3.1.1 Language of Page (A) </li>
+        <br><br>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-1-1" data-wcag="a">2.1.1 Keyboard (A)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-1-2" data-wcag="a">2.1.2 No Keyboard Trap (A)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-1-4" data-wcag="a">2.1.4 Character Key Shortcuts (A)</li>
+        <br><br>
+        <li class="tooltip-interaction" data-marker id="wcag-a-1-3-2" data-wcag="a">1.3.2 Meaningful Sequence (A)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-4-3" data-wcag="a"> 2.4.3 Focus Order (A) </li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-5-3" data-wcag="a"> 2.5.3 Label in Name (A) </li>
+        <br><br>
+        <li class="tooltip-interaction" data-marker id="wcag-a-4-1-1" data-wcag="a"> 4.1.1 Parsing (A) </li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-4-1-2" data-wcag="a"> 4.1.2 Name, Role, Value (A) </li>
+      </ul>
+    </div>
+  
+    <!-- LEVEL A – N/A  -->
+    <div class="global-tooltip global-tooltip-a" id="" data-wcag="a">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.0013 2.66666C8.6413 2.66666 2.66797 8.63999 2.66797 16C2.66797 23.36 8.6413 29.3333 16.0013 29.3333C23.3613 29.3333 29.3346 23.36 29.3346 16C29.3346 8.63999 23.3613 2.66666 16.0013 2.66666ZM22.668 17.3333H9.33464V14.6667H22.668V17.3333Z" fill="black"/>
+          </svg>
+          <h2 class="tooltip-title"> Not applicable</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p> Criteria that have no use case on this site</p>
+        <li class="tooltip-interaction" data-marker id="wcag-a-1-4-2" data-wcag="a">1.4.2 Audio Control (A)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-a-2-5-4" data-wcag="a">2.5.4 Motion Actuation (A)</li>
+   
+      </ul>
+    </div>
+  
+  
+  
+     <!-- ====================== LEVEL AA ======================   -->
+    <!-- LEVEL AA – META  -->
+    <div class="global-tooltip global-tooltip-aa" id="" data-wcag="aa">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.5006 12C19.5006 11.77 19.4906 11.55 19.4706 11.32L21.3306 9.91C21.7306 9.61 21.8406 9.05 21.5906 8.61L19.7206 5.38C19.4706 4.94 18.9306 4.76 18.4706 4.96L16.3206 5.87C15.9506 5.61 15.5606 5.38 15.1506 5.19L14.8606 2.88C14.8006 2.38 14.3706 2 13.8706 2H10.1406C9.63064 2 9.20064 2.38 9.14064 2.88L8.85064 5.19C8.44064 5.38 8.05064 5.61 7.68064 5.87L5.53064 4.96C5.07064 4.76 4.53064 4.94 4.28064 5.38L2.41064 8.62C2.16064 9.06 2.27064 9.61 2.67064 9.92L4.53064 11.33C4.51064 11.55 4.50064 11.77 4.50064 12C4.50064 12.23 4.51064 12.45 4.53064 12.68L2.67064 14.09C2.27064 14.39 2.16064 14.95 2.41064 15.39L4.28064 18.62C4.53064 19.06 5.07064 19.24 5.53064 19.04L7.68064 18.13C8.05064 18.39 8.44064 18.62 8.85064 18.81L9.14064 21.12C9.20064 21.62 9.63064 22 10.1306 22H13.8606C14.3606 22 14.7906 21.62 14.8506 21.12L15.1406 18.81C15.5506 18.62 15.9406 18.39 16.3106 18.13L18.4606 19.04C18.9206 19.24 19.4606 19.06 19.7106 18.62L21.5806 15.39C21.8306 14.95 21.7206 14.4 21.3206 14.09L19.4606 12.68C19.4906 12.45 19.5006 12.23 19.5006 12ZM12.0406 15.5C10.1106 15.5 8.54064 13.93 8.54064 12C8.54064 10.07 10.1106 8.5 12.0406 8.5C13.9706 8.5 15.5406 10.07 15.5406 12C15.5406 13.93 13.9706 15.5 12.0406 15.5Z" fill="#000"/>
+          </svg>
+          <h2 class="tooltip-title"> Solved in code</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p>Criteria that are implemented globally and affect the overall interaction, presentation and functionality of the interface</p>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-1-3-5" data-wcag="aa">1.3.5 Identify Input Purpose (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-1-3-4" data-wcag="aa">1.3.4 Orientation (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-1-4-4" data-wcag="aa">1.4.4 Resize Text (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-1-4-1" data-wcag="aa">1.4.1 Reflow (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-3-2-3" data-wcag="aa">3.2.3 Consistent Navigation (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-2-4-7" data-wcag="aa">2.4.7 Focus Visible (AA)</li>
+    </div>
+  
+    <!-- LEVEL AA – N/A  -->
+    <div class="global-tooltip global-tooltip-aa" id="" data-wcag="aa">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.0013 2.66666C8.6413 2.66666 2.66797 8.63999 2.66797 16C2.66797 23.36 8.6413 29.3333 16.0013 29.3333C23.3613 29.3333 29.3346 23.36 29.3346 16C29.3346 8.63999 23.3613 2.66666 16.0013 2.66666ZM22.668 17.3333H9.33464V14.6667H22.668V17.3333Z" fill="black"/>
+          </svg>
+          <h2 class="tooltip-title"> Not applicable</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p> Criteria that have no use case on this site</p>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-1-2-4" data-wcag="aa">1.2.4 Captions (Live) (AA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aa-3-3-4" data-wcag="aa">3.3.4 Error Prevention (Legal, Financial, Data) (AA)</li>
+      </ul>
+    </div>
+  
+      <!-- ====================== LEVEL AAA ======================   -->
+    <!-- LEVEL AAA – META  -->
+    <div class="global-tooltip global-tooltip-aaa" id="" data-wcag="aaa">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.5006 12C19.5006 11.77 19.4906 11.55 19.4706 11.32L21.3306 9.91C21.7306 9.61 21.8406 9.05 21.5906 8.61L19.7206 5.38C19.4706 4.94 18.9306 4.76 18.4706 4.96L16.3206 5.87C15.9506 5.61 15.5606 5.38 15.1506 5.19L14.8606 2.88C14.8006 2.38 14.3706 2 13.8706 2H10.1406C9.63064 2 9.20064 2.38 9.14064 2.88L8.85064 5.19C8.44064 5.38 8.05064 5.61 7.68064 5.87L5.53064 4.96C5.07064 4.76 4.53064 4.94 4.28064 5.38L2.41064 8.62C2.16064 9.06 2.27064 9.61 2.67064 9.92L4.53064 11.33C4.51064 11.55 4.50064 11.77 4.50064 12C4.50064 12.23 4.51064 12.45 4.53064 12.68L2.67064 14.09C2.27064 14.39 2.16064 14.95 2.41064 15.39L4.28064 18.62C4.53064 19.06 5.07064 19.24 5.53064 19.04L7.68064 18.13C8.05064 18.39 8.44064 18.62 8.85064 18.81L9.14064 21.12C9.20064 21.62 9.63064 22 10.1306 22H13.8606C14.3606 22 14.7906 21.62 14.8506 21.12L15.1406 18.81C15.5506 18.62 15.9406 18.39 16.3106 18.13L18.4606 19.04C18.9206 19.24 19.4606 19.06 19.7106 18.62L21.5806 15.39C21.8306 14.95 21.7206 14.4 21.3206 14.09L19.4606 12.68C19.4906 12.45 19.5006 12.23 19.5006 12ZM12.0406 15.5C10.1106 15.5 8.54064 13.93 8.54064 12C8.54064 10.07 10.1106 8.5 12.0406 8.5C13.9706 8.5 15.5406 10.07 15.5406 12C15.5406 13.93 13.9706 15.5 12.0406 15.5Z" fill="#000"/>
+          </svg>
+          <h2 class="tooltip-title"> Solved in code</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p>Criteria that are implemented globally and affect the overall interaction, presentation and functionality of the interface</p>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-2-1-3" data-wcag="aaa">2.1.3 Keyboard (No Exception) (AAA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-1-3-6" data-wcag="aaa">1.3.6 Identify Purpose (AAA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-2-5-6" data-wcag="aaa">2.5.6 Concurrent Input Mechanisms (AAA)</li>
+      </ul>
+    </div>
+  
+    <!-- LEVEL AAA – N/A  -->
+    <div class="global-tooltip global-tooltip-aaa" id="" data-wcag="aaa">
+      <div class="global-tooltip-header">
+        <div class="global-label">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.0013 2.66666C8.6413 2.66666 2.66797 8.63999 2.66797 16C2.66797 23.36 8.6413 29.3333 16.0013 29.3333C23.3613 29.3333 29.3346 23.36 29.3346 16C29.3346 8.63999 23.3613 2.66666 16.0013 2.66666ZM22.668 17.3333H9.33464V14.6667H22.668V17.3333Z" fill="black"/>
+          </svg>
+          <h2 class="tooltip-title"> Not applicable</h2>
+        </div>
+        
+        <button class="tooltip-interaction tooltip-action-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 9.70498L16.59 8.29498L12 12.875L7.41 8.29498L6 9.70498L12 15.705L18 9.70498Z" fill="#000"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="global-tooltip-list">
+        <p> Criteria that have no use case on this site</p>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-1-2-9" data-wcag="aaa">1.2.9 Audio-only (Live) (AAA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-2-2-5" data-wcag="aaa">2.2.5 Re-authenticating (AAA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-3-1-6" data-wcag="aaa">3.1.6 Pronunciation (AAA)</li>
+        <li class="tooltip-interaction" data-marker id="wcag-aaa-1-4-7" data-wcag="aaa">1.4.7 Low or No Background Audio (AAA)</li>
+      </ul>
+    </div>
+  
+  </div>
+
+  <div class="site-demonstrator">
+
+    <label for="annotations-toggle" class="toggle-label hidden">
+      <input type="checkbox" id="annotations-toggle" class="toggle-input" />
+      <span class="toggle-slider"></span>
+      <span class="toggle-text">Show Annotations</span>
+    </label>
+
+
+
+      <!-- Accessibility Toolbar -->
+<div class="accessibility-toolbar" aria-label="Accessibility Toolbar">
+    
+  <div class="accessibility-toolbar-top">
+    <a class="skip-to-content-btn" href="#main-content" data-marker id="wcag-a-2-4-1" data-wcag="a">[ Skip to Content ]</a> 
+    <button id="accessibility-toggle" class="button button-accessibility-toolbar open" aria-expanded="true">
+      Accessibility Settings
+    </button>
+    
+  </div>
+
+  <div class="accessibility-settings">
+    
+    <!-- Pause Animations -->
+    <button class="button button-accessibility-toolbar" aria-pressed="false" data-marker id="wcag-a-2-2-2" data-wcag="a">
+      <img src="assets/accessibility-ba/img/icons/pause_circle.svg" alt="">
+      Pause Animations
+    </button>
+
+    <!-- Pause Timing -->
+    <button class="button button-accessibility-toolbar" aria-pressed="false" data-marker id="wcag-a-2-2-1" data-wcag="a">
+      <img src="assets/accessibility-ba/img/icons/stop_circle.svg" alt="">
+      Stop Timing
+    </button>
+
+     <!-- Text / Background Options -->
+     <button class="button button-accessibility-toolbar" aria-expanded="false" data-marker id="wcag-aa-1-4-12" data-wcag="aa">
+      <img src="assets/accessibility-ba/img/icons/text-spacing-plus-white.svg" alt="">
+      Text Spacing
+    </button>
+  
+    
+    <div class="dropdown-menu" aria-labelledby="text-bg-options-btn" hidden>
+      <label>
+        <input type="radio" name="text-bg" value="high-contrast" />
+        High Contrast
+      </label>
+      <label>
+        <input type="radio" name="text-bg" value="dark-mode" />
+        Dark Mode
+      </label>
+      <label>
+        <input type="radio" name="text-bg" value="light-mode" checked />
+        Light Mode
+      </label>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+          
+          
+      <!-- Main Navigation -->
+      <nav class="main-navigation">
+        <div class="container-logo-list">
+          <!-- Logo -->
+          <a class="nav-logo-container">
+            <img
+              class="nav-logo"
+              src="assets/accessibility-ba/img/vegcraft-logo.svg"
+              alt="the logo of vegcraft in a delicate letter combination"
+            />
+          </a>
+      
+          <!-- Burger Menu Button -->
+          <button class="button burger-menu" aria-label="Toggle navigation">
+            <svg class="button-secondary-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 18V16H21V18H3ZM3 13V11H21V13H3ZM3 8V6H21V8H3Z"/>
+            </svg>
+            <p>Menu</p>
+          </button>
+    
+
+<!-- Navigation Links -->
+<ul class="navbar-list" id="navbar-list" hidden>
+  <!-- Home -->
+  <li class="navbar-item">
+    <a href="#" class="navbar-link">Home</a>
+  </li>
+
+  <!-- Recipes Dropdown -->
+  <li class="navbar-item nav-dropdown">
+    <button class="nav-dropdown-toggle" aria-expanded="false" aria-controls="recipes-dropdown">
+      Recipes
+      <span class="nav-dropdown-icon">&#9662;</span>
+    </button>
+    <ul class="nav-dropdown-menu" id="recipes-dropdown" hidden>
+      <li><a href="#" class="dropdown-link">Top Rated Recipes</a></li>
+      <li><a href="#" class="dropdown-link">Quick and Easy</a></li>
+      <li><a href="#" class="dropdown-link">Startes</a></li>
+      <li><a href="#" class="dropdown-link">Main Dishes</a></li>
+      <li><a href="#" class="dropdown-link">Deserts</a></li>
+      <li><a href="#" class="dropdown-link">Salads</a></li>
+      <li><a href="#" class="dropdown-link">All Recipes</a></li>
+    </ul>
+  </li>
+
+
+  <!-- Recipes Dropdown -->
+  <li class="navbar-item nav-dropdown">
+    <button class="nav-dropdown-toggle" aria-expanded="false" aria-controls="seasonal-dropdown">
+      Seasonal Picks
+      <span class="nav-dropdown-icon">&#9662;</span>
+    </button>
+    <ul class="nav-dropdown-menu" id="recipes-dropdown" hidden>
+      <li><a href="#" class="dropdown-link">Spring</a></li>
+      <li><a href="#" class="dropdown-link">Summer</a></li>
+      <li><a href="#" class="dropdown-link">Autumn</a></li>
+      <li><a href="#" class="dropdown-link">Winter</a></li>
+    </ul>
+  </li>
+
+  <!-- About -->
+  <li class="navbar-item">
+    <a href="#" class="navbar-link">About</a>
+  </li>
+
+  <!-- Contact -->
+  <li class="navbar-item">
+    <a href="#" class="navbar-link">Contact</a>
+  </li>
+</ul>
+
+        </div>
+
+        <div class="search-container">
+
+          <form class="searchbar" action="/search" method="get" role="search" id="search-form">
+            <label for="search-input" class="hidden">Search</label>
+            <input
+              type="search"
+              id="search-input"
+              name="q"
+              placeholder="Search..."
+              aria-label="Search"
+              required
+              class="search-input"
+            />
+          </form>
+
+          <button class="button button-primary" id="search-button" type="submit"> 
+            <svg class="button-primary-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4L10.59 5.41L16.17 11L4 11L4 13L16.17 13L10.58 18.58L12 20L20 12L12 4Z"/>
+            </svg> 
+            Search
+          </button>
+          </div>
+      </nav>
+
+      
+
+      
+      <div class="raffle-banner" data-marker id="wcag-a-2-3-1" data-wcag="a">
+        <div class="slogan-wrapper">
+          <span class="slogan">WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – </span>
+          <span class="slogan">WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – </span>
+        </div>
+        <div class="gradient-overlay"></div>
+        <span class="timer">⏳ 3:00</span>
+        
+      </div>
+
+      <div class="raffle-banner special-aaa-2-3-2">
+        <div class="slogan-wrapper" data-marker id="wcag-aaa-2-3-2" data-wcag="aaa">
+          <span class="slogan">WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – </span>
+          <span class="slogan">WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – WIN OUR NEW BOOK – </span>
+        </div>
+        <div class="gradient-overlay"></div>
+        <span class="timer" data-marker id="wcag-aaa-2-2-3" data-wcag="aaa"></span>
+      </div>
+      
+   
+
+      <!-- Main Content Container -->
+<main id="main-content">
+
+  <div class="content-container"> 
+  <!-- Breadcrumb -->
+
+<section class="recipe-intro">
+      <nav aria-label="Breadcrumb" class="breadcrumb-navigation" data-marker id="wcag-aa-2-4-5" data-wcag="aa">
+        <ol class="breadcrumb-list">
+          <li class="breadcrumb-item">
+            <a href="" class="breadcrumb-link">Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="" class="breadcrumb-link">Recipes</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="" class="breadcrumb-link">Vegetarian</a>
+          </li>
+          <li class="breadcrumb-item" aria-current="page">
+            <a href="" class="breadcrumb-link"></a>Savory Wok-Tossed Greens with Tofu</a>
+          </li>
+        </ol>
+      </nav>
+
+
+      <div class="recipe-header">
+      <h1>
+  <span data-marker id="wcag-aa-1-4-3" data-wcag="aa">Savory Wok-Tossed Greens with Tofu</span>
+  <span data-marker id="wcag-aaa-1-4-6" data-wcag="aaa">Savory Wok-Tossed Greens with Tofu</span>
+</h1>
+
+      <!-- Ratings and Reviews =====================================================-->
+        <div class="recipe-meta">
+          <p class="submitted-info">
+            <span>
+              Submitted by
+            </span>
+            <a href="#author" data-marker id="wcag-a-1-4-1" data-wcag="a" rel="author">
+              Jan
+            </a>
+            <span class="meta-separator">|</span>
+            <time datetime="2024-08-14">Updated on August 14, 2024</time>
+          </p>
+          
+          <div class="rating">
+            <img src="assets/accessibility-ba/img/rating/rating-summary.svg" alt="Recipe rating stars"> 
+            <strong>4.7</strong>
+            <a href="#reviews" class="rating-score" aria-label="Rated 4.7 out of 5 based on 34 ratings">
+             (34 Ratings)
+            </a>
+            <span class="meta-separator">|</span>
+            <a href="#reviews" class="review-count" aria-label="2 user comments">2 Comments</a>
+          </div>
+          
+
+
+          <div class="dietary-tags" role="list">
+            <a class="tag" role="listitem" href="#" aria-label="This recipe is vegetarian">
+              <span class="dietary-tag-icon" aria-hidden="true">🌱</span> 
+              <span class="dietary-tag-text" data-marker id="wcag-a-1-3-3" data-wcag="a">Vegetarian</span>
+            </a>
+          
+            <a class="tag" role="listitem" href="#" aria-label="This recipe is gluten-free">
+              <span class="dietary-tag-icon" aria-hidden="true">🌾</span> 
+              <span class="dietary-tag-text">Gluten-Free</span>
+            </a>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <!-- GALLERY =====================================================-->
+      <div class="gallery-container">
+        <div class="special-a-1-1-1" data-marker id="wcag-a-1-1-1" data-wcag="a"></div>
+        <div class="recipe-image-placeholder">
+          <button class="button gallery-btn prev-btn" aria-label="Previous image"> <span data-marker id="wcag-a-2-5-1" data-wcag="a">❮</span></button>
+          <button class="button gallery-btn next-btn" aria-label="Next image"><span>❯</span></button>
+          <img id="gallery-image" src="assets/accessibility-ba/img/gallery/gallery-img-01.png" alt="Recipe image 1">
+          
+        </div>
+        <p class="image-indicator" data-marker id="wcag-a-1-3-3" data-wcag="a">Image&nbsp;<span id="current-image">1</span>/5</p>
+        <div class="pagination-dots" aria-hidden="true"></div>
+      </div>
+
+
+      <!-- ARTICLE BUTTONS =====================================================-->
+      <div class="button-container">
+        <!-- Primary Button: Jump to Recipe -->
+        <a class="button button-primary" href="#recipe-start" type="button" data-marker id="wcag-aaa-2-5-5" data-wcag="aaa">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 12L18.59 10.59L13 16.17V4H11V16.17L5.42 10.58L4 12L12 20L20 12Z" fill="#481D00"/>
+            </svg>
+            
+          Jump to Recipe
+          </a>
+      
+        <!-- Secondary Button: To Video Guide -->
+        <a href="#instructions-video" class="button button-secondary" type="button" data-marker id="wcag-a-2-5-2" data-wcag="a">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 8.64L13.77 12L8.5 15.36V8.64ZM6.5 5V19L17.5 12L6.5 5Z" fill="#481D00"/>
+            </svg>
+            
+          To Video Guide
+        </a>
+      </div>
+
+    </section>
+
+
+    <section class="recipe-about">
+      <!-- ABOUT RECIPE =====================================================-->
+
+      <h2 data-marker id="wcag-aa-2-4-6" data-wcag="aa"> About this recipe </h2>
+      <p>
+        There’s something deeply comforting about a wok-tossed stir-fry, especially when it’s packed with vibrant greens and crispy tofu. Every time I make this dish, I’m reminded of my good friend who first introduced me to the magic of high-heat cooking in a traditional wok. She had learned the technique while traveling through Thailand and southern China, where she spent time in family-run kitchens, absorbing the secrets of perfectly balanced flavors.
+        <br><br>
+        One of those secrets? Layering flavors step by step. Instead of simply throwing everything into a pan, each ingredient is given its moment to shine—first the aromatics, gently fried until fragrant, then the greens, kissed by the wok’s heat, and finally the tofu, crisped to perfection. The sauce, a perfect mix of hoisin, soy sauce, and a hint of sesame oil, brings everything together in a harmony of savory, slightly sweet, and umami-rich flavors.
+        <br><br>
+        What makes this dish so special is its versatility. You can swap out the greens for whatever is in season or add a spicy kick with fresh chilies. It’s a go-to weeknight meal that’s not only delicious but also wholesome and packed with plant-based protein. Whether you’re cooking for yourself or sharing with friends, this stir-fry has a way of bringing people together—just like it did for me.
+        <br><br>
+      </p>
+
+      <!-- LINK: NONE -->
+      <div class="recipe-link-paragraph">
+        <p>
+          If you’re curious about other simple yet delicious Asian-inspired dishes, you might enjoy exploring 
+          <a href="">this page</a>
+          for some of my favorite recipes and cooking techniques.”
+        </p>
+      </div>
+
+      <!-- LINK: A -->
+      <div class="recipe-link-paragraph-a">
+        <p>
+        If you’re curious about other simple yet delicious Asian-inspired dishes, you might enjoy exploring 
+        <a class="link-descriptive"   data-marker id="wcag-a-2-4-4" data-wcag="a">some of my favorite asian-inspired recipes and cooking techniques.</a>
+      </p>
+      </div>
+
+      <!-- LINK: AAA -->
+      <div class="recipe-link-paragraph-aaa">
+        <p>
+          If you’re curious about other simple yet delicious Asian-inspired dishes, you might enjoy exploring:
+          <ul data-marker id="wcag-aaa-2-4-9" data-wcag="aaa">
+            <li>
+              <a href="">Simple Asian-Inspired Recipes</a>
+            </li>
+            <li>
+              <a href="">Essential Wok Cooking Techniques</a>
+            </li>
+          </ul>
+        </p>
+      </div>
+      
+  </section>
+    
+    <!-- ACTION BUTTONS =====================================================-->
+      <section class="recipe-actions button-container" data-marker id="wcag-a-2-1-4" data-wcag="a">
+        <!-- Secondary Button: To Video Guide -->
+        <button class="button button-secondary" type="button" id="save-recipe">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 21V5C5 4.45 5.19583 3.97917 5.5875 3.5875C5.97917 3.19583 6.45 3 7 3H17C17.55 3 18.0208 3.19583 18.4125 3.5875C18.8042 3.97917 19 4.45 19 5V21L12 18L5 21ZM7 17.95L12 15.8L17 17.95V5H7V17.95Z" fill="#481D00"/>
+            </svg>
+            
+          <span>Save Recipe</span>
+        </button>
+        <button class="button button-secondary" type="button" id="print-recipe"  data-marker id="wcag-aa-1-4-11" data-wcag="aa">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 8H18V3H6V8H5C3.34 8 2 9.34 2 11V17H6V21H18V17H22V11C22 9.34 20.66 8 19 8ZM8 5H16V8H8V5ZM16 19H8V15H16V19ZM18 15V13H6V15H4V11C4 10.45 4.45 10 5 10H19C19.55 10 20 10.45 20 11V15H18Z" fill="#481D00"/>
+            <path d="M18 12.5C18.5523 12.5 19 12.0523 19 11.5C19 10.9477 18.5523 10.5 18 10.5C17.4477 10.5 17 10.9477 17 11.5C17 12.0523 17.4477 12.5 18 12.5Z" fill="#481D00"/>
+            </svg>
+          <span>Print Recipe</span>
+        </button>
+        <button class="button button-secondary" type="button" id="share-recipe">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 22C17.1667 22 16.4583 21.7083 15.875 21.125C15.2917 20.5417 15 19.8333 15 19C15 18.8833 15.0083 18.7625 15.025 18.6375C15.0417 18.5125 15.0667 18.4 15.1 18.3L8.05 14.2C7.76667 14.45 7.45 14.6458 7.1 14.7875C6.75 14.9292 6.38333 15 6 15C5.16667 15 4.45833 14.7083 3.875 14.125C3.29167 13.5417 3 12.8333 3 12C3 11.1667 3.29167 10.4583 3.875 9.875C4.45833 9.29167 5.16667 9 6 9C6.38333 9 6.75 9.07083 7.1 9.2125C7.45 9.35417 7.76667 9.55 8.05 9.8L15.1 5.7C15.0667 5.6 15.0417 5.4875 15.025 5.3625C15.0083 5.2375 15 5.11667 15 5C15 4.16667 15.2917 3.45833 15.875 2.875C16.4583 2.29167 17.1667 2 18 2C18.8333 2 19.5417 2.29167 20.125 2.875C20.7083 3.45833 21 4.16667 21 5C21 5.83333 20.7083 6.54167 20.125 7.125C19.5417 7.70833 18.8333 8 18 8C17.6167 8 17.25 7.92917 16.9 7.7875C16.55 7.64583 16.2333 7.45 15.95 7.2L8.9 11.3C8.93333 11.4 8.95833 11.5125 8.975 11.6375C8.99167 11.7625 9 11.8833 9 12C9 12.1167 8.99167 12.2375 8.975 12.3625C8.95833 12.4875 8.93333 12.6 8.9 12.7L15.95 16.8C16.2333 16.55 16.55 16.3542 16.9 16.2125C17.25 16.0708 17.6167 16 18 16C18.8333 16 19.5417 16.2917 20.125 16.875C20.7083 17.4583 21 18.1667 21 19C21 19.8333 20.7083 20.5417 20.125 21.125C19.5417 21.7083 18.8333 22 18 22ZM18 6C18.2833 6 18.5208 5.90417 18.7125 5.7125C18.9042 5.52083 19 5.28333 19 5C19 4.71667 18.9042 4.47917 18.7125 4.2875C18.5208 4.09583 18.2833 4 18 4C17.7167 4 17.4792 4.09583 17.2875 4.2875C17.0958 4.47917 17 4.71667 17 5C17 5.28333 17.0958 5.52083 17.2875 5.7125C17.4792 5.90417 17.7167 6 18 6ZM6 13C6.28333 13 6.52083 12.9042 6.7125 12.7125C6.90417 12.5208 7 12.2833 7 12C7 11.7167 6.90417 11.4792 6.7125 11.2875C6.52083 11.0958 6.28333 11 6 11C5.71667 11 5.47917 11.0958 5.2875 11.2875C5.09583 11.4792 5 11.7167 5 12C5 12.2833 5.09583 12.5208 5.2875 12.7125C5.47917 12.9042 5.71667 13 6 13ZM18 20C18.2833 20 18.5208 19.9042 18.7125 19.7125C18.9042 19.5208 19 19.2833 19 19C19 18.7167 18.9042 18.4792 18.7125 18.2875C18.5208 18.0958 18.2833 18 18 18C17.7167 18 17.4792 18.0958 17.2875 18.2875C17.0958 18.4792 17 18.7167 17 19C17 19.2833 17.0958 19.5208 17.2875 19.7125C17.4792 19.9042 17.7167 20 18 20Z" fill="#481D00"/>
+            </svg>
+          <span>Share Recipe</span>
+        </button>
+        <button class="button button-secondary" type="button" id="rate-recipe">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 9.74L14.81 9.12L12 2.5L9.19 9.13L2 9.74L7.46 14.47L5.82 21.5L12 17.77L18.18 21.5L16.55 14.47L22 9.74ZM12 15.9L8.24 18.17L9.24 13.89L5.92 11.01L10.3 10.63L12 6.6L13.71 10.64L18.09 11.02L14.77 13.9L15.77 18.18L12 15.9Z" fill="#481D00"/>
+            </svg>
+            
+          <span>Rate Recipe</span>
+        </button>
+      </section>
+
+    
+      
+
+    <section class="recipe-info">
+      <!-- RECIPE INFO =====================================================-->
+      
+      <div class="recipe-info-container">
+        <h3 class="recipe-info-title">Recipe Information</h3>
+        <div class="recipe-info-items">
+          <!-- Prep Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Prep Time</b>
+            <p>15 minutes</p>
+          </div>
+          <!-- Cook Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Cook Time</b>
+            <p>15 minutes</p>
+          </div>
+          <!-- Total Time -->
+          <div class="recipe-info-item">
+            <div class="recipe-info-icon">ICON</div>
+            <b>Total Time</b>
+            <p>15 minutes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+
+      <!-- Ingredients =====================================================-->
+    <section class="recipe-ingredients">
+        <h2 id="recipe-start">Ingredients</h2>
+      
+        <div class="serving-size-selector">
+          <label for="servings">Select Serving Size</label>
+          <div class="serving-controls-container">
+            <div class="serving-controls">
+              <input type="number" id="servings" value="1" min="1" />
+              <button class="button button-stepper" id="increase-servings" type="button" aria-label="Increase servings">+</button>
+              <button class="button button-stepper" id="decrease-servings" type="button" aria-label="Decrease servings">−</button>
+            </div>
+          <button id="update-list" class="button button-primary">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V1L8 5L12 9V6C15.31 6 18 8.69 18 12C18 13.01 17.75 13.97 17.3 14.8L18.76 16.26C19.54 15.03 20 13.57 20 12C20 7.58 16.42 4 12 4ZM12 18C8.69 18 6 15.31 6 12C6 10.99 6.25 10.03 6.7 9.2L5.24 7.74C4.46 8.97 4 10.43 4 12C4 16.42 7.58 20 12 20V23L16 19L12 15V18Z" fill="#481D00"/>
+            </svg>
+            Update list
+          </button>
+        </div>
+          
+        </div>
+      
+        <div class="ingredient-list">
+          <p>For <span id="serving-quantity">1</span> Serving</p>
+          <ul data-marker id="wcag-a-1-3-1" data-wcag="a">
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">olive oil</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">2 cloves</span>
+                <span class="name">garlic, minced</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tsp</span>
+                <span class="name">fresh ginger, minced</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">½</span>
+                <span class="name">small onion, diced</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">150g</span>
+                <span class="name">broccoli, cut into chunks</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">100g</span>
+                <span class="name">firm tofu, cut into cubes</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">hoisin sauce</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">soy sauce</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tsp</span>
+                <span class="name">sesame oil</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">½ tsp</span>
+                <span class="name">black pepper</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">½ tsp</span>
+                <span class="name">salt</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tbsp</span>
+                <span class="name">chopped fresh cilantro</span>
+                <span class="info-icon" title="Optional garnish">i</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span class="quantity">1 tsp</span>
+                <span class="name">sesame seeds</span>
+                <span class="info-icon" title="For extra crunch and flavor">i</span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        
+    
+            <!-- Dietary Information Dropdown -->
+      <div class="dropdown-container">
+        <button class="dropdown-toggle" aria-expanded="false" aria-controls="dropdown-content-1">
+          Dietary Information
+          <span class="dropdown-arrow">&#9662;</span>
+        </button>
+        <div class="dropdown-content" hidden>
+          <ul>
+            <li>Vegan & Vegetarian</li>
+            <li>Dairy-Free</li>
+            <li>Gluten-Free Option: Use tamari instead of soy sauce</li>
+            <li>Contains soy (tofu, soy sauce, hoisin sauce)</li>
+            <li>May contain nuts (if using peanuts or sesame seeds as garnish)</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="recipe-nutrition">
+ <!-- Nutrition Info =====================================================-->
+
+    <div class="recipe-info-container">
+      <h3 class="recipe-info-title">Nutrition per Serving</h3>
+      <div class="recipe-info-items">
+        <!-- Calories -->
+        <div class="nutrition-info-item">
+          <b>Calories</b>
+          <p>~290 kcal  </p>
+        </div>
+        <!-- Fat -->
+        <div class="nutrition-info-item">
+          <b>Fat</b>
+          <p>10,6 g</p>
+        </div>
+        <!-- Carbs -->
+        <div class="nutrition-info-item">
+          <b>Carbs</b>
+          <p>25 g</p>
+        </div>
+        <!-- Protein -->
+        <div class="nutrition-info-item">
+          <b>Protein</b>
+          <p>16 g</p>
+        </div>
+      </div>
+    </div>
+
+    </section>
+
+
+
+    <section class="recipe-instructions">
+      <!-- Instructions  =====================================================-->
+      <h2>Cooking Instructions</h2>
+
+
+      
+      <!-- Video Tutorial =====================================================-->
+      <section class="video-tutorial" id="instructions-video">      
+        <div class="video-context" data-marker id="wcag-aa-1-4-5" data-wcag="aa">
+          <h4>Video-Tutorial</h4>
+          <b id="video-title">How to cook Savory Wok-Tossed Greens with Tofu</b>
+        </div>
+
+
+        <!-- ===========================================================================-->
+        <!-- Video: DEFAULT =====================================================-->
+        <div class="video-section-default">
+          <div class="video-container">
+            <video controls aria-labelledby="video-title" poster="assets/accessibility-ba/img/video-thumb.png">
+              <source src="assets/accessibility-ba/video/video-tutorial.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+
+
+        <!-- ===========================================================================-->
+        <!-- Video: A WITH MEDIA ALTERNATIVE  =====================================================-->
+        <div class="video-section-a"> 
+
+          <div class="video-marker-container video-marker-a">
+            <div class="video-marker"  data-marker id="wcag-a-1-2-2" data-wcag="a"> </div>
+          </div>
+
+          <div class="video-container">
+            <video controls aria-labelledby="video-title" poster="assets/accessibility-ba/img/video-thumb.png">
+              <source src="assets/accessibility-ba/video/video-tutorial-a.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="video-marker-container video-marker-a">
+            <div class="video-marker" data-marker id="wcag-a-1-2-3" data-wcag="a"> </div>
+          </div>
+          <details class="media-alternative"  >
+            <summary class="media-alternative-header" aria-expanded="false">
+              Read Media Alternative
+              <span class="media-alternative-arrow">▼</span>
+            </summary>
+            <div class="media-alternative-content">
+              
+              <h3>Introduction</h3>
+              <p>Hello everyone! Let’s make a quick and delicious wok-tossed tofu with greens!</p>
+          
+              <h3>Step 1: Preparing the Ingredients</h3>
+              <p>Start by finely chopping garlic, ginger, and onions for an aromatic base.</p>
+              <p>Now, chop the broccoli into chunks.</p>
+
+              <h3>Step 2: Blanching the Broccoli</h3>
+              <p>Blanch the broccoli in boiling water for 5 minutes. Set it aside once it turns vibrant green.</p>
+          
+              <h3>Step 3: Stir-Frying the Aromatics</h3>
+              <p>Heat oil in a wok, then toss in the garlic, ginger, and onions. Stir-fry for a minute.</p>
+          
+              <h3>Step 4: Adding Sauce & Seasoning</h3>
+              <p>Add hoisin sauce, salt, and a dash of black pepper for that rich umami kick.</p>
+          
+              <h3>Step 5: Cooking the Tofu and Broccoli</h3>
+              <p>Now, in goes the tofu and broccoli! Toss everything together so it’s coated in that delicious sauce.</p>
+              <p>Let it cook for about 10 minutes, stirring occasionally. The flavors are coming together beautifully!</p>
+          
+              <h3>Final Step: Plating</h3>
+              <p>And there you have it—savory wok-tossed tofu and greens! Perfectly balanced, flavorful, and super easy to make. Enjoy!</p>
+          
+            </div>
+          </details>
+          
+        </div>
+
+        <!-- ===========================================================================-->
+        <!-- Video: AA WITH MEDIA ALTERNATIVE  =====================================================-->
+        <div class="video-section-aa"> 
+          <div class="video-marker-container video-marker-aa">
+            <div class="video-marker" data-marker id="wcag-aa-1-2-5" data-wcag="aa"> </div>
+          </div>
+          
+          <div class="video-container">
+            <video controls aria-labelledby="video-title" poster="assets/accessibility-ba/img/video-thumb.png">
+              <source src="assets/accessibility-ba/video/video-tutorial-aa.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <details class="media-alternative">
+            <summary class="media-alternative-header" aria-expanded="false">
+              Read Media Alternative
+              <span class="media-alternative-arrow">▼</span>
+            </summary>
+            <div class="media-alternative-content">
+              
+              <h3>Introduction</h3>
+              <p><em>Two bowls filled with broccoli and tofu sit on a wooden table, steam rising as the camera slowly zooms in.</em></p>
+          
+              <h3>Step 1: Preparing the Ingredients</h3>
+              <p><strong>(Voiceover)</strong> Hello everyone! Let’s make a quick and delicious wok-tossed tofu with greens!</p>
+              <p><strong>(Audio Description)</strong> <em>A chef’s knife cuts through fresh garlic, ginger, and onions, the rhythmic chopping filling the kitchen.</em></p>
+              <p><strong>(Voiceover)</strong> Start by finely chopping garlic, ginger, and onions for an aromatic base.</p>
+              <p><strong>(Audio Description)</strong> <em>A close-up shows hands slicing broccoli into bite-sized pieces, gathering them onto a plate.</em></p>
+              <p><strong>(Voiceover)</strong> Now, chop the broccoli into chunks.</p>
+          
+              <h3>Step 2: Blanching the Broccoli</h3>
+              <p><strong>(Audio Description)</strong> <em>Boiling water is poured into a pot, and the broccoli is dropped in, sending up a light splash.</em></p>
+              <p><strong>(Voiceover)</strong> Blanch the broccoli in boiling water for 5 minutes. Set it aside once it turns vibrant green.</p>
+              <p><strong>(Audio Description)</strong> <em>The broccoli is lifted out and set aside.</em></p>
+          
+              <h3>Step 3: Stir-Frying the Aromatics</h3>
+              <p><strong>(Audio Description)</strong> <em>A wok heats on the stove. Chopped onions hit the pan with a sizzle, releasing their aroma.</em></p>
+              <p><strong>(Voiceover)</strong> Heat oil in a wok, then toss in the garlic, ginger, and onions. Stir-fry for a minute.</p>
+          
+              <h3>Step 4: Adding Sauce & Seasoning</h3>
+              <p><strong>(Audio Description)</strong> <em>Hoisin sauce is poured in, bubbling as it coats the ingredients.</em></p>
+              <p><strong>(Voiceover)</strong> Add hoisin sauce, salt, and a dash of black pepper for that rich umami kick.</p>
+          
+              <h3>Step 5: Cooking the Tofu and Broccoli</h3>
+              <p><strong>(Audio Description)</strong> <em>Tofu and broccoli are tossed into the wok, stirred together with the sauce.</em></p>
+              <p><strong>(Voiceover)</strong> Now, in goes the tofu and broccoli! Toss everything together so it’s coated in that delicious sauce.</p>
+              <p><strong>(Audio Description)</strong> <em>The vegetables sizzle as they cook.</em></p>
+              <p><strong>(Voiceover)</strong> Let it cook for about 10 minutes, stirring occasionally. The flavors are coming together beautifully!</p>
+          
+              <h3>Final Step: Plating</h3>
+              <p><strong>(Audio Description)</strong> <em>The dish is plated, the glossy sauce glistening. A flower rests beside it.</em></p>
+              <p><strong>(Voiceover)</strong> And there you have it—savory wok-tossed tofu and greens! Perfectly balanced, flavorful, and super easy to make. Enjoy!</p>
+          
+            </div>
+          </details>
+          
+          
+        </div>
+
+        <!-- ===========================================================================-->
+        <!-- Video: AAA WITH MEDIA ALTERNATIVE  =====================================================-->
+        <div class="video-section-aaa" > 
+          <div class="video-marker-container video-marker-aaa">
+            <div class="video-marker" data-marker id="wcag-aaa-1-2-6" data-wcag="aaa"> </div>
+            <div class="video-marker" data-marker id="wcag-aaa-1-2-7" data-wcag="aaa"> </div>
+          </div>
+          
+          <div class="video-container">
+            <video controls aria-labelledby="video-title" poster="assets/accessibility-ba/img/video-thumb.png">
+              <source src="assets/accessibility-ba/video/video-tutorial-aaa.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="video-marker-container video-marker-aaa">
+            <div class="video-marker" data-marker id="wcag-aaa-1-2-8" data-wcag="aaa"> </div>
+          </div>
+          <details class="media-alternative">
+            <summary class="media-alternative-header" aria-expanded="false">
+              Read Media Alternative
+              <span class="media-alternative-arrow">▼</span>
+            </summary>
+            <div class="media-alternative-content">
+              
+              <h3>Introduction</h3>
+              <p><strong>(Voiceover)</strong> Hello everyone! Let’s make a quick and delicious wok-tossed tofu with greens!</p>
+              <p><strong>(Audio Description)</strong> <em>Two ceramic bowls filled with golden-brown tofu and vibrant green broccoli sit atop a wooden table. The camera slowly zooms in. Soft natural light filters through the background, creating a warm and inviting atmosphere.</em></p>
+          
+              <h3>Step 1: Preparing the Ingredients</h3>
+              <p><strong>(Voiceover)</strong> Start by finely chopping garlic, ginger, and onions for an aromatic base.</p>
+              <p><strong>(Audio Description)</strong> <em>A sharp chef’s knife glides through fresh garlic, ginger, and onions on a wooden cutting board. The rhythmic tapping sound of chopping fills the kitchen. The camera lingers on the thin, precise slices of garlic and the finely minced ginger.</em></p>
+          
+              <h3>(End of Demo)</h3>
+          
+            </div>
+          </details>
+          
+        </div>
+      
+      </section>
+
+
+      <!-- Cookings Instructions =====================================================-->
+      <section class="cooking-steps">
+        <h4>Step by step instructions</h4>
+        <ol class="steps-list">
+          <li>
+            <h3>Prepare the Aromatics & Tofu</h3>
+            <p>Finely mince the garlic, ginger, and onion. Cut the tofu into bite-sized cubes and pat dry with a paper towel to remove excess moisture.</p>
+          </li>
+          <li>
+            <h3>Crush the Aromatics</h3>
+            <p>Place the minced garlic, ginger, and onion in a mortar and crush them into a rough paste. This helps release their flavors for better infusion.</p>
+          </li>
+          <li>
+            <h3>Blanch the Broccoli</h3>
+            <p>Cut the broccoli into bite-sized chunks. Bring a pot of water to a boil and blanch the broccoli for 5 minutes. Drain and set aside.</p>
+          </li>
+          <li>
+            <h3>Sauté the Aromatics</h3>
+            <p>Heat olive oil in a wok or large skillet over medium heat. Add the crushed garlic, ginger, and onion mixture. Sauté for about 1 minute until fragrant.</p>
+          </li>
+          <li>
+            <h3>Add the Sauce</h3>
+            <p>Stir in the hoisin sauce, soy sauce, black pepper, and salt. Cook for another minute, allowing the flavors to meld.</p>
+          </li>
+          <li>
+            <h3>Add the Tofu & Broccoli</h3>
+            <p>Add the tofu cubes and the blanched broccoli to the wok. Toss everything together to coat the ingredients with the sauce.</p>
+          </li>
+          <li>
+            <h3>Cook Until Combined</h3>
+            <p>Let everything cook for 5-7 minutes, stirring occasionally. Ensure the tofu absorbs the sauce and the broccoli remains vibrant but tender.</p>
+          </li>
+          <li>
+            <h3>Finish with Sesame Oil & Garnishes</h3>
+            <p>Drizzle sesame oil over the dish and stir gently. Remove from heat and sprinkle with sesame seeds and chopped fresh cilantro.</p>
+          </li>
+          <li>
+            <h3>Serve & Enjoy</h3>
+            <p>Transfer to a serving plate and enjoy your flavorful, savory wok-tossed greens with tofu!</p>
+          </li>
+        </ol>
+        
+      </section>
+      
+    <!-- RECIPE TIP =====================================================-->
+    </section>
+
+    <section class="recipe-tip recipe-info-container">
+      <h3>Recipe Tip</h3>
+      <p>
+        For an added layer of freshness, squeeze a bit of lime juice over the finished dish and toss in some fresh cilantro or Thai basil. This will give the stir-fry a bright, citrusy lift that complements the umami flavors beautifully.
+      </p>
+    </section>
+      
+    
+ <!-- COMMENTS SECTION =====================================================-->
+<section class="comments-section">
+  <h2>Comments (22)</h2>
+
+  <!-- MAKE COMMENT =====================================================-->
+  <section class="comment-form-section emphasis">
+    <h3>Cooked this? Leave a comment</h3>
+    <p>Have a question instead? <a class="on-emphasis" href="#faqs">Check our frequently asked questions</a></p>
+
+    <form class="comment-form" id="commentForm" novalidate>
+      <!-- Rating Section -->
+      <div class="your-rating">
+        <label for="rating"  data-marker id="wcag-a-3-3-2" data-wcag="a">Your Rating (optional)</label>
+        <div class="rating-stars" role="radiogroup" aria-labelledby="rating">
+          <input type="radio" id="star5" name="rating" value="5" aria-label="5 stars">
+          <label for="star5">★</label>
+
+          <input type="radio" id="star4" name="rating" value="4" aria-label="4 stars">
+          <label for="star4">★</label>
+
+          <input type="radio" id="star3" name="rating" value="3" aria-label="3 stars">
+          <label for="star3">★</label>
+
+          <input type="radio" id="star2" name="rating" value="2" aria-label="2 stars">
+          <label for="star2">★</label>
+
+          <input type="radio" id="star1" name="rating" value="1" aria-label="1 star">
+          <label for="star1">★</label>
+        </div>
+      </div>
+
+      <!-- Comment Textarea -->
+      <label for="comment">Your comment* (required)</label>
+      <textarea id="comment" placeholder="Type your comment here" required></textarea>
+      <div  data-marker id="wcag-a-3-3-1" data-wcag="a">
+        <div class="error-message" id="comment-error">The comment field is required.</div>
+      </div>
+
+      <!-- Name Input -->
+      <label for="name">Name* (required)</label>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <div class="error-message" id="name-error" hidden>The field 'Name' is required. Please fill it in to proceed.</div>
+
+      <!-- Email Input -->
+      <label for="email">Email* (required)</label>
+      <input type="email" id="email" placeholder="name@example.com" required />
+      <div class="error-message" id="email-error" hidden>Invalid email address. Please enter a valid email.</div>
+
+      <!-- Terms Agreement -->
+      <label class="checkbox-label">
+        <input type="checkbox" id="agreement" required />
+        I agree to the <a href="#">community guidelines about comments</a>
+      </label>
+      <div class="error-message" id="agreement-error" hidden>You must agree to the community guidelines.</div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="button button-on-emphasis">Post Comment</button>
+    </form>
+  </section>
+
+  <!-- EXISTING COMMENTS LIST =====================================================-->
+  <section class="comments-list">
+    <h3>Previous Comments</h3>
+
+    <!-- Comment 1 -->
+    <article class="comment">
+      <div class="comment-header">
+        <div class="avatar" id="avatar-01"></div>
+        <strong class="username">MEMPHISBELLE</strong>
+      </div>
+
+      <div class="comment-meta">
+        <div class="comment-rating">
+          <img src="assets/accessibility-ba/img/rating/rating-5.svg" alt="Recipe rating stars"> 
+        </div>
+        <span class="comment-date">September 21, 2024</span>
+      </div>
+
+      <p class="comment-text" data-full-text="This dish was a total hit! I made it for a family gathering, and everyone asked for the recipe. The flavors blended beautifully, and the texture was just right. Next time, I might add some smoked paprika for a deeper taste. Thanks for sharing such a great recipe! I also loved how easy it was to prepare—simple ingredients but such a complex and comforting taste. I think this will become a regular in my home cooking routine. Maybe next time, I’ll try adding caramelized onions or a bit of fresh thyme for a twist. Highly recommend!">
+      </p>
+      <a href="#" class="read-more">Read more</a>
+
+      <button class="button button-secondary helpful-btn" aria-label="Mark as helpful">
+        👍 Helpful (<span class="helpful-count">3</span>)
+      </button>
+    </article>
+
+    <!-- COMMENT 2 -->
+    <article class="comment">
+      <div class="comment-header">
+        <div class="avatar" id="avatar-02"></div>
+        <strong class="username">FOODIEGAL92</strong>
+      </div>
+
+      <div class="comment-meta">
+        <div class="comment-rating">
+          <img src="assets/accessibility-ba/img/rating/rating-4.svg" alt="Recipe rating stars"> 
+        </div>
+        <span class="comment-date">February 3, 2025</span>
+      </div>
+
+      <p class="comment-text" data-full-text="Absolutely delicious! I swapped out regular flour for a gluten-free option, and it worked perfectly. The balance of spices was spot on, and the aroma while cooking was amazing. I’ll definitely be making this again, maybe with a hint of fresh herbs next time! Even my picky eater, who usually avoids anything new, loved it. I also appreciated that the instructions were easy to follow—nothing too complicated, just great flavors. I can’t wait to make this again for a dinner party and maybe experiment with different toppings. This one’s a keeper!">
+      </p>
+      <a href="#" class="read-more">Read more</a>
+
+      <button class="button button-secondary helpful-btn" aria-label="Mark as helpful">
+        👍 Helpful (<span class="helpful-count">5</span>)
+      </button>
+    </article>
+
+
+  </section>
+</section>
+
+
+
+
+
+
+
+      <!-- FAQ SECTION =====================================================-->
+
+      <section class="faq-section" id="faqs">
+        <h2>Frequently asked questions</h2>
+    
+        <div class="dropdown-container">
+          <button class="dropdown-toggle" aria-expanded="false" aria-controls="dropdown-content-2">
+            Can I use different greens in this recipe?
+              <span class="dropdown-arrow">&#9662;</span>
+          </button>
+          <div class="dropdown-content" hidden>
+            <p>Absolutely! You can swap in Chinese broccoli, kale, spinach, or snow peas depending on what you have available.</p>
+          </div>
+      </div>
+  
+    
+        <div class="dropdown-container">
+            <button class="dropdown-toggle" aria-expanded="false" aria-controls="dropdown-content-2">
+                How do I make the tofu extra crispy?
+                <span class="dropdown-arrow">&#9662;</span>
+            </button>
+            <div class="dropdown-content" hidden>
+                <p>To get an even crispier texture, press the tofu for 10-15 minutes before frying, or coat it lightly in cornstarch before cooking.</p>
+            </div>
+        </div>
+    
+        <div class="dropdown-container">
+            <button class="dropdown-toggle" aria-expanded="false" aria-controls="dropdown-content-3">
+              What can I serve this dish with?
+                <span class="dropdown-arrow">&#9662;</span>
+            </button>
+            <div class="dropdown-content" hidden>
+                <p>This dish pairs well with steamed jasmine rice, brown rice, or rice noodles. You can also serve it as a topping for a hearty grain bowl with quinoa or farro.</p>
+            </div>
+        </div>
+    
+    </section>
+    
+
+    </div>
+
+    </main>
+
+      <!-- MORE RECIPES =====================================================-->
+<div class="closing-section"> 
+  <div class="content-container">
+    
+    <section class="more-recipes">
+      <h2>More Delicious Recipes</h2>
+    
+      <div class="recipe-flex-container">
+        <article class="recipe-card">
+          <img src="assets/accessibility-ba/img/recipe-01.png" alt="Wholesome Autumn Harvest Dish" />
+          <h3>Wholesome Autumn Harvest Bowl</h3>
+          <p>Fuel your soul with earthy flavors and nourish...</p>
+        </article>
+    
+        <article class="recipe-card">
+          <img src="assets/accessibility-ba/img/recipe-02.png" alt="Mushroom Stroganoff" />
+          <h3>Mushroom Stroganoff</h3>
+          <p>A creamy vegan twist on a classic...</p>
+        </article>
+    
+        <article class="recipe-card">
+          <img src="assets/accessibility-ba/img/recipe-03.png" alt="Spinach Salad with Butternut Squash" />
+          <h3>Spinach Salad with Butternut Squash...</h3>
+          <p>A comforting blend of roasted butternut squash...</p>
+        </article>
+      </div>
+    
+      <button class="button button-secondary">See all recipes</button>
+    </section>
+</div>
+
+        
+        
+        
+        
+        <!-- NEWSLETTER  =====================================================-->
+        <div class="content-container">
+        <section class="newsletter-section  emphasis">
+          <h3>Fresh Recipes, straight to your inbox</h3>
+          <p>Get exclusive recipes, seasonal tips, and a touch of magic delivered to your inbox. We send updates once a week.</p>
+        
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <label for="newsletter-email">Your Email* (required)</label>
+            <input type="email" id="newsletter-email" placeholder="your.email@example.com" required />
+            <div class="error-message" id="newsletter-error" hidden>Invalid email address. Please enter a valid email.</div>
+        
+            <label class="checkbox-label">
+              <input type="checkbox" id="newsletter-consent" />
+              I agree to receive updates and special offers from VegCraft.
+            </label>
+
+            <button type="submit" class="button button-on-emphasis">Get the Newsletter</button>
+        
+            
+          </form>
+        </section>
+      </div>
+    </div>
+    
+           <!-- FOOTER  =====================================================-->
+
+           <footer class="site-footer emphasis">
+            <div class="footer-logo">
+              <h2>Veg<span>CRAFT</span></h2>
+            </div>
+          
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook">📘</a>
+              <a href="#" aria-label="Instagram">📸</a>
+              <a href="#" aria-label="Pinterest">📌</a>
+              <a href="#" aria-label="X (formerly Twitter)">✖️</a>
+              <a href="#" aria-label="YouTube">▶️</a>
+            </div>
+          
+            <hr class="footer-separator" />
+          
+            <nav class="footer-nav">
+              <a href="#">Recipes</a>
+              <a href="#">Cookbook</a>
+              <a href="#">Shop</a>
+              <a href="#">About</a>
+            </nav>
+          
+            <div class="footer-legal">
+              <p>© 2025 VEGCRAFT.COM</p>
+              <a href="#">Terms</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </footer>
+          
+          
+      </div>
+
+</div>
+
+ 
+  <script type="text/javascript" src="assets/accessibility-ba/demonstrator.js" defer></script>
+  <script type="text/javascript" src="assets/accessibility-ba/marker.js" defer></script>
+</body>

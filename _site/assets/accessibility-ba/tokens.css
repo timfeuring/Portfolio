@@ -1,0 +1,85 @@
+/* BASE TOKENS ========================================================================= */
+
+:root {
+  /* COLOR TOKENS */
+
+  /* HEX  */
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F5E6D3;
+  --color-surface-light: #FDF4ED;
+  --color-surface-emphasis: #481D00;
+
+  --color-text-primary: #292929;
+  --color-text-secondary: #481D00;
+  --color-text-on-emphasis: #FFFFFF;
+
+  --color-primary: #481D00;
+  --color-on-primary: #FFFFFF;
+
+  --color-button-primary: #481D00;
+  --color-button-primary-hover: #321400;
+  --color-button-secondary: #FFFFFF;
+  --color-button-secondary-hover: #F2F2F2;
+  --color-button-on-emphasis: #FF6500;
+  --color-button-on-emphasis-hover: #E55B00;
+
+  --color-seperator: #B6A599;
+
+  --color-accent: #FF6500;
+  --color-highlight: #FF0586;
+  --color-error: #FF0000;
+
+  /* TEXT TOKENS */
+  --base-font-size: 1em;
+  --font-family: 'Inter', sans-serif;
+  --font-family-heading:  'Playfair Display', serif;
+  --font-family-dyslexic: 'Roboto Slab', serif;
+  --heading-scale: 1.5;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height: 140%;
+
+  /* SPACING TOKENS */
+  --spacing-XS: 0.25em;    /* 4px */
+  --spacing-S: 0.5em;      /* 8px */
+  --spacing-M: 0.75em;     /* 12px */
+  --spacing-L: 1em;        /* 16px */
+  --spacing-XL: 1.5em;     /* 24px */
+  --spacing-XXL: 2em;      /* 32px */
+  --spacing-XXXL: 3em;     /* 48px */
+
+  /* TRANSITION */
+  --transition-duration: .2s;
+  --easing-standard: ease-in-out; /* General easing function */
+
+  /* MAX-HEIGHT TRANSITIONS */
+  --max-height-collapsed: 0px; /* Consistent collapsed state */
+  --max-height-expanded: 1000px; /* Set a large enough value */
+  --transition-max-height: max-height var(--transition-duration) ease-in-out;
+
+
+  
+  /* MAX-WIDTH STATES */
+  --max-width-collapsed: 0px; /* Collapsed state */
+  --max-width-expanded: 1000px; /* Adjust this value as needed */
+  --transition-max-width: max-width var(--transition-duration) var(--easing-standard);
+  
+
+  
+
+
+
+  /* TRANSPARENCIES */
+  --transparency-80: 0.8;
+
+  /* CORNER RADIUS */
+  --radius-full: 2em;
+  --radius-16: 0.8em;
+  --radius-8: 0.4em;
+
+
+  /* Border Style */
+
+  --border: 1px solid var(--color-primary);
+
+}
