@@ -64,8 +64,10 @@ function updateMarkerVisibility(checked, wcagLevel = document.body.getAttribute(
 // Add tooltip functionality
 function setupTooltipForMarkers(markers) {
   markers.forEach((marker) => {
-    marker.addEventListener("click", () => {
+    marker.addEventListener("click", (event) => {
       if (!marker.classList.contains("show-marker")) return;
+
+      event.preventDefault();
 
       closeAllTooltips();
       setOverlayVisibility(true);
