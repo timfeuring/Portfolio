@@ -45,7 +45,7 @@ body {
 .site-demonstrator{
   background-color: var(--color-surface);
   border-radius: var(--radius-8);
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   overflow-x: hidden;
   position: relative;
 }

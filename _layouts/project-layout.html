@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+    {% include head.html%}
+    <body>
+        {% include project-navigation.html %}
+        <section class="container-wrapper">
+            <header class="project-stage">
+                <div class="stage-text">
+                    <span class="overline">
+                        {{page.overline}}
+                    </span>
+                    <h1 class="h1-project">
+                        {{page.title}}
+                    </h1>
+                </div>
+                
+                <div class="stage-graphic">
+                    <img src="{{page.header-img}}" alt="{{page.header-img-alt }}" role="img" />
+                </div>
+            </header>    
+            <section class="project-info">
+                <div class="info-item">
+                    <span class="overline underline">Year</span>
+                    <span class="overline"> {{page.year}} </span>
+                </div>
+                <div class="info-item">
+                    <span class="overline underline">Context</span>
+                    <span class="overline"> {{page.context}} </span>
+                </div>
+                <div class="info-item">
+                    <span class="overline underline">Role</span>
+                    <span class="overline"> {{page.role}} </span>
+                </div>
+            </section>
+            
+            <!-- Spezifischer Artikel hier -->
+            {{ content }}
+
+            
+            
+            <!-- CONTENT – SPÄTER HIER RAUS -->
+            <section class="project-details">
+
+                <div class="showreel"> 
+                    <h2>Showreel</h2>
+                    <video src=""></video>
+                </div>    
+
+                <div class="project-intro"> 
+                    <p class="body-large"> 
+                    Digital accessibility is more important than ever, but it’s hard to understand. For my Bachelor Thesis in Communication Design at HAW Hamburg, I researched ways to make accessibility principles understandable easier. The outcome: a 100+ pages theoretical thesis and a hands-on interactive experience for learning about digital accessibility patterns.
+                    </p>
+                </div>
+
+                <div class="project-chapter"> 
+                    <div class="column-split">
+                        <h2>The Problem</h2>
+                        <p class="body-regular">
+                        The internet is an essential part of our everyday life, yet many digital products remain inaccessible – due to avoidable barriers. A missed opportunity – for inclusivity as well as for businesses, as accessible design benefits a wider audience. In 2024, 96% of the top one million websites failed basic accessibility tests.
+                        <br><br>
+                        Guidance is already there: the Web Content Accessibility Guidelines (WCAG) provide detailed information on how accessibility can be ensured in digital services. But still, missing web accessibility remains a huge issue. Why is that?</p>
+                    </div>
+                </div>
+
+                <div class="project-chapter"> 
+                    <div class="column-split">
+                        <h2>Research & Insights</h2>
+                        <p class="body-regular">
+                            To understand the problems with implementing digital accessibility, I conducted a multi-layered research approach, examining WCAG guidelines, a market research, and real-world challenges faced by designers and developers.
+                        </p>
+                    </div>
+                    <div class="horizontal-items">
+                        <div class="item">
+                            <img src="" alt="">
+                            <p class="body-regular"> 
+                                I analyzed how WCAG are structured and where designers and developers struggle to translate them into practice. 
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="" alt="">
+                            <p class="body-regular">
+                                A market analysis revealed a gap between abstract guidelines and hands-on support: existing guides are often either too shallow or too technical. Tools can support, but not ensure accessibility.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="" alt="">
+                            <p class="body-regular">
+                                Through interviews and surveys with designers, developers and other stakeholders of product development processes, I gathered insights into real-world obstacles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+
+            <section class="project-info">
+                <div class="info-item">
+                    <span class="overline underline">Scope</span>
+                    <span class="overline"> {{page.scope}} </span>
+                </div>
+                <div class="info-item">
+                    <span class="overline underline">Tools & Techniques</span>
+                    <span class="overline"> {{page.tools-techniques}} </span>
+                </div>
+            </section>
+            
+        </section>
+        
+        <div class="dark">
+        {% include footer-contact.html %}
+        </div>
+    </body>

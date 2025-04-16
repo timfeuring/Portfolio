@@ -1,36 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
-
-	<defs>
-		<style type="text/css">
-      	<![CDATA[
-        
-		.fillcolor {
-			fill: #000;
-        }
-
-		.strokecolor {
-			stroke: #000;
-		}
-
-      ]]>
-    </style>
-
-	</defs>
-	
-	<title>tf-logo</title>
-	<g id="left-layout-copy-6" transform="translate(-109.000000, -44.000000)">
-		<g id="tf-logo" transform="translate(109.000000, 44.000000)">
-			<g class="strokecolor" id="Rectangle">
-				<path d="M72,72H0V0h72V72z M4,68h64V4H4V68z"/>
-			</g>
-			<g class="fillcolor" id="Path">
-				<polygon points="49,53 19,53 19,34 49,34 49,23 19,23 19,8 8,8 8,64 49,64 			"/>
-			</g>
-			<g class="fillcolor" >
-				<polygon points="23,19 53,19 53,38 23,38 23,49 53,49 53,64 64,64 64,8 23,8 			"/>
-			</g>
-		</g>
-	</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 72 72">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <g id="left-layout-copy-6">
+    <g id="tf-logo">
+      <g id="Path">
+        <polygon points="49 53 19 53 19 34 49 34 49 23 19 23 19 8 8 8 8 64 49 64 49 53"/>
+      </g>
+      <polygon points="23 19 53 19 53 38 23 38 23 49 53 49 53 64 64 64 64 8 23 8 23 19"/>
+    </g>
+  </g>
 </svg>

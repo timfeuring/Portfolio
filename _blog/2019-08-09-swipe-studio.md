@@ -2,7 +2,7 @@
 layout: project-post
 title: Swipe Studio
 permalink: /swipe-studio
-category: Logo creation
+category: Identity
 img-path: assets/img/posts/swipe-studio/swipe-stage.png
 img-id:
 img-alt: swipe-studio-logo

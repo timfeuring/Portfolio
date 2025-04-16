@@ -2,10 +2,12 @@
 layout: project-post
 title: Screen Memories
 permalink: /screen-memories
-category: Typedesign
+category: Digital Design
 img-path: assets/img/posts/screen-memories/screen-memories-stage.png
 img-id: 
 img-alt: 
+
+header-img: ../../assets/img/posts/screen-memories/screen-memories-stage.png
 
 # gallery-img-path-01:        assets/img/posts/gallery/....png
 # gallery-img-subline-01:     POST-SUBLINE

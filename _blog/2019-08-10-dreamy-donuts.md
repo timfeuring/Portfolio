@@ -2,7 +2,7 @@
 layout: project-post
 title: Dreamy Donuts
 permalink: /dreamy-donuts
-category: Signmaking
+category: Handcraft
 img-path: assets/img/posts/dreamy-donuts/dreamy-donuts-article-08.png
 img-id:
 img-alt: dreamy donuts signage
