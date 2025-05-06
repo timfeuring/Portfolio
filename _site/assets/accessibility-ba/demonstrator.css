@@ -2988,6 +2988,15 @@ font-family: var(--acsplorer-font);
   padding: 2rem;
 }
 
+@media (max-width: 730px) {
+  #disclaimer-overlay {
+    align-items: flex-start;
+    padding: 2rem 1rem 1rem 1rem;
+
+  }
+}
+
+
 .disclaimer-content {
   max-width: 600px;
   text-align: center;
