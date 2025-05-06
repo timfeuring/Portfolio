@@ -120,16 +120,16 @@ html{
 /* Styling for the subline */
 .subline {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: white;
   background-color: #002574;
   border: 1px dashed white;
   border-radius: 100px;
-  padding: 8px 16px;
-  text-transform: uppercase;
-  letter-spacing: 10%;
-  font-family: var(--font-family);
+  padding: 8px 16px 12px 16px;
+  letter-spacing: 6%;
+  font-family: var(--acsplorer-font);
   font-weight: 300;
+
 }
 
 /* Horizontal Dividers */
@@ -223,9 +223,8 @@ p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
-  opacity: .8;
-  font-family: var(--font-family);
-  font-weight: 210;
+  font-family: var(--acsplorer-font);
+  font-weight: 100;
 }
 
 /* Styling for highlights */
@@ -440,10 +439,8 @@ p {
 }
 
 .insights-links a:hover {
-  border-bottom: 2px solid #FF6600;
+  color:  #FF6600;
 }
-
-
 
 
 
@@ -487,4 +484,17 @@ p {
 h1, h2, h3 {
   font-family: var(--acsplorer-font);
   font-weight: 480;
+}
+
+.video-container {
+  display: flex;
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem; /* optional: abgerundete Ecken */
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1); /* optional: Schatten */
 }

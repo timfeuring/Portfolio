@@ -542,3 +542,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
+document.getElementById('disclaimer-continue').addEventListener('click', function () {
+  document.getElementById('disclaimer-overlay').style.display = 'none';
+});
