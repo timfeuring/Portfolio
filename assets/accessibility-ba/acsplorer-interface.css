@@ -337,11 +337,13 @@ button{
   max-width: 600px;
   font-family: inherit;
   transform: scale(1.2);
+  gap: 16px;
 }
 
 .dummy-404-container h1 {
   font-family: var(--acsplorer-font);
   margin: 0;
+  color: #000;
 }
 
 
@@ -570,3 +572,15 @@ button{
   outline: 2px solid #007aff;
   border-radius: 50%;
 }
+
+
+.disclaimer-site-content{
+  background-color: #E5F0FB;
+  font-family: var(--acsplorer-font);
+  padding: 4rem;
+  max-width: 1000px;
+}
+
+/* .disclaimer-site-content h1 {
+  color: #000;
+} */
