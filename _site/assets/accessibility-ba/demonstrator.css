@@ -317,7 +317,7 @@ button{
   cursor: pointer;
   border-radius: var(--radius-full);
   font-weight: 500;
-  max-height: 32px;
+  /* max-height: 32px; */
   text-decoration: none !important;
   width: fit-content;
 }
