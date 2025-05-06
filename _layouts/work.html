@@ -15,6 +15,10 @@
                   </div>  
                   <p class="category-description"> A range of digital design projects, including UX/UI design, prototypes, accessibility, digital illustration and more.</p>
                 </header>
+
+                <!-- <div class="development-disclaimer">
+                  ⚠️ This page is currently in development. <br> More projects are added at the time, come back later to explore more.
+                </div> -->
               
                 <div class="projects-list">
                   {% for project in site.projects %}
@@ -45,10 +49,10 @@
               
         </main>
         {% include footer-contact.html %}
-
+        <script type="text/javascript" src="assets/script.js" defer></script>
         <script>
-                  
-                  document.addEventListener("DOMContentLoaded", function () {
+
+document.addEventListener("DOMContentLoaded", function () {
   const filterButtons = document.querySelectorAll(".work-filter-buttons .button");
   const projects = document.querySelectorAll(".project-teaser");
   const description = document.querySelector(".category-description");
@@ -124,9 +128,6 @@
     });
   });
 });
-
-
         </script>
-          
     </body>
 </html>

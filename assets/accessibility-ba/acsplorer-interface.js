@@ -368,3 +368,5 @@ document.addEventListener("DOMContentLoaded", () => {
     <strong>AAA:</strong> Showing 69/78 criteria in total`
   );
 });
+
+

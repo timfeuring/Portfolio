@@ -1,6 +1,7 @@
 ---
 layout: project-layout
 title: Acsplorer&#58; Digital Accessibility,<br> Hands-On
+breadcrumb-title: Acsplorer&#58; Digital Accessibility, Hands-On
 permalink: /acsplorer-project
 category: Digital Design
 overline: Accessibility Tool

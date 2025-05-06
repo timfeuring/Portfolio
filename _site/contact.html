@@ -36,8 +36,9 @@
     <div class="main-nav__inner container-wrapper">
       
       <!-- Logo -->
-      <a href="index.html" class="main-nav__logo-link">
+      <a href="index" class="main-nav__logo-link">
         <img src="assets/img/tf-logo.svg" alt="tf-logo" class="main-nav__logo" />
+        <p>Tim Feuring</p>
       </a>
   
       <!-- Burger Button -->
@@ -49,41 +50,56 @@
   
       <!-- Navigation -->
       <ul class="main-nav__list" id="main-nav__list">
-        <li><a href="index.html" onclick="closeBurgerNav();"><span class="underline">home</span></a></li>
-        <li><a href="/work" onclick="closeBurgerNav();"><span class="underline">work</span></a></li>
-        <li><a href="/about" onclick="closeBurgerNav();"><span class="underline">about</span></a></li>
-        <li><a href="/shop" onclick="closeBurgerNav();"><span class="underline">shop</span></a></li>
-        <li><a href="/blog" onclick="closeBurgerNav();"><span class="underline">blog</span></a></li>
-        <li><a href="/contact" onclick="closeBurgerNav();"><span class="underline">contact</span></a></li>
+        <li><a href="/index" onclick="closeBurgerNav();"><span class="nav-link underline">home</span></a></li>
+        <li><a href="/work" onclick="closeBurgerNav();"><span class="nav-link underline">work</span></a></li>
+        <li><a href="/about" onclick="closeBurgerNav();"><span class="nav-link underline">about</span></a></li>
+        <li><a href="/shop" onclick="closeBurgerNav();"><span class="nav-link underline">shop</span></a></li>
+        <li><a href="/blog" onclick="closeBurgerNav();"><span class="nav-link underline">blog</span></a></li>
+        <li><a href="/contact" onclick="closeBurgerNav();"><span class="nav-link underline">contact</span></a></li>
       </ul>
   
     </div>
   </nav>
   
 
-    <section class="container-wrapper concact-container">
+    <main class="container-wrapper">
         <div class="contact">
+            <img id="rotating-image" src="assets/img/contact/contact-4.svg" alt="Rotating Illustration">
+
             <div>
-                <h2>Want to reach out?</h2>
-                <p class="error-p">I'm always open for interesting projects and would love to support you with realizing yours. Please send me an E-Mail or Whatsapp (+49151 5552 6691) regarding important information about your idea. Some questions to consider are:  </p>
-                <ul>
-                    <li>Who are you? What is your business, product or service? </li>
-                    <li>What kind of project do you want to realize? (This could be a custom logo, label, website, branding or lettering such as invitation cards or restaurant menu, for example) </li>
-                    <li>What are your desired results? What are your objectives and who are your competitors? </li>
-                </ul>
-                <p>The more I know about you, your business, product or service, the better I am able to understand your vision and support you with a fitting design solution in the best possible way. I'm looking forward to hear from you!</p>    
-            </div>
-            
-            <div class="contact-linkout">
-                <a class="button" href="mailto:feuring.tim@gmail.com" target="blank"> send e-mail </a>
-                
-                <a class="underline" href="index.html">Go back</a>
+                <h4>Let's get in touch!</h4>
+                <p>I’m always excited to work on interesting projects  and would love to help bring yours to life. Feel free to contact me via <a class="underline" href="mailto:feuring.tim@gmail.com">email</a>, <a class="underline" href="https://wa.me/+4915155526691?text=Hallo,%20ich%20schreibe%20über%20den%20kontakt%20auf%20timfeuring.de">WhatsApp</a> or give me a call <a class="underline" href="tel:+4915155526691">(+49151 5552 6691)</a> – looking forward to hear from you.</p>
             </div>
         </div>
-    </section>
+    </main>
 
-    <footer class="footer-light">
+    <div class="dark">
+        <footer class="footer-light">
     <div class="container-wrapper footer-content">
+
+        <div class="footer-contact">
+            <h1 class="h1-landing">Let's talk!</h1>
+            <nav class="footer-nav"> 
+                <ul>
+                    <li>
+                        <a href="/contact">
+                            <span class="underline">Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tim-feuring-580864164/">
+                            <span class="underline">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/timfeuring/">
+                            <span class="underline">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
         <div class="footer-info">
             <span>© 2025 Tim Feuring
                 &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -92,6 +108,7 @@
         </div>
     </div>
 </footer>
-    
+    </div>
+    <script type="text/javascript" src="assets/script.js" defer></script>
 </body>
 </html>

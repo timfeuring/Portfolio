@@ -2,11 +2,12 @@
 /* ============================================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --text-heavy: #000;
     --text-light: #8b8b8b;
-    --font-basis: 1.8rem;
+    --font-basis: 2rem;
 }
 
 html {
@@ -920,6 +921,7 @@ input[type=range]::-webkit-slider-thumb {
   .h1-landing{
     font-size: 3.2rem;
     font-weight: 500;
+    max-width: 950px;
   }
 
   .h1-project {

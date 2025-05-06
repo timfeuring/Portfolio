@@ -488,3 +488,16 @@ h1, h2, h3 {
   font-family: var(--acsplorer-font);
   font-weight: 480;
 }
+
+.video-container {
+  display: flex;
+  width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem; /* optional: abgerundete Ecken */
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1); /* optional: Schatten */
+}
