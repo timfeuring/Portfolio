@@ -3023,3 +3023,14 @@ color: #001D54;
 #disclaimer-continue:hover {
   background-color:  #000f2c;
 }
+
+
+.bug-disclaimer{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .bug-disclaimer{
+    display: block;
+  }
+}
