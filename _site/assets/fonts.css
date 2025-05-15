@@ -1,9 +1,13 @@
 /* Theme / Font-stuff */
 /* ============================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 :root {
     --text-heavy: #000;
     --text-light: #8b8b8b;
-    --font-basis: 1.6rem;
+    --font-basis: 2rem;
 }
 
 html {
@@ -11,16 +15,23 @@ html {
 }
 
 span {
-    font-size: 1.6rem
+    font-size: var(--font-basis)
 }
+
+    
+
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1, h2, h3, h4, h5 {
-    color: var(--text-heavy);
+    /* color: var(--text-heavy); */
     margin: 0;
     padding: 5px 0;
     /* -webkit-text-size-adjust: 100%;
@@ -29,11 +40,13 @@ h1, h2, h3, h4, h5 {
     -o-font-feature-settings: "kern"1;
     font-feature-settings: "kern"1;
     font-kerning: normal;
+    font-weight: 500;
+    hyphens: auto;
 }
 
 h1 {
     font-size: 8.0rem;
-    line-height: 105%;
+    line-height: 120%;
 }
         @media only screen and (max-width: 800px) {
             h1 {
@@ -109,7 +122,6 @@ p {
 a {
     text-decoration: none;
     color: var(--text-heavy);
-    font-size: var(--font-basis);
 }
 
 /* a:hover { color: var(--text-heavy);
@@ -149,19 +161,19 @@ ul {
     position: relative;
     height: max-content;
     width: fit-content;
-}
-
-.underline::before {
+  }
+  
+  .underline::before {
     content: '';
     position: absolute;
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     bottom: -2px;
     left: 0;
     transition: width 0.2s;
-}
-
-.underline::after {
+  }
+  
+  .underline::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -169,6 +181,16 @@ ul {
     bottom: -2px;
     left: 0;
     transition: width 0.2s;
+  }
+  
+  /* 🔥 Hier liegt die Magie */
+  a:hover .underline::after {
+    width: 100%;
+  }
+
+  a:hover .underline::after,
+a:focus .underline::after {
+  width: 100%;
 }
 
 .underline:hover::after {
@@ -176,6 +198,10 @@ ul {
     transition: width 0.2s;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
+
+  
+
+
 
 .underline-inverted {
     position: relative;
@@ -461,10 +487,10 @@ ul {
     font-size: 280px;
 }
 
-.user-text-area:focus { 
+/* .user-text-area:focus { 
     border: none;
     outline: none;
-}
+} */
 
 input[type=text], select {
     width: 100%;
@@ -473,10 +499,10 @@ input[type=text], select {
     box-sizing: border-box;
   }
 
-input[type=text]:focus {
+/* input[type=text]:focus {
     border: none;
     outline: none;
-}
+} */
   
 
 
@@ -878,3 +904,70 @@ input[type=range]::-webkit-slider-thumb {
     /* margin: 20px 0; */
     line-height: 190%;
   }
+
+  .overline{
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  /* .overline-landing {
+    font-size: 1.4rem;
+    font-weight: 400;
+  } */
+
+  .h1-landing{
+    font-size: 3.2rem;
+    font-weight: 500;
+    max-width: 950px;
+  }
+
+  .h1-project {
+    font-size: 7.5rem;
+    line-height: 100%;
+    transition: 0.3s all ease;
+  }
+
+@media only screen and (max-width: 1400px) {
+.h1-project {
+    font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .h1-project {
+        font-size: 5rem;
+        }
+    }
+
+@media only screen and (max-width: 800px) {
+    .h1-project {
+        font-size: 4rem;
+        }
+    }
+
+
+
+
+
+.body-large {
+    font-size: 3.2rem;
+    max-width: unset;
+}
+
+.body-regular {
+    font-size: 2.4rem;
+    max-width: unset;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .body-large {
+        font-size: 2.4rem;
+    }
+    .body-regular {
+        font-size: var(--font-basis)
+    }
+    
+    }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+    {% include head.html%}
+    <body>
+        {% include navigation.html %}
+        <main class="container-wrapper">
+            <header class="subpage-header">
+                <h1>Blog</h1>
+                <p>
+                    Some projects with documented processes in a blog-like format.
+                    <br>
+                    <a class="underline" href="/work">Find more recent projects on the „work“ page.</a>
+                </p>
+            </header>
+            {% include blog-projects.html %}
+        </main>
+        <div class="dark">
+        {% include footer-contact.html %}
+        </div>
+        <script type="text/javascript" src="assets/script.js"></script>
+    </body>
+</html>

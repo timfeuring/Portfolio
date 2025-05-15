@@ -27,6 +27,7 @@
         typografie
         "/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
     <title> Tim Feuring - Portfolio </title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/main.css">
@@ -34,76 +35,126 @@
 
     <body>
         <div id="aboutme"></div>
-        <nav class="main-nav" id="nav">
-    <div class="container-wrapper main-nav__inner">
-        
-        <a id="main-nav__logo-link" href="index.html">
-            <img class="main-nav__logo" src="assets/img/tf-logo.svg" alt="tf-logo">
-        </a>
-        
-        <!-- Burger -->
-        <input id="main-nav__trigger" type="checkbox" />
-        
-        <span class="burger"></span>
-        <span class="burger"></span>
-        <span class="burger"></span>
-        
-        <!-- Navigationspunkte -->
-        <ul class="main-nav__ul" id="main-nav__ul">
-            <li>
-                <a onclick="closeBurgerNav();" href="index.html#about">
-                    <div class="active " id="nav-aboutme">
-                        <span class="underline">about</span>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a onclick="closeBurgerNav();" href="index.html#projects">
-                    <div id="nav-projects">
-                        <span class="underline">projects</span>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a onclick="closeBurgerNav();" href="index.html#lettering">
-                    <div id="nav-lettering">
-                        <span class="underline">lettering</span>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a onclick="closeBurgerNav();" href="/links">
-                    <div id="nav-lettering">
-                        <span class="underline">links</span>
-                    </div>
-                </a>
-            </li>
-
-            <a class="button" id="contact-button" onclick="closeBurgerNav();" href="contact.html" target="blank"> contact me </a>
-
-        </ul>
+        <nav class="main-nav">
+    <div class="main-nav__inner container-wrapper">
+      
+      <!-- Logo -->
+      <a href="index" class="main-nav__logo-link">
+        <img src="assets/img/tf-logo.svg" alt="tf-logo" class="main-nav__logo" />
+        <p>Tim Feuring</p>
+      </a>
+  
+      <!-- Burger Button -->
+      <button class="burger-button" id="burger-button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+  
+      <!-- Navigation -->
+      <ul class="main-nav__list" id="main-nav__list">
+        <li><a href="/index" onclick="closeBurgerNav();"><span class="nav-link active">home</span></a></li>
+        <li><a href="/work" onclick="closeBurgerNav();"><span class="nav-link underline">work</span></a></li>
+        <li><a href="/about" onclick="closeBurgerNav();"><span class="nav-link underline">about</span></a></li>
+        <!-- <li><a href="/shop" onclick="closeBurgerNav();"><span class="nav-link underline">shop</span></a></li> -->
+        <li><a href="/blog" onclick="closeBurgerNav();"><span class="nav-link underline">blog</span></a></li>
+        <li><a href="/contact" onclick="closeBurgerNav();"><span class="nav-link underline">contact</span></a></li>
+      </ul>
+  
     </div>
-</nav>
-
-
+  </nav>
+  
         <main>
-                <section class="container-wrapper about" id="about">
-    <div class="about-container">
-        <div class="about-intro">
-            <h1  class="about-headline" id="about-headline"> Hej </h1>
-            <p>
-                I’m a designer and artist based in Hamburg. I work both digital and analog to create visual solutions. I’m fascinated to dive into a dozen subjects of design craftsmanship, with lots of love for the details and a particular passion for all things related to letters. 
-                My guilty pleasure is hoarding tons of art supplies and getting my hands dirty with ink. 
-                <br><br>Feel free to contact me for inquiries and questions of any kind. Also visit my
-                <a class="underline" href="https://www.instagram.com/feuarrr/" target="_blank">Instagram</a> for recent work.
-                <br><br>
-            </p>
+                
+<section class="container-wrapper work-landing">
+    
+    <div class="projects-container">
+    
+
+
+        <!-- Card 1 -->
+        <a href="/work?category=digital-design" class="project-card" id="digital-design" title="Digital Design Projects">
+            <span class="button button-primary-ondark project-tag"> 
+                <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"/>
+                </svg>
+                Digital Design</span>
+        </a>
+    
+        <!-- Card 2 -->
+        <a href="/work?category=identity" class="project-card" id="identity" title="Identity Projects">
             
-            <br><br>
-            <a class="button" id="lettering-button" href="contact.html" target="blank"> contact me </a>
-        </div>
-        <img class="about-img" src="assets/img/about/tim-cutout.png" alt="Tim Feuring">
+            <span class="button button-primary-ondark project-tag">
+                <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"/>
+                </svg>
+                Identity
+            </span>
+        </a>
+    
+        <!-- Card 3 -->
+        <a href="/work?category=handcraft" class="project-card" id="handcraft" title="Handcraft Projects">
+            <span class="button button-primary-ondark project-tag">
+                <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"/>
+                </svg>
+                Handcraft</span>
+        </a>
+    
     </div>
+
+</section>
+                <section class="about" id="about">
+    <div class="container-wrapper about-container">
+        <div>
+            <h2 class="overline overline-landing">About Me</h2>
+            <h1 class="h1-landing">
+            I combine digital expertise with precise craftsmanship to
+            create impactful, user-centric design solutions.
+            </h1>
+        </div>
+      
+        <div class="about-content">
+          <div class="column">
+            <p>
+              As a visual communicator with 4+ years of industry experience, I specialize in digital design, branding, and handcrafted solutions that are both functional and visually engaging.
+            </p>
+            <p>
+              In my digital work, I combine UX/UI expertise with strong technical skills to create user-centered, accessible experiences – from concept and prototyping to fully developed design systems.
+            </p>
+            <p>
+              From a branding perspective, I bring together graphic design and strategic thinking to craft cohesive, memorable identities with a strong attention to detail.
+            </p>
+          </div>
+      
+          <div class="column">
+            <p>
+              On a more tactile level, I create custom, handcrafted designs using traditional techniques to add a unique, personal touch.
+            </p>
+            <p>
+              This diverse skill set allows me to approach each project from multiple angles – delivering thoughtful, resonant design solutions. Explore my portfolio to see how I can contribute to your next project.
+            </p>
+          </div>
+        </div>
+      
+        <div class="button-container">
+            <a class="button button-secondary-ondark" href="/about">
+                    <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z" fill="black"/>
+                    </svg>
+                    More about me
+            </a>
+
+
+            <a class="button button-secondary-ondark" href="/work">
+                    <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z" fill="black"/>
+                    </svg>
+                    Explore Projects
+            </a>
+        </div>
+    </div>
+      
 </section>
 
 
@@ -119,335 +170,43 @@ My guilty pleasure is hoarding tons of art supplies and getting my hands dirty w
 mail  xing  linkedin
 
  -->
-                
-<section class="work">
-    <span id="projects"></span>
-    <div class="container-wrapper inner-work">
-        <div class="prj-wrapper">
-
-            <a href="swipe-studio.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Swipe Studio</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="swipe-studio-logo" src="assets/img/previews/swipe-studio-preview.png" alt="swipe-studio-logo">
-                    </div>
-                </div>
-            </a>
-
-            <a href="dreamy-donuts.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Dreamy Donuts</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="dreamy-donuts" src="assets/img/previews/dreamy-donuts-preview.png" alt="dreamy donuts signage">
-                    </div>
-                </div>
-            </a>
-
-            <a href="extra-butter.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Extra Butter</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="extra-butter" src="assets/img/previews/extra-butter-preview.png" alt="extra-butter-lettering">
-                    </div>
-                </div>
-            </a>
-
-            <a href="wc-for-humans.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>WC for Humans</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="door-signage" src="assets/img/previews/humans-preview.png" alt="door-signage">
-                    </div>
-                </div>
-            </a>
-
-            <a href="screen-memories.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Screen Memories</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="screenmemories" src="assets/img/previews/screen-memories-preview.png" alt="door-signage">
-                    </div>
-                </div>
-            </a>
-
-
-            <a href="zersetzer-series.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Zersetzer <br> Symbionten <br> Verwerter</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="happytohaveyou" src="assets/img/previews/zersetzer-preview.png" alt="zersetzer">
-                    </div>
-                </div>
-            </a>
-
-            
-            <a href="sauerwein.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Familie Sauerwein</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="sauerwein-logo" src="assets/img/previews/sauerwein-preview-02.png" alt="sauerwein-logo">
-                    </div>
-                </div>
-            </a>
-
-
-            
-            <a href="christian-und-vassil.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Christian & Vassil <br>Wedding invitation</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="wedding-invitation" src="assets/img/previews/weddingdrama-01.png" alt="wedding-invitation">
-                    </div>
-                </div>
-            </a>
-
-
-
-            <a href="kohledampfer.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Kohledampfer</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="kohledampfer-beer" src="assets/img/previews/kohledampfer-preview.png" alt="kohledampfer-beer">
-                    </div>
-                </div>
-            </a>
-
-
-            <!-- <a href="happy-to-have-you.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Happy to have you</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img class="preview-transform" id="happytohaveyou" src="assets/img/previews/happytohaveyou.png" alt="door-signage">
-                    </div>
-                </div>
-            </a> -->
-
-
-
-            <!-- <a href="tommys-and-jerrys.html" class="prj-cont">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Tommys & Jerrys</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy"></div>
-                    <div class="prj-preview">
-                        <img id="galettes-sign" src="assets/img/previews/tommys-and-jerrys.png" alt="galettes-sign">
-                    </div>
-                </div>
-            </a> -->
-
-        
-           
-            <!-- PROJECT 100% WIDTH -->
-            <!-- <a href="minimum.html" class="prj-cont-wide">
-                <div class="prj-img">
-                    <div class="prj-dummy-wide"></div>
-                    <div class="prj-preview">
-                        <img id="minimum" src="assets/img/minimum.svg" alt="minimum">
-                    </div>
-                </div>
-            </a> -->
-
-            <!-- PROJECT 2/3 WIDTH -->    
-            <!-- <a href="crêpes-et-galettes.html" class="prj-cont-twothirds">
-                <div class="prj-img">
-                    <div class="overlay">
-                        <div class="prj-headline">
-                            <span>Galettes Signpainting</span>
-                        </div>
-                    </div>
-                    <div class="prj-dummy-twothirds"></div>
-                    <div class="prj-preview">
-                        <img id="galettes-sign" src="assets/img/previews/galettes.png" alt="galettes-sign">
-                    </div>
-                </div>
-            </a> -->
-
-
-
-
-        </div>
-    </div>
-</section>
-                <section class="container-wrapper lettering">
-    <span id="lettering"></span>
-        <div class="lettering-content">
-            <div class="lettering-copy">
-                <h2  id="lettering-headline"> Lettering </h2>
-                <!-- class="lettering-headline" -->
-                <p>
-                    Letters convey information – but they are more than that. Letters live, they spark emotion and catch the eyes. Letters can be unique pieces of art – and give an identity to their surroundings. Since many years, I train my knowledge of the craft to create conveying artworks with soul. 
-                    <br><br>
-                    Whether digital work or handwritten sign – I help your business to create unique visual solutions you and your customers will love. 
-                    <br>
-
-                </p>
-
-                <a class="button" id="lettering-button" href="contact.html" target="blank"> contact me </a>
-             </div>
-            <img id="lettering-img" src="assets/img/lettering/tf-lettering.jpg" alt="tf-lettering">
-        </div>
-
-        <div class="lettering-gallery">
-            <div class="container-wrapper inner-lettering-gallery">
-
-                <!-- <h2>Gallery</h3> -->
-                <div class="lettering-gallery-wrapper">
-                
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-01.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-02.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-03.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-04.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-05.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-06.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-07.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="lettering-gallery-cont">
-                        <div class="lettering-gallery-img">
-                            <div class="preview-dummy"></div>
-                            <div class="lettering-gallery-preview">
-                                <img class="lettering-gallery-preview preview-transform" src="assets/img/lettering/gallery/gallery-08.png" alt="lettering-gallery-img">
-                            </div>
-                        </div>
-        
-                    </div>
-                </div>
-
-                <div class="lettering-linkout">
-                    <p class="centered">
-                        For more recent artwork, visit my instagram
-                    </p>
-
-                    <a class="button" id="lettering-gallery-button" href="https://www.instagram.com/feuarrr/" target="_blank"> @feuarrr </a>
-                </div>
-            </div>
-        </div>
-</section>
-
-
-
-
         </main>
         <footer class="footer-light">
-    <div class="container-wrapper">
-        <div class="footer-text">
-            <span>© 2024 Tim Feuring
+    <div class="container-wrapper footer-content">
+
+        <div class="footer-contact">
+            <h1 class="h1-landing">Let's talk!</h1>
+            <nav class="footer-nav"> 
+                <ul>
+                    <li>
+                        <a href="/contact">
+                            <span class="underline">Contact</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tim-feuring-580864164/">
+                            <span class="underline">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/timfeuring/">
+                            <span class="underline">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-info">
+            <span> Hand-coded with 🩶
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                © 2025 Tim Feuring
                 &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a class="underline" href="imprint.html" target="_blank">Imprint</a>
             </span>
         </div>
     </div>
 </footer>
-
-
-        
-        <script type="text/javascript" src="assets/script.js"></script>
+        <script type="text/javascript" src="assets/script.js" defer></script>
     </body>
 </html>

@@ -1,0 +1,25 @@
+---
+layout: project-post
+title: Acsplorer – Digital Accessibility, Hands-On.
+permalink: /acsplorer-ba
+
+# Overview
+overline: Bachelor-Thesis
+category: Digital Design
+short-description: ((Kurzbeschreibung  d. Projekts für Übersicht))
+year: 2025
+context: Bachelor Thesis Kommunikationsdesign
+role: Research, Design, Development
+
+# Details
+scope: Accessibility, UX/UI Design, Frontend Development
+tools-techniques: Figma, Visual Studio Code, Html, CSS, JS
+
+# Project Images
+preview-img: 
+preview-img-alt: Alt Text
+
+header-img: /assets/img/posts/sauerwein-mockup-optimized.png
+header-img-alt: Alt Text
+
+---
