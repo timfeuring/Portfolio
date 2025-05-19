@@ -14,17 +14,6 @@ function closeBurgerNav() {
 }
 
 
-
-// Add Dynamic Nav Height to main
-window.addEventListener("DOMContentLoaded", () => {
-  const nav = document.querySelector("nav");
-  const main = document.querySelector("main");
-  const navHeight = nav.offsetHeight;
-  main.style.paddingTop = navHeight + "px";
-});
-
-
-
 // // WORK CATEGORY BG Image Switch
 
 //   document.querySelectorAll('.project-card').forEach(card => {

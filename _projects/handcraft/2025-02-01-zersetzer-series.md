@@ -6,7 +6,7 @@ category: Handcraft
 overline: Lithography Series
 short-description: A series of pen-and-ink lithographs, developed and printed in a traditional workshop in Tidaholm, Sweden. Each motif was hand-drawn on stone and printed using the flat printing technique lithography – blending detailed illustration with a nice texture and depth you can only achieve with analog techniques
 year: 2022
-context: Independent Artwork, print workshop
+context: Solo Project
 role: Concept <br> Artwork <Printing>
 scope: empty
 tools-techniques: Pen & ink on Solnhofener natural stone
