@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
     {% include head.html%}
 
     <body>
         {% include navigation.html %}
-        <main class="container-wrapper">
+        <main>
+          <div class="container-wrapper">
             <section class="work-container">
               <header class="subpage-header">
                   <div class="work-filter-buttons">
@@ -44,20 +45,45 @@
                       </div>
                     </a>
                   {% endfor %}
+
+                    <a class="linkout-teaser instagram-teaser" target="_blank" href="https://www.instagram.com/timfeuring/">
+                      <div class="instagram-teaser-text">
+                        <span>Visit my Instagram for more handmade work</span>
+                        <span class="instagram-handle">@timfeuring</span>
+                      </div>
+                        <div class="instagram-gallery">
+                          <img src="assets/img/lettering/gallery/gallery-01.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-02.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-03.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-04.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-05.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-06.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-07.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-08.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-09.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-10.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-11.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-12.png" alt="">
+                          <img src="assets/img/lettering/gallery/gallery-13.png" alt="">
+                        </div>
+
+                        <div class="instagram-overlay"></div>
+                  </a>
+
                 </div>
               </section>
-              
-              
-              
+              </div>
         </main>
         {% include footer-contact.html %}
         <script type="text/javascript" src="assets/script.js" defer></script>
+        
         <script>
 
 document.addEventListener("DOMContentLoaded", function () {
   const filterButtons = document.querySelectorAll(".work-filter-buttons .button");
   const projects = document.querySelectorAll(".project-teaser");
   const description = document.querySelector(".category-description");
+  const instaTeaser = document.querySelector(".instagram-teaser");
 
   const categoryDescriptions = {
     "digital-design": "A range of digital design projects, including UX/UI design, prototypes, accessibility, digital illustration and more.",
@@ -69,7 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const initialFilter = urlParams.get("category") || "digital-design";
 
   function updateFilter(filter) {
-    // Button State aktualisieren
     filterButtons.forEach((btn) => {
       const btnFilter = btn.getAttribute("data-filter");
       btn.classList.toggle("button-primary", btnFilter === filter);
@@ -88,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Alte ausblenden (gestaffelt)
+    // Hide old projects
     hiddenProjects.forEach((project, index) => {
       setTimeout(() => {
         project.classList.remove("show");
@@ -100,29 +125,37 @@ document.addEventListener("DOMContentLoaded", function () {
       }, index * 100);
     });
 
-    // Neue einblenden (gestaffelt)
+    // Show new projects
     visibleProjects.forEach((project, index) => {
       setTimeout(() => {
         project.style.display = "flex";
-        void project.offsetWidth; // reflow
+        void project.offsetWidth;
         project.classList.add("show");
-      }, hiddenProjects.length * 100 + index * 100); // Warte, bis alte weg sind
+      }, hiddenProjects.length * 100 + index * 100);
     });
 
-    // Beschreibung aktualisieren
+    // Update description
     if (description && categoryDescriptions[filter]) {
       description.textContent = categoryDescriptions[filter];
     }
 
-    // URL aktualisieren
+    // 👇 Show or hide Instagram teaser
+    if (instaTeaser) {
+      if (filter === "handcraft") {
+        instaTeaser.style.display = "flex";
+      } else {
+        instaTeaser.style.display = "none";
+      }
+    }
+
+    // Update URL
     history.replaceState(null, "", `?category=${filter}`);
   }
 
-  // Initial anzeigen ohne Flash
   setTimeout(() => {
     updateFilter(initialFilter);
   }, 100);
-  
+
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const filter = button.getAttribute("data-filter");
@@ -130,6 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
         </script>
     </body>
 </html>

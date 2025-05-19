@@ -11,11 +11,11 @@ category: Handcraft
 overline: Signmaking
 short-description:     For a local café, I designed and hand-crafted inclusive, gender-neutral restroom signage. The custom lettering and illustrations were created with care to reflect the café’s welcoming atmosphere and commitment to diversity, resulting in a thoughtful visual statement that combines warmth, clarity, and inclusivity.
 year: 2022
-context:  Freelance project, Signmaking
+context:  Freelance
 role: Design <br>  Production <br> Installation
 scope: empty
 tools-techniques: empty
-header-img: ../../assets/img/posts/wc-for-humans/humans-stage.png
+header-img: ../../assets/img/projects/wcforhumans/wcforhumans-3-2.png
 header-img-alt: empty
 button-text: see project
 ---

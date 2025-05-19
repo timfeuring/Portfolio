@@ -6,11 +6,11 @@ category: Handcraft
 overline: Signmaking
 short-description: A set of hand-lettered blackboard signs, designed using chalk markers. The goal was to create something warm and inviting that fits the café’s vibe. With a mix script and bold lettering, the signs add a personal, handcrafted touch to the space.
 year: 2022
-context: Freelance project, hand-made signage for a local café
+context: Freelance
 role: Design <br>  Production <br> Installation
 scope: empty
 tools-techniques: empty
-header-img: ../../assets/img/posts/dreamy-donuts/dreamy-donuts-article-08.png
+header-img: ../../assets/img/projects/dreamydonuts/dreamydonuts-3-2.png
 header-img-alt: empty
 button-text: see project
 

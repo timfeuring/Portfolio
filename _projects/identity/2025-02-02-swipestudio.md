@@ -6,7 +6,7 @@ category: Identity
 overline: Visuals & Logo Design
 short-description: A mazing logo design among other visuals created for different occasions. Over the years, I’ve created various visuals for Swipe Studio, ranging from social media graphics to event assets. Among them is a characteristic logo design that captures the studio’s energy in a clear, typographic approach.
 year: 2019 – 2025
-context: Logo Design for mobile studio Sinnerschrader Swipe
+context: Agency Project
 role: Concept <br> Design
 scope: empty
 tools-techniques: Adobe Illustrator, 

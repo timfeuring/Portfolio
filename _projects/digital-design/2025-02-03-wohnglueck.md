@@ -6,8 +6,8 @@ category: Digital Design
 overline: Digital Illustration
 short-description: I developed a comprehensive illustration concept that visualizes the platform’s wide spectrum of services for homeowners and renters, including 20+ custom illustrations for complex offerings depicted in a friendly and accessible way.
 year: 2022 – 2023
-context: empty
-role: Design, Illustration
+context: Agency Project
+role: Design, Illustration in an agile team setting
 scope: empty
 tools-techniques: Adobe Illustrator, Figma
 header-img:  ../../assets/img/projects/wohnglueck/wohnglueck-3-2.png

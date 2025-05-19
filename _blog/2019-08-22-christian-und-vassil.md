@@ -26,3 +26,11 @@ Marrying the person you love is amongst the most beautiful experiences one can p
 For this project, I developed a warm and happy visual style by combining typography and illustration to form a unique appearance.
 
 The calligraphic letters used in the headline are derived from a custom font I designed. The tucan and the fox act as the wedding mascots and give all the visuals an especially cute touch.
+
+<br><br>
+
+<div class="project-intro wip-disclaimer"> 
+    <p class="body-large"> 
+    Work in Progress – Coming soon ⏳
+    </p>
+</div>
