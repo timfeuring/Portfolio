@@ -1,13 +1,23 @@
 ---
-layout: project-post
+layout: project-layout
 title: Extra Butter
-permalink: /extra-butter
-category: Logo creation
-img-path: assets/img/posts/extra-butter/extra-butter-stage.png
-img-id: extra-butter-post-img
-img-alt: extra-butter-lettering
-
+breadcrumb-title: Extra Butter
+permalink: extra-butter
+category: Studies
+overline: Lettering
+short-description: A custom drawn and vectorized lettering logo, created for a screen printing workshop.
+year: 2020
+context: Agency Project
+role: Lettering, Design
+scope: Lettering, Branding
+tools-techniques: Pen & Ink, Photoshop, Illustrator, After Effects
+thumb-img: /assets/img/studies/extrabutter/extrabutter.png
+header-img: /assets/img/studies/extrabutter/extrabutter-3-2.png
+header-img-alt: extra-butter-lettering
+button-text: view project
+visible_to: public
 ---
+
 
 <h3 class="article-headline">A bit of extra butter on top</h3>
 

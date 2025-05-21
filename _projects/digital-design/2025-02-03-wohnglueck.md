@@ -13,6 +13,7 @@ tools-techniques: Adobe Illustrator, Figma
 header-img:  ../../assets/img/projects/wohnglueck/wohnglueck-3-2.png
 header-img-alt: empty
 button-text: coming soon
+visible_to: confidential
 ---
 
 <div class="project-intro"> 

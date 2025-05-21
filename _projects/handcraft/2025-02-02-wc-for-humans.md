@@ -17,7 +17,8 @@ scope: empty
 tools-techniques: empty
 header-img: ../../assets/img/projects/wcforhumans/wcforhumans-3-2.png
 header-img-alt: empty
-button-text: see project
+button-text: view project
+visible_to: public
 ---
 
 <div class="project-intro"> 

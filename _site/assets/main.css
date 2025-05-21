@@ -1474,7 +1474,8 @@ button,
 
   
 /* Standardzustand */
-.project-card .button-icon {
+.project-card .button-icon
+ {
     opacity: 0;
     width: 0px;
     transform: translateX(-6px);
@@ -1487,7 +1488,9 @@ button,
   .project-card:hover .button-icon,
   .project-card:focus .button-icon,
   .project-teaser:hover .button-icon,
-  .project-teaser:focus .button-icon {
+  .project-teaser:focus .button-icon,
+  .study-teaser:hover .button-icon,
+  .study-teaser:focus .button-icon {
     width: 16px;
     opacity: 1;
     transform: translateX(0);
@@ -1496,10 +1499,11 @@ button,
   .project-card:hover .button,
   .project-card:focus .button,
   .project-teaser:hover .button,
-  .project-teaser:focus .button  {
+  .project-teaser:focus .button,
+  .study-teaser:hover .button,
+  .study-teaser:focus .button  {
     gap: 0.8rem;
 }
-  
 
 .button-icon {
     opacity: 0;
@@ -1832,16 +1836,17 @@ button,
 .projects-list {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: auto;  */
     border-bottom: 1px solid #ccc;
+    gap: 4rem;
+    margin: 40px 0;
+    padding: 0 0 40px 0;
   }
   
   /* Der Container für jedes einzelne Projekt */
   .project-teaser {
     display: flex;
     gap: 6rem;  /* Abstand zwischen Thumb und Meta */
-    margin: 40px 0;
+    /* margin: 42px 0; */
     transition: .15s ease all;
   }
 
@@ -1864,6 +1869,56 @@ button,
 }   
 
 
+.study-teaser {
+    display: flex;
+    gap: 2rem;  /* Abstand zwischen Thumb und Meta */
+    /* margin: 40px 0 0 0; */
+    transition: .15s ease all;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.study-teaser:hover,
+.study-teaser:focus {
+    background-color: #e6e6e6;
+    transition: 0.3s all ease;
+}
+
+.study-teaser:hover .study-thumb img,
+.study-teaser:focus .study-thumb img{
+    transform: scale(1.025);
+    transition: .15s ease all;
+  }
+
+.study-teaser-info {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+}
+
+.study-thumb{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ccc;
+    transition: .15s ease all;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    max-height: 400px;
+}
+
+.study-thumb img{
+       width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: .15s ease all;
+}
   
   /* Der Thumbnail-Bereich (links) */
   .project-thumb{
