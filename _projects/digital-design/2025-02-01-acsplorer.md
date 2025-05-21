@@ -13,7 +13,8 @@ scope: Designsysteme, Barrierefreiheit
 tools-techniques: Figma, HTML/CSS, JavaScript
 header-img: ../../assets/img/projects/acsplorer/acsplorer-3-2.png
 header-img-alt: Screenshot des Acsplorer Tools
-button-text: see project
+button-text: view project
+visible_to: public
 ---
  
 <div class="showreel"> 

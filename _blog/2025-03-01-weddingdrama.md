@@ -1,25 +1,24 @@
 ---
-layout: project-post
-title: Christian & Vassil
-permalink: /christian-und-vassil
-category: Wedding Invitation 
-img-path: assets/img/posts/christian-und-vassil-stage-b.png
-img-id: ...-post-img
-img-alt: christian-und-vassil
-
-# gallery-img-path-01:        assets/img/posts/gallery/....png
-# gallery-img-subline-01:     POST-SUBLINE
-# gallery-img-alt-01:         POST-IMG
-
-
-# gallery-img-path-02:  
-# gallery-img-subline-02:     
-# gallery-img-alt-02:         
-
-# gallery-img-path-03:       
-# gallery-img-subline-03:     
-# gallery-img-alt-03:        
+layout: project-layout
+title: Weddingdrama – Christian & Vassil
+breadcrumb-title: Christian & Vassil
+permalink: /weddingdrama
+category: Studies
+overline: Wedding Invitation
+short-description: A custom wedding invitation design combining a self-made calligraphic font and illustration.
+year: 2021
+context: Commissioned Work
+role: Illustrator <br> Designer
+scope: Invitation Design, Calligraphy
+tools-techniques: Procreate, InDesign
+thumb-img: /assets/img/studies/weddingdrama/weddingdrama.png
+header-img: /assets/img/studies/weddingdrama/weddingdrama-3-2.png
+header-img-alt: Wedding invitation for Christian and Vassil
+button-text: coming soon
+visible_to: public
 ---
+
+
 <h3>Process</h3>
 Marrying the person you love is amongst the most beautiful experiences one can possibly have. For your special day, everything should feel perfect – and that includes the way you announce your wedding to your friends and family.
 
