@@ -1,5 +1,5 @@
 ---
-layout: project-layout
+layout: study-layout
 title: Screen Memories
 breadcrumb-title: Screen Memories
 permalink: /screen-memories

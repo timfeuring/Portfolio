@@ -1,5 +1,5 @@
 ---
-layout: project-layout
+layout: study-layout
 title: Extra Butter
 breadcrumb-title: Extra Butter
 permalink: extra-butter

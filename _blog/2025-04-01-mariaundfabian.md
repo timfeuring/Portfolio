@@ -1,5 +1,5 @@
 ---
-layout: project-layout
+layout: study-layout
 title: Maria & Fabian
 breadcrumb-title: Wedding Lettering
 permalink: mariaundfabian

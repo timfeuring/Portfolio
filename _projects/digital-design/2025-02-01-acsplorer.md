@@ -17,6 +17,14 @@ button-text: view project
 visible_to: public
 ---
  
+ <div class="project-intro"> 
+    <p class="body-large"> 
+    Digital accessibility is more important than ever, but it’s hard to understand. For my Bachelor Thesis in Communication Design at 
+    <a href="https://www.haw-hamburg.de/" class="underline">HAW Hamburg</a>, 
+    I researched ways to make accessibility principles understandable easier. The outcome: a hands-on interactive experience for learning about digital accessibility patterns.
+    </p>
+</div>
+
 <div class="showreel"> 
     <h2>Showreel</h2>
     <video controls playsinline>
@@ -24,13 +32,7 @@ visible_to: public
         Dein Browser unterstützt das Video-Tag nicht.
     </video>
 </div>
-<div class="project-intro"> 
-    <p class="body-large"> 
-    Digital accessibility is more important than ever, but it’s hard to understand. For my Bachelor Thesis in Communication Design at 
-    <a href="https://www.haw-hamburg.de/" class="underline">HAW Hamburg</a>, 
-    I researched ways to make accessibility principles understandable easier. The outcome: a hands-on interactive experience for learning about digital accessibility patterns.
-    </p>
-</div>
+
 <div class="project-chapter"> 
     <div>
         <h2>The Project</h2>

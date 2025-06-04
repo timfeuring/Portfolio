@@ -1,5 +1,5 @@
 ---
-layout: project-layout
+layout: study-layout
 title: Weddingdrama – Christian & Vassil
 breadcrumb-title: Christian & Vassil
 permalink: /weddingdrama
