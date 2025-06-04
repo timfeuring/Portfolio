@@ -39,7 +39,7 @@ visible_to: public
         <div class="project-slide"> 
             <img src="assets/img/projects/acsplorer/acsplorer-01.png" alt="">
             <p class="body-regular">
-                We rely on digital services every day: to read the news, book appointments, or stay connected. But for millions of people, the internet remains full of barriers. Many websites are still not accessible, excluding users with visual, motor, or cognitive impairments from equal participation. This everyday inequality was the starting point for the Acsplorer.
+                Every day, we use websites, apps and other digital tools to navigate life more easily. Unfortunately, not everybody can. Barriers like low contrasts, small texts or missing keyboard support exclude millions of people. I wanted to find out why this problem still exists and explore approaches to improve the situation. This everyday inequality was the starting point for the Acsplorer.
             </p>
         </div>
         <div class="project-slide"> 
