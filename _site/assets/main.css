@@ -949,29 +949,29 @@ main {
 }
 
 #digital-design::after{
-    background-image: url(img/category-thumbs/digital-design-4-5.png);
+    background-image: url(img/category-thumbs/digital-design-4-5.jpg);
 }
 
 #identity::after{
-    background-image: url(img/category-thumbs/identity-4-5.png);
+    background-image: url(img/category-thumbs/identity-4-5.jpg);
 }
 
 
 #handcraft::after{
-    background-image: url(img/category-thumbs/handcraft-4-5.png);
+    background-image: url(img/category-thumbs/handcraft-4-5.jpg);
 }
 
 @media only screen and (max-width: 800px) {
     #digital-design::after{
-        background-image: url(img/category-thumbs/digital-design-3-2.png);
+        background-image: url(img/category-thumbs/digital-design-3-2.jpg);
     }    
 
     #identity::after{
-        background-image: url(img/category-thumbs/identity-3-2.png);
+        background-image: url(img/category-thumbs/identity-3-2.jpg);
     }   
 
     #handcraft::after{
-        background-image: url(img/category-thumbs/handcraft-3-2.png);
+        background-image: url(img/category-thumbs/handcraft-3-2.jpg);
     }   
 
 }
