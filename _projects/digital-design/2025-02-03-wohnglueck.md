@@ -16,11 +16,6 @@ button-text: coming soon
 visible_to: confidential
 ---
 
-<div class="project-intro"> 
-    <p class="body-large"> 
-    I developed a comprehensive illustration concept that visualizes the platform’s wide spectrum of services for homeowners and renters, including 20+ custom illustrations for complex offerings depicted in a friendly and accessible way.
-    </p>
-</div>
 
 <div class="project-intro wip-disclaimer"> 
     <p class="body-large"> 
