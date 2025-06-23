@@ -14,46 +14,6 @@ function closeBurgerNav() {
 }
 
 
-// // WORK CATEGORY BG Image Switch
-
-//   document.querySelectorAll('.project-card').forEach(card => {
-//     const imageUrls = card.dataset.images.split(',').map(url => url.trim());
-//     if (imageUrls.length < 2) return; // kein Wechsel nötig
-
-//     const bg1 = card.querySelector('.bg-image-1');
-//     const bg2 = card.querySelector('.bg-image-2');
-
-//     let current = 0;
-//     let showingFirst = true;
-//     let isTransitioning = false;
-
-//     // Initialbild setzen
-//     bg1.style.backgroundImage = `url('${imageUrls[0]}')`;
-//     bg1.classList.add('visible');
-
-//     const switchImage = () => {
-//       if (isTransitioning) return;
-//       isTransitioning = true;
-
-//       const next = (current + 1) % imageUrls.length;
-//       const active = showingFirst ? bg1 : bg2;
-//       const inactive = showingFirst ? bg2 : bg1;
-
-//       inactive.style.backgroundImage = `url('${imageUrls[next]}')`;
-
-//       // Zuerst einblenden, dann nach Übergangszeit das andere Bild ausblenden
-//       inactive.classList.add('visible');
-//       setTimeout(() => {
-//         active.classList.remove('visible');
-//         current = next;
-//         showingFirst = !showingFirst;
-//         isTransitioning = false;
-//       }, 1000); // matcht dem CSS `transition: 1s`
-//     };
-
-//     setInterval(switchImage, 5000); // alle 5s
-//   });
-
 document.addEventListener('DOMContentLoaded', () => {
   const indicatorImages = [
     '/assets/img/active-indicators/active-indicator-1.svg',
@@ -110,44 +70,66 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+// Work Category Filtering
+document.addEventListener("DOMContentLoaded", function() {
+  const filterButtons = document.querySelectorAll(".work-filter-buttons .button");
+  const containers = {
+    "digital-design": document.getElementById("container-digital-design"),
+    "identity": document.getElementById("container-identity"),
+    "handcraft": document.getElementById("container-handcraft")
+  };
+  const description = document.querySelector(".category-description");
+  const instaTeaser = document.querySelector(".instagram-teaser");
 
+  const categoryDescriptions = {
+    "digital-design": "A range of digital design projects, including UX/UI design, accessibility, digital illustration and more.",
+    "identity": "A selection of branding and identity work, including logo design, visual systems, and brand guidelines.",
+    "handcraft": "Handmade and analog work, including calligraphy, sign painting, and illustration."
+  };
 
-// // CONTACT ILLU AUSTAUSCH
-// document.addEventListener('DOMContentLoaded', () => {
-//   // Array of image paths
-//   const images = [
-//       'assets/img/contact/contact-1.svg',
-//       'assets/img/contact/contact-2.svg',
-//       'assets/img/contact/contact-3.svg',
-//       'assets/img/contact/contact-4.svg'
-//   ];
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialFilter = urlParams.get("category") || "digital-design";
 
-//    // Get the image element
-//    const imageElement = document.getElementById('rotating-image');
-//    let currentIndex = 0;
+  function updateFilter(filter) {
+    // Update button states
+    filterButtons.forEach((btn) => {
+      const btnFilter = btn.getAttribute("data-filter");
+      btn.classList.toggle("button-primary", btnFilter === filter);
+      btn.classList.toggle("button-secondary", btnFilter !== filter);
+    });
 
-//    // Function to update the image source with fade effect
-//    function updateImage() {
-//        // Fade out the current image
-//        imageElement.classList.add('fade-out');
+    // Hide all containers
+    Object.values(containers).forEach(container => {
+      container.style.display = "none";
+    });
 
-//        // Wait for the fade-out animation to complete
-//        setTimeout(() => {
-//            // Update the image source
-//            imageElement.src = images[currentIndex];
-//            currentIndex = (currentIndex + 1) % images.length;
+    // Show the selected container
+    if (containers[filter]) {
+      containers[filter].style.display = "flex";
+    }
 
-//            // Remove fade-out class and add fade-in class
-//            imageElement.classList.remove('fade-out');
-//            imageElement.classList.add('fade-in');
+    // Update description
+    if (description && categoryDescriptions[filter]) {
+      description.textContent = categoryDescriptions[filter];
+    }
 
-//            // Remove fade-in class after animation completes
-//            imageElement.addEventListener('animationend', () => {
-//                imageElement.classList.remove('fade-in');
-//            }, { once: true });
-//        }, 500); // Match this duration to the CSS animation duration
-//    }
+    // Show or hide Instagram teaser
+    if (instaTeaser) {
+      instaTeaser.style.display = filter === "handcraft" ? "flex" : "none";
+    }
 
-//    // Set interval to change the image every 3 seconds (3000 milliseconds)
-//    setInterval(updateImage, 3000);
-// });
+    // Update URL
+    history.replaceState(null, "", `?category=${filter}`);
+  }
+
+  // Initialize filter
+  updateFilter(initialFilter);
+
+  // Add event listeners to filter buttons
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+      updateFilter(filter);
+    });
+  });
+});

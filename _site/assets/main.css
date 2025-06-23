@@ -2038,13 +2038,6 @@ button,
 }
 
   
-  .project-teaser:hover,
-  .project-teaser:focus {
-    transform: translateX(1.6rem);
-    transition: .15s ease all;
-  }
-  
-  
   .project-teaser:hover .project-thumb img,
   .project-teaser:focus .project-thumb img{
     transform: scale(1.015);
@@ -2053,11 +2046,11 @@ button,
 
   /* FADE PROJEKT TEASER */
 
-  .project-teaser {
+  /* .project-teaser {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.4s ease, transform 0.4s ease;
-    display: none; /* verhindert initiales Flashen */
+    display: none;
   }
   
   .project-teaser.show {
@@ -2069,7 +2062,7 @@ button,
   .project-teaser.fade-out {
     opacity: 0;
     transform: translateY(-20px);
-  }
+  } */
   
 
   .project-skeletons {

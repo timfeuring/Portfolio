@@ -50,3 +50,11 @@ collections:
     output: true
     permalink: /blog/:name/
 
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+

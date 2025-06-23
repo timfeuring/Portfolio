@@ -2,7 +2,7 @@
 layout: project-layout
 title: Zersetzer, Symbionten, Verwerter
 permalink: /zersetzer-litho
-category: Handcraft
+category: handcraft
 overline: Lithography Series
 short-description: A series of pen-and-ink lithographs, developed and printed in a traditional workshop in Tidaholm, Sweden. Each motif was hand-drawn on stone and printed using the flat printing technique lithography – blending detailed illustration with a nice texture and depth you can only achieve with analog techniques
 year: 2022

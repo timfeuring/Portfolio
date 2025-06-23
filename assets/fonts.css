@@ -926,7 +926,7 @@ input[type=range]::-webkit-slider-thumb {
   .h1-project {
     font-size: 7.5rem;
     line-height: 100%;
-    transition: 0.3s all ease;
+    /* transition: 0.3s all ease; */
   }
 
 @media only screen and (max-width: 1400px) {

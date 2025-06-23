@@ -3,7 +3,7 @@ layout: project-layout
 title: Acsplorer&#58; Digital Accessibility, Hands-On
 breadcrumb-title: Acsplorer&#58; Digital Accessibility, Hands-On
 permalink: /acsplorer-project
-category: Digital Design
+category: digital-design
 overline: Accessibility Tool
 short-description: Digital accessibility is more important than ever, but it’s hard to understand. For my bachelor-thesis, I created a concept and application that communicates accessibility principles in an easy-to-understand approach.
 year: 2025

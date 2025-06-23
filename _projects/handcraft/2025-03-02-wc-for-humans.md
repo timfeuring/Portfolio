@@ -7,7 +7,7 @@ img-path: assets/img/posts/wc-for-humans/humans-stage.png
 layout: project-layout
 title: WC for Humans
 permalink: /wc-for-humans
-category: Handcraft
+category: handcraft
 overline: Signmaking
 short-description:     For a local café, I designed and hand-crafted inclusive, gender-neutral restroom signage. The custom lettering and illustrations were created with care to reflect the café’s welcoming atmosphere and commitment to diversity, resulting in a thoughtful visual statement that combines warmth, clarity, and inclusivity.
 year: 2022

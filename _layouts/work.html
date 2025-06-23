@@ -31,7 +31,7 @@
                       Handcraft
                     </button>
                   </div>  
-                  <p class="category-description"> A range of digital design projects, including UX/UI design, prototypes, accessibility, digital illustration and more.</p>
+                  <p class="category-description"> A range of digital design projects, including UX/UI design, accessibility, digital illustration and more.</p>
                 </header>
 
                 <!-- <div class="wip-disclaimer">
@@ -42,59 +42,111 @@
               
                 <div class="projects-list">
                   
-                  {% for project in site.projects %}
-                    {% if project.visible_to != "confidential" %}
-                      <a href="{{ project.permalink}}" 
-                        class="project-teaser" 
-                        data-category="{{ project.category | downcase | replace: ' ', '-' }}">
-                        
-                        <div class="project-thumb">
-                          <img src="{{ project.header-img}}" alt="{{ project.header-img-alt }}" role="img" />
-                        </div>
-                        
-                        <div class="project-teaser-info">
-                          <div class="project-meta">
-                            <span class="overline">{{ project.overline }}</span>
-                            <h3>{{ project.title }}</h3>
-                            <p class="description">{{ project.short-description }}</p>
-                          </div>
-                          <span class="button button-secondary">
-                            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
-                            </svg>
-                            {{ project.button-text }}
-                          </span>
-                        </div>
-                      </a>
-                    {% endif %}
-                  {% endfor %}
 
-                  {% for project in site.projects %}
-                    {% if project.visible_to == "confidential" %}
-                      <a href="{{ project.permalink}}" 
-                        class="project-teaser visible-to-confidential" 
-                        data-category="{{ project.category | downcase | replace: ' ', '-' }}">
-                        
-                        <div class="project-thumb">
-                          <img src="{{ project.header-img}}" alt="{{ project.header-img-alt }}" role="img" />
-                        </div>
-                        
-                        <div class="project-teaser-info">
-                          <div class="project-meta">
-                            <span class="overline">{{ project.overline }}</span>
-                            <h3>{{ project.title }}</h3>
-                            <p class="description">{{ project.short-description }}</p>
-                          </div>
-                          <span class="button button-secondary">
-                            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
-                            </svg>
-                            {{ project.button-text }}
-                          </span>
-                        </div>
-                      </a>
-                    {% endif %}
-                  {% endfor %}
+                  <!-- Container for Category 1 -->
+<div class="category-container projects-list" id="container-digital-design">
+  {% for project in site.projects %}
+    {% if project.category == "digital-design" and project.visible_to != "confidential" %}
+      <a href="{{ project.permalink }}" class="project-teaser" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+        <div class="project-thumb">
+          <img src="{{ project.header-img }}" alt="{{ project.header-img-alt }}" role="img" />
+        </div>
+        <div class="project-teaser-info">
+          <div class="project-meta">
+            <span class="overline">{{ project.overline }}</span>
+            <h3>{{ project.title }}</h3>
+            <p class="description">{{ project.short-description }}</p>
+          </div>
+          <span class="button button-secondary">
+            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+            </svg>
+            {{ project.button-text }}
+          </span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+
+    {% for project in site.projects %}
+    {% if project.visible_to == "confidential" %}
+      <a href="{{ project.permalink}}" 
+        class="project-teaser visible-to-confidential" 
+        data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+        
+        <div class="project-thumb">
+          <img src="{{ project.header-img}}" alt="{{ project.header-img-alt }}" role="img" />
+        </div>
+        
+        <div class="project-teaser-info">
+          <div class="project-meta">
+            <span class="overline">{{ project.overline }}</span>
+            <h3>{{ project.title }}</h3>
+            <p class="description">{{ project.short-description }}</p>
+          </div>
+          <span class="button button-secondary">
+            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+            </svg>
+            {{ project.button-text }}
+          </span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Container for Category 2 -->
+<div class="category-container projects-list" id="container-identity">
+  {% for project in site.projects %}
+    {% if project.category == "identity" and project.visible_to != "confidential" %}
+      <a href="{{ project.permalink }}" class="project-teaser" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+        <div class="project-thumb">
+          <img src="{{ project.header-img }}" alt="{{ project.header-img-alt }}" role="img" />
+        </div>
+        <div class="project-teaser-info">
+          <div class="project-meta">
+            <span class="overline">{{ project.overline }}</span>
+            <h3>{{ project.title }}</h3>
+            <p class="description">{{ project.short-description }}</p>
+          </div>
+          <span class="button button-secondary">
+            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+            </svg>
+            {{ project.button-text }}
+          </span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Container for Category 3 -->
+<div class="category-container projects-list projects-list" id="container-handcraft">
+  {% for project in site.projects %}
+    {% if project.category == "handcraft" and project.visible_to != "confidential" %}
+      <a href="{{ project.permalink }}" class="project-teaser" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+        <div class="project-thumb">
+          <img src="{{ project.header-img }}" alt="{{ project.header-img-alt }}" role="img" />
+        </div>
+        <div class="project-teaser-info">
+          <div class="project-meta">
+            <span class="overline">{{ project.overline }}</span>
+            <h3>{{ project.title }}</h3>
+            <p class="description">{{ project.short-description }}</p>
+          </div>
+          <span class="button button-secondary">
+            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+            </svg>
+            {{ project.button-text }}
+          </span>
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
 
                   
 
@@ -136,93 +188,9 @@
 
         <script type="text/javascript" src="assets/script.js" defer></script>
         <script type="text/javascript" src="assets/auth.js" defer></script>
+        
+        
         <script>
-
-          document.addEventListener("DOMContentLoaded", function () {
-            const filterButtons = document.querySelectorAll(".work-filter-buttons .button");
-            const projects = document.querySelectorAll(".project-teaser");
-            const description = document.querySelector(".category-description");
-            const instaTeaser = document.querySelector(".instagram-teaser");
-
-            const categoryDescriptions = {
-              "digital-design": "A range of digital design projects, including UX/UI design, prototypes, accessibility, digital illustration and more.",
-              "identity": "A selection of branding and identity work, including logo design, visual systems, and brand guidelines.",
-              "handcraft": "Handmade and analog work, including calligraphy, sign painting, and illustration."
-            };
-
-            const urlParams = new URLSearchParams(window.location.search);
-            const initialFilter = urlParams.get("category") || "digital-design";
-
-            function updateFilter(filter) {
-              filterButtons.forEach((btn) => {
-                const btnFilter = btn.getAttribute("data-filter");
-                btn.classList.toggle("button-primary", btnFilter === filter);
-                btn.classList.toggle("button-secondary", btnFilter !== filter);
-              });
-
-              const visibleProjects = [];
-              const hiddenProjects = [];
-
-              projects.forEach((project) => {
-                const category = project.getAttribute("data-category");
-                if (filter === "all" || category === filter) {
-                  visibleProjects.push(project);
-                } else {
-                  hiddenProjects.push(project);
-                }
-              });
-
-              // Hide old projects
-              hiddenProjects.forEach((project, index) => {
-                setTimeout(() => {
-                  project.classList.remove("show");
-                  project.classList.add("fade-out");
-                  setTimeout(() => {
-                    project.style.display = "none";
-                    project.classList.remove("fade-out");
-                  }, 400);
-                }, index * 100);
-              });
-
-              // Show new projects
-              visibleProjects.forEach((project, index) => {
-                setTimeout(() => {
-                  project.style.display = "flex";
-                  void project.offsetWidth;
-                  project.classList.add("show");
-                }, hiddenProjects.length * 100 + index * 100);
-              });
-
-              // Update description
-              if (description && categoryDescriptions[filter]) {
-                description.textContent = categoryDescriptions[filter];
-              }
-
-              // 👇 Show or hide Instagram teaser
-              if (instaTeaser) {
-                if (filter === "handcraft") {
-                  instaTeaser.style.display = "flex";
-                } else {
-                  instaTeaser.style.display = "none";
-                }
-              }
-
-              // Update URL
-              history.replaceState(null, "", `?category=${filter}`);
-            }
-
-            setTimeout(() => {
-              updateFilter(initialFilter);
-            }, 100);
-
-            filterButtons.forEach((button) => {
-              button.addEventListener("click", () => {
-                const filter = button.getAttribute("data-filter");
-                updateFilter(filter);
-              });
-            });
-          });
-
         </script>
     </body>
 </html>

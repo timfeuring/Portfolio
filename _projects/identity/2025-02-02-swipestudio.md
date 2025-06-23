@@ -2,8 +2,8 @@
 layout: project-layout
 title: Swipe Studio
 permalink: /swipestudio
-category: Identity
-overline: Visuals & Logo Design
+category: identity
+overline: Identity
 short-description: A mazing logo design among other visuals created for different occasions. Over the years, I’ve created various visuals for Swipe Studio, ranging from social media graphics to event assets. Among them is a characteristic logo design that captures the studio’s energy in a clear, typographic approach.
 year: 2019 – 2025
 context: Agency Project

@@ -2,7 +2,7 @@
 layout: project-layout
 title: Dreamy Donuts Chalkboard Signage
 permalink: /dreamy-donuts
-category: Handcraft
+category: handcraft
 overline: Signmaking
 short-description: A set of hand-lettered blackboard signs, designed using chalk markers. The goal was to create something warm and inviting that fits the café’s vibe. With a mix script and bold lettering, the signs add a personal, handcrafted touch to the space.
 year: 2022
