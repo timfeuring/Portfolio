@@ -234,10 +234,16 @@ main {
     width: 40px;
 }
 
+.project-nav{
+    position: sticky;
+  background-color: white;
+  top: 0;
+}
+
 .project-nav__ul{
     padding:0;
   display: flex;
-  gap: 2.4rem;
+  gap: 1.6rem;
 }
 
 .breadcrumb {
@@ -2268,7 +2274,9 @@ button,
     margin-bottom: 8rem;
 }
 
-
+.project-details h3{
+    margin-bottom: 4rem;
+}
 
 .project-details .body-regular {
     max-width: 1200px;
