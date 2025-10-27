@@ -7,6 +7,14 @@
 :root {
     --nav-height: 84px;
     --active-indicator: url(img/active-indicators/active-indicator-4.svg);
+
+  /* gradient for the border */
+  --tag-gradient: linear-gradient(90deg,
+      #ff5b73 0%,
+      #f6b18f 20%,
+      #62c8ff 50%,
+      #8a6bff 80%,
+      #e64cff 100%);
 }
 
 html {
@@ -946,6 +954,7 @@ main {
 
     .about-content{
         flex-direction: column;
+        gap: 0;
     }
 
     .project-card{
@@ -1007,7 +1016,59 @@ main {
 }
 
 
-  
+.hero-landing{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  gap: 4rem;
+
+}
+
+.hero-title {
+    font-size: 4rem;
+    text-align: center;
+    align-items: center;
+    hyphens: none;
+}
+
+.skill-tags{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.6rem 1.2rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.skill-tags .tag{
+  font-weight: 500;
+  text-transform: uppercase;
+
+  /* gradient “outline”: two backgrounds + transparent border */
+  padding: 1.2rem 1.6rem;
+  border-radius: 100px;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    var(--tag-gradient) border-box;        
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-title{font-size: 3.2rem;}
+
+    .skill-tags{
+        gap: 0.8rem 1.2rem;
+    }
+
+    .skill-tags .tag{
+    padding: 0.8rem 1.2rem;
+}
+}
 
 /* Footer */
 /* ============================================================================ */
@@ -1539,6 +1600,7 @@ button,
 .button-container{
     display: flex;
     gap: 1.6rem;
+    flex-wrap: wrap;
 }
 
 /* .button:hover {
