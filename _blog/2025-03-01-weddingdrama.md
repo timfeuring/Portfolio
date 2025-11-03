@@ -11,8 +11,8 @@ context: Commissioned Work
 role: Illustrator <br> Designer
 scope: Invitation Design, Calligraphy
 tools-techniques: Procreate, InDesign
-thumb-img: /assets/img/studies/weddingdrama/weddingdrama.png
-header-img: /assets/img/studies/weddingdrama/weddingdrama-3-2.png
+thumb-img: /assets/img/studies/weddingdrama/weddingdrama.jpg
+header-img: /assets/img/studies/weddingdrama/weddingdrama-3-2.jpg
 header-img-alt: Wedding invitation for Christian and Vassil
 button-text: coming soon
 visible_to: public
@@ -30,6 +30,6 @@ The calligraphic letters used in the headline are derived from a custom font I d
 
 <div class="project-intro wip-disclaimer"> 
     <p class="body-large"> 
-    Work in Progress – Coming soon ⏳
+    Case under Construction – Coming Soon ⏳
     </p>
 </div>

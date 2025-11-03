@@ -11,8 +11,8 @@ context: Commissioned Work
 role: Lettering
 scope: Lettering
 tools-techniques: Pen & Ink, Photoshop, Illustrator
-thumb-img: /assets/img/studies/mariaundfabian/mariaundfabian.png
-header-img: /assets/img/studies/mariaundfabian/mariaundfabian-3-2.png
+thumb-img: /assets/img/studies/mariaundfabian/mariaundfabian.jpg
+header-img: /assets/img/studies/mariaundfabian/mariaundfabian-3-2.jpg
 header-img-alt: mueck wedding lettering
 button-text: coming soon
 visible_to: public
@@ -26,6 +26,6 @@ visible_to: public
  
  <div class="project-intro wip-disclaimer"> 
     <p class="body-large"> 
-    Work in Progress – Coming soon ⏳
+    Case under Construction – Coming Soon ⏳
     </p>
 </div>
