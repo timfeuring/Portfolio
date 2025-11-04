@@ -123,6 +123,7 @@ main {
     color: var(--text-heavy);
     text-decoration: none;
     display: block;
+    white-space: nowrap;
   }
   
   .main-nav__list li a:hover {
