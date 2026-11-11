@@ -29,6 +29,8 @@
     <link rel="preload" href="assets/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/main.css"></noscript>
 
+    
+
 </head>
 
     <body>
@@ -52,9 +54,10 @@
       <ul class="main-nav__list" id="main-nav__list">
         <li><a href="/index" onclick="closeBurgerNav();"><span class="nav-link active">home</span></a></li>
         <li><a href="/work" onclick="closeBurgerNav();"><span class="nav-link underline">work</span></a></li>
+        <li><a href="/playground" onclick="closeBurgerNav();"><span class="nav-link underline">playground</span></a></li>
         
         <!-- <li><a href="/shop" onclick="closeBurgerNav();"><span class="nav-link underline">shop</span></a></li> -->
-        <li><a href="/studies" onclick="closeBurgerNav();"><span class="nav-link underline">studies</span></a></li>
+        <!-- <li><a href="/studies" onclick="closeBurgerNav();"><span class="nav-link underline">studies</span></a></li> -->
         <li><a href="/about" onclick="closeBurgerNav();"><span class="nav-link underline">about & CV </span></a></li>
         <li><a href="/contact" onclick="closeBurgerNav();"><span class="nav-link underline">contact</span></a></li>
       </ul>
@@ -78,129 +81,98 @@
               <img src="assets/img/about/about-portrait.png" alt=""> 
               <div class="about-intro-text"> 
                 <h2>Precision design, made for people.</h2>
-                <p>
-                  <br>
-                  I'm a multifaceted designer with a passion for both digital innovation  and traditional craftsmanship, based in Hamburg.
-                  With 5+ years of agency experience and a profound education in Media and Communication Design, 
-                  I have cultivated my skills in  digital, identity-related, and handcrafted design solutions. 
-                  I believe in the power of design to change things for the better, following  user-centric and empathetic approaches.
-                  <br><br>
-                  I’ve developed digital solutions for major clients including Motel One, Audi, and BASF, as well as smaller scale projects and handcrafted visuals for individual clients. My work is characterized by an eye for detail and a deep understanding  of both design principles and technical execution – as an extra, I know all the magic Figma shortcuts to bring these designs to life effectively 💫
-                </p>
+                <p>I'm a Product Designer based in Hamburg, working at the intersection of user experience, visual design and technology. With a background in Communication Design and several years of agency experience, I combine structured problem-solving and systems thinking with a strong visual foundation.</p>
+                <p>I take ownership of design challenges from initial problem definition to implementation, connecting user needs, product requirements and technical constraints. I combine thoughtful interaction design and usability with visual clarity and attention to detail to create intuitive, accessible digital experiences.</p>
+                <p>Over the years, I've worked across different industries and project contexts, including clients like Motel One, Airbus, Evonik, BASF, and more.</p>
 
               </div>
             </section>
 
-          <section class="about-download">
-            <a id="download-button" class="button button-secondary" href="assets/TimFeuring-CV-2025.pdf" download>
-              <div class="download-icon">
-                <svg id="arrow" width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7.47266 8.31055C7.47265 9.13832 7.44279 9.88213 7.38281 10.542C7.35036 10.899 7.31154 11.2387 7.26855 11.5605C7.43906 11.32 7.62704 11.0761 7.83301 10.8301C8.27696 10.3262 8.79296 9.81014 9.38086 9.28223C9.98078 8.7663 10.6647 8.26244 11.4326 7.77051L12.5488 9.24609C11.5889 9.83404 10.7548 10.4041 10.0469 10.9561C9.339 11.508 8.69702 12.0781 8.12109 12.666C7.55709 13.254 7.03469 13.8846 6.55469 14.5566H6.44727C5.95528 13.8847 5.42726 13.254 4.86328 12.666C4.31128 12.078 3.67507 11.5081 2.95508 10.9561C2.2351 10.4041 1.40109 9.83407 0.453125 9.24609L1.58691 7.77051C2.34286 8.26248 3.02113 8.76626 3.62109 9.28223C4.22102 9.81016 4.73698 10.3261 5.16895 10.8301C5.37617 11.0709 5.56245 11.3103 5.73047 11.5459C5.6883 11.2284 5.6511 10.8935 5.61914 10.542C5.57116 9.88213 5.54688 9.13833 5.54688 8.31055V0.568359H7.47266V8.31055Z" fill="white"/>
-                </svg>
-                <svg id="box" width="23" height="6" viewBox="0 0 23 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2.375 0.556641V3.68164H20.625V0.556641H22.375V5.43164H0.625V0.556641H2.375Z" fill="white"/>
-                </svg>
-                  
-                  
+            <section class="about-chapter" aria-labelledby="about-how-heading">
+              <h2 class="about-info-row" id="about-how-heading">How I work</h2>
+              <div class="about-rows">
+                <article class="about-info-row">
+                  <p class="about-info-label">[01]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Thinking in systems</p>
+                    <p>I look beyond individual screens to create coherent experiences, reusable patterns and scalable design solutions.</p>
+                  </div>
+                </article>
+                <article class="about-info-row">
+                  <p class="about-info-label">[02]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Crafting with precision</p>
+                    <p>I care about typography, visual hierarchy and interaction details, bringing conceptual ideas to life through thoughtful visual execution.</p>
+                  </div>
+                </article>
+                <article class="about-info-row">
+                  <p class="about-info-label">[03]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Owning the process</p>
+                    <p>I take responsibility across the design process, connecting user needs, product requirements and implementation constraints to move ideas forward.</p>
+                  </div>
+                </article>
+                <article class="about-info-row">
+                  <p class="about-info-label">[04]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Designing together</p>
+                    <p>I work closely with product, engineering and stakeholders to challenge assumptions, align perspectives and turn complex requirements into useful experiences.</p>
+                  </div>
+                </article>
               </div>
-              
-              Download Resume
+            </section>
+
+            <section class="about-chapter" aria-labelledby="about-background-heading">
+              <h2 class="about-info-row" id="about-background-heading">Background</h2>
+              <div class="about-rows">
+                <article class="about-info-row">
+                  <p class="about-info-label">[Agency Experience]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Accenture Song</p>
+                    <p class="about-info-date">2020 – today</p>
+                    <p>Designing and evolving digital products across UX/UI and design systems, from interaction concepts to implementation. Taking responsibility for design quality, consistency and the continuous improvement of digital experiences in close collaboration with product, engineering and client teams.</p>
+                  </div>
+                </article>
+                <article class="about-info-row">
+                  <p class="about-info-label">[Independent Work]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">Freelance Design</p>
+                    <p class="about-info-date">2019 – today</p>
+                    <p>Independent projects across digital design, visual identity, lettering and other visual disciplines, working directly with clients on individual creative briefs.</p>
+                  </div>
+                </article>
+                <article class="about-info-row">
+                  <p class="about-info-label">[Education]</p>
+                  <div class="about-info-content">
+                    <p class="about-emphasis">HAW Hamburg</p>
+                    <p class="about-info-date">2021 – 2025 · BA Communication Design</p>
+                    <p>Focus on visual identity, typography, interaction design and emerging technologies, including generative AI.</p>
+                    <div class="about-background-subentry">
+                      <p class="about-emphasis">Sinnerschrader Swipe</p>
+                      <p class="about-info-date">2017 – 2020 · Vocational Training Media Design</p>
+                      <p>Foundation in visual communication, typography and digital and print production.</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="about-download">
+              <a id="download-button" class="button button-secondary" href="assets/TimFeuring-CV-2025.pdf" download>
+                <div class="download-icon">
+                  <svg id="arrow" width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.47266 8.31055C7.47265 9.13832 7.44279 9.88213 7.38281 10.542C7.35036 10.899 7.31154 11.2387 7.26855 11.5605C7.43906 11.32 7.62704 11.0761 7.83301 10.8301C8.27696 10.3262 8.79296 9.81014 9.38086 9.28223C9.98078 8.7663 10.6647 8.26244 11.4326 7.77051L12.5488 9.24609C11.5889 9.83404 10.7548 10.4041 10.0469 10.9561C9.339 11.508 8.69702 12.0781 8.12109 12.666C7.55709 13.254 7.03469 13.8846 6.55469 14.5566H6.44727C5.95528 13.8847 5.42726 13.254 4.86328 12.666C4.31128 12.078 3.67507 11.5081 2.95508 10.9561C2.2351 10.4041 1.40109 9.83407 0.453125 9.24609L1.58691 7.77051C2.34286 8.26248 3.02113 8.76626 3.62109 9.28223C4.22102 9.81016 4.73698 10.3261 5.16895 10.8301C5.37617 11.0709 5.56245 11.3103 5.73047 11.5459C5.6883 11.2284 5.6511 10.8935 5.61914 10.542C5.57116 9.88213 5.54688 9.13833 5.54688 8.31055V0.568359H7.47266V8.31055Z" fill="white"/>
+                  </svg>
+                  <svg id="box" width="23" height="6" viewBox="0 0 23 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.375 0.556641V3.68164H20.625V0.556641H22.375V5.43164H0.625V0.556641H2.375Z" fill="white"/>
+                  </svg>
+                </div>
+                Download Resume
               </a>
-          </section>
-
-            <!-- <section class="about-chapter" id="experience">
-              <h3>Education & Experience</h3>
-              <ul>
-                <li>
-                  <span class="about-chapter-firstcolumn">2020 – Today</span>
-                  <span> Product Designer at <b>Accenture Song</b>,<br>
-                    shaping digital experiences in interdisciplinary teams for clients like Motel One, BASF and Audi. Also giving workshops about handlettering ocassionally.
-                  </span>
-                </li>
-                <li>
-                  <span class="about-chapter-firstcolumn">2020 – Today</span>
-                  <span> <b>Freelance Designer</b>, <br>
-                    building projects from digital design systems to traditional handpainted signs.</span>
-                </li>
-                <li>
-                  <span class="about-chapter-firstcolumn">2021 – 2025</span>
-                  <span> Bachelor of Arts Communication Design at <b>HAW Hamburg</b>, <br>with a focus on typography, brand and interaction design.</span>
-                </li>
-                <li>
-                  <span class="about-chapter-firstcolumn">2017 – 2020</span>
-                  <span>Apprenticeship Media Designer at <b>SinnerSchrader Swipe</b>, <br> graduated with one of the best examinations in Hamburg.</span>
-                </li>
-              </ul>
-            </section>
-            
-            <section class="about-chapter" id="experience">
-              <h3>Expertise</h3>
-              <div class="expertise-item">
-                <h4>Core competencies</h4>
-                
-                <li>
-                  <span class="about-chapter-firstcolumn">Digital Design</span>
-                  <span>I have experience in UX/UI Design, Digital Illustration, ...</span>
-                </li>
-                
-                <li>
-                  <span class="about-chapter-firstcolumn">Identity</span>
-                  <span>...</span>
-                </li>
-
-                <li>
-                  <span class="about-chapter-firstcolumn">Handcraft</span>
-                  <span> ...</span>
-                </li>
-
-              </div>
-
-              <div class="expertise-item">
-                <h4>Technical Skills</h4>
-
-                <li>
-                  <span class="about-chapter-firstcolumn">UX/UI</span>
-                  <span>Extensive knowledge in Figma, Sketch & Similar. Development and Maintenance of design systems, responsive layouts, prototyping </span>
-                </li>
-
-                <li>
-                  <span class="about-chapter-firstcolumn">Adobe Suite</span>
-                  <span>Extensive knowledge across the creative cloud apps. Photoshop, Illustrator, Indesign, After Effects, XD. Basic knowledge of Premiere, Lightroom etc.</span>
-                </li>
-
-
-                <li>
-                  <span class="about-chapter-firstcolumn">Coding & Prototyping</span>
-                  <span>Web Development: Extensive knowledge of HTML & CSS, Basic Knowledge of JS</span>
-                </li>
-
-                <li>
-                  <span class="about-chapter-firstcolumn">Motion</span>
-                  <span>...</span>
-                </li>
-                <li>
-                  <span class="about-chapter-firstcolumn">AI</span>
-                  <span>Leveraging the power of AI tools to efficiently support design processes in all stages. Experience in text2image, text2text, ai for coding, ...</span>
-                </li>
-              </div>
-            
-            <div class="expertise-item">
-              <h4>Industry Experience</h4>
-              <li>
-                <span class="about-chapter-firstcolumn">Interdisciplinary Team Settings</span>
-                <span>...</span>
-              </li>
-              <li>
-                <span class="about-chapter-firstcolumn">Solo Settings</span>
-                <span>...</span>
-              </li>
-            </div>
-
             </section>
 
-
-            <section class="about-chapter" id="experience">
-              <h3>Others about me</h3>
+            <!-- <section class="about-chapter" aria-labelledby="about-words-heading">
+              <h2 class="about-info-row" id="about-words-heading">Words from Others</h2>
               
               <div class="testimonial-container">
                 <div class="testimonial-item">
@@ -209,23 +181,17 @@
                 </div>
 
                 <div class="testimonial-item">
-                  <p> <i> „Tim has supported us with rebuilding our design system. We were happy and look forward to work together again.“ </i></p>
-                  <span> – Client </span>
+                  <p> <i> Tim combines a thoughtful approach to design with a strong eye for detail. He consistently brings clarity and quality to the work, always keeping the bigger picture in mind. </i></p>
+                  <span> Jembasin Goerner · Creative Director, Firma So-Undso </span>
                 </div>
                 <div class="testimonial-item">
                   <p> <i> „Hat er gut gemacht!“ </i></p>
                   <span> – Client </span>
                 </div>
-
-                <div class="testimonial-item">
-                  <p> <i> „Tim has supported us with rebuilding our design system. We were happy and look forward to work together again.“ </i></p>
-                  <span> – Client </span>
-                </div>
               </div>
-
-      
             </section> -->
 
+            
 
             </div>
           
@@ -238,7 +204,7 @@
     <div class="container-wrapper footer-content">
 
         <div class="footer-contact">
-            <h1 class="h1-landing">Let's talk!</h1>
+            <h2>Let's talk!</h2>
             <nav class="footer-nav"> 
                 <ul>
                     <li>
@@ -263,7 +229,7 @@
         <div class="footer-info">
             <span> Hand-coded with 🩶
                 &nbsp;&nbsp;|&nbsp;&nbsp;
-                © 2025 Tim Feuring
+                © 2026 Tim Feuring
                 &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a class="underline" href="imprint.html" target="_blank">Imprint</a>
             </span>

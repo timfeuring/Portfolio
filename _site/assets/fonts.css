@@ -45,12 +45,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 8.0rem;
+    font-size: 4rem;
     line-height: 120%;
 }
         @media only screen and (max-width: 800px) {
             h1 {
-                font-size: 6.0rem;
+                font-size: 4rem;
             }
         }
 
@@ -62,51 +62,51 @@ h1 {
 
 
 h2 {
-    font-size: 6.0rem;
+    font-size: 3rem;
     line-height: 110%;
 }
         @media only screen and (max-width: 800px) {
             h2 {
-                font-size: calc(6.0rem * 0.8);
+                font-size: 3rem;
             }
         }
 
         @media only screen and (max-width: 500px) {
             h2 {
-                font-size: calc(6.0rem * 0.7);
+                font-size: 3rem;
             }
         }
 
 
 h3 {
-    font-size: 4.0rem;
+    font-size: 2.4rem;
     line-height: 115%;
 }
         @media only screen and (max-width: 800px) {
             h3 {
-                font-size: calc(4.0rem * 0.8);
+                font-size: 2.4rem;
             }
         }
 
 h4 {
-    font-size: 3.0rem;
+    font-size: 2rem;
     line-height: 120%;
     padding: 3px 0;
 }
         @media only screen and (max-width: 800px) {
             h4 {
-                font-size: calc(3.0rem * 0.8);
+                font-size: 2rem;
             }
         }
 
 h5 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     line-height: 125%;
     padding: 2px 0;
 }
         @media only screen and (max-width: 800px) {
             h5 {
-                font-size: calc(2.0rem * 0.8);
+                font-size: 1.8rem;
             }
         }
 
@@ -116,6 +116,7 @@ p {
     font-size: var(--font-basis);
     line-height: 150%;
     margin: 0;
+    /* margin: 1.2rem 0 0 0; */
     max-width: 1200px;
 }
 
@@ -910,12 +911,8 @@ input[type=range]::-webkit-slider-thumb {
     letter-spacing: .8px;
     font-size: 1.6rem;
     font-weight: 400;
-  }
 
-  /* .overline-landing {
-    font-size: 1.4rem;
-    font-weight: 400;
-  } */
+  }
 
   .h1-landing{
     font-size: 3.2rem;
@@ -971,3 +968,8 @@ input[type=range]::-webkit-slider-thumb {
     }
     
     }
+
+
+.about-intro-text p {
+    margin-top: 1.2rem;
+}

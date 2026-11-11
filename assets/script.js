@@ -81,6 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const description = document.querySelector(".category-description");
   const instaTeaser = document.querySelector(".instagram-teaser");
 
+  if (Object.values(containers).some(container => !container)) return;
+
   const categoryDescriptions = {
     "digital-design": "A range of digital design projects, including UX/UI design, accessibility, digital illustration and more.",
     "identity": "A selection of branding and identity work, including logo design, visual systems, and brand guidelines.",

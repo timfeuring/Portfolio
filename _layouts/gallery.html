@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		{% include navigation.html %}
+		<main class="gallery-page">
+			<div class="container-wrapper gallery-container">
+				<header class="gallery-header">
+					<h1>Visual Playground</h1>
+					<p>A space for visual ideas, experiments and explorations.</p>   
+				</header>
+
+				<section class="gallery-grid" id="artwork-gallery" aria-label="Selected artwork">
+					{% for artwork in site.data.gallery %}
+					{% assign image_path = artwork.image | prepend: "/assets/img/gallery/" | relative_url %}
+					{% assign artwork_alt = artwork.alt | default: "Artwork description unavailable" %}
+					{% assign artwork_caption = artwork.caption | default: "Caption coming soon." %}
+					{% capture artwork_caption_html %}<p class="gallery-caption">{{ artwork_caption | escape }}</p>{% endcapture %}
+					<a class="gallery-item" href="{{ image_path }}" data-src="{{ image_path }}" data-thumb="{{ image_path }}" data-lg-size="{{ artwork.width }}-{{ artwork.height }}" data-sub-html="{{ artwork_caption_html | strip | escape }}">
+						<figure>
+							<img src="{{ image_path }}" alt="{{ artwork_alt | escape }}" loading="lazy" decoding="async">
+							<figcaption>{{ artwork_caption }}</figcaption>
+						</figure>
+					</a>
+					{% endfor %}
+					<figure class="gallery-item gallery-video-item">
+						<video autoplay muted loop playsinline controls preload="metadata" aria-label="Animated Screen Memories variable-font study">
+							<source src="{{ '/assets/img/gallery/Screenmemories.mp4' | relative_url }}" type="video/mp4">
+						</video>
+						<figcaption>Screen Memories variable-font experiment showing shifting letterforms.</figcaption>
+					</figure>
+				</section>
+			</div>
+		</main>
+		<div class="dark">
+			{% include footer-contact.html %}
+		</div>
+		<script defer src="assets/vendor/lightgallery/lightgallery.umd.js"></script>
+		<script defer src="assets/vendor/lightgallery/plugins/zoom/lg-zoom.umd.js"></script>
+		<script defer src="assets/gallery.js"></script>
+		<script defer src="assets/script.js"></script>
+	</body>
+</html>
