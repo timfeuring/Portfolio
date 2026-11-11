@@ -1,6 +1,5 @@
+# This list controls gallery order. When renaming a file, update its image value here too.
 - image: "87919348.png"
-  # This list controls gallery order. When renaming a file, update its image value here too.
-  - image: "87919348.png"
   alt: "Black brush lettering forms a large looping capital B beside a lettering tool."
   caption: "A broad brush-painted B explores contrast, texture and movement."
 - image: "Compliment-Cards-06 1.jpg"
@@ -48,7 +47,10 @@
 - image: "Frame 2147203730.jpg"
   alt: "A blackletter type specimen spread shows grids, corner studies and letter variations."
   caption: "New Pagers process sheets document grids, edges, radii and tool experiments."
-  image: "GPT Zusätzliche Poster _Seite_2.jpg"
+- image: "Frame 2147203730.jpg"
+  alt: "A blackletter type specimen spread shows grids, corner studies and letter variations."
+  caption: "New Pagers process sheets document grids, edges, radii and tool experiments."
+- image: "GPT Zusätzliche Poster _Seite_2.jpg"
   alt: "An illustrated figure presents a letter beside checklist-style poster content."
   caption: "A colorful editorial graphic pairs a character illustration with concise guidance."
 - image: "frame x.jpg"
