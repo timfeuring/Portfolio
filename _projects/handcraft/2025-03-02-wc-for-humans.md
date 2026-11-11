@@ -1,9 +1,4 @@
 ---
-title: Inclusive Café Signage – WC for Humans 
-permalink: /wc-for-humans
-category: Signmaking
-img-path: assets/img/posts/wc-for-humans/humans-stage.png
-
 layout: project-layout
 title: WC for Humans
 permalink: /wc-for-humans
@@ -21,6 +16,7 @@ button-text: view project
 visible_to: public
 ---
 
+<!-- Test comment -->
 <h3 class="article-headline">Time to be more equal</h3>
 
 Equality starts somewhere in our day to day life – and sometimes, it can be small things that make life a tiny bit easier and better for everyone. Finding a restroom in a public place is often more complicated than necessary. Everyone knows how annoying long waiting times at social events are, and often, the surroundings are very beneficial to mens needs. And as if that alone would’t be enough trouble already, the common men / women approach to labeling restrooms can leave non-binary people feel unseen and mistreated. So maybe, instead of labeling too much, a good approach could be to focus on what truly unites us all –  we are human beings with dignity and deserve to have equal possibilities. Even if it’s just the fact that we could all go to the toilet in peace. I think making public toilets accessible for everyone might be a small step into the right direction.

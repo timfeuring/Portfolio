@@ -27,4 +27,10 @@
     <link rel="preload" href="assets/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="assets/main.css"></noscript>
 
+    {% if page.layout == "gallery" %}
+    <link rel="stylesheet" href="assets/vendor/lightgallery/css/lightgallery.css">
+    <link rel="stylesheet" href="assets/vendor/lightgallery/css/lg-zoom.css">
+    <link rel="stylesheet" href="assets/gallery.css">
+    {% endif %}
+
 </head>

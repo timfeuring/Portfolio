@@ -8,7 +8,7 @@
           <div class="container-wrapper">
             <section class="work-container">
               <header class="subpage-header">
-                  <h2 class="h1-landing">
+                  <h1>
                     Project Category
                   </h2>
                   <div class="work-filter-buttons">
@@ -33,68 +33,62 @@
                   </div>  
                   <p class="category-description"> A range of digital design projects, including UX/UI design, accessibility, digital illustration and more.</p>
                 </header>
-
-                <!-- <div class="wip-disclaimer">
-                   <p>
-                    ⚠️ This website is currently in development. More projects are currently updated, check again later to explore more or <a href="/contact" class="underline">contact me.</a>
-                  </p>
-                </div> -->
               
                 <div class="projects-list">
                   
 
-                  <!-- Container for Category 1 -->
-<div class="category-container projects-list" id="container-digital-design">
-  {% for project in site.projects %}
-    {% if project.category == "digital-design" and project.visible_to != "confidential" %}
-      <a href="{{ project.permalink }}" class="project-teaser" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
-        <div class="project-thumb">
-          <img src="{{ project.header-img }}" alt="{{ project.header-img-alt }}" role="img" />
-        </div>
-        <div class="project-teaser-info">
-          <div class="project-meta">
-            <span class="overline">{{ project.overline }}</span>
-            <h3>{{ project.title }}</h3>
-            <p class="description">{{ project.short-description }}</p>
-          </div>
-          <span class="button button-secondary">
-            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
-            </svg>
-            {{ project.button-text }}
-          </span>
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
+                    <!-- Container for Category 1 -->
+            <div class="category-container projects-list" id="container-digital-design">
+              {% for project in site.projects %}
+                {% if project.category == "digital-design" and project.visible_to != "confidential" %}
+                  <a href="{{ project.permalink }}" class="project-teaser" data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+                    <div class="project-thumb">
+                      <img src="{{ project.header-img }}" alt="{{ project.header-img-alt }}" role="img" />
+                    </div>
+                    <div class="project-teaser-info">
+                      <div class="project-meta">
+                        <!-- <span class="overline">{{ project.overline }}</span> -->
+                        <h2>{{ project.title }}</h2>
+                        <p class="description">{{ project.short-description }}</p>
+                      </div>
+                      <span class="button button-secondary">
+                        <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+                        </svg>
+                        {{ project.button-text }}
+                      </span>
+                    </div>
+                  </a>
+                {% endif %}
+              {% endfor %}
 
-    {% for project in site.projects %}
-    {% if project.visible_to == "confidential" %}
-      <a href="{{ project.permalink}}" 
-        class="project-teaser visible-to-confidential" 
-        data-category="{{ project.category | downcase | replace: ' ', '-' }}">
-        
-        <div class="project-thumb">
-          <img src="{{ project.header-img}}" alt="{{ project.header-img-alt }}" role="img" />
-        </div>
-        
-        <div class="project-teaser-info">
-          <div class="project-meta">
-            <span class="overline">{{ project.overline }}</span>
-            <h3>{{ project.title }}</h3>
-            <p class="description">{{ project.short-description }}</p>
+              {% for project in site.projects %}
+              {% if project.visible_to == "confidential" %}
+                <a href="{{ project.permalink}}" 
+                  class="project-teaser visible-to-confidential" 
+                  data-category="{{ project.category | downcase | replace: ' ', '-' }}">
+                  
+                  <div class="project-thumb">
+                    <img src="{{ project.header-img}}" alt="{{ project.header-img-alt }}" role="img" />
+                  </div>
+                  
+                  <div class="project-teaser-info">
+                    <div class="project-meta">
+                      <!-- <span class="overline">{{ project.overline }}</span> -->
+                      <h2>{{ project.title }}</h2>
+                      <p class="description">{{ project.short-description }}</p>
+                    </div>
+                    <span class="button button-secondary">
+                      <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
+                      </svg>
+                      {{ project.button-text }}
+                    </span>
+                  </div>
+                </a>
+              {% endif %}
+            {% endfor %}
           </div>
-          <span class="button button-secondary">
-            <svg class="button-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.12 1.65974L7.596 0.543738C8.172 1.49174 8.736 2.32574 9.288 3.04574C9.852 3.75374 10.428 4.38974 11.016 4.95374C11.604 5.51774 12.234 6.04574 12.906 6.53774V6.64574C12.234 7.12574 11.604 7.64774 11.016 8.21174C10.428 8.77574 9.852 9.41774 9.288 10.1377C8.736 10.8457 8.172 11.6797 7.596 12.6397L6.12 11.5057C6.612 10.7497 7.116 10.0717 7.632 9.47174C8.148 8.87174 8.664 8.35574 9.18 7.92374C9.696 7.47974 10.2 7.12574 10.692 6.86174C11.184 6.58574 11.652 6.39374 12.096 6.28574V6.89774C11.652 6.78974 11.184 6.59774 10.692 6.32174C10.2 6.04574 9.696 5.69174 9.18 5.25974C8.664 4.81574 8.148 4.29974 7.632 3.71174C7.116 3.11174 6.612 2.42774 6.12 1.65974ZM0.918 5.61974H6.66C7.476 5.61974 8.214 5.64974 8.874 5.70974C9.546 5.76974 10.152 5.84774 10.692 5.94374L11.898 6.59174L10.692 7.23974C10.152 7.32374 9.546 7.39574 8.874 7.45574C8.214 7.51574 7.476 7.54574 6.66 7.54574H0.918V5.61974Z"></path>
-            </svg>
-            {{ project.button-text }}
-          </span>
-        </div>
-      </a>
-    {% endif %}
-  {% endfor %}
-</div>
 
 <!-- Container for Category 2 -->
 <div class="category-container projects-list" id="container-identity">
@@ -106,8 +100,8 @@
         </div>
         <div class="project-teaser-info">
           <div class="project-meta">
-            <span class="overline">{{ project.overline }}</span>
-            <h3>{{ project.title }}</h3>
+            <!-- <span class="overline">{{ project.overline }}</span> -->
+            <h2>{{ project.title }}</h2>
             <p class="description">{{ project.short-description }}</p>
           </div>
           <span class="button button-secondary">
@@ -132,7 +126,7 @@
         </div>
         <div class="project-teaser-info">
           <div class="project-meta">
-            <span class="overline">{{ project.overline }}</span>
+            <!-- <span class="overline">{{ project.overline }}</span> -->
             <h3>{{ project.title }}</h3>
             <p class="description">{{ project.short-description }}</p>
           </div>
