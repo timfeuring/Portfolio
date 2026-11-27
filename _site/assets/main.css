@@ -2695,3 +2695,9 @@ button,
 
 
 .about-wrapper p {margin-top: 1.2rem;}
+
+
+.case-subsection {
+    opacity: 0.7;
+    font-size: 1.6rem;
+}
